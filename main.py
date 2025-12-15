@@ -16,7 +16,6 @@ from agent.llm import generate_recommendation_reasoning
 
 MAX_FORECAST_DAYS = 10  # Conservative: skip exact forecast-triggered actions beyond this window
 
-
 # -----------------------------
 # User interaction
 # -----------------------------
