@@ -1,11 +1,8 @@
 import openai
-
-# OpenAI API
-openai.api_key = "your-openai-api-key-here"
-import openai
+import os
 
 # Use OpenAI API with the correct method
-openai.api_key = "your-openai-api-key-here"
+openai.api_key = os.getenv("OPENAI_KEY")
 
 def generate_recommendation_reasoning(itinerary, preference):
     """
