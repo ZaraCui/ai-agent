@@ -2,10 +2,17 @@ import math
 import random
 from copy import deepcopy
 from typing import List, Tuple
+from dataclasses import dataclass
 
-from agent.types import Spot, DayPlan, Itinerary
-from agent.constraints import ScoreConfig, score_itinerary
+from agent.models import Spot, DayPlan, Itinerary
 from agent.geometry import distance, TransportMode, travel_cost_minutes
+
+@dataclass
+class ScoreConfig:
+    max_daily_minutes: dict[TransportMode, int]
+    exceed_minute_penalty: float
+    one_spot_day_penalty: float
+    min_spots_per_day: int
 
 def nearest_neighbor_path(spots: List[Spot]) -> List[Spot]:
     if not spots:
@@ -124,6 +131,37 @@ def plan_itinerary_soft_constraints(
             current = candidate
 
     return best, best_score, best_reasons
+
+
+def score_itinerary(itinerary: Itinerary, cfg: ScoreConfig, mode: TransportMode) -> Tuple[float, List[str]]:
+    """
+    Score the itinerary based on the configuration.
+    Returns score and list of reasons for penalties.
+    """
+    reasons = []
+    score = 0.0
+
+    for day in itinerary.days:
+        # Calculate travel time
+        travel_minutes = 0.0
+        for i in range(len(day.spots) - 1):
+            travel_minutes += travel_cost_minutes(day.spots[i], day.spots[i + 1], mode)
+
+        # Check max daily minutes
+        max_min = cfg.max_daily_minutes[mode]
+        if travel_minutes > max_min:
+            excess = travel_minutes - max_min
+            penalty = excess * cfg.exceed_minute_penalty
+            score += penalty
+            reasons.append(f"Day {day.day}: exceeded max {max_min} min by {excess:.1f} min, penalty {penalty:.1f}")
+
+        # Check min spots per day
+        if len(day.spots) < cfg.min_spots_per_day:
+            penalty = cfg.one_spot_day_penalty
+            score += penalty
+            reasons.append(f"Day {day.day}: only {len(day.spots)} spots, penalty {penalty:.1f}")
+
+    return score, reasons
 
 
 # Debugging helper functions

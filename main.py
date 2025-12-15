@@ -3,7 +3,7 @@ import os
 import folium
 
 from datetime import date
-from agent.types import Spot
+from agent.models import Spot
 from agent.planner import plan_itinerary_soft_constraints, finalize_itinerary_distances
 from agent.constraints import ScoreConfig
 from agent.geometry import TransportMode
@@ -14,7 +14,7 @@ from agent.replanner import replan_single_day
 from agent.llm import generate_recommendation_reasoning
 
 from dotenv import load_dotenv
-load_dotenv() 
+load_dotenv("agent/.env") 
 
 MAX_FORECAST_DAYS = 10  # Conservative: skip exact forecast-triggered actions beyond this window
 

@@ -3,10 +3,17 @@ import os
 from dotenv import load_dotenv
 
 # 加载 .env 文件
-load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
-# 使用正确的 OpenAI API 密钥
-openai.api_key = os.getenv("OPENAI_API_KEY")
+def generate_recommendation_reasoning(itinerary, preference):
+    """
+    使用 OpenAI GPT 生成一个自然语言解释，说明为什么推荐这个行程。
+    """
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        return "No API key provided, cannot generate recommendation reasoning."
+
+    client = openai.OpenAI(api_key=api_key)
 
 def generate_recommendation_reasoning(itinerary, preference):
     """
@@ -33,23 +40,23 @@ def generate_recommendation_reasoning(itinerary, preference):
 
     try:
         # 使用 ChatGPT 模型生成推荐解释
-        response = openai.Completion.create(
-            model="gpt-3.5-turbo",  # 或使用 gpt-4，如果你有权限
-            prompt=prompt,
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": prompt}],
             max_tokens=300,
             temperature=0.7
         )
         
         # 提取并返回结果
-        explanation = response.choices[0].text.strip()
+        explanation = response.choices[0].message.content.strip()
         return explanation
 
-    except openai.error.AuthenticationError as e:
+    except openai.AuthenticationError as e:
         print(f"AuthenticationError: {e}")
-    except openai.error.RateLimitError as e:
+    except openai.RateLimitError as e:
         print(f"RateLimitError: {e}")
-    except openai.error.InvalidRequestError as e:
-        print(f"InvalidRequestError: {e}")
+    except openai.BadRequestError as e:
+        print(f"BadRequestError: {e}")
     except Exception as e:
         print(f"An error occurred: {e}")
     return "Could not generate recommendation reasoning due to an error."

@@ -1,5 +1,5 @@
 from agent.planner import nearest_neighbor_path
-from agent.types import Itinerary
+from agent.models import Itinerary
 from agent.semantics import is_indoor,is_outdoor
 from datetime import date
 

@@ -1,5 +1,5 @@
 import math
-from agent.types import Spot
+from agent.models import Spot
 from enum import Enum
 
 def  distance(a: Spot, b: Spot) -> float:

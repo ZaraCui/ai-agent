@@ -3,7 +3,7 @@ import random
 from copy import deepcopy
 from typing import List, Tuple
 
-from agent.types import Spot, DayPlan, Itinerary
+from agent.models import Spot, DayPlan, Itinerary
 from agent.constraints import ScoreConfig, score_itinerary
 from agent.geometry import distance
 from agent.geometry import TransportMode
@@ -40,7 +40,7 @@ def build_initial_itinerary(city: str, spots: List[Spot], days: int) -> Itinerar
 
     return Itinerary(city=city, days=day_plans)
 
-from agent.types import Itinerary
+from agent.models import Itinerary
 from agent.geometry import distance
 
 

@@ -1,5 +1,5 @@
 from datetime import timedelta, date
-from agent.types import Itinerary
+from agent.models import Itinerary
 from agent.geometry import TransportMode
 from agent.weather import get_weather
 
