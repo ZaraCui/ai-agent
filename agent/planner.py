@@ -40,6 +40,21 @@ def build_initial_itinerary(city: str, spots: List[Spot], days: int) -> Itinerar
 
     return Itinerary(city=city, days=day_plans)
 
+from agent.types import Itinerary
+from agent.geometry import distance
+
+
+def finalize_itinerary_distances(itinerary: Itinerary) -> None:
+    """
+    Compute and store total distance for each day.
+    This should be called ONCE after the best itinerary is selected.
+    """
+    for day in itinerary.days:
+        total = 0.0
+        for i in range(len(day.spots) - 1):
+            total += distance(day.spots[i], day.spots[i + 1])
+        day.total_distance_km = round(total, 2)
+
 
 def try_move_one_spot(itin: Itinerary) -> Itinerary:
     new_itin = deepcopy(itin)

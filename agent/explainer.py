@@ -3,7 +3,6 @@ from agent.types import Itinerary
 from agent.geometry import TransportMode
 from agent.weather import get_weather
 
-
 def explain_recommendation(
     itinerary: Itinerary,
     mode: TransportMode,
@@ -32,15 +31,26 @@ def explain_recommendation(
         )
 
     for day in itinerary.days:
+        if not day.spots:
+            continue
+
+        route = " → ".join(s.name for s in day.spots)
+
         lines.append(
-            f"Day {day.day} includes {len(day.spots)} locations "
-            f"with an estimated travel distance of {day.total_distance_km:.1f} km."
+            f"Day {day.day} route: {route}"
+        )
+        lines.append(
+            f"  Estimated travel distance: {day.total_distance_km:.1f} km"
         )
 
     return "\n".join(lines)
 
 
 def weather_advice(itinerary: Itinerary, start_date: date) -> str:
+    MAX_FORECAST_DAYS = 10  # conservative
+    today = date.today()
+    if (start_date - today).days < 0 or (start_date - today).days >= MAX_FORECAST_DAYS:
+        return "⚠️ Weather forecast is unavailable for the selected dates."
     lines = []
     lines.append("🌦 Weather-aware advice:")
 

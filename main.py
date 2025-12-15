@@ -5,7 +5,7 @@ import folium
 
 from datetime import date
 from agent.types import Spot
-from agent.planner import plan_itinerary_soft_constraints
+from agent.planner import plan_itinerary_soft_constraints, finalize_itinerary_distances
 from agent.constraints import ScoreConfig
 from agent.geometry import TransportMode
 from agent.explainer import explain_recommendation, weather_advice
@@ -188,6 +188,7 @@ def main() -> None:
     )
 
     best_mode, best_itinerary, best_score, best_reasons, best_path = recommended
+    finalize_itinerary_distances(best_itinerary)
 
     print("\n=== Recommendation ===")
     print(f"City: {city}")
