@@ -14,6 +14,13 @@ class Spot(BaseModel):
     lat: float
     lon: float
     category: str  # indoor / outdoor / food / museum / temple / shopping
+    def to_dict(self):
+        return {
+            "name": self.name,
+            "lat": self.lat,
+            "lon": self.lon,
+            "category": self.category,
+        }
 
 class DayPlan(BaseModel):
     day: int

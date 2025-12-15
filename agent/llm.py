@@ -9,16 +9,15 @@ def generate_recommendation_reasoning(itinerary, preference):
     """
     使用 OpenAI GPT 生成一个自然语言解释，说明为什么推荐这个行程。
     """
+    # 从环境变量中获取 API 密钥
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         return "No API key provided, cannot generate recommendation reasoning."
 
-    client = openai.OpenAI(api_key=api_key)
+    # 设置 OpenAI 的 API 密钥
+    openai.api_key = api_key
 
-def generate_recommendation_reasoning(itinerary, preference):
-    """
-    使用 OpenAI GPT 生成一个自然语言解释，说明为什么推荐这个行程。
-    """
+    # 准备行程描述
     day_descriptions = []
     for day in itinerary.days:
         spots_names = [spot.name for spot in day.spots]
@@ -40,23 +39,23 @@ def generate_recommendation_reasoning(itinerary, preference):
 
     try:
         # 使用 ChatGPT 模型生成推荐解释
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",  # 确保你有权限使用此模型
             messages=[{"role": "user", "content": prompt}],
             max_tokens=300,
             temperature=0.7
         )
         
         # 提取并返回结果
-        explanation = response.choices[0].message.content.strip()
+        explanation = response['choices'][0]['message']['content'].strip()
         return explanation
 
-    except openai.AuthenticationError as e:
+    except openai.error.AuthenticationError as e:
         print(f"AuthenticationError: {e}")
-    except openai.RateLimitError as e:
+    except openai.error.RateLimitError as e:
         print(f"RateLimitError: {e}")
-    except openai.BadRequestError as e:
-        print(f"BadRequestError: {e}")
+    except openai.error.InvalidRequestError as e:
+        print(f"InvalidRequestError: {e}")
     except Exception as e:
         print(f"An error occurred: {e}")
     return "Could not generate recommendation reasoning due to an error."

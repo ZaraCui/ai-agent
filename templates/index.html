@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planning Agent</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!-- 引入 Tailwind CSS -->
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <div class="container mx-auto p-6">
+        <h1 class="text-4xl font-bold text-center mb-6">Travel Planning Agent</h1>
+
+        <!-- Form -->
+        <form id="itinerary-form" class="bg-white p-8 shadow-md rounded-lg">
+            <div class="mb-4">
+                <label for="city" class="block text-lg font-medium">Select City:</label>
+                <select id="city" name="city" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+                    <option value="Paris">Paris</option>
+                    <option value="Tokyo">Tokyo</option>
+                    <option value="New York">New York</option>
+                    <option value="London">London</option>
+                    <option value="Barcelona">Barcelona</option>
+                </select>
+            </div>
+
+            <div class="mb-4">
+                <label for="preference" class="block text-lg font-medium">Select Preference:</label>
+                <select id="preference" name="preference" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+                    <option value="Minimize Walking">Minimize Walking</option>
+                    <option value="Minimize Transit Time">Minimize Transit Time</option>
+                    <option value="Minimize Taxi Usage">Minimize Taxi Usage</option>
+                </select>
+            </div>
+
+            <div class="mb-4">
+                <label for="start_date" class="block text-lg font-medium">Start Date:</label>
+                <input type="date" id="start_date" name="start_date" class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+            </div>
+
+            <button type="submit" class="bg-blue-500 text-white py-2 px-6 rounded-md hover:bg-blue-600">Plan Itinerary</button>
+        </form>
+
+        <!-- Results Section -->
+        <div id="results" class="mt-8">
+            <h2 class="text-2xl font-bold">Results</h2>
+            <div id="score" class="mt-4"></div>
+            <div id="reasons" class="mt-4"></div>
+            <div id="itinerary" class="mt-4"></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('itinerary-form').addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const city = document.getElementById('city').value;
+            const preference = document.getElementById('preference').value;
+            const start_date = document.getElementById('start_date').value;
+
+            const response = await fetch('/plan_itinerary', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    city: city,
+                    preference: preference,
+                    start_date: start_date,
+                }),
+            });
+
+            const data = await response.json();
+
+            // Display the results
+            document.getElementById('score').innerText = `Score: ${data.score}`;
+            document.getElementById('reasons').innerText = `Reasons: ${data.reasons.join(', ')}`;
+            document.getElementById('itinerary').innerHTML = `
+                <pre>${JSON.stringify(data.itinerary, null, 2)}</pre>
+            `;
+        });
+    </script>
+</body>
+</html>
