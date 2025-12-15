@@ -1,70 +1,135 @@
-from dataclasses import dataclass
+import math
+import random
+from copy import deepcopy
 from typing import List, Tuple
 
-from agent.types import Itinerary, Spot
-from agent.geometry import TransportMode, travel_cost_minutes
+from agent.types import Spot, DayPlan, Itinerary
+from agent.constraints import ScoreConfig, score_itinerary
+from agent.geometry import distance, TransportMode, travel_cost_minutes
+
+def nearest_neighbor_path(spots: List[Spot]) -> List[Spot]:
+    if not spots:
+        return []
+
+    unvisited = spots[:]
+    path = [unvisited.pop(0)]
+
+    while unvisited:
+        last = path[-1]
+        nxt = min(unvisited, key=lambda s: distance(last, s))
+        path.append(nxt)
+        unvisited.remove(nxt)
+
+    return path
 
 
-@dataclass(frozen=True)
-class ScoreConfig:
-    # Max allowed travel time per day (minutes), by transport mode
-    max_daily_minutes: dict
+def build_initial_itinerary(city: str, spots: List[Spot], days: int) -> Itinerary:
+    spots_sorted = sorted(spots, key=lambda s: (s.lon, s.lat))
 
-    # Penalty per exceeded minute
-    exceed_minute_penalty: float = 1.5
+    chunks: List[List[Spot]] = [[] for _ in range(days)]
+    for i, s in enumerate(spots_sorted):
+        chunks[i % days].append(s)
 
-    # Penalize days with too few spots
-    one_spot_day_penalty: float = 15.0
+    day_plans: List[DayPlan] = []
+    for i in range(days):
+        ordered = nearest_neighbor_path(chunks[i])
+        day_plans.append(
+            DayPlan(day=i + 1, spots=ordered, total_distance_km=0.0)
+        )
 
-    # Minimum expected spots per day (soft)
-    min_spots_per_day: int = 2
+    return Itinerary(city=city, days=day_plans)
 
 
-def score_itinerary(
-    itinerary: Itinerary,
-    cfg: ScoreConfig,
-    mode: TransportMode
-) -> Tuple[float, List[str]]:
+def finalize_itinerary_distances(itinerary: Itinerary) -> None:
     """
-    Lower score is better.
-    Returns: (score, reasons)
+    Compute and store total distance for each day.
+    This should be called ONCE after the best itinerary is selected.
     """
-    reasons: List[str] = []
-
-    total_spots = sum(len(day.spots) for day in itinerary.days)
-    days = len(itinerary.days)
-    expect_min = total_spots >= days * cfg.min_spots_per_day
-
-    score = 0.0
-
     for day in itinerary.days:
-        # ---- compute travel time for the day ----
-        day_minutes = 0.0
+        total = 0.0
         for i in range(len(day.spots) - 1):
-            day_minutes += travel_cost_minutes(
-                day.spots[i],
-                day.spots[i + 1],
-                mode
-            )
+            total += distance(day.spots[i], day.spots[i + 1])
+        day.total_distance_km = round(total, 2)
 
-        # Base objective: minimize total travel time
-        score += day_minutes
 
-        # ---- soft time constraint ----
-        limit = cfg.max_daily_minutes[mode]
-        if day_minutes > limit:
-            exceed = day_minutes - limit
-            penalty = exceed * cfg.exceed_minute_penalty
-            score += penalty
-            reasons.append(
-                f"Day {day.day}: exceeded {limit:.0f} min by {exceed:.1f} (+{penalty:.1f})"
-            )
+def try_move_one_spot(itin: Itinerary) -> Itinerary:
+    new_itin = deepcopy(itin)
+    days = new_itin.days
 
-        # ---- experience constraint ----
-        if expect_min and len(day.spots) < cfg.min_spots_per_day:
-            score += cfg.one_spot_day_penalty
-            reasons.append(
-                f"Day {day.day}: only {len(day.spots)} spot(s) (+{cfg.one_spot_day_penalty:.1f})"
-            )
+    from_candidates = [d for d in days if len(d.spots) >= 2]
+    if not from_candidates:
+        return new_itin
 
-    return score, reasons
+    src = random.choice(from_candidates)
+    dst = random.choice([d for d in days if d.day != src.day])
+
+    idx = random.randrange(len(src.spots))
+    moved = src.spots.pop(idx)
+    dst.spots.append(moved)
+
+    src.spots = nearest_neighbor_path(src.spots)
+    dst.spots = nearest_neighbor_path(dst.spots)
+
+    return new_itin
+
+
+def try_swap_spots_between_days(itin: Itinerary) -> Itinerary:
+    new_itin = deepcopy(itin)
+    days = new_itin.days
+    if len(days) < 2:
+        return new_itin
+
+    d1, d2 = random.sample(days, 2)
+    if not d1.spots or not d2.spots:
+        return new_itin
+
+    i = random.randrange(len(d1.spots))
+    j = random.randrange(len(d2.spots))
+
+    d1.spots[i], d2.spots[j] = d2.spots[j], d1.spots[i]
+
+    d1.spots = nearest_neighbor_path(d1.spots)
+    d2.spots = nearest_neighbor_path(d2.spots)
+
+    return new_itin
+
+
+def plan_itinerary_soft_constraints(
+    city: str,
+    spots: List[Spot],
+    days: int,
+    cfg: ScoreConfig,
+    mode: TransportMode,
+    trials: int = 200,
+) -> Tuple[Itinerary, float, List[str]]:
+    random.seed(0)
+
+    base = build_initial_itinerary(city, spots, days)
+    best = base
+    best_score, best_reasons = score_itinerary(best, cfg, mode)
+
+    current = base
+    for _ in range(trials):
+        if random.random() < 0.6:
+            candidate = try_move_one_spot(current)
+        else:
+            candidate = try_swap_spots_between_days(current)
+
+        candidate_score, candidate_reasons = score_itinerary(candidate, cfg, mode)
+
+        if candidate_score < best_score:
+            best = candidate
+            best_score = candidate_score
+            best_reasons = candidate_reasons
+            current = candidate
+
+    return best, best_score, best_reasons
+
+
+# Debugging helper functions
+def debug_score_itinerary(itinerary: Itinerary, cfg: ScoreConfig, mode: TransportMode):
+    score, reasons = score_itinerary(itinerary, cfg, mode)
+    print(f"Score: {score:.2f}")
+    for reason in reasons:
+        print(f" - {reason}")
+
