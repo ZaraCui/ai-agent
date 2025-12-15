@@ -4,6 +4,9 @@ import folium
 from agent.types import Spot
 from agent.planner import plan_itinerary_soft_constraints
 from agent.constraints import ScoreConfig
+from agent.geometry import TransportMode
+
+mode = TransportMode.WALK  # Set transport mode for scoring
 
 # Load data
 spots = [
@@ -13,10 +16,14 @@ spots = [
 
 # Configure soft constraints
 cfg = ScoreConfig(
-    max_daily_km=6.0,
-    exceed_km_penalty=25.0,
+    max_daily_minutes={
+        TransportMode.WALK: 240,
+        TransportMode.TRANSIT: 300,
+        TransportMode.TAXI: 360,
+    },
+    exceed_minute_penalty=1.5,
     one_spot_day_penalty=15.0,
-    min_spots_per_day=2
+    min_spots_per_day=2,
 )
 
 # Run agent planner (search + scoring)
@@ -25,6 +32,7 @@ itinerary, score, reasons = plan_itinerary_soft_constraints(
     spots=spots,
     days=3,
     cfg=cfg,
+    mode=TransportMode.WALK,
     trials=200
 )
 

@@ -2,31 +2,29 @@ from dataclasses import dataclass
 from typing import List, Tuple
 
 from agent.types import Itinerary, Spot
-from agent.geometry import distance
+from agent.geometry import TransportMode, travel_cost_minutes
+
 
 @dataclass(frozen=True)
 class ScoreConfig:
-    # Soft upper bound for daily distance (km)
-    max_daily_km: float = 6.0
+    # Max allowed travel time per day (minutes), by transport mode
+    max_daily_minutes: dict
 
-    # Penalty per km when exceeding max_daily_km
-    exceed_km_penalty: float = 25.0
+    # Penalty per exceeded minute
+    exceed_minute_penalty: float = 1.5
 
-    # Penalize days with too few spots when total spots allow better distribution
+    # Penalize days with too few spots
     one_spot_day_penalty: float = 15.0
 
-    # Minimum expected spots per day (soft, via penalty)
+    # Minimum expected spots per day (soft)
     min_spots_per_day: int = 2
 
 
-def compute_day_distance_km(spots: List[Spot]) -> float:
-    total = 0.0
-    for i in range(len(spots) - 1):
-        total += distance(spots[i], spots[i + 1])
-    return total
-
-
-def score_itinerary(itinerary: Itinerary, cfg: ScoreConfig) -> Tuple[float, List[str]]:
+def score_itinerary(
+    itinerary: Itinerary,
+    cfg: ScoreConfig,
+    mode: TransportMode
+) -> Tuple[float, List[str]]:
     """
     Lower score is better.
     Returns: (score, reasons)
@@ -40,26 +38,33 @@ def score_itinerary(itinerary: Itinerary, cfg: ScoreConfig) -> Tuple[float, List
     score = 0.0
 
     for day in itinerary.days:
-        day_km = compute_day_distance_km(day.spots)
-        day.total_distance_km = round(day_km, 2)
-
-        # Base objective: shorter routes are better
-        score += day_km
-
-        # Soft constraint: exceeding daily distance
-        if day_km > cfg.max_daily_km:
-            exceed = day_km - cfg.max_daily_km
-            penalty = exceed * cfg.exceed_km_penalty
-            score += penalty
-            reasons.append(
-                f"Day {day.day}: exceeded {cfg.max_daily_km:.1f}km by {exceed:.2f}km (+{penalty:.2f})"
+        # ---- compute travel time for the day ----
+        day_minutes = 0.0
+        for i in range(len(day.spots) - 1):
+            day_minutes += travel_cost_minutes(
+                day.spots[i],
+                day.spots[i + 1],
+                mode
             )
 
-        # Experience penalty: too few spots in a day
+        # Base objective: minimize total travel time
+        score += day_minutes
+
+        # ---- soft time constraint ----
+        limit = cfg.max_daily_minutes[mode]
+        if day_minutes > limit:
+            exceed = day_minutes - limit
+            penalty = exceed * cfg.exceed_minute_penalty
+            score += penalty
+            reasons.append(
+                f"Day {day.day}: exceeded {limit:.0f} min by {exceed:.1f} (+{penalty:.1f})"
+            )
+
+        # ---- experience constraint ----
         if expect_min and len(day.spots) < cfg.min_spots_per_day:
             score += cfg.one_spot_day_penalty
             reasons.append(
-                f"Day {day.day}: only {len(day.spots)} spot(s) (+{cfg.one_spot_day_penalty:.2f})"
+                f"Day {day.day}: only {len(day.spots)} spot(s) (+{cfg.one_spot_day_penalty:.1f})"
             )
 
     return score, reasons

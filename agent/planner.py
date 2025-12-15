@@ -6,6 +6,7 @@ from typing import List, Tuple
 from agent.types import Spot, DayPlan, Itinerary
 from agent.constraints import ScoreConfig, score_itinerary
 from agent.geometry import distance
+from agent.geometry import TransportMode
 
 def nearest_neighbor_path(spots: List[Spot]) -> List[Spot]:
     if not spots:
@@ -87,6 +88,7 @@ def plan_itinerary_soft_constraints(
     spots: List[Spot],
     days: int,
     cfg: ScoreConfig,
+    mode: TransportMode,
     trials: int = 200,
 ) -> Tuple[Itinerary, float, List[str]]:
 
@@ -94,7 +96,7 @@ def plan_itinerary_soft_constraints(
 
     base = build_initial_itinerary(city, spots, days)
     best = base
-    best_score, best_reasons = score_itinerary(best, cfg)
+    best_score, best_reasons = score_itinerary(best, cfg, mode)
 
     current = base
     for _ in range(trials):
@@ -103,7 +105,7 @@ def plan_itinerary_soft_constraints(
         else:
             candidate = try_swap_spots_between_days(current)
 
-        candidate_score, candidate_reasons = score_itinerary(candidate, cfg)
+        candidate_score, candidate_reasons = score_itinerary(candidate, cfg, mode)
 
         if candidate_score < best_score:
             best = candidate
