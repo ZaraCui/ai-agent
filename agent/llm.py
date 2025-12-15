@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 
 # Use OpenAI API with the correct method
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generate_recommendation_reasoning(itinerary, preference):
     """
@@ -27,15 +27,23 @@ def generate_recommendation_reasoning(itinerary, preference):
     
     Provide a detailed explanation of why this mode is recommended:
     """
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a helpful travel assistant."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=300,
+            temperature=0.7
+        )
 
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": "You are a helpful travel assistant."},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=300,
-        temperature=0.7
-    )
-
-    return response['choices'][0]['message']['content'].strip()
+        print(response)
+    except openai.error.AuthenticationError as e:
+        print(f"AuthenticationError: {e}")
+    except openai.error.RateLimitError as e:
+        print(f"RateLimitError: {e}")
+    except openai.error.InvalidRequestError as e:
+        print(f"InvalidRequestError: {e}")
+    except Exception as e:
+        print(f"An error occurred: {e}")

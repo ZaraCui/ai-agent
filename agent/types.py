@@ -7,7 +7,6 @@ class TransportMode(str, Enum):
     TRANSIT = "transit"
     TAXI = "taxi"
 
-
 class Spot(BaseModel):
     name: str
     lat: float

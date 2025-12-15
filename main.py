@@ -13,6 +13,8 @@ from agent.reasoning import explain_weather_trigger
 from agent.replanner import replan_single_day
 from agent.llm import generate_recommendation_reasoning
 
+from dotenv import load_dotenv
+load_dotenv() 
 
 MAX_FORECAST_DAYS = 10  # Conservative: skip exact forecast-triggered actions beyond this window
 
