@@ -1,11 +1,6 @@
 import requests
-from typing import List
 
-def get_daily_precipitation(lat: float, lon: float) -> List[float]:
-    """
-    Returns daily precipitation (mm) for the next days.
-    Index 0 = today, 1 = tomorrow, etc.
-    """
+def get_weather(lat: float, lon: float):
     url = (
         "https://api.open-meteo.com/v1/forecast"
         f"?latitude={lat}&longitude={lon}"

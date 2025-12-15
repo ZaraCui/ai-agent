@@ -6,12 +6,10 @@ from agent.types import Spot
 from agent.planner import plan_itinerary_soft_constraints
 from agent.constraints import ScoreConfig
 from agent.geometry import TransportMode
+from agent.explainer import explain_recommendation, weather_advice
+from agent.weather import get_weather
 
-
-# -----------------------------
 # User interaction
-# -----------------------------
-
 def choose_city() -> str:
     available_cities = [
         f.replace("spots_", "").replace(".json", "")
@@ -181,6 +179,20 @@ def main() -> None:
         print("Notes:")
         for r in best_reasons:
             print(" -", r)
+            
+    print("\n=== Agent Explanation ===")
+    print(
+        explain_recommendation(
+            itinerary=best_itinerary,
+            mode=best_mode,
+            score=best_score,
+            reasons=best_reasons,
+        )
+    )
+
+    print("\n=== Weather-based Suggestions ===")
+    print(weather_advice(best_itinerary))
+
 
 
 if __name__ == "__main__":
