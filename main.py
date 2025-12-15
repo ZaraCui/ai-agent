@@ -8,17 +8,36 @@ from agent.planner import plan_itinerary_soft_constraints
 from agent.constraints import ScoreConfig
 from agent.geometry import TransportMode
 
-CITY = sys.argv[1] if len(sys.argv) > 1 else "tokyo" # Modify this to change the city
+def choose_city() -> str:
+    available_cities = [
+        f.replace("spots_", "").replace(".json", "")
+        for f in os.listdir("data")
+        if f.startswith("spots_")
+    ]
 
-available_cities = [
-    f.replace("spots_", "").replace(".json", "")
-    for f in os.listdir("data")
-    if f.startswith("spots_")
-]
-if CITY not in available_cities:
-    raise ValueError(f"City '{CITY}' not found in available data: {available_cities}")
-else:
-    print(f"Planning itinerary for city: {CITY}")
+    if not available_cities:
+        raise RuntimeError("No city data found in data/")
+
+    print("Available cities:")
+    for i, city in enumerate(available_cities, start=1):
+        print(f"  {i}. {city}")
+
+    while True:
+        choice = input("Please select a city by number: ").strip()
+        if not choice.isdigit():
+            print("Please enter a number.")
+            continue
+
+        idx = int(choice) - 1
+        if 0 <= idx < len(available_cities):
+            return available_cities[idx]
+
+        print("Invalid selection, try again.")
+
+
+CITY = choose_city()
+print(f"\nPlanning itinerary for city: {CITY}\n")
+
 
 def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
@@ -42,7 +61,9 @@ def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
 
 
 def main() -> None:
-    # Load data
+    CITY = choose_city()
+    print(f"\nPlanning itinerary for city: {CITY}\n")
+
     def load_spots(city: str) -> list[Spot]:
         path = f"data/spots_{city}.json"
         if not os.path.exists(path):
@@ -54,7 +75,6 @@ def main() -> None:
 
     spots = load_spots(CITY)
 
-    # Shared scoring config (policy-conditioned by mode)
     cfg = ScoreConfig(
         max_daily_minutes={
             TransportMode.WALK: 240,
@@ -83,7 +103,6 @@ def main() -> None:
 
         results.append((mode, itinerary, score, reasons, out_path))
 
-    # Sort by score (lower is better)
     results.sort(key=lambda x: x[2])
 
     print("=== Mode Comparison (lower score is better) ===")
@@ -103,10 +122,6 @@ def main() -> None:
     print(f"Best mode: {best_mode.value}")
     print(f"Best score: {best_score:.2f}")
     print(f"Map: {best_path}")
-    if best_reasons:
-        print("Notes:")
-        for r in best_reasons:
-            print(" -", r)
 
 
 if __name__ == "__main__":
