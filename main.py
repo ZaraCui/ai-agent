@@ -2,7 +2,6 @@ import json
 import os
 import folium
 
-
 from datetime import date
 from agent.types import Spot
 from agent.planner import plan_itinerary_soft_constraints, finalize_itinerary_distances
@@ -10,8 +9,17 @@ from agent.constraints import ScoreConfig
 from agent.geometry import TransportMode
 from agent.explainer import explain_recommendation, weather_advice
 from agent.weather import get_weather
+from agent.reasoning import explain_weather_trigger
+from agent.replanner import replan_single_day
 
+
+MAX_FORECAST_DAYS = 10  # Conservative: skip exact forecast-triggered actions beyond this window
+
+
+# -----------------------------
 # User interaction
+# -----------------------------
+
 def choose_city() -> str:
     available_cities = [
         f.replace("spots_", "").replace(".json", "")
@@ -49,12 +57,26 @@ def choose_preference() -> str:
         choice = input("Please select a preference by number: ").strip()
         if choice == "1":
             return "walk"
-        elif choice == "2":
+        if choice == "2":
             return "transit"
-        elif choice == "3":
+        if choice == "3":
             return "taxi"
-        else:
-            print("Invalid selection, try again.")
+        print("Invalid selection, try again.")
+
+
+def choose_start_date() -> date:
+    print("\nEnter your trip start date (YYYY-MM-DD).")
+    print("Press Enter to use today.")
+
+    user_input = input("Start date: ").strip()
+    if not user_input:
+        return date.today()
+
+    try:
+        return date.fromisoformat(user_input)
+    except ValueError:
+        print("Invalid date format. Using today instead.")
+        return date.today()
 
 
 # -----------------------------
@@ -84,20 +106,6 @@ def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
 
     m.save(filepath)
 
-def choose_start_date() -> date:
-    print("\nEnter your trip start date (YYYY-MM-DD).")
-    print("Press Enter to use today.")
-
-    user_input = input("Start date: ").strip()
-    if not user_input:
-        return date.today()
-
-    try:
-        return date.fromisoformat(user_input)
-    except ValueError:
-        print("Invalid date format. Using today instead.")
-        return date.today()
-
 
 # -----------------------------
 # Main entry
@@ -114,16 +122,12 @@ def main() -> None:
     start_date = choose_start_date()
     print(f"Trip starts on: {start_date}")
 
-
     # --- Load data ---
-    def load_spots(city: str) -> list[Spot]:
-        path = f"data/spots_{city}.json"
+    def load_spots(city_name: str) -> list[Spot]:
+        path = f"data/spots_{city_name}.json"
         if not os.path.exists(path):
-            raise FileNotFoundError(f"No spot data found for city: {city}")
-        return [
-            Spot(**s)
-            for s in json.load(open(path, encoding="utf-8"))
-        ]
+            raise FileNotFoundError(f"No spot data found for city: {city_name}")
+        return [Spot(**s) for s in json.load(open(path, encoding="utf-8"))]
 
     spots = load_spots(city)
 
@@ -162,13 +166,12 @@ def main() -> None:
 
         out_path = f"output/{city}_map_{mode.value}.html"
         render_map(spots, itinerary, out_path)
-
         results.append((mode, itinerary, score, reasons, out_path))
 
     # --- Compare ---
     results.sort(key=lambda x: x[2])
 
-    print("=== Mode Comparison (lower score is better) ===")
+    print("\n=== Mode Comparison (lower score is better) ===")
     for mode, _, score, reasons, out_path in results:
         tag = " (preferred)" if mode == preferred_mode else ""
         print(f"\nMode: {mode.value}{tag}")
@@ -182,12 +185,10 @@ def main() -> None:
             print("Self-check: no penalties")
 
     # --- Recommendation ---
-    recommended = next(
-        (r for r in results if r[0] == preferred_mode),
-        results[0],
-    )
-
+    recommended = next((r for r in results if r[0] == preferred_mode), results[0])
     best_mode, best_itinerary, best_score, best_reasons, best_path = recommended
+
+    # Ensure distances are correct for explanation output
     finalize_itinerary_distances(best_itinerary)
 
     print("\n=== Recommendation ===")
@@ -214,6 +215,56 @@ def main() -> None:
     print("\n=== Weather-based Suggestions ===")
     print(weather_advice(best_itinerary, start_date))
 
+    # -----------------------------
+    # Weather-triggered replanning
+    # -----------------------------
+    print("\n=== Weather-triggered Replanning ===")
+
+    today = date.today()
+    days_until_trip = (start_date - today).days
+
+    if days_until_trip > MAX_FORECAST_DAYS:
+        print(
+            "⚠️ Weather-triggered replanning skipped: "
+            "trip date is beyond reliable forecast range."
+        )
+        return
+
+    replanned = False
+
+    # Trigger replanning per-day if heavy rain expected
+    for day in best_itinerary.days:
+        if not day.spots:
+            continue
+
+        lat = day.spots[0].lat
+        lon = day.spots[0].lon
+        precipitation = get_weather(lat, lon)
+
+        idx = day.day - 1
+        if idx >= len(precipitation):
+            continue
+
+        rain_mm = precipitation[idx]
+
+        if rain_mm >= 5.0:
+            print(explain_weather_trigger(day.day, rain_mm))
+            replan_single_day(best_itinerary, day.day - 1)
+            replanned = True
+
+    if replanned:
+        # Refresh distances once after all repairs
+        finalize_itinerary_distances(best_itinerary)
+
+        print("\n=== Updated Itinerary After Replanning ===")
+        for day in best_itinerary.days:
+            if not day.spots:
+                continue
+            route = " → ".join(s.name for s in day.spots)
+            print(f"Day {day.day}: {route}")
+            print(f"  Estimated travel distance: {day.total_distance_km:.1f} km")
+    else:
+        print("No replanning needed: no heavy-rain days detected in forecast window.")
 
 
 if __name__ == "__main__":

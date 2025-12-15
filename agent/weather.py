@@ -9,3 +9,6 @@ def get_weather(lat: float, lon: float):
     )
     data = requests.get(url, timeout=10).json()
     return data["daily"]["precipitation_sum"]
+
+def is_bad_weather_day(rain_mm: float, threshold: float = 5.0) -> bool:
+    return rain_mm >= threshold
