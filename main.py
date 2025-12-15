@@ -11,6 +11,7 @@ from agent.explainer import explain_recommendation, weather_advice
 from agent.weather import get_weather
 from agent.reasoning import explain_weather_trigger
 from agent.replanner import replan_single_day
+from agent.llm import generate_recommendation_reasoning
 
 
 MAX_FORECAST_DAYS = 10  # Conservative: skip exact forecast-triggered actions beyond this window
@@ -187,7 +188,7 @@ def main() -> None:
     # --- Recommendation ---
     recommended = next((r for r in results if r[0] == preferred_mode), results[0])
     best_mode, best_itinerary, best_score, best_reasons, best_path = recommended
-    
+
     # --- Final recommendation reasoning using LLM ---
     print("\n=== LLM Recommendation Explanation ===")
     llm_explanation = generate_recommendation_reasoning(best_itinerary, preference)
