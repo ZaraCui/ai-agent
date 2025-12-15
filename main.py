@@ -187,6 +187,11 @@ def main() -> None:
     # --- Recommendation ---
     recommended = next((r for r in results if r[0] == preferred_mode), results[0])
     best_mode, best_itinerary, best_score, best_reasons, best_path = recommended
+    
+    # --- Final recommendation reasoning using LLM ---
+    print("\n=== LLM Recommendation Explanation ===")
+    llm_explanation = generate_recommendation_reasoning(best_itinerary, preference)
+    print(llm_explanation)
 
     # Ensure distances are correct for explanation output
     finalize_itinerary_distances(best_itinerary)
