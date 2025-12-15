@@ -10,6 +10,16 @@ from agent.geometry import TransportMode
 
 CITY = sys.argv[1] if len(sys.argv) > 1 else "tokyo" # Modify this to change the city
 
+available_cities = [
+    f.replace("spots_", "").replace(".json", "")
+    for f in os.listdir("data")
+    if f.startswith("spots_")
+]
+if CITY not in available_cities:
+    raise ValueError(f"City '{CITY}' not found in available data: {available_cities}")
+else:
+    print(f"Planning itinerary for city: {CITY}")
+
 def render_map(spots: list[Spot], itinerary, filepath: str) -> None:
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
