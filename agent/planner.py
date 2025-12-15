@@ -5,12 +5,7 @@ from typing import List, Tuple
 
 from agent.types import Spot, DayPlan, Itinerary
 from agent.constraints import ScoreConfig, score_itinerary
-
-
-def distance(a: Spot, b: Spot) -> float:
-    # Rough distance in km
-    return math.sqrt((a.lat - b.lat) ** 2 + (a.lon - b.lon) ** 2) * 111
-
+from agent.geometry import distance
 
 def nearest_neighbor_path(spots: List[Spot]) -> List[Spot]:
     if not spots:
