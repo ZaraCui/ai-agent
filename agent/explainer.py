@@ -2,7 +2,6 @@ from agent.types import Itinerary
 from agent.geometry import TransportMode
 from agent.weather import get_weather
 
-
 def explain_recommendation(
     itinerary: Itinerary,
     mode: TransportMode,

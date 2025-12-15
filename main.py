@@ -167,7 +167,7 @@ def main() -> None:
         results[0],
     )
 
-    best_mode, _, best_score, best_reasons, best_path = recommended
+    best_mode, best_itinerary, best_score, best_reasons, best_path = recommended
 
     print("\n=== Recommendation ===")
     print(f"City: {city}")
@@ -179,7 +179,7 @@ def main() -> None:
         print("Notes:")
         for r in best_reasons:
             print(" -", r)
-            
+
     print("\n=== Agent Explanation ===")
     print(
         explain_recommendation(
