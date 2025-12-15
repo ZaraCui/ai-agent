@@ -70,7 +70,7 @@ def main() -> None:
 
     for mode in TransportMode:
         itinerary, score, reasons = plan_itinerary_soft_constraints(
-            city="Tokyo",
+            city=CITY,
             spots=spots,
             days=3,
             cfg=cfg,
