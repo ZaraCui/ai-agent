@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_832ff58fc941d0f2a52cd7030413a31b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_832ff58fc941d0f2a52cd7030413a31b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_832ff58fc941d0f2a52cd7030413a31b = L.map(
+                "map_832ff58fc941d0f2a52cd7030413a31b",
+                {
+                    center: [51.5033, -0.1195],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5184c0d332f1801c2bacd4def3fa86e0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5184c0d332f1801c2bacd4def3fa86e0.addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+            var marker_4d41e178af9443d6ce7c983fc0e90890 = L.marker(
+                [51.5129, -0.1247],
+                {
+}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+        var popup_24af99c911b8f8423776df96cef20b5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_119373d8b0cdfec948655a25a72611b3 = $(`<div id="html_119373d8b0cdfec948655a25a72611b3" style="width: 100.0%; height: 100.0%;">Day 1: Covent Garden</div>`)[0];
+                popup_24af99c911b8f8423776df96cef20b5d.setContent(html_119373d8b0cdfec948655a25a72611b3);
+            
+        
+
+        marker_4d41e178af9443d6ce7c983fc0e90890.bindPopup(popup_24af99c911b8f8423776df96cef20b5d)
+        ;
+
+        
+    
+    
+            var marker_107d8eac893217c8d7b0820e5bc2c4e3 = L.marker(
+                [51.5194, -0.127],
+                {
+}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+        var popup_ea9e968bf576f29b4f0e2340b4f33fa5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72e8e9a95fdec70765f3591a068b1f05 = $(`<div id="html_72e8e9a95fdec70765f3591a068b1f05" style="width: 100.0%; height: 100.0%;">Day 1: British Museum</div>`)[0];
+                popup_ea9e968bf576f29b4f0e2340b4f33fa5.setContent(html_72e8e9a95fdec70765f3591a068b1f05);
+            
+        
+
+        marker_107d8eac893217c8d7b0820e5bc2c4e3.bindPopup(popup_ea9e968bf576f29b4f0e2340b4f33fa5)
+        ;
+
+        
+    
+    
+            var marker_87ebe30dd062ced393b54b882dfcdce9 = L.marker(
+                [51.5154, -0.141],
+                {
+}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+        var popup_2f5391d174c1672f6012bd88a5f1ea0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d07db750cc2c96927501469ae4af1f07 = $(`<div id="html_d07db750cc2c96927501469ae4af1f07" style="width: 100.0%; height: 100.0%;">Day 1: Oxford Street</div>`)[0];
+                popup_2f5391d174c1672f6012bd88a5f1ea0b.setContent(html_d07db750cc2c96927501469ae4af1f07);
+            
+        
+
+        marker_87ebe30dd062ced393b54b882dfcdce9.bindPopup(popup_2f5391d174c1672f6012bd88a5f1ea0b)
+        ;
+
+        
+    
+    
+            var marker_e45d9c81d7759026a7f411bceed87c85 = L.marker(
+                [51.5073, -0.1657],
+                {
+}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+        var popup_f87daad58bdf4bf0a956fb045fe62d94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bec8899ae84e956c718cd41a177d1cd = $(`<div id="html_1bec8899ae84e956c718cd41a177d1cd" style="width: 100.0%; height: 100.0%;">Day 1: Hyde Park</div>`)[0];
+                popup_f87daad58bdf4bf0a956fb045fe62d94.setContent(html_1bec8899ae84e956c718cd41a177d1cd);
+            
+        
+
+        marker_e45d9c81d7759026a7f411bceed87c85.bindPopup(popup_f87daad58bdf4bf0a956fb045fe62d94)
+        ;
+
+        
+    
+    
+            var poly_line_66726345dec97a2799dee413b28830ac = L.polyline(
+                [[51.5129, -0.1247], [51.5194, -0.127], [51.5154, -0.141], [51.5073, -0.1657]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+            var marker_f2e7c3d38d6260a573e1c64c473754a7 = L.marker(
+                [51.478, -0.2956],
+                {
+}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+        var popup_645d3b12073b1003c6697f1ac2b69e9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f27448c39fbc7b9c70297be2656691fd = $(`<div id="html_f27448c39fbc7b9c70297be2656691fd" style="width: 100.0%; height: 100.0%;">Day 2: Kew Gardens</div>`)[0];
+                popup_645d3b12073b1003c6697f1ac2b69e9f.setContent(html_f27448c39fbc7b9c70297be2656691fd);
+            
+        
+
+        marker_f2e7c3d38d6260a573e1c64c473754a7.bindPopup(popup_645d3b12073b1003c6697f1ac2b69e9f)
+        ;
+
+        
+    
+    
+            var marker_b5b2be2daf847ed5c7e9d32c04f1891d = L.marker(
+                [51.4993, -0.1273],
+                {
+}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+        var popup_0761e0357c7722808d67c61032e7c73b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3643d0586ce4ddb962b78a6017b65910 = $(`<div id="html_3643d0586ce4ddb962b78a6017b65910" style="width: 100.0%; height: 100.0%;">Day 3: Westminster Abbey</div>`)[0];
+                popup_0761e0357c7722808d67c61032e7c73b.setContent(html_3643d0586ce4ddb962b78a6017b65910);
+            
+        
+
+        marker_b5b2be2daf847ed5c7e9d32c04f1891d.bindPopup(popup_0761e0357c7722808d67c61032e7c73b)
+        ;
+
+        
+    
+    
+            var marker_deac123fb3e4f66541eccdd0349e6660 = L.marker(
+                [51.5033, -0.1195],
+                {
+}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+        var popup_3b5314e8f18e717df35e4ea4f677d572 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_451c94dab9d53219948780d6440e2f29 = $(`<div id="html_451c94dab9d53219948780d6440e2f29" style="width: 100.0%; height: 100.0%;">Day 3: London Eye</div>`)[0];
+                popup_3b5314e8f18e717df35e4ea4f677d572.setContent(html_451c94dab9d53219948780d6440e2f29);
+            
+        
+
+        marker_deac123fb3e4f66541eccdd0349e6660.bindPopup(popup_3b5314e8f18e717df35e4ea4f677d572)
+        ;
+
+        
+    
+    
+            var marker_9b789acaf028c6edfc02b641a72481ce = L.marker(
+                [51.5076, -0.0994],
+                {
+}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+        var popup_2d88f2a373f91a7b8cc9937932e71fa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adfaeaf43f98d403325b61ce04f0fd6b = $(`<div id="html_adfaeaf43f98d403325b61ce04f0fd6b" style="width: 100.0%; height: 100.0%;">Day 3: Tate Modern</div>`)[0];
+                popup_2d88f2a373f91a7b8cc9937932e71fa2.setContent(html_adfaeaf43f98d403325b61ce04f0fd6b);
+            
+        
+
+        marker_9b789acaf028c6edfc02b641a72481ce.bindPopup(popup_2d88f2a373f91a7b8cc9937932e71fa2)
+        ;
+
+        
+    
+    
+            var marker_6483e03cb0d7699e714784ac89cf002f = L.marker(
+                [51.5081, -0.0759],
+                {
+}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+    
+        var popup_38d9b00aa8dcc2b7031bf76ae25b9722 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38aaacc6fe78cc9624d321a5fe974c69 = $(`<div id="html_38aaacc6fe78cc9624d321a5fe974c69" style="width: 100.0%; height: 100.0%;">Day 3: Tower of London</div>`)[0];
+                popup_38d9b00aa8dcc2b7031bf76ae25b9722.setContent(html_38aaacc6fe78cc9624d321a5fe974c69);
+            
+        
+
+        marker_6483e03cb0d7699e714784ac89cf002f.bindPopup(popup_38d9b00aa8dcc2b7031bf76ae25b9722)
+        ;
+
+        
+    
+    
+            var poly_line_51c5fa13b02f91bccef7567474d2ff90 = L.polyline(
+                [[51.4993, -0.1273], [51.5033, -0.1195], [51.5076, -0.0994], [51.5081, -0.0759]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_832ff58fc941d0f2a52cd7030413a31b);
+        
+</script>
+</html>

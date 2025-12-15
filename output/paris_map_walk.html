@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d1dadb76b940dcc4e01613f23ee0d4d4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d1dadb76b940dcc4e01613f23ee0d4d4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d1dadb76b940dcc4e01613f23ee0d4d4 = L.map(
+                "map_d1dadb76b940dcc4e01613f23ee0d4d4",
+                {
+                    center: [48.8584, 2.2945],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6a77c0df68ed26a5feedb398425a0ea7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6a77c0df68ed26a5feedb398425a0ea7.addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+            var marker_a55f90fa9bb6e60cb4a97c56ee45b139 = L.marker(
+                [48.8867, 2.3431],
+                {
+}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+        var popup_d8ed36091ce4941c66f813bd0f856ed6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9fdb609fea2d9faefb1fcc0c305671e = $(`<div id="html_f9fdb609fea2d9faefb1fcc0c305671e" style="width: 100.0%; height: 100.0%;">Day 1: Montmartre</div>`)[0];
+                popup_d8ed36091ce4941c66f813bd0f856ed6.setContent(html_f9fdb609fea2d9faefb1fcc0c305671e);
+            
+        
+
+        marker_a55f90fa9bb6e60cb4a97c56ee45b139.bindPopup(popup_d8ed36091ce4941c66f813bd0f856ed6)
+        ;
+
+        
+    
+    
+            var marker_06e103087e1ce62a6358faad12c6cb07 = L.marker(
+                [48.8698, 2.3075],
+                {
+}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+        var popup_3b9d2a81c7c091ffa23c50c7a9b36692 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52d0fd8060abb57b928f0350843db5df = $(`<div id="html_52d0fd8060abb57b928f0350843db5df" style="width: 100.0%; height: 100.0%;">Day 2: Champs-Élysées</div>`)[0];
+                popup_3b9d2a81c7c091ffa23c50c7a9b36692.setContent(html_52d0fd8060abb57b928f0350843db5df);
+            
+        
+
+        marker_06e103087e1ce62a6358faad12c6cb07.bindPopup(popup_3b9d2a81c7c091ffa23c50c7a9b36692)
+        ;
+
+        
+    
+    
+            var marker_e6fbd36a1791cecaf9bb7d3515d4b7c7 = L.marker(
+                [48.8584, 2.2945],
+                {
+}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+        var popup_32e3cc080aa88c0f90af2301beffcd9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3adbabfff9f89056f4e8e5f8144fdbef = $(`<div id="html_3adbabfff9f89056f4e8e5f8144fdbef" style="width: 100.0%; height: 100.0%;">Day 2: Eiffel Tower</div>`)[0];
+                popup_32e3cc080aa88c0f90af2301beffcd9b.setContent(html_3adbabfff9f89056f4e8e5f8144fdbef);
+            
+        
+
+        marker_e6fbd36a1791cecaf9bb7d3515d4b7c7.bindPopup(popup_32e3cc080aa88c0f90af2301beffcd9b)
+        ;
+
+        
+    
+    
+            var marker_9aaef8b5826a8e5a70608078cc18bfed = L.marker(
+                [48.86, 2.3266],
+                {
+}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+        var popup_3ad007d2b7a9349bec05e0fda6f46a61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe086ecdd8c7e150ce7ad5cbe9b05d39 = $(`<div id="html_fe086ecdd8c7e150ce7ad5cbe9b05d39" style="width: 100.0%; height: 100.0%;">Day 2: Musée d'Orsay</div>`)[0];
+                popup_3ad007d2b7a9349bec05e0fda6f46a61.setContent(html_fe086ecdd8c7e150ce7ad5cbe9b05d39);
+            
+        
+
+        marker_9aaef8b5826a8e5a70608078cc18bfed.bindPopup(popup_3ad007d2b7a9349bec05e0fda6f46a61)
+        ;
+
+        
+    
+    
+            var marker_d8ed4a0d92f8938658709052bc6fe676 = L.marker(
+                [48.8606, 2.3376],
+                {
+}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+        var popup_ead0ee3a063d66906cc9ae4ae8f4aae8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60c73124ad7cbe567db91c6ea195f534 = $(`<div id="html_60c73124ad7cbe567db91c6ea195f534" style="width: 100.0%; height: 100.0%;">Day 2: Louvre Museum</div>`)[0];
+                popup_ead0ee3a063d66906cc9ae4ae8f4aae8.setContent(html_60c73124ad7cbe567db91c6ea195f534);
+            
+        
+
+        marker_d8ed4a0d92f8938658709052bc6fe676.bindPopup(popup_ead0ee3a063d66906cc9ae4ae8f4aae8)
+        ;
+
+        
+    
+    
+            var marker_51211c21d9bd6196f16df48fcf15f96b = L.marker(
+                [48.8462, 2.3372],
+                {
+}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+        var popup_31f297a9a283c1471683a3c2984734cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3718f3e485b1a17dc1d8a92aca3c9785 = $(`<div id="html_3718f3e485b1a17dc1d8a92aca3c9785" style="width: 100.0%; height: 100.0%;">Day 2: Luxembourg Gardens</div>`)[0];
+                popup_31f297a9a283c1471683a3c2984734cf.setContent(html_3718f3e485b1a17dc1d8a92aca3c9785);
+            
+        
+
+        marker_51211c21d9bd6196f16df48fcf15f96b.bindPopup(popup_31f297a9a283c1471683a3c2984734cf)
+        ;
+
+        
+    
+    
+            var poly_line_ef2a3217e71634e40fa05eb763e59b92 = L.polyline(
+                [[48.8698, 2.3075], [48.8584, 2.2945], [48.86, 2.3266], [48.8606, 2.3376], [48.8462, 2.3372]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+            var marker_39531b7c416ac084d10b8ba62868659d = L.marker(
+                [48.8554, 2.345],
+                {
+}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+        var popup_691351565ee06e01aa27b2d8160c779b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c19a7133ae613e903209a904306dbc8 = $(`<div id="html_8c19a7133ae613e903209a904306dbc8" style="width: 100.0%; height: 100.0%;">Day 3: Sainte-Chapelle</div>`)[0];
+                popup_691351565ee06e01aa27b2d8160c779b.setContent(html_8c19a7133ae613e903209a904306dbc8);
+            
+        
+
+        marker_39531b7c416ac084d10b8ba62868659d.bindPopup(popup_691351565ee06e01aa27b2d8160c779b)
+        ;
+
+        
+    
+    
+            var marker_0176fc55881088390860267bbe2a8673 = L.marker(
+                [48.853, 2.3499],
+                {
+}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+        var popup_7edbcf599e0f33209d342a69200c0994 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c42ce428c71267e76ad182d137f512b0 = $(`<div id="html_c42ce428c71267e76ad182d137f512b0" style="width: 100.0%; height: 100.0%;">Day 3: Notre-Dame Cathedral</div>`)[0];
+                popup_7edbcf599e0f33209d342a69200c0994.setContent(html_c42ce428c71267e76ad182d137f512b0);
+            
+        
+
+        marker_0176fc55881088390860267bbe2a8673.bindPopup(popup_7edbcf599e0f33209d342a69200c0994)
+        ;
+
+        
+    
+    
+            var marker_a469a6ab88b3f5ce96ddfb0acd862459 = L.marker(
+                [48.8575, 2.362],
+                {
+}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+    
+        var popup_f1784f934636651bd0165d9672ae9b81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b09c643631a0a5b569cf3732fd85aef = $(`<div id="html_9b09c643631a0a5b569cf3732fd85aef" style="width: 100.0%; height: 100.0%;">Day 3: Le Marais</div>`)[0];
+                popup_f1784f934636651bd0165d9672ae9b81.setContent(html_9b09c643631a0a5b569cf3732fd85aef);
+            
+        
+
+        marker_a469a6ab88b3f5ce96ddfb0acd862459.bindPopup(popup_f1784f934636651bd0165d9672ae9b81)
+        ;
+
+        
+    
+    
+            var poly_line_fdf0f5c53efb15c9e5a8771628771bf3 = L.polyline(
+                [[48.8554, 2.345], [48.853, 2.3499], [48.8575, 2.362]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d1dadb76b940dcc4e01613f23ee0d4d4);
+        
+</script>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_55068e511073eb6fb2e71dc54af26f94 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_55068e511073eb6fb2e71dc54af26f94" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_55068e511073eb6fb2e71dc54af26f94 = L.map(
+                "map_55068e511073eb6fb2e71dc54af26f94",
+                {
+                    center: [41.4036, 2.1744],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9711c43cb271f0b6db1f59e730b1d1cf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9711c43cb271f0b6db1f59e730b1d1cf.addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+            var marker_c2cf145b123ad97606afa1ceeab8856e = L.marker(
+                [41.3809, 2.1228],
+                {
+}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+        var popup_fb98c9a2689bdd13b2734bbe975f55fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c361af0f2be558363c1b3b1ed3086792 = $(`<div id="html_c361af0f2be558363c1b3b1ed3086792" style="width: 100.0%; height: 100.0%;">Day 1: Camp Nou</div>`)[0];
+                popup_fb98c9a2689bdd13b2734bbe975f55fb.setContent(html_c361af0f2be558363c1b3b1ed3086792);
+            
+        
+
+        marker_c2cf145b123ad97606afa1ceeab8856e.bindPopup(popup_fb98c9a2689bdd13b2734bbe975f55fb)
+        ;
+
+        
+    
+    
+            var marker_6d57ed4a9061263bbd96430beb2b5d7f = L.marker(
+                [41.3758, 2.1514],
+                {
+}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+        var popup_145c6d9ebd36987e19f22af17f2b4d4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbdccc6b6edf588164fc76401240b577 = $(`<div id="html_dbdccc6b6edf588164fc76401240b577" style="width: 100.0%; height: 100.0%;">Day 1: Magic Fountain of Montjuïc</div>`)[0];
+                popup_145c6d9ebd36987e19f22af17f2b4d4e.setContent(html_dbdccc6b6edf588164fc76401240b577);
+            
+        
+
+        marker_6d57ed4a9061263bbd96430beb2b5d7f.bindPopup(popup_145c6d9ebd36987e19f22af17f2b4d4e)
+        ;
+
+        
+    
+    
+            var poly_line_084994b4d6a4d81609bc80b2fa803d87 = L.polyline(
+                [[41.3809, 2.1228], [41.3758, 2.1514]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+            var marker_02320b2718ba1179a8e5a3aba48bd36a = L.marker(
+                [41.4145, 2.1527],
+                {
+}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+        var popup_cc47df98022e52b0e3f731e30e48dba8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e710c50fa608f124eb8bb8cdb1f1e906 = $(`<div id="html_e710c50fa608f124eb8bb8cdb1f1e906" style="width: 100.0%; height: 100.0%;">Day 2: Park Güell</div>`)[0];
+                popup_cc47df98022e52b0e3f731e30e48dba8.setContent(html_e710c50fa608f124eb8bb8cdb1f1e906);
+            
+        
+
+        marker_02320b2718ba1179a8e5a3aba48bd36a.bindPopup(popup_cc47df98022e52b0e3f731e30e48dba8)
+        ;
+
+        
+    
+    
+            var marker_0985751a829524d09aa0ab1834773688 = L.marker(
+                [41.4036, 2.1744],
+                {
+}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+        var popup_6e1967c47703300f8bb4672f7e5cb7f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5786b769e1dfbf05e584d67d86aa765f = $(`<div id="html_5786b769e1dfbf05e584d67d86aa765f" style="width: 100.0%; height: 100.0%;">Day 2: Sagrada Familia</div>`)[0];
+                popup_6e1967c47703300f8bb4672f7e5cb7f2.setContent(html_5786b769e1dfbf05e584d67d86aa765f);
+            
+        
+
+        marker_0985751a829524d09aa0ab1834773688.bindPopup(popup_6e1967c47703300f8bb4672f7e5cb7f2)
+        ;
+
+        
+    
+    
+            var marker_9907a25d528130a7e0e828a410d87629 = L.marker(
+                [41.3917, 2.1649],
+                {
+}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+        var popup_fc7f884ab16afc86dcc8bc5279411e1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f354b473aed33b0907b8a51e2389b2e = $(`<div id="html_1f354b473aed33b0907b8a51e2389b2e" style="width: 100.0%; height: 100.0%;">Day 2: Casa Batlló</div>`)[0];
+                popup_fc7f884ab16afc86dcc8bc5279411e1a.setContent(html_1f354b473aed33b0907b8a51e2389b2e);
+            
+        
+
+        marker_9907a25d528130a7e0e828a410d87629.bindPopup(popup_fc7f884ab16afc86dcc8bc5279411e1a)
+        ;
+
+        
+    
+    
+            var marker_4ac3bc4ebc6de214b545858be75facce = L.marker(
+                [41.3809, 2.173],
+                {
+}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+        var popup_7e3db4a9e4a6fb681e49eeb7c9e844a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_183ee8697f0991dd13eaef9a886492c0 = $(`<div id="html_183ee8697f0991dd13eaef9a886492c0" style="width: 100.0%; height: 100.0%;">Day 2: La Rambla</div>`)[0];
+                popup_7e3db4a9e4a6fb681e49eeb7c9e844a8.setContent(html_183ee8697f0991dd13eaef9a886492c0);
+            
+        
+
+        marker_4ac3bc4ebc6de214b545858be75facce.bindPopup(popup_7e3db4a9e4a6fb681e49eeb7c9e844a8)
+        ;
+
+        
+    
+    
+            var marker_819ca1e10af3071b7bef3293db635dc4 = L.marker(
+                [41.3833, 2.176],
+                {
+}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+        var popup_1f5d2016b90c81bda48e53d127b6d109 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9755ad3b7d668fbf96b01d8ec86d4ac6 = $(`<div id="html_9755ad3b7d668fbf96b01d8ec86d4ac6" style="width: 100.0%; height: 100.0%;">Day 2: Gothic Quarter</div>`)[0];
+                popup_1f5d2016b90c81bda48e53d127b6d109.setContent(html_9755ad3b7d668fbf96b01d8ec86d4ac6);
+            
+        
+
+        marker_819ca1e10af3071b7bef3293db635dc4.bindPopup(popup_1f5d2016b90c81bda48e53d127b6d109)
+        ;
+
+        
+    
+    
+            var poly_line_3e767e3442336117d83fd5545f2de499 = L.polyline(
+                [[41.4145, 2.1527], [41.4036, 2.1744], [41.3917, 2.1649], [41.3809, 2.173], [41.3833, 2.176]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+            var marker_032c2ab896793df58783e672d55ca114 = L.marker(
+                [41.385, 2.18],
+                {
+}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+        var popup_6fd2c34ab3fb5f002f302db367057c47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_044948bbd799a904323e74790bc26fb6 = $(`<div id="html_044948bbd799a904323e74790bc26fb6" style="width: 100.0%; height: 100.0%;">Day 3: Picasso Museum</div>`)[0];
+                popup_6fd2c34ab3fb5f002f302db367057c47.setContent(html_044948bbd799a904323e74790bc26fb6);
+            
+        
+
+        marker_032c2ab896793df58783e672d55ca114.bindPopup(popup_6fd2c34ab3fb5f002f302db367057c47)
+        ;
+
+        
+    
+    
+            var marker_fd22cd45a96519f6b109e1f0b583bff7 = L.marker(
+                [41.378, 2.192],
+                {
+}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+    
+        var popup_70aa90f8442138a9210c516ff25e956b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_886f3d08545704e72cfda1f05b2cf268 = $(`<div id="html_886f3d08545704e72cfda1f05b2cf268" style="width: 100.0%; height: 100.0%;">Day 3: Barceloneta Beach</div>`)[0];
+                popup_70aa90f8442138a9210c516ff25e956b.setContent(html_886f3d08545704e72cfda1f05b2cf268);
+            
+        
+
+        marker_fd22cd45a96519f6b109e1f0b583bff7.bindPopup(popup_70aa90f8442138a9210c516ff25e956b)
+        ;
+
+        
+    
+    
+            var poly_line_052d2a74c0086df4fe5bce901193c847 = L.polyline(
+                [[41.385, 2.18], [41.378, 2.192]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_55068e511073eb6fb2e71dc54af26f94);
+        
+</script>
+</html>

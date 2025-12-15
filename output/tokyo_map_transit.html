@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_998c1ee583b9c8c4b6f58ec80e7cdfd5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_998c1ee583b9c8c4b6f58ec80e7cdfd5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_998c1ee583b9c8c4b6f58ec80e7cdfd5 = L.map(
+                "map_998c1ee583b9c8c4b6f58ec80e7cdfd5",
+                {
+                    center: [35.6586, 139.7454],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d9656d0fc94b892967ce881741a468cf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d9656d0fc94b892967ce881741a468cf.addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+            var marker_0e2374fc9bc4351b3464e4c3a4ece73d = L.marker(
+                [35.6764, 139.6993],
+                {
+}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+        var popup_d33e491e1235b026ba477305bd34ec55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3cedf905d52524cc5b18bb45d55feaa = $(`<div id="html_d3cedf905d52524cc5b18bb45d55feaa" style="width: 100.0%; height: 100.0%;">Day 1: Meiji Shrine</div>`)[0];
+                popup_d33e491e1235b026ba477305bd34ec55.setContent(html_d3cedf905d52524cc5b18bb45d55feaa);
+            
+        
+
+        marker_0e2374fc9bc4351b3464e4c3a4ece73d.bindPopup(popup_d33e491e1235b026ba477305bd34ec55)
+        ;
+
+        
+    
+    
+            var marker_e86b0d8961f2faf05d2baf287a4e64c4 = L.marker(
+                [35.6852, 139.71],
+                {
+}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+        var popup_af3326b9614c9421042cc24f50b89794 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f5e2263634a86b01abc0cce27d72c45 = $(`<div id="html_4f5e2263634a86b01abc0cce27d72c45" style="width: 100.0%; height: 100.0%;">Day 1: Shinjuku Gyoen</div>`)[0];
+                popup_af3326b9614c9421042cc24f50b89794.setContent(html_4f5e2263634a86b01abc0cce27d72c45);
+            
+        
+
+        marker_e86b0d8961f2faf05d2baf287a4e64c4.bindPopup(popup_af3326b9614c9421042cc24f50b89794)
+        ;
+
+        
+    
+    
+            var poly_line_6fd66c795e5428af6884b51c9d3d5886 = L.polyline(
+                [[35.6764, 139.6993], [35.6852, 139.71]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+            var marker_1331eb6f6cf4f0c46f0934900b131746 = L.marker(
+                [35.6586, 139.7454],
+                {
+}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+        var popup_c6c91a18d326b31dd328e59cbe6e0e69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35dc640382411ea687699df3d3bf536f = $(`<div id="html_35dc640382411ea687699df3d3bf536f" style="width: 100.0%; height: 100.0%;">Day 2: Tokyo Tower</div>`)[0];
+                popup_c6c91a18d326b31dd328e59cbe6e0e69.setContent(html_35dc640382411ea687699df3d3bf536f);
+            
+        
+
+        marker_1331eb6f6cf4f0c46f0934900b131746.bindPopup(popup_c6c91a18d326b31dd328e59cbe6e0e69)
+        ;
+
+        
+    
+    
+            var marker_4ec821cdbbabd4c7d25f87f20d8b2d2d = L.marker(
+                [35.6491, 139.789],
+                {
+}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+        var popup_825fb510c1d607f2b282f9ab1dfd8422 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78662e335b5ad98037f5327fbe2b26d8 = $(`<div id="html_78662e335b5ad98037f5327fbe2b26d8" style="width: 100.0%; height: 100.0%;">Day 2: TeamLab Planets</div>`)[0];
+                popup_825fb510c1d607f2b282f9ab1dfd8422.setContent(html_78662e335b5ad98037f5327fbe2b26d8);
+            
+        
+
+        marker_4ec821cdbbabd4c7d25f87f20d8b2d2d.bindPopup(popup_825fb510c1d607f2b282f9ab1dfd8422)
+        ;
+
+        
+    
+    
+            var poly_line_ea6b3c6b0be1125e7d6e89ba7a3a723d = L.polyline(
+                [[35.6586, 139.7454], [35.6491, 139.789]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+            var marker_5248404d964921dd771e9915469d1573 = L.marker(
+                [35.7023, 139.7745],
+                {
+}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+        var popup_838b10ee9a22f7761ee55aaeab6bc956 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f05760a8f21fe2376fe4e89219276a81 = $(`<div id="html_f05760a8f21fe2376fe4e89219276a81" style="width: 100.0%; height: 100.0%;">Day 3: Akihabara</div>`)[0];
+                popup_838b10ee9a22f7761ee55aaeab6bc956.setContent(html_f05760a8f21fe2376fe4e89219276a81);
+            
+        
+
+        marker_5248404d964921dd771e9915469d1573.bindPopup(popup_838b10ee9a22f7761ee55aaeab6bc956)
+        ;
+
+        
+    
+    
+            var marker_a132226e1281078d6000a57b75a4108b = L.marker(
+                [35.7156, 139.773],
+                {
+}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+        var popup_7518a44e1e7b1ae0a3301485cf8d67f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b85e5520cdd90bb067ed0242625748f4 = $(`<div id="html_b85e5520cdd90bb067ed0242625748f4" style="width: 100.0%; height: 100.0%;">Day 3: Ueno Park</div>`)[0];
+                popup_7518a44e1e7b1ae0a3301485cf8d67f8.setContent(html_b85e5520cdd90bb067ed0242625748f4);
+            
+        
+
+        marker_a132226e1281078d6000a57b75a4108b.bindPopup(popup_7518a44e1e7b1ae0a3301485cf8d67f8)
+        ;
+
+        
+    
+    
+            var marker_537496d7e28809bd26536f185bc5c763 = L.marker(
+                [35.7188, 139.7765],
+                {
+}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+        var popup_67b921c11fc0f3d1bbf654d7a41391e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efc4a7cd97c07e1b57d1b4bb3283d611 = $(`<div id="html_efc4a7cd97c07e1b57d1b4bb3283d611" style="width: 100.0%; height: 100.0%;">Day 3: Tokyo National Museum</div>`)[0];
+                popup_67b921c11fc0f3d1bbf654d7a41391e5.setContent(html_efc4a7cd97c07e1b57d1b4bb3283d611);
+            
+        
+
+        marker_537496d7e28809bd26536f185bc5c763.bindPopup(popup_67b921c11fc0f3d1bbf654d7a41391e5)
+        ;
+
+        
+    
+    
+            var marker_12f4327a4e4fe537c2f41463ad8f454e = L.marker(
+                [35.7148, 139.7967],
+                {
+}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+    
+        var popup_cd2fed197391e63c1a85a6969c57ee6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6430fb26a1de52d84830f114f0861738 = $(`<div id="html_6430fb26a1de52d84830f114f0861738" style="width: 100.0%; height: 100.0%;">Day 3: Senso-ji</div>`)[0];
+                popup_cd2fed197391e63c1a85a6969c57ee6d.setContent(html_6430fb26a1de52d84830f114f0861738);
+            
+        
+
+        marker_12f4327a4e4fe537c2f41463ad8f454e.bindPopup(popup_cd2fed197391e63c1a85a6969c57ee6d)
+        ;
+
+        
+    
+    
+            var poly_line_0b1d022946ab870035eaac2842c396d8 = L.polyline(
+                [[35.7023, 139.7745], [35.7156, 139.773], [35.7188, 139.7765], [35.7148, 139.7967]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_998c1ee583b9c8c4b6f58ec80e7cdfd5);
+        
+</script>
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8beec58fd24b0cb008187d6c4a1381f0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8beec58fd24b0cb008187d6c4a1381f0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8beec58fd24b0cb008187d6c4a1381f0 = L.map(
+                "map_8beec58fd24b0cb008187d6c4a1381f0",
+                {
+                    center: [40.6892, -74.0445],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fec63cad0619e55ace3dd71b72e4844f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fec63cad0619e55ace3dd71b72e4844f.addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+            var marker_610e133ea13aca4d8f8da7cc5e6cc084 = L.marker(
+                [40.7636, -73.9726],
+                {
+}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+        var popup_46362c5db9e5b94d38a7e9e9cb7fcbf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34c80ef061d4111849703323065880b7 = $(`<div id="html_34c80ef061d4111849703323065880b7" style="width: 100.0%; height: 100.0%;">Day 1: Fifth Avenue Shopping</div>`)[0];
+                popup_46362c5db9e5b94d38a7e9e9cb7fcbf1.setContent(html_34c80ef061d4111849703323065880b7);
+            
+        
+
+        marker_610e133ea13aca4d8f8da7cc5e6cc084.bindPopup(popup_46362c5db9e5b94d38a7e9e9cb7fcbf1)
+        ;
+
+        
+    
+    
+            var marker_2a5ea1b6dd7a146a3c52f5c1a20f3746 = L.marker(
+                [40.759, -73.9845],
+                {
+}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+        var popup_f836913a3614fce5600b7b2b4add4d39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2325b5a1dffcafb35a3f1637efcd307 = $(`<div id="html_c2325b5a1dffcafb35a3f1637efcd307" style="width: 100.0%; height: 100.0%;">Day 1: Broadway Theater District</div>`)[0];
+                popup_f836913a3614fce5600b7b2b4add4d39.setContent(html_c2325b5a1dffcafb35a3f1637efcd307);
+            
+        
+
+        marker_2a5ea1b6dd7a146a3c52f5c1a20f3746.bindPopup(popup_f836913a3614fce5600b7b2b4add4d39)
+        ;
+
+        
+    
+    
+            var marker_fc0ec769ace2cafe2e7dd6e2700cf4d2 = L.marker(
+                [40.758, -73.9855],
+                {
+}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+        var popup_ccb513fe90a50dc2a9de694e9de86e8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27adb28c39bdbf39c313f6b62b68ec92 = $(`<div id="html_27adb28c39bdbf39c313f6b62b68ec92" style="width: 100.0%; height: 100.0%;">Day 1: Times Square</div>`)[0];
+                popup_ccb513fe90a50dc2a9de694e9de86e8e.setContent(html_27adb28c39bdbf39c313f6b62b68ec92);
+            
+        
+
+        marker_fc0ec769ace2cafe2e7dd6e2700cf4d2.bindPopup(popup_ccb513fe90a50dc2a9de694e9de86e8e)
+        ;
+
+        
+    
+    
+            var poly_line_faa7031b30fbb7db39f7093af1cc03c0 = L.polyline(
+                [[40.7636, -73.9726], [40.759, -73.9845], [40.758, -73.9855]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+            var marker_0426c9d932984804c3d1b528c3515287 = L.marker(
+                [40.7794, -73.9632],
+                {
+}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+        var popup_2e836ccf3ac57cf6300b7357120809d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_052e8c5808886606fd014f19fe7f1f7a = $(`<div id="html_052e8c5808886606fd014f19fe7f1f7a" style="width: 100.0%; height: 100.0%;">Day 2: Metropolitan Museum of Art</div>`)[0];
+                popup_2e836ccf3ac57cf6300b7357120809d4.setContent(html_052e8c5808886606fd014f19fe7f1f7a);
+            
+        
+
+        marker_0426c9d932984804c3d1b528c3515287.bindPopup(popup_2e836ccf3ac57cf6300b7357120809d4)
+        ;
+
+        
+    
+    
+            var marker_3f7577405dd58e46b56520023baecbac = L.marker(
+                [40.7851, -73.9683],
+                {
+}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+        var popup_3492690d00f67197b6b5a421a922f678 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_622000c334c6150c34e15892f8710e71 = $(`<div id="html_622000c334c6150c34e15892f8710e71" style="width: 100.0%; height: 100.0%;">Day 2: Central Park</div>`)[0];
+                popup_3492690d00f67197b6b5a421a922f678.setContent(html_622000c334c6150c34e15892f8710e71);
+            
+        
+
+        marker_3f7577405dd58e46b56520023baecbac.bindPopup(popup_3492690d00f67197b6b5a421a922f678)
+        ;
+
+        
+    
+    
+            var poly_line_59af6804c43f4d516073e2be51e2eb79 = L.polyline(
+                [[40.7794, -73.9632], [40.7851, -73.9683]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+            var marker_2b0fb24a25d6c7ebe6cd7e37e8f266ee = L.marker(
+                [40.7061, -73.9969],
+                {
+}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+        var popup_14844cdfcce066df3262ca9dfcfc87c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_782a1c3ec742b682e954de7a04e099ff = $(`<div id="html_782a1c3ec742b682e954de7a04e099ff" style="width: 100.0%; height: 100.0%;">Day 3: Brooklyn Bridge</div>`)[0];
+                popup_14844cdfcce066df3262ca9dfcfc87c2.setContent(html_782a1c3ec742b682e954de7a04e099ff);
+            
+        
+
+        marker_2b0fb24a25d6c7ebe6cd7e37e8f266ee.bindPopup(popup_14844cdfcce066df3262ca9dfcfc87c2)
+        ;
+
+        
+    
+    
+            var marker_7b2f2a52edb52781298de8eaead7ccee = L.marker(
+                [40.7115, -74.0134],
+                {
+}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+        var popup_78eeca617e20103f0d8ef579c5c0c1da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaafababee8d5732cad56dafeae17328 = $(`<div id="html_eaafababee8d5732cad56dafeae17328" style="width: 100.0%; height: 100.0%;">Day 3: 9/11 Memorial & Museum</div>`)[0];
+                popup_78eeca617e20103f0d8ef579c5c0c1da.setContent(html_eaafababee8d5732cad56dafeae17328);
+            
+        
+
+        marker_7b2f2a52edb52781298de8eaead7ccee.bindPopup(popup_78eeca617e20103f0d8ef579c5c0c1da)
+        ;
+
+        
+    
+    
+            var marker_da61a54b5479081d0a676f633649db2b = L.marker(
+                [40.6892, -74.0445],
+                {
+}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+    
+        var popup_bb71a3151a2b55619b6c2e363c90de98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b952a70948ca2dc1da718c3cc91e924 = $(`<div id="html_8b952a70948ca2dc1da718c3cc91e924" style="width: 100.0%; height: 100.0%;">Day 3: Statue of Liberty</div>`)[0];
+                popup_bb71a3151a2b55619b6c2e363c90de98.setContent(html_8b952a70948ca2dc1da718c3cc91e924);
+            
+        
+
+        marker_da61a54b5479081d0a676f633649db2b.bindPopup(popup_bb71a3151a2b55619b6c2e363c90de98)
+        ;
+
+        
+    
+    
+            var poly_line_f4f94b8b49294abc2305f2a2711f789a = L.polyline(
+                [[40.7061, -73.9969], [40.7115, -74.0134], [40.6892, -74.0445]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8beec58fd24b0cb008187d6c4a1381f0);
+        
+</script>
+</html>
