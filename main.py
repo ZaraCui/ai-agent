@@ -33,7 +33,7 @@ def main() -> None:
     # Load data
     spots = [
         Spot(**s)
-        for s in json.load(open("data/spots_tokyo.json", encoding="utf-8"))
+        for s in json.load(open("data/spots_newyork.json", encoding="utf-8"))
     ]
 
     # Shared scoring config (policy-conditioned by mode)
