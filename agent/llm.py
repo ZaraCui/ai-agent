@@ -28,7 +28,7 @@ def generate_recommendation_reasoning(itinerary, preference):
     """
 
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",  # You can also use "gpt-4" if you have access
+        model="gpt-4",
         messages=[
             {"role": "system", "content": "You are a helpful travel assistant."},
             {"role": "user", "content": prompt}
