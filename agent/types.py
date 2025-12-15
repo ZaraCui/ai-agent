@@ -12,7 +12,7 @@ class Spot(BaseModel):
     name: str
     lat: float
     lon: float
-    category: str  # indoor / outdoor / food / museum
+    category: str  # indoor / outdoor / food / museum / temple / shopping
 
 class DayPlan(BaseModel):
     day: int

@@ -1,0 +1,10 @@
+[
+{"name":"Statue of Liberty", "lat":40.6892, "lon":-74.0445, "category":"outdoor"},
+{"name":"Central Park", "lat":40.7851, "lon":-73.9683, "category":"outdoor"},
+{"name":"Metropolitan Museum of Art", "lat":40.7794, "lon":-73.9632, "category":"indoor"},
+{"name":"Times Square", "lat":40.7580, "lon":-73.9855, "category":"outdoor"},
+{"name":"Brooklyn Bridge", "lat":40.7061, "lon":-73.9969, "category":"outdoor"},
+{"name":"9/11 Memorial & Museum", "lat":40.7115, "lon":-74.0134, "category":"indoor"},
+{"name":"Broadway Theater District", "lat":40.7590, "lon":-73.9845, "category":"indoor"},
+{"name":"Fifth Avenue Shopping", "lat":40.7636, "lon":-73.9726, "category":"shopping"}
+]
