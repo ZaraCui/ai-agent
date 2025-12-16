@@ -381,14 +381,15 @@
 
                     // Render weather
                     const weatherCard = document.getElementById('weather-card');
+                    // show weather card even when advice is missing, with placeholder
+                    const weatherTextEl = document.getElementById('weather-text');
                     if (data.weather_advice) {
-                        // render each line on its own line in HTML
                         const w = data.weather_advice.split('\n').map(l => l.trim()).filter(Boolean).map(l => `<div class="mb-1">${l}</div>`).join('');
-                        document.getElementById('weather-text').innerHTML = w;
-                        weatherCard.style.display = 'block';
+                        weatherTextEl.innerHTML = w;
                     } else {
-                        weatherCard.style.display = 'none';
+                        weatherTextEl.innerHTML = '<div class="mb-1">⚠️ Weather forecast unavailable for the selected start date. Try selecting a later date.</div>';
                     }
+                    weatherCard.style.display = 'block';
 
                     // Render recommended itinerary
                     const recommendedSection = document.getElementById('recommended-section');

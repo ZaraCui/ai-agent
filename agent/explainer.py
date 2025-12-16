@@ -49,7 +49,14 @@ def explain_recommendation(
 def weather_advice(itinerary: Itinerary, start_date: date) -> str:
     MAX_FORECAST_DAYS = 10  # conservative
     today = date.today()
-    if (start_date - today).days < 0 or (start_date - today).days >= MAX_FORECAST_DAYS:
+    # allow small timezone offsets: if start_date is up to 1 day in the past,
+    # treat as today (this helps when client/local timezone differs from server)
+    delta_days = (start_date - today).days
+    if delta_days < 0 and abs(delta_days) <= 1:
+        start_date = today
+        delta_days = 0
+
+    if delta_days < 0 or delta_days >= MAX_FORECAST_DAYS:
         return "⚠️ Weather forecast is unavailable for the selected dates."
     lines = []
     lines.append("🌦 Weather-aware advice:")
