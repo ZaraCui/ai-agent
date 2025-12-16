@@ -259,18 +259,20 @@ Built as a hands-on exploration of agent architectures and planning systems.
 1. Update `deploy/nginx.conf` replacing `your.domain.com` with your real domain.
 2. Ensure DNS A/AAAA records for your domain point to the host running this compose stack.
 3. Start the stack (nginx will start and expose ACME webroot):
-
+```
   docker-compose up -d
-
+```
 4. Obtain certificates using the included `certbot` helper (one-shot):
 
-  # replace your.domain.com accordingly
+  ### replace your.domain.com accordingly
+  ```
   docker-compose run --rm certbot certonly --webroot --webroot-path=/var/www/certbot \
     -d your.domain.com --email your-email@example.com --agree-tos --no-eff-email
-
-  # after successful run, reload nginx to pick up certs
+```
+  ### after successful run, reload nginx to pick up certs
+  ```
   docker-compose exec nginx nginx -s reload
-
+```
 Notes:
 - Certificates are stored in the `certs` volume mounted at `/etc/letsencrypt` in the nginx service.
 - Renew certificates periodically (e.g., via a cron job on the host that runs the same `docker-compose run certbot ...` command).
