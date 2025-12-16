@@ -215,8 +215,8 @@
 
     <script src="/static/config.js"></script>
     <script>
-        // Injected by server: GOOGLE_MAPS_API_KEY (empty string if not set)
-        const GOOGLE_MAPS_API_KEY = "{{ google_maps_api_key | e }}";
+        // Google Maps API key: 优先用 window.GOOGLE_MAPS_API_KEY（由 static/config.js 注入，适配 Vercel/static），否则用 Jinja 注入（Flask 渲染）。
+        let GOOGLE_MAPS_API_KEY = (typeof window !== 'undefined' && window.GOOGLE_MAPS_API_KEY) ? window.GOOGLE_MAPS_API_KEY : "{{ google_maps_api_key | e }}";
         // Utility functions
         const formatDate = (dateString) => {
             const options = { weekday: 'long', month: 'long', day: 'numeric' };
@@ -483,7 +483,7 @@
             spinner.style.display = 'inline-block';
 
             try {
-                const response = await fetch('/plan_itinerary', {
+                const response = await fetch(`${API_BASE}/plan_itinerary`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -551,7 +551,7 @@
                                 .join('');
                             try {
                                 // Ask backend for route geometry (Directions API) and render it.
-                                const dirResp = await fetch('/api/directions', {
+                                const dirResp = await fetch(`${API_BASE}/api/directions`, {
                                     method: 'POST',
                                     headers: { 'Content-Type': 'application/json' },
                                     body: JSON.stringify({ itinerary: itinerary, mode: 'walking' }),
