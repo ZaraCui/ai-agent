@@ -1,11 +1,83 @@
 [
-    {"name":"Sagrada Familia", "lat":41.4036, "lon":2.1744, "category":"temple"},
-    {"name":"Park Güell", "lat":41.4145, "lon":2.1527, "category":"outdoor"},
-    {"name":"Casa Batlló", "lat":41.3917, "lon":2.1649, "category":"indoor"},
-    {"name":"La Rambla", "lat":41.3809, "lon":2.1730, "category":"shopping"},
-    {"name":"Gothic Quarter", "lat":41.3833, "lon":2.1760, "category":"outdoor"},
-    {"name":"Magic Fountain of Montjuïc", "lat":41.3758, "lon":2.1514, "category":"outdoor"},
-    {"name":"Picasso Museum", "lat":41.3850, "lon":2.1800, "category":"indoor"},
-    {"name":"Camp Nou", "lat":41.3809, "lon":2.1228, "category":"outdoor"},
-    {"name":"Barceloneta Beach", "lat":41.3780, "lon":2.1920, "category":"outdoor"}
+    {
+        "name": "Sagrada Familia",
+        "lat": 41.4036,
+        "lon": 2.1744,
+        "category": "temple",
+        "duration_minutes": 45,
+        "rating": 4.1,
+        "description": "Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Park Güell",
+        "lat": 41.4145,
+        "lon": 2.1527,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Casa Batlló",
+        "lat": 41.3917,
+        "lon": 2.1649,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "La Rambla",
+        "lat": 41.3809,
+        "lon": 2.173,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Gothic Quarter",
+        "lat": 41.3833,
+        "lon": 2.176,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Magic Fountain of Montjuïc",
+        "lat": 41.3758,
+        "lon": 2.1514,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Picasso Museum",
+        "lat": 41.385,
+        "lon": 2.18,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Camp Nou",
+        "lat": 41.3809,
+        "lon": 2.1228,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Barceloneta Beach",
+        "lat": 41.378,
+        "lon": 2.192,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    }
 ]

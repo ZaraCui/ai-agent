@@ -217,7 +217,7 @@
                     <div class="text-sm text-gray-600 space-y-1">
                         <p><strong>Category:</strong> ${spot.category || 'N/A'}</p>
                         <p><strong>Duration:</strong> ${spot.duration_minutes || 'N/A'} minutes</p>
-                        <p><strong>Rating:</strong> ${'⭐'.repeat(Math.floor(spot.rating || 0))} ${spot.rating || 'N/A'}</p>
+                        <p><strong>Rating:</strong> ${spot.rating ? '⭐'.repeat(Math.floor(Number(spot.rating))) + ' ' + (Number(spot.rating).toFixed(1)) : 'N/A'}</p>
                         ${spot.description ? `<p class="text-gray-700 mt-2">${spot.description}</p>` : ''}
                     </div>
                 </div>

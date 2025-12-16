@@ -1,11 +1,83 @@
 [
-    {"name":"Eiffel Tower", "lat":48.8584, "lon":2.2945, "category":"outdoor"},
-    {"name":"Louvre Museum", "lat":48.8606, "lon":2.3376, "category":"indoor"},
-    {"name":"Notre-Dame Cathedral", "lat":48.8530, "lon":2.3499, "category":"temple"},
-    {"name":"Champs-Élysées", "lat":48.8698, "lon":2.3075, "category":"shopping"},
-    {"name":"Montmartre", "lat":48.8867, "lon":2.3431, "category":"outdoor"},
-    {"name":"Musée d'Orsay", "lat":48.8600, "lon":2.3266, "category":"indoor"},
-    {"name":"Luxembourg Gardens", "lat":48.8462, "lon":2.3372, "category":"outdoor"},
-    {"name":"Sainte-Chapelle", "lat":48.8554, "lon":2.3450, "category":"temple"},
-    {"name":"Le Marais", "lat":48.8575, "lon":2.3620, "category":"shopping"}
+    {
+        "name": "Eiffel Tower",
+        "lat": 48.8584,
+        "lon": 2.2945,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Louvre Museum",
+        "lat": 48.8606,
+        "lon": 2.3376,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Notre-Dame Cathedral",
+        "lat": 48.853,
+        "lon": 2.3499,
+        "category": "temple",
+        "duration_minutes": 45,
+        "rating": 4.1,
+        "description": "Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Champs-Élysées",
+        "lat": 48.8698,
+        "lon": 2.3075,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Montmartre",
+        "lat": 48.8867,
+        "lon": 2.3431,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Musée d'Orsay",
+        "lat": 48.86,
+        "lon": 2.3266,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Luxembourg Gardens",
+        "lat": 48.8462,
+        "lon": 2.3372,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Sainte-Chapelle",
+        "lat": 48.8554,
+        "lon": 2.345,
+        "category": "temple",
+        "duration_minutes": 45,
+        "rating": 4.1,
+        "description": "Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Le Marais",
+        "lat": 48.8575,
+        "lon": 2.362,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    }
 ]

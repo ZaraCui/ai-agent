@@ -1,10 +1,74 @@
 [
-  {"name": "Tokyo Tower", "lat": 35.6586, "lon": 139.7454, "category": "outdoor"},
-  {"name": "Senso-ji", "lat": 35.7148, "lon": 139.7967, "category": "temple"},
-  {"name": "Ueno Park", "lat": 35.7156, "lon": 139.7730, "category": "outdoor"},
-  {"name": "TeamLab Planets", "lat": 35.6491, "lon": 139.7890, "category": "indoor"},
-  {"name": "Meiji Shrine", "lat": 35.6764, "lon": 139.6993, "category": "temple"},
-  {"name": "Shinjuku Gyoen", "lat": 35.6852, "lon": 139.7100, "category": "outdoor"},
-  {"name": "Tokyo National Museum", "lat": 35.7188, "lon": 139.7765, "category": "indoor"},
-  {"name": "Akihabara", "lat": 35.7023, "lon": 139.7745, "category": "shopping"}
+    {
+        "name": "Tokyo Tower",
+        "lat": 35.6586,
+        "lon": 139.7454,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Senso-ji",
+        "lat": 35.7148,
+        "lon": 139.7967,
+        "category": "temple",
+        "duration_minutes": 45,
+        "rating": 4.1,
+        "description": "Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Ueno Park",
+        "lat": 35.7156,
+        "lon": 139.773,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "TeamLab Planets",
+        "lat": 35.6491,
+        "lon": 139.789,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Meiji Shrine",
+        "lat": 35.6764,
+        "lon": 139.6993,
+        "category": "temple",
+        "duration_minutes": 45,
+        "rating": 4.1,
+        "description": "Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Shinjuku Gyoen",
+        "lat": 35.6852,
+        "lon": 139.71,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Tokyo National Museum",
+        "lat": 35.7188,
+        "lon": 139.7765,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Akihabara",
+        "lat": 35.7023,
+        "lon": 139.7745,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    }
 ]

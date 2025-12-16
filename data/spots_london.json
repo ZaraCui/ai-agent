@@ -1,11 +1,83 @@
 [
-    {"name":"London Eye", "lat":51.5033, "lon":-0.1195, "category":"outdoor"},
-    {"name":"British Museum", "lat":51.5194, "lon":-0.1270, "category":"indoor"},
-    {"name":"Tower of London", "lat":51.5081, "lon":-0.0759, "category":"temple"},
-    {"name":"Oxford Street", "lat":51.5154, "lon":-0.1410, "category":"shopping"},
-    {"name":"Hyde Park", "lat":51.5073, "lon":-0.1657, "category":"outdoor"},
-    {"name":"Tate Modern", "lat":51.5076, "lon":-0.0994, "category":"indoor"},
-    {"name":"Kew Gardens", "lat":51.4780, "lon":-0.2956, "category":"outdoor"},
-    {"name":"Westminster Abbey", "lat":51.4993, "lon":-0.1273, "category":"temple"},
-    {"name":"Covent Garden", "lat":51.5129, "lon":-0.1247, "category":"shopping"}
+    {
+        "name": "London Eye",
+        "lat": 51.5033,
+        "lon": -0.1195,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "British Museum",
+        "lat": 51.5194,
+        "lon": -0.127,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Tower of London",
+        "lat": 51.5081,
+        "lon": -0.0759,
+        "category": "temple",
+        "duration_minutes": 45,
+        "rating": 4.1,
+        "description": "Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Oxford Street",
+        "lat": 51.5154,
+        "lon": -0.141,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Hyde Park",
+        "lat": 51.5073,
+        "lon": -0.1657,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Tate Modern",
+        "lat": 51.5076,
+        "lon": -0.0994,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Kew Gardens",
+        "lat": 51.478,
+        "lon": -0.2956,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Westminster Abbey",
+        "lat": 51.4993,
+        "lon": -0.1273,
+        "category": "temple",
+        "duration_minutes": 45,
+        "rating": 4.1,
+        "description": "Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Covent Garden",
+        "lat": 51.5129,
+        "lon": -0.1247,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    }
 ]

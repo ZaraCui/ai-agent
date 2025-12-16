@@ -1,10 +1,74 @@
 [
-{"name":"Statue of Liberty", "lat":40.6892, "lon":-74.0445, "category":"outdoor"},
-{"name":"Central Park", "lat":40.7851, "lon":-73.9683, "category":"outdoor"},
-{"name":"Metropolitan Museum of Art", "lat":40.7794, "lon":-73.9632, "category":"indoor"},
-{"name":"Times Square", "lat":40.7580, "lon":-73.9855, "category":"outdoor"},
-{"name":"Brooklyn Bridge", "lat":40.7061, "lon":-73.9969, "category":"outdoor"},
-{"name":"9/11 Memorial & Museum", "lat":40.7115, "lon":-74.0134, "category":"indoor"},
-{"name":"Broadway Theater District", "lat":40.7590, "lon":-73.9845, "category":"indoor"},
-{"name":"Fifth Avenue Shopping", "lat":40.7636, "lon":-73.9726, "category":"shopping"}
+    {
+        "name": "Statue of Liberty",
+        "lat": 40.6892,
+        "lon": -74.0445,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Central Park",
+        "lat": 40.7851,
+        "lon": -73.9683,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Metropolitan Museum of Art",
+        "lat": 40.7794,
+        "lon": -73.9632,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Times Square",
+        "lat": 40.758,
+        "lon": -73.9855,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Brooklyn Bridge",
+        "lat": 40.7061,
+        "lon": -73.9969,
+        "category": "outdoor",
+        "duration_minutes": 60,
+        "rating": 4.2,
+        "description": "Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "9/11 Memorial & Museum",
+        "lat": 40.7115,
+        "lon": -74.0134,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Broadway Theater District",
+        "lat": 40.759,
+        "lon": -73.9845,
+        "category": "indoor",
+        "duration_minutes": 90,
+        "rating": 4.3,
+        "description": "Well-curated indoor spot; expect exhibits or sheltered activities. Typical visit ~90 minutes. Rating based on typical visitor feedback."
+    },
+    {
+        "name": "Fifth Avenue Shopping",
+        "lat": 40.7636,
+        "lon": -73.9726,
+        "category": "shopping",
+        "duration_minutes": 60,
+        "rating": 3.9,
+        "description": "Shopping area with stores and local vendors; good for browsing. Typical visit ~60 minutes. Rating based on typical visitor feedback."
+    }
 ]
