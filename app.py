@@ -11,11 +11,17 @@ import os
 import traceback
 from typing import Dict, List, Tuple
 from dotenv import load_dotenv
+from flask_cors import CORS
 
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
+
+# Enable CORS for cross-origin requests from the static frontend.
+# You can set `CORS_ORIGINS` env var to a comma-separated list of allowed origins
+# e.g. CORS_ORIGINS=https://your-frontend.vercel.app
+CORS(app, resources={r"/*": {"origins": os.environ.get('CORS_ORIGINS', '*').split(',')}})
 
 # ===== Unified response helper =====
 def success_response(data, message="Success"):

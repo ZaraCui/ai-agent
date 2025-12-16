@@ -296,6 +296,25 @@ Backend (Render / Railway / Cloud Run) options:
 - Railway: create a new service, connect the repo, set `PORT` env (default 8000) and start command similar to above.
 - Cloud Run: build and push the Docker image (use provided `Dockerfile`), then deploy the image to Cloud Run and set the container port to `8000`.
 
+Render-specific quick guide (recommended for small production deployments):
+
+1. Create an account and link your GitHub repository in Render.
+2. Create a new **Web Service** → Connect repo → Choose `Travel-Planning-Agent`.
+3. When configuring the service:
+  - Environment: `Docker` (auto-detect) or `Python` (if you prefer using a build command). The included `Dockerfile` works out of the box.
+  - Start Command (if not using Docker): `gunicorn -b 0.0.0.0:8000 app:app`
+  - Port: `8000` (Render will map the service port automatically).
+4. Set environment variables in Render's dashboard:
+  - `OPENAI_API_KEY` (if using OpenAI features)
+  - `FLASK_ENV=production`
+  - Optional `CORS_ORIGINS` — set to your frontend origin (e.g. `https://your-frontend.vercel.app`) to restrict cross-origin access. Use comma separated list for multiple origins.
+5. Deploy: Render will build and start the service. After deploy, obtain the service URL (e.g. `https://travel-agent.onrender.com`).
+6. Configure your frontend `static/config.js` `API_BASE` to point to the Render URL (e.g. `https://travel-agent.onrender.com`) and redeploy the Vercel frontend.
+
+Notes:
+- CORS: `app.py` now includes a `flask-cors` example. By default it allows all origins; set `CORS_ORIGINS` in Render to restrict origins.
+- Logging & monitoring: Render provides basic logs in the dashboard. For heavy usage, consider adding error reporting and request tracing.
+
 Example Render quick steps (using Dockerfile):
 1. Push repo to GitHub.
 2. In Render dashboard, create -> Web Service -> Connect GitHub -> select repo.
@@ -308,6 +327,3 @@ Notes:
 - CORS: if you deploy frontend and backend to different hosts, ensure the backend allows CORS for your frontend origin. Add a simple Flask CORS header or use `flask-cors`.
 - Secrets: keep secret keys only in backend provider (Render/Cloud Run) environment settings; do NOT commit them into `static/config.js`.
 
-If you want,下一步我可以：
-- 为 `app.py` 添加一个小段 CORS 支持示例（`flask-cors`），并在 README 中给出 `requirements.txt` 更新建议；或
-- 直接准备一个 Render 的 `render.yaml` 示例以便一键部署。
