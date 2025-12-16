@@ -420,6 +420,50 @@
             if (mapEl) mapEl.style.display = 'block';
         }
 
+        // Render routes returned by server: routes = [{day: N, coords: [[lat,lng], ...]}, ...]
+        function renderRoutesOnMap(routes) {
+            if (!gmapInitialized) {
+                pendingItineraryForMap = routes;
+                loadGoogleMapsScript();
+                return;
+            }
+            clearMap();
+            const colors = ['#1f78b4', '#33a02c', '#e31a1c', '#ff7f00', '#6a3d9a'];
+            const bounds = new google.maps.LatLngBounds();
+
+            routes.forEach((r, idx) => {
+                const pts = (r.coords || []).map(p => ({ lat: Number(p[0]), lng: Number(p[1]) }));
+                if (!pts.length) return;
+
+                // markers at each point
+                pts.forEach((pos, i) => {
+                    const marker = new google.maps.Marker({
+                        position: pos,
+                        map: gmap,
+                        label: `${r.day || idx+1}-${i+1}`,
+                    });
+                    gmapMarkers.push(marker);
+                    bounds.extend(pos);
+                });
+
+                if (pts.length >= 2) {
+                    const pl = new google.maps.Polyline({
+                        path: pts,
+                        geodesic: true,
+                        strokeColor: colors[idx % colors.length],
+                        strokeOpacity: 0.9,
+                        strokeWeight: 4,
+                    });
+                    pl.setMap(gmap);
+                    gmapPolylines.push(pl);
+                }
+            });
+
+            if (!bounds.isEmpty()) gmap.fitBounds(bounds, 20);
+            const mapEl = document.getElementById('map');
+            if (mapEl) mapEl.style.display = 'block';
+        }
+
         // Form submission handler
         document.getElementById('itinerary-form').addEventListener('submit', async (event) => {
             event.preventDefault();
@@ -505,7 +549,25 @@
                             timelineContainer.innerHTML = itinerary
                                 .map(day => renderDayTimeline(day, start_date))
                                 .join('');
-                            try { renderItineraryOnMap(itinerary); } catch (e) { console.warn('Map render failed', e); }
+                            try {
+                                // Ask backend for route geometry (Directions API) and render it.
+                                const dirResp = await fetch('/api/directions', {
+                                    method: 'POST',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: JSON.stringify({ itinerary: itinerary, mode: 'walking' }),
+                                });
+                                if (dirResp.ok) {
+                                    const dirJson = await dirResp.json();
+                                    if (dirJson.status === 'success' && dirJson.data && dirJson.data.routes) {
+                                        renderRoutesOnMap(dirJson.data.routes);
+                                    } else {
+                                        // fallback to simple drawing
+                                        renderItineraryOnMap(itinerary);
+                                    }
+                                } else {
+                                    renderItineraryOnMap(itinerary);
+                                }
+                            } catch (e) { console.warn('Directions fetch failed, falling back', e); renderItineraryOnMap(itinerary); }
                         } else {
                             timelineContainer.innerHTML = '<p class="text-gray-500">No itinerary data available</p>';
                         }
