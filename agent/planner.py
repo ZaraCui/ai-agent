@@ -128,4 +128,7 @@ def plan_itinerary_soft_constraints(
             best_reasons = candidate_reasons
             current = candidate
 
+    # finalize distances so consumers can show per-day totals
+    finalize_itinerary_distances(best)
+
     return best, best_score, best_reasons

@@ -234,8 +234,9 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Day ${day.day}</h3>
-                        <p class="text-sm text-gray-500 mb-4">${formatDate(dayDate.toISOString().split('T')[0])}</p>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Day ${day.day}</h3>
+                            <p class="text-sm text-gray-500 mb-1">${formatDate(dayDate.toISOString().split('T')[0])}</p>
+                            <p class="text-sm text-gray-500 mb-4">Estimated travel: ${day.travel_minutes ?? 'N/A'} minutes • Distance: ${day.total_distance_km ?? 'N/A'} km</p>
                         <div class="space-y-3">
                             ${spots}
                         </div>
