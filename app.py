@@ -287,6 +287,29 @@ def index():
     google_maps_key = os.environ.get('GOOGLE_MAPS_API_KEY', '')
     return render_template('index.html', google_maps_api_key=google_maps_key)
 
+@app.route('/api/spots/<city>', methods=['GET'])
+def get_spots(city):
+    """
+    API endpoint to get all available spots for a city.
+    Used for populating the spot selection UI.
+    """
+    try:
+        path = f"data/spots_{city}.json"
+        if not os.path.exists(path):
+            return error_response(f"No spot data found for city: {city}", 404, "City not found")
+        
+        with open(path, encoding="utf-8") as f:
+            spots_data = json.load(f)
+        
+        return success_response({
+            "city": city,
+            "spots": spots_data,
+            "total": len(spots_data)
+        }, f"Loaded {len(spots_data)} spots for {city}")
+    
+    except Exception as e:
+        return error_response(str(e), 500, "Failed to load spots")
+
 @app.route('/plan_itinerary', methods=['POST'])
 def plan_itinerary():
     try:
@@ -365,6 +388,20 @@ def plan_itinerary():
         except json.JSONDecodeError as e:
             return error_response(f"Corrupted city data: {str(e)}", 500, "Data loading error")
 
+        # Filter spots if user selected specific ones
+        selected_spots = data.get('selected_spots')
+        if selected_spots and isinstance(selected_spots, list) and len(selected_spots) > 0:
+            # Filter to only include selected spots by name
+            selected_names = set(selected_spots)
+            spots = [s for s in spots if s.name in selected_names]
+            
+            if not spots:
+                return error_response(
+                    "None of the selected spots were found in the city data", 
+                    400, 
+                    "Validation error"
+                )
+        
         # 配置评分标准
         cfg = ScoreConfig(
             max_daily_minutes={

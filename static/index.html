@@ -51,6 +51,7 @@
                         <option value="newyork">New York</option>
                         <option value="london">London</option>
                         <option value="barcelona">Barcelona</option>
+                        <option value="shanghai">Shanghai</option>
                     </select>
                 </div>
 
@@ -62,6 +63,21 @@
                 <div>
                     <label for="days" class="block text-sm font-semibold text-gray-700 mb-2">Days</label>
                     <input type="number" id="days" name="days" min="1" max="14" value="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+
+                <!-- Spots Selector (full width, spans 3 columns) -->
+                <div class="md:col-span-3">
+                    <div class="flex items-center justify-between mb-2">
+                        <label class="block text-sm font-semibold text-gray-700">选择景点 (可选)</label>
+                        <div class="space-x-2">
+                            <button type="button" id="select-all-spots" class="text-xs text-blue-600 hover:text-blue-800">全选</button>
+                            <button type="button" id="deselect-all-spots" class="text-xs text-blue-600 hover:text-blue-800">全不选</button>
+                        </div>
+                    </div>
+                    <div id="spots-container" class="border border-gray-300 rounded-lg p-4 max-h-64 overflow-y-auto bg-gray-50">
+                        <p class="text-sm text-gray-500 italic">请先选择城市以加载景点...</p>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-1">不选择任何景点时，将自动使用该城市的所有景点</p>
                 </div>
 
                 <div class="md:col-span-1">
@@ -168,6 +184,73 @@
             console.log('📊 Progress update:', data);
             updateProgress(data.progress, data.stage, data.message || '');
         });
+
+        // === Spots Selection Feature ===
+        let availableSpots = [];
+
+        // Load spots when city changes
+        document.getElementById('city').addEventListener('change', async (event) => {
+            const city = event.target.value;
+            await loadSpotsForCity(city);
+        });
+
+        // Select/Deselect all buttons
+        document.getElementById('select-all-spots').addEventListener('click', () => {
+            document.querySelectorAll('#spots-container input[type="checkbox"]').forEach(cb => cb.checked = true);
+        });
+
+        document.getElementById('deselect-all-spots').addEventListener('click', () => {
+            document.querySelectorAll('#spots-container input[type="checkbox"]').forEach(cb => cb.checked = false);
+        });
+
+        async function loadSpotsForCity(city) {
+            const container = document.getElementById('spots-container');
+            container.innerHTML = '<p class="text-sm text-gray-500">加载中...</p>';
+            
+            try {
+                const response = await fetch((_API_BASE ? _API_BASE : '') + `/api/spots/${city}`);
+                const data = await response.json();
+                
+                if (data.status === 'success') {
+                    availableSpots = data.data.spots;
+                    renderSpotsCheckboxes(availableSpots);
+                } else {
+                    container.innerHTML = '<p class="text-sm text-red-500">加载失败: ' + data.reason + '</p>';
+                }
+            } catch (error) {
+                container.innerHTML = '<p class="text-sm text-red-500">加载失败: ' + error.message + '</p>';
+            }
+        }
+
+        function renderSpotsCheckboxes(spots) {
+            const container = document.getElementById('spots-container');
+            if (spots.length === 0) {
+                container.innerHTML = '<p class="text-sm text-gray-500">该城市暂无景点数据</p>';
+                return;
+            }
+
+            container.innerHTML = spots.map((spot, index) => `
+                <div class="flex items-start space-x-2 py-2 border-b border-gray-200 last:border-b-0">
+                    <input type="checkbox" 
+                           id="spot-${index}" 
+                           value="${spot.name}" 
+                           class="mt-1 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                    <label for="spot-${index}" class="flex-1 text-sm cursor-pointer">
+                        <span class="font-medium text-gray-800">${spot.name}</span>
+                        <span class="text-gray-500"> (${spot.category})</span>
+                        <span class="text-xs text-gray-400 block">⭐ ${spot.rating || 'N/A'} • ${spot.duration_minutes || '?'} mins</span>
+                    </label>
+                </div>
+            `).join('');
+        }
+
+        function getSelectedSpots() {
+            const checkboxes = document.querySelectorAll('#spots-container input[type="checkbox"]:checked');
+            return Array.from(checkboxes).map(cb => cb.value);
+        }
+
+        // === End Spots Selection Feature ===
+
 
         // Progress UI functions
         function showProgress() {
@@ -301,6 +384,10 @@
             const weight_time = Number(document.getElementById('weight_time').value) || 0.5;
             const weight_distance = Number(document.getElementById('weight_distance').value) || 0.2;
             const weight_comfort = Number(document.getElementById('weight_comfort').value) || 0.3;
+            
+            // Get selected spots (if any)
+            const selectedSpots = getSelectedSpots();
+            
             const btnText = document.getElementById('btn-text');
             const spinner = document.getElementById('loading-spinner');
             btnText.textContent = 'Comparing...'; spinner.style.display = 'inline-block';
@@ -317,6 +404,7 @@
                         start_date: start_date, 
                         days: days, 
                         session_id: currentSessionId,
+                        selected_spots: selectedSpots.length > 0 ? selectedSpots : null,
                         weights: { time: weight_time, distance: weight_distance, comfort: weight_comfort } 
                     }),
                 });
