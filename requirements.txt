@@ -10,3 +10,8 @@ python-dotenv==1.0.0
 
 # CORS support for serving API to separate frontend origins
 Flask-Cors>=3.0.10
+
+# WebSocket support for real-time progress updates
+flask-socketio>=5.3.0
+python-socketio>=5.10.0
+eventlet>=0.33.0

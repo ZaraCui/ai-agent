@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+from flask_socketio import SocketIO, emit
 from agent.planner import plan_itinerary_soft_constraints
 from agent.geometry import TransportMode
 from agent.geometry import travel_cost_minutes, distance as geo_distance
@@ -17,11 +18,22 @@ from flask_cors import CORS
 load_dotenv()
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production')
 
 # Enable CORS for cross-origin requests from the static frontend.
 # You can set `CORS_ORIGINS` env var to a comma-separated list of allowed origins
 # e.g. CORS_ORIGINS=https://your-frontend.vercel.app
-CORS(app, resources={r"/*": {"origins": os.environ.get('CORS_ORIGINS', '*').split(',')}})
+allowed_origins = os.environ.get('CORS_ORIGINS', '*').split(',')
+CORS(app, resources={r"/*": {"origins": allowed_origins}})
+
+# Initialize SocketIO with CORS support
+socketio = SocketIO(
+    app, 
+    cors_allowed_origins=allowed_origins,
+    async_mode='eventlet',
+    logger=True,
+    engineio_logger=True
+)
 
 # ===== Unified response helper =====
 def success_response(data, message="Success"):
@@ -42,10 +54,13 @@ def error_response(reason, status_code=400, message="Error"):
         "reason": reason
     }), status_code
 
-def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days: int = 3, weights: dict = None) -> Dict:
+def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days: int = 3, weights: dict = None, session_id: str = None) -> Dict:
     """
     Calculate itineraries for all transport modes and return comparison data.
     Returns structured data with all modes and recommendation.
+    
+    Args:
+        session_id: Optional session ID for sending progress updates via WebSocket
     """
     modes = [TransportMode.WALK, TransportMode.TRANSIT, TransportMode.TAXI]
     results = {}
@@ -53,8 +68,21 @@ def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days
     best_mode = None
     best_score = float('inf')
     best_data = None
+    
+    total_modes = len(modes)
 
-    for mode in modes:
+    for idx, mode in enumerate(modes):
+        # Send progress update
+        if session_id:
+            progress = int((idx / total_modes) * 100)
+            socketio.emit('planning_progress', {
+                'progress': progress,
+                'stage': f'正在计算 {mode.value.upper()} 模式...',
+                'current_mode': mode.value,
+                'total_modes': total_modes,
+                'completed_modes': idx
+            }, room=session_id)
+        
         try:
             itinerary, score, reasons = plan_itinerary_soft_constraints(
                 city=city,
@@ -269,6 +297,7 @@ def plan_itinerary():
 
         city = data.get('city')
         start_date = data.get('start_date')
+        session_id = data.get('session_id')  # Get session ID from request
 
         # 验证必需参数
         if not city:
@@ -357,16 +386,37 @@ def plan_itinerary():
         except Exception as e:
             return error_response(str(e), 400, 'Invalid days value')
 
+        # Send initial progress
+        if session_id:
+            socketio.emit('planning_progress', {
+                'progress': 5,
+                'stage': '开始规划行程...',
+                'message': f'正在为 {city} 加载景点数据'
+            }, room=session_id)
+
         # read optional utility weights
         weights = data.get('weights', None)
         try:
-            comparison_data = compare_transport_modes(city, spots, cfg, days=days_int, weights=weights)
+            comparison_data = compare_transport_modes(
+                city, spots, cfg, 
+                days=days_int, 
+                weights=weights,
+                session_id=session_id
+            )
         except Exception as e:
             return error_response(
                 f"Failed to compare transport modes: {str(e)}",
                 500,
                 "Planning error"
             )
+        
+        # Send progress for weather calculation
+        if session_id:
+            socketio.emit('planning_progress', {
+                'progress': 90,
+                'stage': '获取天气信息...',
+                'message': '正在为您准备最终建议'
+            }, room=session_id)
 
         # 计算推荐模式的天气建议
         weather_msg = None
@@ -401,6 +451,14 @@ def plan_itinerary():
                 # 天气建议失败不应该导致整个请求失败，但要记录原因
                 weather_msg = None
                 app.logger.warning(f"Weather advice generation failed: {str(e)}")
+
+        # Send completion progress
+        if session_id:
+            socketio.emit('planning_progress', {
+                'progress': 100,
+                'stage': '完成！',
+                'message': '行程规划已生成'
+            }, room=session_id)
 
         # 返回比较结果
         response_data = {
@@ -551,6 +609,39 @@ def directions_proxy():
     except Exception as e:
         app.logger.error(f"Directions proxy failed: {traceback.format_exc()}")
         return error_response(f"Directions proxy failed: {str(e)}", 500, 'Directions error')
+
+# ===== WebSocket event handlers =====
+@socketio.on('connect')
+def handle_connect():
+    """Handle client connection"""
+    print(f'Client connected: {request.sid}')
+
+@socketio.on('disconnect')
+def handle_disconnect():
+    """Handle client disconnection"""
+    print(f'Client disconnected: {request.sid}')
+
+@socketio.on('join_session')
+def handle_join_session(data):
+    """Allow client to join a specific session room"""
+    session_id = data.get('session_id')
+    if session_id:
+        from flask_socketio import join_room
+        join_room(session_id)
+        emit('session_joined', {'session_id': session_id})
+        print(f'Client {request.sid} joined session {session_id}')
+
+# ===== Application entry point =====
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    # Use socketio.run instead of app.run
+    socketio.run(
+        app, 
+        host='0.0.0.0', 
+        port=port, 
+        debug=os.environ.get('FLASK_DEBUG', 'False') == 'True',
+        allow_unsafe_werkzeug=True
+    )
 
 
 if __name__ == "__main__":
