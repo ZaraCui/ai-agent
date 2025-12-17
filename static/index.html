@@ -119,8 +119,8 @@
         // Use API_BASE from config.js if provided, otherwise default to same origin.
         const _API_BASE = (typeof API_BASE !== 'undefined' && API_BASE) ? API_BASE.replace(/\/$/, '') : '';
         
-        // Google Maps API key from config.js
-        let GOOGLE_MAPS_API_KEY = (typeof window !== 'undefined' && window.GOOGLE_MAPS_API_KEY) ? window.GOOGLE_MAPS_API_KEY : '';
+        // Google Maps API key from config.js (set by window.GOOGLE_MAPS_API_KEY)
+        let GOOGLE_MAPS_API_KEY = window.GOOGLE_MAPS_API_KEY || '';
 
         // Utility functions (same as template)
         const formatDate = (dateString) => {

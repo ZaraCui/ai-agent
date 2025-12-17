@@ -2,16 +2,22 @@
 
 ## 🔧 必须完成的配置
 
-### 1. 配置 Google Maps API Key
+### 1. 在 Vercel 设置环境变量
 
-**文件**: `static/config.js`
+**重要**: Vercel 会在构建时自动生成 `static/config.js`，不需要手动编辑。
 
-```javascript
-const API_BASE = 'https://travel-planning-agent.onrender.com';
-window.GOOGLE_MAPS_API_KEY = 'AIzaSy...';  // ⚠️ 替换为你的真实密钥
-```
+在 Vercel 项目设置中添加环境变量：
 
-**获取 API Key**:
+1. 访问你的 Vercel 项目仪表板
+2. 进入 **Settings** > **Environment Variables**
+3. 添加以下变量：
+
+| 变量名 | 值 | 说明 |
+|--------|-----|------|
+| `API_BASE` | `https://travel-planning-agent.onrender.com` | 后端 API 地址 |
+| `GOOGLE_MAPS_API_KEY` | `AIza...` | 你的 Google Maps API 密钥 |
+
+**获取 Google Maps API Key**:
 1. 访问: https://console.cloud.google.com/google/maps-apis
 2. 创建/选择项目
 3. 启用 "Maps JavaScript API"
@@ -31,40 +37,39 @@ window.GOOGLE_MAPS_API_KEY = 'AIzaSy...';  // ⚠️ 替换为你的真实密钥
 确认这些文件存在且配置正确:
 
 - ✅ `static/index.html` - 已包含 Google Maps 代码
-- ✅ `static/config.js` - **需要你手动配置 API key**
+- ✅ `build-config.js` - 构建时生成 config.js
 - ✅ `vercel.json` - 部署配置
-- ✅ `.gitignore` - 已添加 `static/config.js`
 
 ## 🚀 部署步骤
 
 ```bash
-# 1. 创建 config.js（从示例复制）
-cp static/config.example.js static/config.js
-
-# 2. 编辑 config.js 添加你的 API key
-nano static/config.js
-
-# 3. 提交更改（config.js 会被 .gitignore 忽略）
+# 1. 提交代码到 GitHub
 git add .
-git commit -m "Add Google Maps integration to static frontend"
-git push
+git commit -m "Add Google Maps integration"
+git push origin main
 
-# 4. Vercel 自动部署（如果已连接 GitHub）
-# 或手动：vercel --prod
+# 2. 在 Vercel 项目中设置环境变量（见上方）
+
+# 3. Vercel 会自动重新部署
+# 或者手动触发: Deployments > Redeploy
 ```
+
+**不需要**手动创建或编辑 `static/config.js`，构建脚本会自动生成！
 
 ## ⚠️ 重要提示
 
 1. **不要提交真实的 API key 到 GitHub**
    - `static/config.js` 已在 `.gitignore` 中
    - 只提交 `config.example.js` 作为模板
+使用 Vercel 环境变量**
+   - 不要在代码中硬编码 API key
+   - 使用 Vercel 的环境变量功能
+   - 构建脚本会自动读取并生成配置文件
 
 2. **在 Vercel 上配置**
-   - 方法 1: 部署后通过 Vercel 仪表板直接编辑文件
-   - 方法 2: 在 Vercel 项目设置中使用环境变量（需修改代码读取方式）
-
-3. **测试地图功能**
-   - 提交表单后应看到地图显示
+   - Settings > Environment Variables
+   - 添加 `GOOGLE_MAPS_API_KEY` 和 `API_BASE`
+   - 保存后重新部署
    - 检查浏览器控制台无错误
    - 验证标记和路线正确显示
 

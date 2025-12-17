@@ -13,29 +13,40 @@
 3. 启用 **Maps JavaScript API**
 4. 创建 API 密钥（建议：限制密钥使用范围到你的域名）
 
-### 2. 配置 static/config.js
+### 2. 在 Vercel 中配置环境变量
 
-编辑 `/workspaces/ai-agent/static/config.js` 文件：
+⚠️ **重要**: 不要在代码中硬编码 API key，使用 Vercel 的环境变量功能。
 
-```javascript
-const API_BASE = 'https://travel-planning-agent.onrender.com';  // 你的后端 API 地址
+1. 登录 Vercel 并进入你的项目
+2. 进入 **Settings** > **Environment Variables**
+3. 添加以下环境变量：
 
-// 替换为你的 Google Maps API Key
-window.GOOGLE_MAPS_API_KEY = 'AIzaSy...你的密钥';  // ⚠️ 重要：替换这个值！
+```
+变量名: API_BASE
+值: https://travel-planning-agent.onrender.com
+环境: Production, Preview, Development
+
+变量名: GOOGLE_MAPS_API_KEY  
+值: AIza...你的真实密钥
+环境: Production, Preview, Development
 ```
 
 ### 3. 部署到 Vercel
 
 ```bash
-# 确保 static/config.js 已正确配置
-git add static/config.js
-git commit -m "Configure Google Maps API key"
-git push
+# 提交代码
+git add .
+git commit -m "Add Google Maps integration"
+git push origin main
 
 # Vercel 会自动部署（如果已连接 GitHub）
-# 或手动部署：
-vercel --prod
+# 构建过程会读取环境变量并生成 static/config.js
 ```
+
+构建脚本 (`build-config.js`) 会在部署时自动：
+- 读取环境变量 `API_BASE` 和 `GOOGLE_MAPS_API_KEY`
+- 生成 `static/config.js` 文件
+- 注入到静态网站中
 
 ### 4. 验证部署
 
@@ -66,40 +77,51 @@ vercel --prod
 
 - **本地**: Flask 使用 `templates/index.html`
 - **Vercel**: 使用 `static/index.html`（现已包含地图代码）
-- **解决**: 确保 `static/config.js` 配置了正确的 API key
+- **解决**: 在 Vercel 项目设置中配置环境变量 `GOOGLE_MAPS_API_KEY`
+
+### Q: 构建脚本如何工作？
+
+`build-config.js` 在构建时：
+1. 读取环境变量 `API_BASE` 和 `GOOGLE_MAPS_API_KEY`
+2. 生成 `static/config.js`：
+   ```javascript
+   const API_BASE = 'https://...';
+   window.GOOGLE_MAPS_API_KEY = 'AIza...';
+   ```
+3. 静态网站加载此配置文件
 
 ### Q: 如何保护我的 API Key？
 
 Google Maps API key 在前端使用时无法完全隐藏，建议：
 
-1. **限制密钥使用**
+1. **使用 Vercel 环境变量**
+   - 不要在代码中硬编码 API key
+   - 使用 Vercel 的环境变量功能
+   - 不会暴露在 GitHub 仓库中
+
+2. **限制密钥使用**
    - 在 Google Cloud Console 中限制密钥只能从你的域名使用
    - 添加 HTTP referrer 限制（例如：`*.vercel.app/*`）
 
-2. **设置使用配额**
+3. **设置使用配额**
    - 设置每日使用配额防止滥用
    - 启用计费提醒
 
-3. **监控使用情况**
+4. **监控使用情况**
    - 定期检查 API 使用情况
    - 如发现异常立即重新生成密钥
 
 ## 文件说明
 
 - `static/index.html` - 静态前端页面（Vercel 部署）
-- `static/config.js` - 运行时配置（**需手动创建和配置**）
-- `static/config.example.js` - 配置模板
+- `build-config.js` - 构建脚本，生成 config.js
+- `static/config.example.js` - 配置模板（仅供参考）
 - `templates/index.html` - Flask 模板（本地开发）
 - `vercel.json` - Vercel 部署配置
+- `package.json` - 定义构建命令
 
 ## 安全建议
 
-⚠️ **不要将包含真实 API key 的 `static/config.js` 提交到公开仓库！**
+⚠️ **使用 Vercel 环境变量，不要在代码中硬编码 API key！**
 
-建议将 `static/config.js` 添加到 `.gitignore`：
-
-```bash
-echo "static/config.js" >> .gitignore
-```
-
-然后在 Vercel 上直接编辑或通过环境变量注入。
+`static/config.js` 会在构建时自动生成，不需要提交到仓库。`.gitignore` 已配置忽略此文件。

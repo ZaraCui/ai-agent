@@ -7,6 +7,14 @@ the agent explores multiple candidate itineraries, evaluates them under differen
 
 ---
 
+## 🚀 快速开始
+
+- **本地运行**: 见下方 [Installation](#-installation) 部分
+- **部署到 Vercel**: 📖 [快速设置指南](VERCEL_SETUP.md) ← **从这里开始！**
+- **完整部署文档**: [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md)
+
+---
+
 ## ✨ Key Features
 
 - **World Modeling**
