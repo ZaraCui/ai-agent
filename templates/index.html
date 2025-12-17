@@ -179,6 +179,10 @@
             console.log('✅ Joined session:', data.session_id);
         });
 
+        socket.on('connect_error', (error) => {
+            console.error('❌ WebSocket connection error:', error);
+        });
+
         // Progress update handler
         socket.on('planning_progress', (data) => {
             console.log('📊 Progress update:', data);
@@ -208,8 +212,11 @@
             container.innerHTML = '<p class="text-sm text-gray-500">加载中...</p>';
             
             try {
-                const response = await fetch((_API_BASE ? _API_BASE : '') + `/api/spots/${city}`);
+                const apiUrl = window.location.origin + `/api/spots/${city}`;
+                console.log('Loading spots from:', apiUrl);
+                const response = await fetch(apiUrl);
                 const data = await response.json();
+                console.log('Spots loaded:', data);
                 
                 if (data.status === 'success') {
                     availableSpots = data.data.spots;
@@ -478,10 +485,12 @@
         };
 
         function loadGoogleMapsScript() {
-            if (!GOOGLE_MAPS_API_KEY || GOOGLE_MAPS_API_KEY === 'YOUR_GOOGLE_MAPS_API_KEY') {
-                console.warn('Google Maps API key not configured in static/config.js');
+            if (!GOOGLE_MAPS_API_KEY || GOOGLE_MAPS_API_KEY === '') {
+                console.error('Google Maps API key not configured!');
+                console.log('Current GOOGLE_MAPS_API_KEY:', GOOGLE_MAPS_API_KEY);
                 return;
             }
+            console.log('Loading Google Maps with key:', GOOGLE_MAPS_API_KEY.substring(0, 10) + '...');
             if (document.getElementById('google-maps-script')) return;
             const s = document.createElement('script');
             s.id = 'google-maps-script';
