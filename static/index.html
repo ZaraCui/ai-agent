@@ -101,6 +101,9 @@
                 <p id="weather-text" class="text-gray-700 leading-relaxed"></p>
             </div>
 
+            <!-- Map (Google Maps) -->
+            <div id="map" class="bg-white rounded-lg shadow-lg p-0 mb-8" style="height: 480px; display: none;"></div>
+
             <!-- Recommended Itinerary -->
             <div id="recommended-section" class="bg-white rounded-lg shadow-lg p-8 mb-8" style="display: none;">
                 <h2 class="text-2xl font-bold text-gray-800 mb-8">⭐ Recommended Itinerary (<span id="recommended-mode-name"></span>)</h2>
@@ -115,6 +118,9 @@
     <script>
         // Use API_BASE from config.js if provided, otherwise default to same origin.
         const _API_BASE = (typeof API_BASE !== 'undefined' && API_BASE) ? API_BASE.replace(/\/$/, '') : '';
+        
+        // Google Maps API key from config.js
+        let GOOGLE_MAPS_API_KEY = (typeof window !== 'undefined' && window.GOOGLE_MAPS_API_KEY) ? window.GOOGLE_MAPS_API_KEY : '';
 
         // Utility functions (same as template)
         const formatDate = (dateString) => {
@@ -251,6 +257,8 @@
                         const itinerary = comparison.recommended_data.itinerary;
                         if (itinerary && Array.isArray(itinerary) && itinerary.length > 0) {
                             timelineContainer.innerHTML = itinerary.map(day => renderDayTimeline(day, start_date)).join('');
+                            // Render map
+                            renderItineraryOnMap(itinerary);
                         } else { timelineContainer.innerHTML = '<p class="text-gray-500">No itinerary data available</p>'; }
                         recommendedSection.style.display = 'block';
                     } else { recommendedSection.style.display = 'none'; }
@@ -269,6 +277,120 @@
 
         // Set today as default date
         document.getElementById('start_date').valueAsDate = new Date();
+
+        // --- Google Maps integration ---
+        let gmap = null;
+        let gmapInitialized = false;
+        let pendingItineraryForMap = null;
+
+        window.initMap = function() {
+            gmapInitialized = true;
+            gmap = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 0, lng: 0 },
+                zoom: 2,
+            });
+
+            if (pendingItineraryForMap) {
+                renderItineraryOnMap(pendingItineraryForMap);
+                pendingItineraryForMap = null;
+            }
+        };
+
+        function loadGoogleMapsScript() {
+            if (!GOOGLE_MAPS_API_KEY || GOOGLE_MAPS_API_KEY === 'YOUR_GOOGLE_MAPS_API_KEY') {
+                console.warn('Google Maps API key not configured in static/config.js');
+                return;
+            }
+            if (document.getElementById('google-maps-script')) return;
+            const s = document.createElement('script');
+            s.id = 'google-maps-script';
+            s.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&callback=initMap`;
+            s.async = true;
+            s.defer = true;
+            document.head.appendChild(s);
+        }
+
+        function renderItineraryOnMap(itinerary) {
+            if (!gmapInitialized) {
+                pendingItineraryForMap = itinerary;
+                loadGoogleMapsScript();
+                return;
+            }
+            const bounds = new google.maps.LatLngBounds();
+            let markerIndex = 1;
+
+            itinerary.forEach(day => {
+                if (day.spots && Array.isArray(day.spots)) {
+                    const coords = day.spots.map(spot => ({ lat: spot.lat, lng: spot.lng }));
+                    
+                    day.spots.forEach((spot, i) => {
+                        const marker = new google.maps.Marker({
+                            position: { lat: spot.lat, lng: spot.lng },
+                            map: gmap,
+                            title: spot.name,
+                            label: String(markerIndex++),
+                        });
+                        bounds.extend(marker.getPosition());
+                    });
+
+                    if (coords.length > 1) {
+                        const pl = new google.maps.Polyline({
+                            path: coords,
+                            geodesic: true,
+                            strokeColor: '#3b82f6',
+                            strokeOpacity: 0.7,
+                            strokeWeight: 3,
+                            map: gmap,
+                        });
+                    }
+                }
+            });
+
+            gmap.fitBounds(bounds);
+            document.getElementById('map').style.display = 'block';
+        }
+
+        // Alternative function to render a single mode's itinerary
+        function renderSingleModeOnMap(modeData) {
+            if (!modeData || !modeData.itinerary) return;
+            if (!gmapInitialized) {
+                pendingItineraryForMap = modeData.itinerary;
+                loadGoogleMapsScript();
+                return;
+            }
+            const bounds = new google.maps.LatLngBounds();
+            let markerIndex = 1;
+
+            modeData.itinerary.forEach(day => {
+                if (day.spots && Array.isArray(day.spots)) {
+                    const coords = day.spots.map(spot => ({ lat: spot.lat, lng: spot.lng }));
+                    
+                    day.spots.forEach((spot, i) => {
+                        const marker = new google.maps.Marker({
+                            position: { lat: spot.lat, lng: spot.lng },
+                            map: gmap,
+                            title: spot.name,
+                            label: String(markerIndex++),
+                        });
+                        bounds.extend(marker.getPosition());
+                    });
+
+                    if (coords.length > 1) {
+                        const pl = new google.maps.Polyline({
+                            path: coords,
+                            geodesic: true,
+                            strokeColor: '#3b82f6',
+                            strokeOpacity: 0.7,
+                            strokeWeight: 3,
+                            map: gmap,
+                        });
+                    }
+                }
+            });
+
+            gmap.fitBounds(bounds);
+            document.getElementById('map').style.display = 'block';
+        }
     </script>
 </body>
 </html>
