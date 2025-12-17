@@ -279,12 +279,7 @@
                     <div class="relative">
                         <select id="city" name="city"
                             class="w-full pl-4 pr-10 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-shadow appearance-none">
-                            <option value="paris">Paris, France</option>
-                            <option value="tokyo">Tokyo, Japan</option>
-                            <option value="newyork">New York, USA</option>
-                            <option value="london">London, UK</option>
-                            <option value="barcelona">Barcelona, Spain</option>
-                            <option value="shanghai">Shanghai, China</option>
+                            <option value="" disabled selected>Loading cities...</option>
                         </select>
                         <div
                             class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">
@@ -516,12 +511,32 @@
         });
 
         // === Persistence & Initialization ===
-        document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadCities();
             loadPreferences();
             // Trigger spot loading for initial or restored city
             const city = document.getElementById('city').value;
             if (city) loadSpotsForCity(city);
         });
+
+        async function loadCities() {
+            const citySelect = document.getElementById('city');
+            try {
+                const response = await fetch((_API_BASE ? _API_BASE : '') + '/api/cities');
+                const data = await response.json();
+
+                if (data.status === 'success' && data.data.length > 0) {
+                    citySelect.innerHTML = data.data.map(city =>
+                        `<option value="${city.value}">${city.label}</option>`
+                    ).join('');
+                } else {
+                    citySelect.innerHTML = '<option value="" disabled>No cities available</option>';
+                }
+            } catch (error) {
+                console.error("Failed to load cities:", error);
+                citySelect.innerHTML = '<option value="" disabled>Error loading cities</option>';
+            }
+        }
 
         function savePreferences() {
             const prefs = {

@@ -292,6 +292,31 @@ def serve_static(filename):
     """Serve static files (especially config.js)"""
     return send_from_directory('static', filename)
 
+@app.route('/api/cities', methods=['GET'])
+def get_cities():
+    """
+    API endpoint to get a list of available cities based on data files.
+    """
+    try:
+        data_dir = 'data'
+        cities = []
+        if os.path.exists(data_dir):
+            for filename in os.listdir(data_dir):
+                if filename.startswith('spots_') and filename.endswith('.json'):
+                    # filename format: spots_cityname.json
+                    city_key = filename[6:-5]
+                    # Format display name: "newyork" -> "New York"
+                    display_name = city_key.title()
+                    # Improve specific cases if needed, but title case is a good start
+                    cities.append({"value": city_key, "label": display_name})
+        
+        # Sort cities alphabetically
+        cities.sort(key=lambda x: x['label'])
+        
+        return success_response(cities, f"Found {len(cities)} cities")
+    except Exception as e:
+        return error_response(str(e), 500, "Failed to list cities")
+
 @app.route('/api/spots/<city>', methods=['GET'])
 def get_spots(city):
     """
@@ -406,6 +431,16 @@ def plan_itinerary():
                     400, 
                     "Validation error"
                 )
+        else:
+            # No spots selected - intelligent filtering for large datasets
+            # If there are too many spots, the itinerary planner might timeout or struggle.
+            # We select top 20 spots based on rating (and maybe variety later)
+            if len(spots) > 20:
+                # Sort by rating descending
+                # Ensure rating is a float
+                spots.sort(key=lambda s: float(s.rating) if s.rating is not None else 0.0, reverse=True)
+                spots = spots[:20]
+                app.logger.info(f"Auto-selected top 20 spots from {len(raw)} available for {city}")
         
         # 配置评分标准
         cfg = ScoreConfig(
