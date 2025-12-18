@@ -1,0 +1,3143 @@
+[
+  {
+    "name": "\"万人坑\"遗址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0374389,
+    "lon": 118.7372461,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "1865创意园区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0092021,
+    "lon": 118.7830333,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "City center",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0358955,
+    "lon": 118.7792906,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "Confucius temple",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0225096,
+    "lon": 118.7837802,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "Dongling Tomb",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0588441,
+    "lon": 118.8370702,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "Dr. Sun Yat-sen Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0585289,
+    "lon": 118.8500007,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "NIU BEER World Craft Beer Museum (Jianye Wuyue Filiale)",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0389079,
+    "lon": 118.7321906,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "SPA池",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1660246,
+    "lon": 118.9968306,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "Sifang Art Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1157324,
+    "lon": 118.6392404,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "Sun Quan memorial",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0522619,
+    "lon": 118.8345723,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "Temple",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0964489,
+    "lon": 118.7405438,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "U-SHIP",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1664151,
+    "lon": 118.9921461,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "VIP休息区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1662131,
+    "lon": 118.9955458,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "X驿站",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0746656,
+    "lon": 118.997485,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "plum blossom avenue",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0443727,
+    "lon": 118.832552,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "plum blossom avenue, park, whatever",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0446697,
+    "lon": 118.8325502,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "stone village",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.816996,
+    "lon": 118.7969938,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "xiangyulubei",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7761227,
+    "lon": 118.8151232,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "zhengfenglou",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8095838,
+    "lon": 118.8127216,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "万仞宫墙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0352314,
+    "lon": 118.7691131,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "万福寺遗址（名僧塔林）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0686992,
+    "lon": 118.8510862,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "上新河地区遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0103024,
+    "lon": 118.7005682,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "世纪之塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9965927,
+    "lon": 118.789491,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "世纪碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0504905,
+    "lon": 118.7766609,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "东庐山观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6271946,
+    "lon": 119.116272,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "东方娃娃城（沈氏大厦）",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9765007,
+    "lon": 118.7573876,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "东牌坊",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0237819,
+    "lon": 118.7868403,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "东郊丛葬地纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0493714,
+    "lon": 118.8621309,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "中华门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0145203,
+    "lon": 118.7764416,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "中南玄武湖乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0718172,
+    "lon": 118.7943274,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "中国猫科馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0951617,
+    "lon": 118.7999231,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "中山书院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0609172,
+    "lon": 118.8531582,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "中山码头遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0945176,
+    "lon": 118.7301565,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "中山陵音乐台",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0573152,
+    "lon": 118.8502518,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "乐泉广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1667024,
+    "lon": 118.9919333,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "九宝斋",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0351227,
+    "lon": 118.7697105,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "了凡问道",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1568848,
+    "lon": 118.9592866,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "二泉展览馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0040938,
+    "lon": 118.7765413,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "五台山丛葬地纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0504266,
+    "lon": 118.7676963,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "井亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0682101,
+    "lon": 118.8546715,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "亚马逊漂流",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1670338,
+    "lon": 118.996616,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "仁寿里古建筑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0382669,
+    "lon": 118.7941457,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "仙鹤门遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0926977,
+    "lon": 118.8944664,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "伍子胥塑像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3117896,
+    "lon": 118.9687164,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "伍板桥",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.013735,
+    "lon": 118.7821571,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "佘村名清代古建筑群",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9850757,
+    "lon": 118.9236411,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "佛塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0629992,
+    "lon": 118.8016452,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "侵华日军南京大屠杀遇难同胞纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0382196,
+    "lon": 118.7352982,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "侵华日军南京大屠杀遇难同胞纪念馆史料陈列厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0374533,
+    "lon": 118.7402234,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "侵华日军轰炸溧水事件遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6510061,
+    "lon": 119.0196256,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "侵华日军骑兵训练基地司令部旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9753122,
+    "lon": 118.8113313,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "傅抱石纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.057191,
+    "lon": 118.7634758,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "儿童乐园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0946887,
+    "lon": 118.8009627,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "光海纪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1666161,
+    "lon": 118.9931533,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "六合同春",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.3329876,
+    "lon": 118.8284588,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "六合文庙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.3464705,
+    "lon": 118.8284446,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "六朝博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0448802,
+    "lon": 118.7940556,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "冥思厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0373546,
+    "lon": 118.7366372,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "凤凰山瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0631053,
+    "lon": 118.6177869,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "凤凰阁",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0635735,
+    "lon": 118.6172279,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "加勒比海滩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1659837,
+    "lon": 118.9961466,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "加勒比海滩演艺秀",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1654831,
+    "lon": 118.9962848,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "北极阁附近遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0604734,
+    "lon": 118.7856681,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "十月村毛泽东塑像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1380728,
+    "lon": 118.9030251,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "千佛岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1538504,
+    "lon": 118.9550305,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "半山园水闸",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0485788,
+    "lon": 118.8250332,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "华严庵",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0350185,
+    "lon": 118.7581267,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "华昌龙之谷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1373907,
+    "lon": 118.6754853,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "南京云锦博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.038434,
+    "lon": 118.7395705,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0429527,
+    "lon": 118.8193491,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京博物院南农大分院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.038043,
+    "lon": 118.8382292,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京古生物博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.061572,
+    "lon": 118.7901638,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0737519,
+    "lon": 119.0033215,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "南京地质博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0467506,
+    "lon": 118.8021213,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京城墙博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0145974,
+    "lon": 118.7778184,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京大报恩寺遗址博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0112465,
+    "lon": 118.7782558,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京市不动产档案馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9905028,
+    "lon": 118.8075778,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京市博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0375693,
+    "lon": 118.770089,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京市雨花石博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0027694,
+    "lon": 118.7765098,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京明故宫遗址公园",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0420208,
+    "lon": 118.8126248,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京杨柳湖风景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8548541,
+    "lon": 118.9260485,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "南京欢乐谷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1657511,
+    "lon": 118.9921224,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "南京民间抗日战争博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9753693,
+    "lon": 118.7579257,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京玛雅海滩水公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1664484,
+    "lon": 118.996443,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "南京生态文明教育馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9957923,
+    "lon": 118.7805379,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京眼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9970669,
+    "lon": 118.6978826,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "南京紫金山昆虫博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0542957,
+    "lon": 118.8389784,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京航空烈士公墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.091438,
+    "lon": 118.8430761,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "南京金箔博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.2081896,
+    "lon": 119.0738019,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京雨花石博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9989398,
+    "lon": 118.7788207,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南京雨花茶博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9994781,
+    "lon": 118.7728672,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南大殿",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0419848,
+    "lon": 118.8126089,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "南通园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0775975,
+    "lon": 119.0053976,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "博爱坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0587677,
+    "lon": 118.8486466,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.3317688,
+    "lon": 118.8311025,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "卞壸墓碣",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0362944,
+    "lon": 118.7689934,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "双龙过山车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1658112,
+    "lon": 118.9970773,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "吴健雄纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0575528,
+    "lon": 118.78823,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "售票中心",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0355025,
+    "lon": 118.7697347,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "回峰山烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.5470488,
+    "lon": 119.16926,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "园博园主展馆",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0712064,
+    "lon": 118.9969003,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "固城遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3124628,
+    "lon": 118.9783697,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "国歌",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0008611,
+    "lon": 118.7748708,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "国立中央大学旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0577336,
+    "lon": 118.7891402,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "国立美术陈列馆旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0461994,
+    "lon": 118.7884624,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "国际歌",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0016335,
+    "lon": 118.7746764,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "圆梦之桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7984003,
+    "lon": 118.7089331,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "地质科普馆",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0810383,
+    "lon": 119.0102309,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "坏蛋小飞车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1663652,
+    "lon": 118.9904469,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "城堡奇遇",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8009461,
+    "lon": 118.7120795,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "基地",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1200192,
+    "lon": 118.5761231,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "复仇之光",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1646101,
+    "lon": 118.9894786,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "多肉植物",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8362859,
+    "lon": 118.8728767,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "大型动物表演馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0918935,
+    "lon": 118.7988227,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "大成门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0361378,
+    "lon": 118.769738,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "大报恩寺塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0109744,
+    "lon": 118.7786457,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "大摆锤",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1662267,
+    "lon": 118.99259,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "大胜关大桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9700523,
+    "lon": 118.6557009,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "大金山国防园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6940279,
+    "lon": 119.1155727,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "天地双雄",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1646963,
+    "lon": 118.9901814,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "天生桥景区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6465998,
+    "lon": 118.9816488,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "太平门",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0600263,
+    "lon": 118.8078746,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "夫子庙",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0248961,
+    "lon": 118.7834392,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "如來堂",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1537847,
+    "lon": 118.954451,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "姚南村明墓石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9406481,
+    "lon": 118.678565,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "媒妁之言",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7973434,
+    "lon": 118.7008736,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "孔雀开屏",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.2540643,
+    "lon": 118.8925536,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "孙中山纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0623638,
+    "lon": 118.8555941,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "孙中山观江亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0968588,
+    "lon": 118.7431475,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "孝经鼎",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0578711,
+    "lon": 118.8487465,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "完美风景",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.165264,
+    "lon": 118.9919946,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "实景剧场《金陵宝藏》",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1652072,
+    "lon": 118.9926785,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "宿迁园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0726564,
+    "lon": 119.0028977,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "寓思亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0950989,
+    "lon": 118.7421289,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "尖叫大水环",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1677547,
+    "lon": 118.9965047,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "常州园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0742838,
+    "lon": 119.0018249,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "幽居庵",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1579559,
+    "lon": 118.9584868,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "张仲景雕塑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1056419,
+    "lon": 118.94013,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "彩虹赛道",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1663879,
+    "lon": 118.9953661,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "待月亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1540381,
+    "lon": 118.9560107,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "徐家村失考墓石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1442603,
+    "lon": 118.8405128,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "徐州园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0730201,
+    "lon": 119.0035415,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "徐达墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0778128,
+    "lon": 118.8177593,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "总统府",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0462202,
+    "lon": 118.7922484,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "悬崖观景",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0807327,
+    "lon": 118.5649258,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "情侣飞车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1649892,
+    "lon": 118.9915386,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "戏水广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1659292,
+    "lon": 118.9934564,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "戴笠坠机处",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9250957,
+    "lon": 118.7066275,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "扬州园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0763065,
+    "lon": 119.003182,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "拉贝故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0526902,
+    "lon": 118.7780817,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "挹江门丛葬地纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0903595,
+    "lon": 118.7419625,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "掘金者",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1649847,
+    "lon": 118.9936119,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "掠食者",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.164442,
+    "lon": 118.9919651,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "摩天轮",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1663816,
+    "lon": 118.9915862,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "摩天轮舞台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1664946,
+    "lon": 118.9917183,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "文渊广场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.042351,
+    "lon": 118.820364,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "旋转木马",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1670202,
+    "lon": 118.9915895,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "无想水镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6245153,
+    "lon": 119.0319919,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "无想禅寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6023571,
+    "lon": 119.014293,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "无锡园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0749611,
+    "lon": 119.002769,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "旱喷广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1668919,
+    "lon": 118.9958945,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "时光秘境",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1671054,
+    "lon": 118.9979652,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "时光飞车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.16607,
+    "lon": 118.9921394,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "明孝陵博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0471792,
+    "lon": 118.838126,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "明故宫石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0408266,
+    "lon": 118.8125145,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "明文化村 阳山碑材",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0664099,
+    "lon": 118.9982393,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "星际战舰",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1643512,
+    "lon": 118.989763,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "普德寺丛葬地纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0024112,
+    "lon": 118.7704973,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "曾公祠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0340025,
+    "lon": 118.7800928,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "有晋父子忠孝卞公之墓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0369098,
+    "lon": 118.769511,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "朋克舞台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1648803,
+    "lon": 118.9945158,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "朱元璋",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0729308,
+    "lon": 118.8363391,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "李味青艺术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0840538,
+    "lon": 118.7660615,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "李文忠墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0812127,
+    "lon": 118.8223942,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "李鸿章祠堂",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0382894,
+    "lon": 118.7931469,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "松风阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0590186,
+    "lon": 118.8618623,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "极速咔叮",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1654365,
+    "lon": 118.9907446,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "极速坠落",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1676889,
+    "lon": 118.9970237,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "林散之故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8592766,
+    "lon": 118.4732184,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "校史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0567147,
+    "lon": 118.7761274,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "桂林石屋遗迹",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.064665,
+    "lon": 118.8543016,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "桃叶渡",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0248816,
+    "lon": 118.78912,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "桃花扇亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1566601,
+    "lon": 118.9559186,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "梁吴平忠侯萧景墓石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1350247,
+    "lon": 118.9032776,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "梁始兴忠武帝萧儋墓石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1407799,
+    "lon": 118.9117507,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "梁安成康王萧秀墓石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.143855,
+    "lon": 118.9160851,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "梁新渝宽侯萧暎墓石刻",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1490577,
+    "lon": 118.9095274,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "梁桂阳简王萧融墓石刻",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1530703,
+    "lon": 118.9254216,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "梅山矿业综合馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9536894,
+    "lon": 118.7126873,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "棂星门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0356889,
+    "lon": 118.7693975,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "森林空降兵",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1653207,
+    "lon": 118.9917237,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "横山烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6746561,
+    "lon": 118.8286641,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "樱花隧道",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7957047,
+    "lon": 118.7028697,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "欢乐冰雪营地",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1666036,
+    "lon": 118.9926866,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "正觉寺遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.016006,
+    "lon": 118.7905261,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "水幕电影",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8052731,
+    "lon": 118.7065072,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "永慕庐",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.068131,
+    "lon": 118.851805,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "汉中门外遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0442059,
+    "lon": 118.7599869,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "江东门遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0371278,
+    "lon": 118.7408275,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "江南水师学堂",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0884993,
+    "lon": 118.74621,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "江南贡院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0230861,
+    "lon": 118.7854834,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "江宁区反邪教文化主题公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9469365,
+    "lon": 118.8795888,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "江宁府学",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0353113,
+    "lon": 118.7701333,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "江宁织造博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0443029,
+    "lon": 118.7888597,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "江宁美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9374186,
+    "lon": 118.8174761,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "江汉会馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0218948,
+    "lon": 118.7099181,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "江苏六合国家地质公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.4641116,
+    "lon": 118.9301171,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "江苏园博园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0772491,
+    "lon": 119.0082381,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "江苏省地质资料馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9387964,
+    "lon": 118.7312385,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "江苏美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0461959,
+    "lon": 118.7884651,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "汤山历史文化展示中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0424298,
+    "lon": 119.0426983,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "汤山方山国家地质公园博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0575033,
+    "lon": 119.0352425,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "汤山欢乐水世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0540051,
+    "lon": 119.0206517,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "河西新城展示馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0221412,
+    "lon": 118.7344041,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "治隆唐宋碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0574363,
+    "lon": 118.8346053,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "泰州园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0747611,
+    "lon": 119.0013045,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "浡泥国王墓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9782076,
+    "lon": 118.752866,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "浦口明城墙遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1405521,
+    "lon": 118.6994387,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "浦口火车站",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0981921,
+    "lon": 118.7164197,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "浪漫恋椅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1667489,
+    "lon": 118.9911872,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "浪花跳跳",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1664333,
+    "lon": 118.9937943,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "浮圈Ⅰ点",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1670781,
+    "lon": 118.9964752,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "浮圈Ⅱ点",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1663504,
+    "lon": 118.9976326,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "浮圈Ⅲ点",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1665264,
+    "lon": 118.9958301,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "浮石地宫",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0789656,
+    "lon": 119.0093726,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "淮安园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0757565,
+    "lon": 119.0017605,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "深海探秘",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1669714,
+    "lon": 118.9933786,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "清凉山遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0588447,
+    "lon": 118.754777,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "渡江胜利纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0890329,
+    "lon": 118.7371326,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "渡江胜利纪念馆",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0757001,
+    "lon": 118.7265121,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "源",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8052309,
+    "lon": 118.7195009,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "溧水博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6449294,
+    "lon": 118.9819368,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "溧水周园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.630815,
+    "lon": 119.1871979,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "激光战车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1661245,
+    "lon": 118.9887223,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "激流勇进",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1659905,
+    "lon": 118.9939177,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "灵谷寺公园南门（红山门）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0545575,
+    "lon": 118.8611469,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "煤炭港遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1044794,
+    "lon": 118.7412242,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "熙南里文化街区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0269963,
+    "lon": 118.7761579,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "燕子矶公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1489729,
+    "lon": 118.8123098,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "燕子矶江滩遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1496602,
+    "lon": 118.8134039,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "爱情传声屋",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7976694,
+    "lon": 118.7013065,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "爱情海",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6454362,
+    "lon": 118.9838114,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "牌坊",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0245366,
+    "lon": 118.7951688,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "牛首烟岚",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9093965,
+    "lon": 118.7191331,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "特别告示碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0573974,
+    "lon": 118.8346377,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "状元桥（金陵闸）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0198561,
+    "lon": 118.7891702,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "狂蟒之灾",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1676503,
+    "lon": 118.9979196,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "王府小学",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7517267,
+    "lon": 118.6484625,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "王汉洲故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0285154,
+    "lon": 118.7170001,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "珍宝博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0848155,
+    "lon": 119.0049529,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "珍珠泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.15768,
+    "lon": 118.9572475,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "甜甜杯",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1664276,
+    "lon": 118.9900459,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "疯狂水寨",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1665673,
+    "lon": 118.9971659,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "疯狂骑士",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1647145,
+    "lon": 118.9934805,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "百年树人碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0504588,
+    "lon": 118.7768148,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "百年鼎",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0573692,
+    "lon": 118.7742741,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "盐城园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0763929,
+    "lon": 119.0039653,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "眼镜王蛇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1658861,
+    "lon": 118.997768,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "石头城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.052524,
+    "lon": 118.7476708,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "石柱景观区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.2518663,
+    "lon": 118.8914108,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "石碑",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0239092,
+    "lon": 118.7853172,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "矿井逃生",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1654661,
+    "lon": 118.9952078,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "矿山广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1651709,
+    "lon": 118.994202,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "碑廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0966537,
+    "lon": 118.742413,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "碟影重重",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1674686,
+    "lon": 118.9979196,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "碧云亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1590028,
+    "lon": 118.9536551,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "神功圣德碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0488181,
+    "lon": 118.8382271,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "童男桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8115051,
+    "lon": 118.7614001,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "童话水世界",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1672053,
+    "lon": 118.9971203,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "第五军淞沪抗战阵亡将士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0585032,
+    "lon": 118.8617705,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "精灵舞台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1644534,
+    "lon": 118.990573,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "紫东阁",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0863561,
+    "lon": 119.0258789,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "红山森林动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0939529,
+    "lon": 118.7966766,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "综合表演馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0906368,
+    "lon": 118.7988034,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "美成草庐",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.6030193,
+    "lon": 119.0201321,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "老门东历史文化街区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0135433,
+    "lon": 118.7823005,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "老门东牌坊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0148533,
+    "lon": 118.7827944,
+    "description": "牌坊"
+  },
+  {
+    "name": "胧泉基地",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.5582779,
+    "lon": 118.7313232,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "腾飞石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1077811,
+    "lon": 118.9260334,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "航海家",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1657612,
+    "lon": 118.9945802,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "艺术馆",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0429285,
+    "lon": 118.8193341,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "芥子园文化展馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.013775,
+    "lon": 118.7840131,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "花味驿站",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0788065,
+    "lon": 119.0069318,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "花神庙地区丛葬地纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9891038,
+    "lon": 118.7681777,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "花色驿站",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0770429,
+    "lon": 119.0012723,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "花语驿站",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0810746,
+    "lon": 119.011572,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "花钟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8058513,
+    "lon": 118.7098273,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "花香驿站",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0720337,
+    "lon": 118.9943469,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "苏南反顽战役纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.5474163,
+    "lon": 119.1687341,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "苏州园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0748838,
+    "lon": 119.0038848,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "范鸿仙墓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0565766,
+    "lon": 118.8776495,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "草鞋峡遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1186242,
+    "lon": 118.766349,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "荒野历险",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1645272,
+    "lon": 118.9942758,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "药学博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9042471,
+    "lon": 118.9099563,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "萌萌哒之家",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1668397,
+    "lon": 118.9937809,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "萧檐墓石刻",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1416587,
+    "lon": 118.9126012,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "蒲塘桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.5609035,
+    "lon": 118.9900397,
+    "description": "全国重点文物保护单位"
+  },
+  {
+    "name": "西岗头遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0381227,
+    "lon": 119.0894788,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0782611,
+    "lon": 119.0109551,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "观音",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0722489,
+    "lon": 118.8356793,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "警长训练营",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1663822,
+    "lon": 118.9897911,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "议政亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0680172,
+    "lon": 118.8525208,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "话山亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1571322,
+    "lon": 118.9589708,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "读枫",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1586514,
+    "lon": 118.9547934,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "赛珍珠故居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0572175,
+    "lon": 118.7730725,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "超纪元战警",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.164719,
+    "lon": 118.9886847,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "跳跳曲奇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1667375,
+    "lon": 118.9903249,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "连云港园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.077102,
+    "lon": 119.0045768,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "逍遥水母",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1659905,
+    "lon": 118.9932176,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "遇难者3000000",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.037011,
+    "lon": 118.7386023,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "道生说法",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0708616,
+    "lon": 118.8457472,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "遗骨陈列厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0370993,
+    "lon": 118.7375083,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "邓演达墓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.056884,
+    "lon": 118.8648678,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "邵力子故居",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0576092,
+    "lon": 118.76398,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "郑和墓史料陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9093971,
+    "lon": 118.7274222,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "野生动物生态园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1267889,
+    "lon": 118.6543234,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "金牛湖野生动物王国",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.4969518,
+    "lon": 118.9622676,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "金陵刻经处",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0389395,
+    "lon": 118.7858315,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "金陵大学难民收容所及遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.057819,
+    "lon": 118.7715763,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "金陵小镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9009653,
+    "lon": 118.7169904,
+    "description": "金陵小镇位于南京市江宁区谷里街道牛首山西入口，规划面积5平方公里，总投资约80亿至100亿元。项目以\"产业-文化-旅游三位一体\"为发展定位，布局包含风雅长干商业街区、清溪雅韵水系、海国传奇馆等核心景观 [1-2]，通过融合六朝文化元素与铜艺装饰，打造兼具古典风格与现代文旅功能的复合型小镇。作为南京市重点项目，其建设推动牛首山从单一景区向综合文旅产业园区转型，助力江宁区构建\"南京城市会客厅\""
+  },
+  {
+    "name": "金陵美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0147634,
+    "lon": 118.7816509,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "银杏湖休闲度假景区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.8014274,
+    "lon": 118.6990542,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "镇江园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0738929,
+    "lon": 119.0040404,
+    "description": "A popular outdoor spot in Nanjing."
+  },
+  {
+    "name": "阅江楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0961448,
+    "lon": 118.7413236,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "阅江楼南门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0940832,
+    "lon": 118.7427031,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "阵亡将士公墓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0561578,
+    "lon": 118.861458,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "陈文帝陈蒨永宁陵石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1401529,
+    "lon": 118.9310655,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "雄狮之塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.2536058,
+    "lon": 118.8926298,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "集散广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1659451,
+    "lon": 118.9888617,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "雨林广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1653434,
+    "lon": 118.9910826,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "雨林游蛇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1664764,
+    "lon": 118.9981797,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "雨花台烈士纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.9992927,
+    "lon": 118.7752432,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "雨花石砾石层",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.2506615,
+    "lon": 118.8912179,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "雷锋文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1006811,
+    "lon": 118.8538145,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "霹雳旋风",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1664923,
+    "lon": 118.9979357,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "革命烈士殉难处",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0025572,
+    "lon": 118.7782844,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "革命烈士西殉难处",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0024983,
+    "lon": 118.7733925,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "飓风舞台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1673528,
+    "lon": 118.995983,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "飞影战队",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1659088,
+    "lon": 118.9895672,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "飞行机甲",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1653321,
+    "lon": 118.9896128,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "飞跃海洋",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1663947,
+    "lon": 118.9947546,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "飞飞鱼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1664935,
+    "lon": 118.9941242,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "饼干城大营救",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1666762,
+    "lon": 118.990058,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "高淳老街历史文化景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.3218966,
+    "lon": 118.8643709,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "魔术单车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1658248,
+    "lon": 118.9933088,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "鱼雷营遇难同胞纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1194384,
+    "lon": 118.7589549,
+    "description": "A popular history spot in Nanjing."
+  },
+  {
+    "name": "鲸鱼广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.1666155,
+    "lon": 118.9942932,
+    "description": "A popular sightseeing spot in Nanjing."
+  },
+  {
+    "name": "黄龙岘茶文化博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 31.7822692,
+    "lon": 118.6863514,
+    "description": "A popular museum spot in Nanjing."
+  },
+  {
+    "name": "鼓楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 32.0607288,
+    "lon": 118.7768303,
+    "description": "A popular sightseeing spot in Nanjing."
+  }
+]
