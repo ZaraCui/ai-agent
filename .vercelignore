@@ -1,0 +1,7 @@
+__pycache__
+*.pyc
+.git
+.env.local
+.env.*.local
+node_modules
+.DS_Store
