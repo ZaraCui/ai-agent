@@ -7,7 +7,8 @@
     "lat": 38.3358473,
     "lon": 114.7086235,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Anime Park"
   },
   {
     "name": "Cangyanshan Ticket Office",
@@ -17,7 +18,8 @@
     "lat": 37.8311983,
     "lon": 114.1397342,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Cangyanshan Ticket Office"
   },
   {
     "name": "Huayan temple",
@@ -27,7 +29,8 @@
     "lat": 38.1921973,
     "lon": 113.9443521,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Huayan temple"
   },
   {
     "name": "Pagode",
@@ -37,7 +40,8 @@
     "lat": 37.8377799,
     "lon": 114.1344368,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Pagode"
   },
   {
     "name": "Tempel",
@@ -47,7 +51,8 @@
     "lat": 37.8303379,
     "lon": 114.1354378,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Tempel"
   },
   {
     "name": "White deer hot springs",
@@ -57,7 +62,8 @@
     "lat": 38.2514347,
     "lon": 113.9802991,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "White deer hot springs"
   },
   {
     "name": "《征服》刘华强买瓜拍摄地点",
@@ -67,7 +73,8 @@
     "lat": 38.0307967,
     "lon": 114.4649881,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "《征服》刘华强买瓜拍摄地点"
   },
   {
     "name": "九龙湖文化园",
@@ -77,7 +84,8 @@
     "lat": 38.1253445,
     "lon": 114.4215056,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "九龙 Lake"
   },
   {
     "name": "于家石头村",
@@ -87,7 +95,8 @@
     "lat": 37.9409231,
     "lon": 114.0281671,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "于家石头 Village"
   },
   {
     "name": "井陉矿区万人坑纪念馆",
@@ -97,7 +106,8 @@
     "lat": 38.0631399,
     "lon": 114.0526291,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "井陉矿 万人坑 Memorial Hall"
   },
   {
     "name": "伏羲台",
@@ -107,7 +117,8 @@
     "lat": 38.3807213,
     "lon": 114.7101469,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "伏羲台"
   },
   {
     "name": "公主坟",
@@ -117,7 +128,8 @@
     "lat": 37.8305198,
     "lon": 114.1371397,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "公主坟"
   },
   {
     "name": "军事游乐园",
@@ -127,7 +139,8 @@
     "lat": 38.1454068,
     "lon": 114.5816282,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "军事 Amusement Park"
   },
   {
     "name": "凌霄塔",
@@ -137,7 +150,8 @@
     "lat": 38.1424152,
     "lon": 114.5695106,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "凌霄 Pagoda"
   },
   {
     "name": "大唐清河郡王纪功载政之颂碑",
@@ -147,7 +161,8 @@
     "lat": 38.1428459,
     "lon": 114.565316,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "大唐清 River"
   },
   {
     "name": "天外飞虹",
@@ -157,7 +172,8 @@
     "lat": 37.8293289,
     "lon": 114.1368702,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "天外飞虹"
   },
   {
     "name": "天砚山",
@@ -167,7 +183,8 @@
     "lat": 38.5859654,
     "lon": 113.7289438,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "天砚 Mountain"
   },
   {
     "name": "妙法莲花经宝塔",
@@ -177,7 +194,8 @@
     "lat": 37.8305059,
     "lon": 114.1382236,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "妙法莲花经宝 Pagoda"
   },
   {
     "name": "孔雀园",
@@ -187,7 +205,8 @@
     "lat": 37.9806706,
     "lon": 114.5198037,
     "description": "A popular outdoor spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "孔雀 Garden"
   },
   {
     "name": "峭壁嵌珠",
@@ -197,7 +216,8 @@
     "lat": 37.8297434,
     "lon": 114.1360338,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "峭壁嵌珠"
   },
   {
     "name": "崇祯行宫",
@@ -207,7 +227,8 @@
     "lat": 38.2570857,
     "lon": 113.7396959,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "崇祯行 Palace"
   },
   {
     "name": "师大博物馆",
@@ -217,7 +238,8 @@
     "lat": 37.9978269,
     "lon": 114.5123507,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "师大 Museum"
   },
   {
     "name": "德明古镇",
@@ -227,7 +249,8 @@
     "lat": 38.0166977,
     "lon": 114.2856498,
     "description": "A popular outdoor spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "德明 Ancient Town"
   },
   {
     "name": "抱犊寨",
@@ -237,7 +260,8 @@
     "lat": 38.0924045,
     "lon": 114.2608804,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "抱犊寨"
   },
   {
     "name": "拦道石红色生态风景区",
@@ -247,7 +271,8 @@
     "lat": 38.5455442,
     "lon": 113.7671562,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "拦道石红色生态风景区"
   },
   {
     "name": "新城镇东城门遗址",
@@ -257,7 +282,8 @@
     "lat": 37.8495895,
     "lon": 115.3111498,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "新城镇东城门 Site"
   },
   {
     "name": "新城镇西城门遗址",
@@ -267,7 +293,8 @@
     "lat": 37.8533051,
     "lon": 115.3028718,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "新城镇西城门 Site"
   },
   {
     "name": "梁氏宗祠",
@@ -277,7 +304,8 @@
     "lat": 38.1378242,
     "lon": 114.5659852,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "梁氏宗祠"
   },
   {
     "name": "正定县博物馆",
@@ -287,7 +315,8 @@
     "lat": 38.1417194,
     "lon": 114.5787384,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "正定 Museum"
   },
   {
     "name": "毗卢寺",
@@ -297,7 +326,8 @@
     "lat": 38.1256463,
     "lon": 114.4197772,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "毗卢 Temple"
   },
   {
     "name": "毗卢寺博物院",
@@ -307,7 +337,8 @@
     "lat": 38.1250417,
     "lon": 114.4202418,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "毗卢 Temple"
   },
   {
     "name": "水泉溪景区",
@@ -317,7 +348,8 @@
     "lat": 38.6458194,
     "lon": 113.9131977,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "水泉溪景区"
   },
   {
     "name": "河北博物院",
@@ -327,7 +359,8 @@
     "lat": 38.0401873,
     "lon": 114.5167545,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "River"
   },
   {
     "name": "河北钱币博物馆",
@@ -337,7 +370,8 @@
     "lat": 38.0490956,
     "lon": 114.4718897,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "河北钱币 Museum"
   },
   {
     "name": "洪河漕百团大战纪念馆",
@@ -347,7 +381,8 @@
     "lat": 38.0821131,
     "lon": 113.8756537,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "洪河漕百团大战 Memorial Hall"
   },
   {
     "name": "漫山花溪谷景区",
@@ -357,7 +392,8 @@
     "lat": 38.6960795,
     "lon": 113.8547275,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "漫 Mountain"
   },
   {
     "name": "王士珍故居",
@@ -367,7 +403,8 @@
     "lat": 38.1417215,
     "lon": 114.5566237,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "王士珍 Former Residence"
   },
   {
     "name": "王家大院",
@@ -377,7 +414,8 @@
     "lat": 37.9972037,
     "lon": 114.0151322,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "王家大院"
   },
   {
     "name": "百团大战前线指挥部旧址",
@@ -387,7 +425,8 @@
     "lat": 38.0833675,
     "lon": 113.8747894,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "百团大战前线指挥部旧址"
   },
   {
     "name": "石家庄人民警察博物馆",
@@ -397,7 +436,8 @@
     "lat": 38.0196791,
     "lon": 114.4874717,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang 人民警察 Museum"
   },
   {
     "name": "石家庄国际博览中心",
@@ -407,7 +447,8 @@
     "lat": 38.040669,
     "lon": 114.5191067,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang 国际博览 Center"
   },
   {
     "name": "石家庄城市馆",
@@ -417,7 +458,8 @@
     "lat": 38.1309977,
     "lon": 114.6115521,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang 城 馆"
   },
   {
     "name": "石家庄城市馆（A馆）",
@@ -427,7 +469,8 @@
     "lat": 38.1308463,
     "lon": 114.6112864,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang 城 馆（A馆）"
   },
   {
     "name": "石家庄城市馆（B馆）",
@@ -437,7 +480,8 @@
     "lat": 38.1310971,
     "lon": 114.6119798,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang 城 馆（B馆）"
   },
   {
     "name": "石家庄市博物馆",
@@ -447,7 +491,8 @@
     "lat": 38.0454328,
     "lon": 114.5067522,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang Museum"
   },
   {
     "name": "石家庄市群众艺术馆",
@@ -457,7 +502,8 @@
     "lat": 38.0421289,
     "lon": 114.4767691,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang 群众 Art Museum"
   },
   {
     "name": "石家庄植物园",
@@ -467,7 +513,8 @@
     "lat": 38.1019509,
     "lon": 114.3731246,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang Botanical Garden"
   },
   {
     "name": "石家庄电视塔",
@@ -477,7 +524,8 @@
     "lat": 38.0199681,
     "lon": 114.5299495,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang 电视 Pagoda"
   },
   {
     "name": "石家庄美术馆",
@@ -487,7 +535,8 @@
     "lat": 38.0343523,
     "lon": 114.4113603,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang Art Gallery"
   },
   {
     "name": "石家庄解放纪念馆",
@@ -497,7 +546,8 @@
     "lat": 38.0410817,
     "lon": 114.4838539,
     "description": "A popular museum spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Shijiazhuang 解放 Memorial Hall"
   },
   {
     "name": "窍开别天",
@@ -507,7 +557,8 @@
     "lat": 37.8292098,
     "lon": 114.1366557,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "窍开别天"
   },
   {
     "name": "绝巘回栏",
@@ -517,7 +568,8 @@
     "lat": 37.829995,
     "lon": 114.1370722,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "绝巘回栏"
   },
   {
     "name": "荣国府",
@@ -527,7 +579,8 @@
     "lat": 38.1474691,
     "lon": 114.5733951,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "荣国 Mansion"
   },
   {
     "name": "董振堂同志纪念碑",
@@ -537,7 +590,8 @@
     "lat": 38.0462025,
     "lon": 114.4592451,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "董振堂同志纪念 Monument"
   },
   {
     "name": "说法危台",
@@ -547,7 +601,8 @@
     "lat": 37.8299764,
     "lon": 114.1382056,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "说法危台"
   },
   {
     "name": "赵博生同志纪念碑",
@@ -557,7 +612,8 @@
     "lat": 38.0461553,
     "lon": 114.4583013,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "赵博生同志纪念 Monument"
   },
   {
     "name": "赵州桥公园",
@@ -567,7 +623,8 @@
     "lat": 37.7217283,
     "lon": 114.7624956,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "赵州桥 Park"
   },
   {
     "name": "铁扬美术馆",
@@ -577,7 +634,8 @@
     "lat": 37.9787402,
     "lon": 114.5156596,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "铁扬 Art Gallery"
   },
   {
     "name": "长城",
@@ -587,7 +645,8 @@
     "lat": 35.2446562,
     "lon": 108.9659793,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "Great Wall"
   },
   {
     "name": "隆兴寺",
@@ -597,7 +656,8 @@
     "lat": 38.143706,
     "lon": 114.5767325,
     "description": "A popular history spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "隆兴 Temple"
   },
   {
     "name": "驼梁风景区",
@@ -607,7 +667,8 @@
     "lat": 38.7224001,
     "lon": 113.7970693,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "驼梁风景区"
   },
   {
     "name": "龙溪谷风景区",
@@ -617,6 +678,7 @@
     "lat": 38.7015204,
     "lon": 113.7840287,
     "description": "A popular sightseeing spot in Shijiazhuang.",
-    "city": "Shijiazhuang"
+    "city": "Shijiazhuang",
+    "name_en": "龙溪谷风景区"
   }
 ]

@@ -6,7 +6,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Tokyo Tower — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Tokyo Tower. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Tokyo Tower — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Tokyo Tower. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Tokyo Tower"
     },
     {
         "name": "Senso-ji",
@@ -15,7 +16,8 @@
         "category": "temple",
         "duration_minutes": 45,
         "rating": 4.1,
-        "description": "Senso-ji — Historic or religious site, usually quiet and culturally significant. Highlights: Senso-ji. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Senso-ji — Historic or religious site, usually quiet and culturally significant. Highlights: Senso-ji. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Senso-ji"
     },
     {
         "name": "Ueno Park",
@@ -24,7 +26,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Ueno Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Ueno Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Ueno Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Ueno Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Ueno Park"
     },
     {
         "name": "TeamLab Planets",
@@ -33,7 +36,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "TeamLab Planets — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: TeamLab Planets. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "TeamLab Planets — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: TeamLab Planets. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "TeamLab Planets"
     },
     {
         "name": "Meiji Shrine",
@@ -42,7 +46,8 @@
         "category": "temple",
         "duration_minutes": 45,
         "rating": 4.1,
-        "description": "Meiji Shrine — Historic or religious site, usually quiet and culturally significant. Highlights: Meiji Shrine. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Meiji Shrine — Historic or religious site, usually quiet and culturally significant. Highlights: Meiji Shrine. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Meiji Shrine"
     },
     {
         "name": "Shinjuku Gyoen",
@@ -51,7 +56,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Shinjuku Gyoen — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Shinjuku Gyoen. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Shinjuku Gyoen — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Shinjuku Gyoen. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Shinjuku Gyoen"
     },
     {
         "name": "Tokyo National Museum",
@@ -60,7 +66,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Tokyo National Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Tokyo National. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Tokyo National Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Tokyo National. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Tokyo National Museum"
     },
     {
         "name": "Akihabara",
@@ -69,7 +76,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Akihabara — Shopping area with stores and local vendors; good for browsing. Highlights: Akihabara. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Akihabara — Shopping area with stores and local vendors; good for browsing. Highlights: Akihabara. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Akihabara"
     },
     {
         "name": "Odaiba",
@@ -78,7 +86,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Odaiba — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Odaiba. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Odaiba — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Odaiba. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Odaiba"
     },
     {
         "name": "Ginza",
@@ -87,7 +96,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Ginza — Shopping area with stores and local vendors; good for browsing. Highlights: Ginza. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Ginza — Shopping area with stores and local vendors; good for browsing. Highlights: Ginza. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Ginza"
     },
     {
         "name": "Roppongi Hills",
@@ -96,7 +106,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Roppongi Hills — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Roppongi Hills. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Roppongi Hills — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Roppongi Hills. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Roppongi Hills"
     },
     {
         "name": "Harajuku",
@@ -105,7 +116,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Harajuku — Shopping area with stores and local vendors; good for browsing. Highlights: Harajuku. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Harajuku — Shopping area with stores and local vendors; good for browsing. Highlights: Harajuku. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Harajuku"
     },
     {
         "name": "Ikebukuro",
@@ -114,7 +126,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Ikebukuro — Shopping area with stores and local vendors; good for browsing. Highlights: Ikebukuro. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Ikebukuro — Shopping area with stores and local vendors; good for browsing. Highlights: Ikebukuro. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Ikebukuro"
     },
     {
         "name": "Shimokitazawa",
@@ -123,7 +136,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Shimokitazawa — Shopping area with stores and local vendors; good for browsing. Highlights: Shimokitazawa. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Shimokitazawa — Shopping area with stores and local vendors; good for browsing. Highlights: Shimokitazawa. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Shimokitazawa"
     },
     {
         "name": "Yanaka Ginza",
@@ -132,6 +146,7 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Yanaka Ginza — Shopping area with stores and local vendors; good for browsing. Highlights: Yanaka Ginza. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Yanaka Ginza — Shopping area with stores and local vendors; good for browsing. Highlights: Yanaka Ginza. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Yanaka Ginza"
     }
 ]

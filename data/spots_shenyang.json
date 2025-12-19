@@ -7,7 +7,8 @@
     "lat": 41.866321,
     "lon": 123.6436127,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Botanical garden"
   },
   {
     "name": "Dino Park",
@@ -17,7 +18,8 @@
     "lat": 41.938427,
     "lon": 123.6816373,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Dino Park"
   },
   {
     "name": "Eingang See",
@@ -27,7 +29,8 @@
     "lat": 41.9402444,
     "lon": 123.6356723,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Eingang See"
   },
   {
     "name": "Gace with Chimpanse",
@@ -37,7 +40,8 @@
     "lat": 41.7473855,
     "lon": 123.3786459,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Gace with Chimpanse"
   },
   {
     "name": "Golden Rabbits",
@@ -47,7 +51,8 @@
     "lat": 41.693826,
     "lon": 123.2147146,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Golden Rabbits"
   },
   {
     "name": "Kate's Place",
@@ -57,7 +62,8 @@
     "lat": 41.8111627,
     "lon": 123.3778548,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Kate's Place"
   },
   {
     "name": "Laobeishi",
@@ -67,7 +73,8 @@
     "lat": 41.8044425,
     "lon": 123.4194593,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Laobeishi"
   },
   {
     "name": "Laolongkou Tourism Area",
@@ -77,7 +84,8 @@
     "lat": 41.8044993,
     "lon": 123.474546,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Laolongkou Tourism Area"
   },
   {
     "name": "LongQuanShan Forest Park",
@@ -87,7 +95,8 @@
     "lat": 41.6762008,
     "lon": 123.7037765,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "LongQuanShan Forest Park"
   },
   {
     "name": "Mount Phoenix",
@@ -97,7 +106,8 @@
     "lat": 41.8271932,
     "lon": 123.604527,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Mount Phoenix"
   },
   {
     "name": "SAC aviation museum",
@@ -107,7 +117,8 @@
     "lat": 41.8622181,
     "lon": 123.4273936,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "SAC aviation museum"
   },
   {
     "name": "Shenyang Rice Dream Space",
@@ -117,7 +128,8 @@
     "lat": 42.0692554,
     "lon": 123.3009088,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang Rice Dream Space"
   },
   {
     "name": "Shenyang Snow and Icepark",
@@ -127,7 +139,8 @@
     "lat": 41.9408645,
     "lon": 123.6897777,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang Snow and Icepark"
   },
   {
     "name": "Shenyang Water Cave",
@@ -137,7 +150,8 @@
     "lat": 41.5914748,
     "lon": 123.7306827,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang Water Cave"
   },
   {
     "name": "Sino German International Street",
@@ -147,7 +161,8 @@
     "lat": 41.6950107,
     "lon": 123.2192379,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Sino German International Street"
   },
   {
     "name": "Ski Resort",
@@ -157,7 +172,8 @@
     "lat": 41.5785798,
     "lon": 123.7080255,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Ski Resort"
   },
   {
     "name": "Small Cave",
@@ -167,7 +183,8 @@
     "lat": 41.5921632,
     "lon": 123.7298664,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Small Cave"
   },
   {
     "name": "Treffpunkt zwi Wanda Vista",
@@ -177,7 +194,8 @@
     "lat": 41.758066,
     "lon": 123.3845022,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Treffpunkt zwi Wanda Vista"
   },
   {
     "name": "Z广场国际文化产业园",
@@ -187,7 +205,8 @@
     "lat": 41.8044218,
     "lon": 123.3627536,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Z Square"
   },
   {
     "name": "“”石刻",
@@ -197,7 +216,8 @@
     "lat": 41.7428392,
     "lon": 123.5138796,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "“” Stone Carving"
   },
   {
     "name": "“千年古蓮”石刻",
@@ -207,7 +227,8 @@
     "lat": 41.7397163,
     "lon": 123.5081525,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "“千年古蓮” Stone Carving"
   },
   {
     "name": "“春天”石刻",
@@ -217,7 +238,8 @@
     "lat": 41.743512,
     "lon": 123.5136435,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "“春天” Stone Carving"
   },
   {
     "name": "“稻香飘校园，育米如育人”石刻",
@@ -227,7 +249,8 @@
     "lat": 41.7394482,
     "lon": 123.5087602,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "“稻香飘校园，育米如育人” Stone Carving"
   },
   {
     "name": "“積學”石刻",
@@ -237,7 +260,8 @@
     "lat": 41.7421852,
     "lon": 123.5143031,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "“積學” Stone Carving"
   },
   {
     "name": "“起点”石刻",
@@ -247,7 +271,8 @@
     "lat": 41.7436911,
     "lon": 123.5132378,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "“起点” Stone Carving"
   },
   {
     "name": "“静水流深”石刻",
@@ -257,7 +282,8 @@
     "lat": 41.741511,
     "lon": 123.5107917,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "“静水流深” Stone Carving"
   },
   {
     "name": "一二九塑像",
@@ -267,7 +293,8 @@
     "lat": 41.7605825,
     "lon": 123.4129617,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "一二九塑像"
   },
   {
     "name": "七星海世界主题乐园",
@@ -277,7 +304,8 @@
     "lat": 41.9548362,
     "lon": 123.4118943,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "七星 Sea"
   },
   {
     "name": "东关模范学校（周恩来就读的小学）",
@@ -287,7 +315,8 @@
     "lat": 41.7920985,
     "lon": 123.4595989,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "东关模范 School"
   },
   {
     "name": "中国会计博物馆",
@@ -297,7 +326,8 @@
     "lat": 41.7944549,
     "lon": 123.4217331,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "中国会计 Museum"
   },
   {
     "name": "中国工业博物馆",
@@ -307,7 +337,8 @@
     "lat": 41.81895,
     "lon": 123.3491906,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "中国工业 Museum"
   },
   {
     "name": "中国锡伯族博物馆",
@@ -317,7 +348,8 @@
     "lat": 41.9345015,
     "lon": 123.4109924,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "中国锡伯族 Museum"
   },
   {
     "name": "中山广场",
@@ -327,7 +359,8 @@
     "lat": 41.7944883,
     "lon": 123.4044591,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "中山 Square"
   },
   {
     "name": "中街",
@@ -337,7 +370,8 @@
     "lat": 41.7990578,
     "lon": 123.4515737,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "中 Street"
   },
   {
     "name": "九·一八历史博物馆",
@@ -347,7 +381,8 @@
     "lat": 41.8337123,
     "lon": 123.4613172,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "九·一八 History Museum"
   },
   {
     "name": "五二工厂烈士纪念碑",
@@ -357,7 +392,8 @@
     "lat": 41.8781394,
     "lon": 123.4762946,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "五二工厂烈士纪念 Monument"
   },
   {
     "name": "关东影视城",
@@ -367,7 +403,8 @@
     "lat": 41.9482717,
     "lon": 123.6962593,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "关东影视城"
   },
   {
     "name": "兴顺夜市",
@@ -377,7 +414,8 @@
     "lat": 41.7915247,
     "lon": 123.353206,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "兴顺夜市"
   },
   {
     "name": "刘长春像",
@@ -387,7 +425,8 @@
     "lat": 41.7637196,
     "lon": 123.4164003,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "刘长春像"
   },
   {
     "name": "勿忘国耻警钟",
@@ -397,7 +436,8 @@
     "lat": 41.831882,
     "lon": 123.4599134,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "勿忘国耻警钟"
   },
   {
     "name": "北塔",
@@ -407,7 +447,8 @@
     "lat": 41.8281078,
     "lon": 123.4457042,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "北 Pagoda"
   },
   {
     "name": "区政府“崛起”雕塑",
@@ -417,7 +458,8 @@
     "lat": 41.6612831,
     "lon": 123.3383874,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "政 Mansion"
   },
   {
     "name": "协和工业株式会社",
@@ -427,7 +469,8 @@
     "lat": 41.7979416,
     "lon": 123.3860901,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "协和工业株式会社"
   },
   {
     "name": "和平广场",
@@ -437,7 +480,8 @@
     "lat": 41.7759363,
     "lon": 123.3981243,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "和平 Square"
   },
   {
     "name": "国益精粮公司",
@@ -447,7 +491,8 @@
     "lat": 41.7872441,
     "lon": 123.3786201,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "国益精粮公司"
   },
   {
     "name": "圆满",
@@ -457,7 +502,8 @@
     "lat": 41.7434959,
     "lon": 123.5089762,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "圆满"
   },
   {
     "name": "大书",
@@ -467,7 +513,8 @@
     "lat": 41.765279,
     "lon": 123.4130664,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "大书"
   },
   {
     "name": "天马石",
@@ -477,7 +524,8 @@
     "lat": 41.4955338,
     "lon": 123.5767935,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "天马石"
   },
   {
     "name": "太原街",
@@ -487,7 +535,8 @@
     "lat": 41.7917407,
     "lon": 123.3964233,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Taiyuan Street"
   },
   {
     "name": "太平寺",
@@ -497,7 +546,8 @@
     "lat": 41.8055294,
     "lon": 123.4203463,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "太平 Temple"
   },
   {
     "name": "奉天工厂文化创意园",
@@ -507,7 +557,8 @@
     "lat": 41.820273,
     "lon": 123.3428358,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "奉天工厂文化创意 Garden"
   },
   {
     "name": "奉天记忆铁西印象文化创意产业园",
@@ -517,7 +568,8 @@
     "lat": 41.8005402,
     "lon": 123.3575603,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "奉天记忆铁西印象文化创意产业 Garden"
   },
   {
     "name": "孔子圣像",
@@ -527,7 +579,8 @@
     "lat": 41.9034104,
     "lon": 123.4092756,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "孔子圣像"
   },
   {
     "name": "宁恩承先生",
@@ -537,7 +590,8 @@
     "lat": 41.7641018,
     "lon": 123.4134726,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "宁恩承先生"
   },
   {
     "name": "将军石",
@@ -547,7 +601,8 @@
     "lat": 41.4952969,
     "lon": 123.5767944,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "将军石"
   },
   {
     "name": "工业魔方",
@@ -557,7 +612,8 @@
     "lat": 41.7967799,
     "lon": 123.3534941,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "工业魔方"
   },
   {
     "name": "建筑博物馆",
@@ -567,7 +623,8 @@
     "lat": 41.7415432,
     "lon": 123.5092768,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "建筑 Museum"
   },
   {
     "name": "建行致远",
@@ -577,7 +634,8 @@
     "lat": 41.7436038,
     "lon": 123.5136213,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "建行致远"
   },
   {
     "name": "张捷迁校友",
@@ -587,7 +645,8 @@
     "lat": 41.7641248,
     "lon": 123.4130676,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "张捷迁校友"
   },
   {
     "name": "张氏帅府",
@@ -597,7 +656,8 @@
     "lat": 41.7920147,
     "lon": 123.4517259,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "张氏帅 Mansion"
   },
   {
     "name": "怀远门",
@@ -607,7 +667,8 @@
     "lat": 41.7952939,
     "lon": 123.4428961,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "怀远 Gate"
   },
   {
     "name": "怪坡虎园",
@@ -617,7 +678,8 @@
     "lat": 42.0660321,
     "lon": 123.6267867,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "怪坡虎 Garden"
   },
   {
     "name": "恋",
@@ -627,7 +689,8 @@
     "lat": 41.7434075,
     "lon": 123.5089596,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "恋"
   },
   {
     "name": "恒大文旅城",
@@ -637,7 +700,8 @@
     "lat": 41.6154676,
     "lon": 123.5555777,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "恒大文旅城"
   },
   {
     "name": "情",
@@ -647,7 +711,8 @@
     "lat": 41.743433,
     "lon": 123.5089006,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "情"
   },
   {
     "name": "慶",
@@ -657,7 +722,8 @@
     "lat": 41.743384,
     "lon": 123.508872,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "慶"
   },
   {
     "name": "抚近门",
@@ -667,7 +733,8 @@
     "lat": 41.7949818,
     "lon": 123.4583009,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "抚近 Gate"
   },
   {
     "name": "故宫博物院",
@@ -677,7 +744,8 @@
     "lat": 41.7913855,
     "lon": 123.4511423,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "故 Palace"
   },
   {
     "name": "方特欢乐世界",
@@ -687,7 +755,8 @@
     "lat": 41.9616418,
     "lon": 123.4134933,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "方特欢乐世界"
   },
   {
     "name": "日俄奉天会战沙俄阵亡将士碑",
@@ -697,7 +766,8 @@
     "lat": 41.603691,
     "lon": 123.4338099,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "日俄奉天会战沙俄阵亡将士 Monument"
   },
   {
     "name": "校歌歌词",
@@ -707,7 +777,8 @@
     "lat": 41.7608707,
     "lon": 123.4102929,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "校歌歌词"
   },
   {
     "name": "校训石",
@@ -717,7 +788,8 @@
     "lat": 41.7669666,
     "lon": 123.4135517,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "校训石"
   },
   {
     "name": "梵高星空艺术馆(中街益田旗舰店)",
@@ -727,7 +799,8 @@
     "lat": 41.7996393,
     "lon": 123.4577989,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "梵高星空 Art Museum"
   },
   {
     "name": "楓",
@@ -737,7 +810,8 @@
     "lat": 41.7433752,
     "lon": 123.5090242,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "楓"
   },
   {
     "name": "歼六攻击机",
@@ -747,7 +821,8 @@
     "lat": 41.7908747,
     "lon": 123.3405638,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "歼六攻击机"
   },
   {
     "name": "民主广场",
@@ -757,7 +832,8 @@
     "lat": 41.7861519,
     "lon": 123.3921299,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "民主 Square"
   },
   {
     "name": "求索真善美，敢为天下先石头碑",
@@ -767,7 +843,8 @@
     "lat": 41.7069724,
     "lon": 123.4406453,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "求索真善美，敢为天下先石头 Monument"
   },
   {
     "name": "沈南第一峰",
@@ -777,7 +854,8 @@
     "lat": 41.4949602,
     "lon": 123.5784082,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "沈南第一峰"
   },
   {
     "name": "沈阳 Ex 未来科技馆",
@@ -787,7 +865,8 @@
     "lat": 41.8031117,
     "lon": 123.4784188,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang Ex 未来 Science Museum"
   },
   {
     "name": "沈阳中山广场建筑群",
@@ -797,7 +876,8 @@
     "lat": 41.7948293,
     "lon": 123.4045486,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 中山 Square"
   },
   {
     "name": "沈阳低压开关厂（满洲通信机株式会社）",
@@ -807,7 +887,8 @@
     "lat": 41.797203,
     "lon": 123.3829331,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 低压开关厂（满洲通信机株式会社）"
   },
   {
     "name": "沈阳博物馆",
@@ -817,7 +898,8 @@
     "lat": 41.8008282,
     "lon": 123.4303895,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang Museum"
   },
   {
     "name": "沈阳啤酒厂（满蒙麦酒株式会社）",
@@ -827,7 +909,8 @@
     "lat": 41.7879721,
     "lon": 123.3737438,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 啤酒厂（满蒙麦酒株式会社）"
   },
   {
     "name": "沈阳大街",
@@ -837,7 +920,8 @@
     "lat": 41.8616041,
     "lon": 123.4005897,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 大 Street"
   },
   {
     "name": "沈阳市第二纺织厂（满洲制麻株式会社）旧址",
@@ -847,7 +931,8 @@
     "lat": 41.7859531,
     "lon": 123.3794694,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 第二纺织厂（满洲制麻株式会社）旧址"
   },
   {
     "name": "沈阳建筑大学80级校友毕业30年纪念树",
@@ -857,7 +942,8 @@
     "lat": 41.7433739,
     "lon": 123.5089255,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 建筑 University"
   },
   {
     "name": "沈阳建筑大学校史博物馆",
@@ -867,7 +953,8 @@
     "lat": 41.7420672,
     "lon": 123.5088843,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 建筑大学校史 Museum"
   },
   {
     "name": "沈阳建筑大学校史博物馆（二）建大时空",
@@ -877,7 +964,8 @@
     "lat": 41.7407307,
     "lon": 123.5081182,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 建筑大学校史 Museum"
   },
   {
     "name": "沈阳怪坡风景区",
@@ -887,7 +975,8 @@
     "lat": 42.0584325,
     "lon": 123.6311017,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 怪坡风景"
   },
   {
     "name": "沈阳故宫",
@@ -897,7 +986,8 @@
     "lat": 41.7961885,
     "lon": 123.449544,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 故 Palace"
   },
   {
     "name": "沈阳森林动物园",
@@ -907,7 +997,8 @@
     "lat": 41.9317427,
     "lon": 123.6769196,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 森林 Zoo"
   },
   {
     "name": "沈阳水泥机械厂（东北铁工所）",
@@ -917,7 +1008,8 @@
     "lat": 41.7935636,
     "lon": 123.3815383,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 水泥机械厂（东北铁工所）"
   },
   {
     "name": "沈阳玻璃仪器厂",
@@ -927,7 +1019,8 @@
     "lat": 41.7890891,
     "lon": 123.3712961,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 玻璃仪器厂"
   },
   {
     "name": "沈阳第三机床厂（满洲殖产株式会社）",
@@ -937,7 +1030,8 @@
     "lat": 41.7976264,
     "lon": 123.3869627,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 第三机床厂（满洲殖产株式会社）"
   },
   {
     "name": "沈阳第四机床厂（太阳烟草株式会社）",
@@ -947,7 +1041,8 @@
     "lat": 41.7911679,
     "lon": 123.379516,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 第四机床厂（太阳烟草株式会社）"
   },
   {
     "name": "沈阳绒织厂",
@@ -957,7 +1052,8 @@
     "lat": 41.7919878,
     "lon": 123.3803421,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 绒织厂"
   },
   {
     "name": "沈阳轧钢厂（中山钢业所）",
@@ -967,7 +1063,8 @@
     "lat": 41.789692,
     "lon": 123.3784109,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 轧钢厂（中 Mountain"
   },
   {
     "name": "沈阳铁路陈列馆",
@@ -977,7 +1074,8 @@
     "lat": 41.6805078,
     "lon": 123.355049,
     "description": "最晚入馆时间为15:30，节假日开放时间可能根据实际情况调整。",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 铁 Road"
   },
   {
     "name": "沈阳面粉厂(东洋制粉株式会社)",
@@ -987,7 +1085,8 @@
     "lat": 41.7969078,
     "lon": 123.3808568,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 面粉厂(东洋制粉株式会社)"
   },
   {
     "name": "沈阳鼓风机厂（日满钢铁株式会社）",
@@ -997,7 +1096,8 @@
     "lat": 41.7925962,
     "lon": 123.3737923,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "Shenyang 鼓风机厂（日满钢铁株式会社）"
   },
   {
     "name": "清昭陵",
@@ -1007,7 +1107,8 @@
     "lat": 41.8508869,
     "lon": 123.4212937,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "清昭 Mausoleum"
   },
   {
     "name": "清福陵",
@@ -1017,7 +1118,8 @@
     "lat": 41.8324465,
     "lon": 123.5837371,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "清福 Mausoleum"
   },
   {
     "name": "火箭",
@@ -1027,7 +1129,8 @@
     "lat": 41.7634696,
     "lon": 123.4146541,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "火箭"
   },
   {
     "name": "猫园",
@@ -1037,7 +1140,8 @@
     "lat": 41.8329466,
     "lon": 123.4161648,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "猫 Garden"
   },
   {
     "name": "猫舍",
@@ -1047,7 +1151,8 @@
     "lat": 41.7420187,
     "lon": 123.5117987,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "猫舍"
   },
   {
     "name": "皇太极雕像",
@@ -1057,7 +1162,8 @@
     "lat": 41.8429946,
     "lon": 123.4219541,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "皇太极雕像"
   },
   {
     "name": "皇姑屯事件博物馆",
@@ -1067,7 +1173,8 @@
     "lat": 41.814167,
     "lon": 123.3831115,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "皇姑屯事件 Museum"
   },
   {
     "name": "皇姑屯事件发生地",
@@ -1077,7 +1184,8 @@
     "lat": 41.8092488,
     "lon": 123.4028986,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "皇姑屯事件发生地"
   },
   {
     "name": "皇家海洋乐园",
@@ -1087,7 +1195,8 @@
     "lat": 41.8642441,
     "lon": 123.7370049,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "皇家 Sea"
   },
   {
     "name": "相思",
@@ -1097,7 +1206,8 @@
     "lat": 41.7434629,
     "lon": 123.5088366,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "相思"
   },
   {
     "name": "石台子山城",
@@ -1107,7 +1217,8 @@
     "lat": 41.9492581,
     "lon": 123.6846442,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "石台子 Mountain"
   },
   {
     "name": "石头碑",
@@ -1117,7 +1228,8 @@
     "lat": 41.7074371,
     "lon": 123.4409315,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "石头 Monument"
   },
   {
     "name": "神秘谷",
@@ -1127,7 +1239,8 @@
     "lat": 41.993145,
     "lon": 123.7460162,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "神秘谷"
   },
   {
     "name": "科学宫",
@@ -1137,7 +1250,8 @@
     "lat": 41.7597505,
     "lon": 123.4293135,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "科学 Palace"
   },
   {
     "name": "秦开像",
@@ -1147,7 +1261,8 @@
     "lat": 41.755986,
     "lon": 123.4492865,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "秦开像"
   },
   {
     "name": "稻梦空间-办公室",
@@ -1157,7 +1272,8 @@
     "lat": 42.0743444,
     "lon": 123.2957611,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "稻梦空间-办公室"
   },
   {
     "name": "紫薇山庄",
@@ -1167,7 +1283,8 @@
     "lat": 41.6262153,
     "lon": 123.5525187,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "紫薇 Mountain"
   },
   {
     "name": "红梅文创园",
@@ -1177,7 +1294,8 @@
     "lat": 41.8088293,
     "lon": 123.3446621,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "红梅文创 Garden"
   },
   {
     "name": "给水排水96级毕业二十三周年纪念",
@@ -1187,7 +1305,8 @@
     "lat": 41.7425203,
     "lon": 123.5064634,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "给水排水96级毕业二十三周年纪念"
   },
   {
     "name": "给水排水96级毕业十周年纪念",
@@ -1197,7 +1316,8 @@
     "lat": 41.7424882,
     "lon": 123.506537,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "给水排水96级毕业十周年纪念"
   },
   {
     "name": "美术长廊",
@@ -1207,7 +1327,8 @@
     "lat": 41.7068319,
     "lon": 123.4409305,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "美术长廊"
   },
   {
     "name": "能量球",
@@ -1217,7 +1338,8 @@
     "lat": 41.7661001,
     "lon": 123.4122884,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "能量球"
   },
   {
     "name": "苏军烈士陵园",
@@ -1227,7 +1349,8 @@
     "lat": 41.8503241,
     "lon": 123.4437234,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "苏军烈士 Mausoleum"
   },
   {
     "name": "辽宁古生物博物馆",
@@ -1237,7 +1360,8 @@
     "lat": 41.9057183,
     "lon": 123.4041981,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "辽宁古生物 Museum"
   },
   {
     "name": "辽宁工业展览馆",
@@ -1247,7 +1371,8 @@
     "lat": 41.7693886,
     "lon": 123.4280514,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "辽宁工业 Exhibition Hall"
   },
   {
     "name": "辽宁省博物馆",
@@ -1257,7 +1382,8 @@
     "lat": 41.6756614,
     "lon": 123.4542131,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "辽宁 Museum"
   },
   {
     "name": "辽宁省科学技术馆",
@@ -1267,7 +1393,8 @@
     "lat": 41.6732983,
     "lon": 123.4541257,
     "description": "A popular museum spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "辽宁省科学技术馆"
   },
   {
     "name": "野兽派自助画室",
@@ -1277,7 +1404,8 @@
     "lat": 41.8347991,
     "lon": 123.5114008,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "野兽派自助画室"
   },
   {
     "name": "金山",
@@ -1287,7 +1415,8 @@
     "lat": 41.6740582,
     "lon": 123.3275582,
     "description": "A popular outdoor spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "金 Mountain"
   },
   {
     "name": "铁西1905文创园",
@@ -1297,7 +1426,8 @@
     "lat": 41.8098948,
     "lon": 123.3762473,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "铁西1905文创 Garden"
   },
   {
     "name": "锡伯族图腾",
@@ -1307,7 +1437,8 @@
     "lat": 41.9341914,
     "lon": 123.413914,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "锡伯族图腾"
   },
   {
     "name": "阳光100",
@@ -1317,7 +1448,8 @@
     "lat": 41.7702726,
     "lon": 123.3422705,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "阳光100"
   },
   {
     "name": "雕塑",
@@ -1327,7 +1459,8 @@
     "lat": 41.7636914,
     "lon": 123.4145043,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "雕塑"
   },
   {
     "name": "鹿苑",
@@ -1337,7 +1470,8 @@
     "lat": 41.7421998,
     "lon": 123.511528,
     "description": "A popular sightseeing spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "鹿 Garden"
   },
   {
     "name": "鼎",
@@ -1347,6 +1481,7 @@
     "lat": 41.7638837,
     "lon": 123.4132916,
     "description": "A popular history spot in Shenyang.",
-    "city": "Shenyang"
+    "city": "Shenyang",
+    "name_en": "鼎"
   }
 ]

@@ -6,7 +6,8 @@
         "category": "temple",
         "duration_minutes": 45,
         "rating": 4.1,
-        "description": "Sagrada Familia — Historic or religious site, usually quiet and culturally significant. Highlights: Sagrada Familia. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Sagrada Familia — Historic or religious site, usually quiet and culturally significant. Highlights: Sagrada Familia. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Sagrada Familia"
     },
     {
         "name": "Park Güell",
@@ -15,7 +16,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Park Güell — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Park Güell. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Park Güell — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Park Güell. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Park Güell"
     },
     {
         "name": "Casa Batlló",
@@ -24,7 +26,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Casa Batlló — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Casa Batlló. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Casa Batlló — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Casa Batlló. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Casa Batlló"
     },
     {
         "name": "La Rambla",
@@ -33,7 +36,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "La Rambla — Shopping area with stores and local vendors; good for browsing. Highlights: La Rambla. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "La Rambla — Shopping area with stores and local vendors; good for browsing. Highlights: La Rambla. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "La Rambla"
     },
     {
         "name": "Gothic Quarter",
@@ -42,7 +46,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Gothic Quarter — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Gothic Quarter. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Gothic Quarter — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Gothic Quarter. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Gothic Quarter"
     },
     {
         "name": "Magic Fountain of Montjuïc",
@@ -51,7 +56,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Magic Fountain of Montjuïc — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Magic Fountain. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Magic Fountain of Montjuïc — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Magic Fountain. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Magic Fountain of Montjuïc"
     },
     {
         "name": "Picasso Museum",
@@ -60,7 +66,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Picasso Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Picasso Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Picasso Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Picasso Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Picasso Museum"
     },
     {
         "name": "Camp Nou",
@@ -69,7 +76,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Camp Nou — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Camp Nou. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Camp Nou — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Camp Nou. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Camp Nou"
     },
     {
         "name": "Barceloneta Beach",
@@ -78,7 +86,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Barceloneta Beach — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Barceloneta Beach. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Barceloneta Beach — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Barceloneta Beach. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Barceloneta Beach"
     },
     {
         "name": "El Corte Inglés",
@@ -87,7 +96,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "El Corte Inglés — Shopping area with stores and local vendors; good for browsing. Highlights: El Corte Inglés. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "El Corte Inglés — Shopping area with stores and local vendors; good for browsing. Highlights: El Corte Inglés. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "El Corte Inglés"
     },
     {
         "name": "Montjuïc Castle",
@@ -96,7 +106,8 @@
         "category": "temple",
         "duration_minutes": 45,
         "rating": 4.1,
-        "description": "Montjuïc Castle — Historic or religious site, usually quiet and culturally significant. Highlights: Montjuïc Castle. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Montjuïc Castle — Historic or religious site, usually quiet and culturally significant. Highlights: Montjuïc Castle. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Montjuïc Castle"
     },
     {
         "name": "Palau de la Música Catalana",
@@ -105,7 +116,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Palau de la Música Catalana — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Palau de la Música. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Palau de la Música Catalana — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Palau de la Música. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Palau de la Música Catalana"
     },
     {
         "name": "El Raval",
@@ -114,7 +126,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "El Raval — Shopping area with stores and local vendors; good for browsing. Highlights: El Raval. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "El Raval — Shopping area with stores and local vendors; good for browsing. Highlights: El Raval. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "El Raval"
     },
     {
         "name": "Ciutadella Park",
@@ -123,7 +136,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Ciutadella Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Ciutadella Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Ciutadella Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Ciutadella Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Ciutadella Park"
     },
     {
         "name": "MNAC (Museu Nacional d'Art de Catalunya)",
@@ -132,7 +146,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "MNAC (Museu Nacional d'Art de Catalunya) — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: MNAC. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "MNAC (Museu Nacional d'Art de Catalunya) — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: MNAC. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "MNAC (Museu Nacional d'Art de Catalunya)"
     },
     {
         "name": "Passeig de Gràcia",
@@ -141,7 +156,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Passeig de Gràcia — Shopping area with stores and local vendors; good for browsing. Highlights: Passeig de Gràcia. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Passeig de Gràcia — Shopping area with stores and local vendors; good for browsing. Highlights: Passeig de Gràcia. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Passeig de Gràcia"
     },
     {
         "name": "Tibidabo",
@@ -150,7 +166,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Tibidabo — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Tibidabo. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Tibidabo — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Tibidabo. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Tibidabo"
     },
     {
         "name": "Fundació Joan Miró",
@@ -159,6 +176,7 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Fundació Joan Miró — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Fundació Joan Miró. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Fundació Joan Miró — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Fundació Joan Miró. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Fundació Joan Miró"
     }
 ]

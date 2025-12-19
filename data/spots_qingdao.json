@@ -7,7 +7,8 @@
     "lat": 36.3832472,
     "lon": 120.4118437,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Dayu gallery"
   },
   {
     "name": "Exhibition Hall",
@@ -17,7 +18,8 @@
     "lat": 36.3053307,
     "lon": 120.5018402,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Exhibition Hall"
   },
   {
     "name": "Night Market",
@@ -27,7 +29,8 @@
     "lat": 36.1569104,
     "lon": 120.4189815,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Night Market"
   },
   {
     "name": "Oceanarium",
@@ -37,7 +40,8 @@
     "lat": 36.1684137,
     "lon": 120.6872901,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Oceanarium"
   },
   {
     "name": "Sunday market",
@@ -47,7 +51,8 @@
     "lat": 36.1132669,
     "lon": 120.3485262,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sunday market"
   },
   {
     "name": "Zoo gate",
@@ -57,7 +62,8 @@
     "lat": 36.0695909,
     "lon": 120.3423247,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Zoo gate"
   },
   {
     "name": "一指天",
@@ -67,7 +73,8 @@
     "lat": 36.1532092,
     "lon": 120.6639702,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "一指天"
   },
   {
     "name": "一柱香",
@@ -77,7 +84,8 @@
     "lat": 36.1941186,
     "lon": 120.4474287,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "一柱香"
   },
   {
     "name": "一线天",
@@ -87,7 +95,8 @@
     "lat": 36.1497633,
     "lon": 120.6291106,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "一线天"
   },
   {
     "name": "七涧谷",
@@ -97,7 +106,8 @@
     "lat": 36.3089057,
     "lon": 120.5612343,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "七涧谷"
   },
   {
     "name": "万丽海景",
@@ -107,7 +117,8 @@
     "lat": 36.0554702,
     "lon": 120.3627115,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "万丽 Sea"
   },
   {
     "name": "万年梯",
@@ -117,7 +128,8 @@
     "lat": 36.1672433,
     "lon": 120.6375287,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "万年梯"
   },
   {
     "name": "万年船",
@@ -127,7 +139,8 @@
     "lat": 36.1591368,
     "lon": 120.6580679,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "万年船"
   },
   {
     "name": "三丰洞",
@@ -137,7 +150,8 @@
     "lat": 36.1564031,
     "lon": 120.6616147,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "三丰 Cave"
   },
   {
     "name": "三寸金莲",
@@ -147,7 +161,8 @@
     "lat": 36.1996005,
     "lon": 120.5993206,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "三寸金莲"
   },
   {
     "name": "三教台",
@@ -157,7 +172,8 @@
     "lat": 36.1669176,
     "lon": 120.6178005,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "三教台"
   },
   {
     "name": "三清亭",
@@ -167,7 +183,8 @@
     "lat": 36.1413403,
     "lon": 120.6692007,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "三清亭"
   },
   {
     "name": "三清殿遗迹",
@@ -177,7 +194,8 @@
     "lat": 36.216714,
     "lon": 120.5924522,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "三清殿遗迹"
   },
   {
     "name": "三界石",
@@ -187,7 +205,8 @@
     "lat": 36.2157235,
     "lon": 120.4793888,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "三界石"
   },
   {
     "name": "三阳洞",
@@ -197,7 +216,8 @@
     "lat": 36.2379442,
     "lon": 120.4971741,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "三阳 Cave"
   },
   {
     "name": "丑石",
@@ -207,7 +227,8 @@
     "lat": 36.1573025,
     "lon": 120.6331244,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "丑石"
   },
   {
     "name": "丘处机修炼处",
@@ -217,7 +238,8 @@
     "lat": 36.2709517,
     "lon": 120.4956294,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "丘处机修炼处"
   },
   {
     "name": "东天门",
@@ -227,7 +249,8 @@
     "lat": 36.1938565,
     "lon": 120.4474789,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "东天 Gate"
   },
   {
     "name": "东方伊甸园",
@@ -237,7 +260,8 @@
     "lat": 36.2581666,
     "lon": 120.3054442,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "东方伊甸 Garden"
   },
   {
     "name": "东西歧",
@@ -247,7 +271,8 @@
     "lat": 36.1589411,
     "lon": 120.6508206,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "东西歧"
   },
   {
     "name": "中华人民共和国水准零点",
@@ -257,7 +282,8 @@
     "lat": 36.0568775,
     "lon": 120.4181966,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "中华人民共和国水准零点"
   },
   {
     "name": "中国人民解放军海军博物馆",
@@ -267,7 +293,8 @@
     "lat": 36.0547934,
     "lon": 120.3238996,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "中国人民解放军海军 Museum"
   },
   {
     "name": "中国雕塑院·青岛雕塑园",
@@ -277,7 +304,8 @@
     "lat": 36.0779039,
     "lon": 120.4487559,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "中国雕塑院·青 Island"
   },
   {
     "name": "串石",
@@ -287,7 +315,8 @@
     "lat": 36.2351312,
     "lon": 120.4642479,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "串石"
   },
   {
     "name": "乾坤洞",
@@ -297,7 +326,8 @@
     "lat": 36.1740833,
     "lon": 120.6228038,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "乾坤 Cave"
   },
   {
     "name": "乾坤门",
@@ -307,7 +337,8 @@
     "lat": 36.1564106,
     "lon": 120.6614709,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "乾坤 Gate"
   },
   {
     "name": "乾门",
@@ -317,7 +348,8 @@
     "lat": 36.1801723,
     "lon": 120.6238135,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "乾 Gate"
   },
   {
     "name": "二平潭",
@@ -327,7 +359,8 @@
     "lat": 36.1430406,
     "lon": 120.6546241,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "二平潭"
   },
   {
     "name": "二界",
@@ -337,7 +370,8 @@
     "lat": 36.2045372,
     "lon": 120.4673149,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "二界"
   },
   {
     "name": "云洞",
@@ -347,7 +381,8 @@
     "lat": 36.2702782,
     "lon": 120.5046998,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "云 Cave"
   },
   {
     "name": "云海游乐园",
@@ -357,7 +392,8 @@
     "lat": 36.1831078,
     "lon": 120.4878241,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "云海 Amusement Park"
   },
   {
     "name": "云窟",
@@ -367,7 +403,8 @@
     "lat": 36.1557197,
     "lon": 120.6625726,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "云窟"
   },
   {
     "name": "云霄洞",
@@ -377,7 +414,8 @@
     "lat": 36.175147,
     "lon": 120.6228958,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "云霄 Cave"
   },
   {
     "name": "五四广场",
@@ -387,7 +425,8 @@
     "lat": 36.0611741,
     "lon": 120.3802257,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "五四 Square"
   },
   {
     "name": "五子登科",
@@ -397,7 +436,8 @@
     "lat": 36.2194274,
     "lon": 120.6401496,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "五子登科"
   },
   {
     "name": "五峰仙馆",
@@ -407,7 +447,8 @@
     "lat": 36.1792276,
     "lon": 120.6243868,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "五峰仙馆"
   },
   {
     "name": "仙人崮",
@@ -417,7 +458,8 @@
     "lat": 36.2244519,
     "lon": 120.6532952,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "仙人崮"
   },
   {
     "name": "仙人桥",
@@ -427,7 +469,8 @@
     "lat": 36.21729,
     "lon": 120.6097995,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "仙人 Bridge"
   },
   {
     "name": "仙人洞",
@@ -437,7 +480,8 @@
     "lat": 36.225009,
     "lon": 120.6316204,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "仙人 Cave"
   },
   {
     "name": "仙古洞",
@@ -447,7 +491,8 @@
     "lat": 36.2167721,
     "lon": 120.5925456,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "仙古 Cave"
   },
   {
     "name": "仙女洞",
@@ -457,7 +502,8 @@
     "lat": 36.213457,
     "lon": 120.5186691,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "仙女 Cave"
   },
   {
     "name": "仙女盆/洗澡盆",
@@ -467,7 +513,8 @@
     "lat": 36.2135608,
     "lon": 120.5187334,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "仙女盆/洗澡盆"
   },
   {
     "name": "仙岩石刻",
@@ -477,7 +524,8 @@
     "lat": 36.2383632,
     "lon": 120.4968681,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "仙岩 Stone Carving"
   },
   {
     "name": "仰天池",
@@ -487,7 +535,8 @@
     "lat": 36.1771143,
     "lon": 120.6280369,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "仰天池"
   },
   {
     "name": "伊伦娜旅馆",
@@ -497,7 +546,8 @@
     "lat": 36.1831864,
     "lon": 120.6096875,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "伊伦娜旅馆"
   },
   {
     "name": "会前村遗址",
@@ -507,7 +557,8 @@
     "lat": 36.0631934,
     "lon": 120.3448122,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "会前村 Site"
   },
   {
     "name": "伴山居士石刻",
@@ -517,7 +568,8 @@
     "lat": 36.1566372,
     "lon": 120.659585,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "伴山居士 Stone Carving"
   },
   {
     "name": "俾斯麦炮台",
@@ -527,7 +579,8 @@
     "lat": 36.0684015,
     "lon": 120.3377677,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "俾斯麦炮台"
   },
   {
     "name": "借粮台",
@@ -537,7 +590,8 @@
     "lat": 36.21997,
     "lon": 120.6648691,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "借粮台"
   },
   {
     "name": "元宝石",
@@ -547,7 +601,8 @@
     "lat": 36.2372765,
     "lon": 120.4999781,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "元宝石"
   },
   {
     "name": "兑门",
@@ -557,7 +612,8 @@
     "lat": 36.1770392,
     "lon": 120.6238227,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "兑 Gate"
   },
   {
     "name": "兔子石",
@@ -567,7 +623,8 @@
     "lat": 36.2356749,
     "lon": 120.4663414,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "兔子石"
   },
   {
     "name": "全真庵遗址",
@@ -577,7 +634,8 @@
     "lat": 36.2160878,
     "lon": 120.5194863,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "全真庵 Site"
   },
   {
     "name": "八不砂大王令旨石刻",
@@ -587,7 +645,8 @@
     "lat": 36.2377346,
     "lon": 120.49678,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "八不砂大王令旨 Stone Carving"
   },
   {
     "name": "八大关风景名胜区",
@@ -597,7 +656,8 @@
     "lat": 36.0534333,
     "lon": 120.3458323,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "八大关风景名胜区"
   },
   {
     "name": "八角池",
@@ -607,7 +667,8 @@
     "lat": 36.1776688,
     "lon": 120.6296709,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "八角池"
   },
   {
     "name": "公主楼",
@@ -617,7 +678,8 @@
     "lat": 36.0522897,
     "lon": 120.3444601,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "公主 Tower"
   },
   {
     "name": "关公夜读",
@@ -627,7 +689,8 @@
     "lat": 36.2380479,
     "lon": 120.6483714,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "关公夜读"
   },
   {
     "name": "凌海山",
@@ -637,7 +700,8 @@
     "lat": 36.1446328,
     "lon": 120.6776144,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "凌海 Mountain"
   },
   {
     "name": "凤凰台",
@@ -647,7 +711,8 @@
     "lat": 36.2784705,
     "lon": 120.4905688,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "凤凰台"
   },
   {
     "name": "凭虚石",
@@ -657,7 +722,8 @@
     "lat": 36.2383662,
     "lon": 120.4970892,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "凭虚石"
   },
   {
     "name": "刘武美术馆",
@@ -667,7 +733,8 @@
     "lat": 36.064471,
     "lon": 120.3364323,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "刘武 Art Gallery"
   },
   {
     "name": "劈柴院",
@@ -677,7 +744,8 @@
     "lat": 36.071175,
     "lon": 120.3128512,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "劈柴院"
   },
   {
     "name": "劈柴院江宁会馆",
@@ -687,7 +755,8 @@
     "lat": 36.0712762,
     "lon": 120.3131062,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "劈柴院江宁 Guild Hall"
   },
   {
     "name": "劈石",
@@ -697,7 +766,8 @@
     "lat": 36.2898135,
     "lon": 120.5811699,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "劈石"
   },
   {
     "name": "化化浪子",
@@ -707,7 +777,8 @@
     "lat": 36.1525097,
     "lon": 120.6431562,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "化化浪子"
   },
   {
     "name": "北岭山森林公园",
@@ -717,7 +788,8 @@
     "lat": 36.1224472,
     "lon": 120.3661245,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "北岭山森林 Park"
   },
   {
     "name": "十五大街古玩城",
@@ -727,7 +799,8 @@
     "lat": 36.0757212,
     "lon": 120.3448491,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "十五大 Street"
   },
   {
     "name": "千年之吻",
@@ -737,7 +810,8 @@
     "lat": 36.1950391,
     "lon": 120.4467774,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "千年之吻"
   },
   {
     "name": "华楼周鲁孙镗石刻",
@@ -747,7 +821,8 @@
     "lat": 36.2389106,
     "lon": 120.4981838,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "华楼周鲁孙镗 Stone Carving"
   },
   {
     "name": "华楼山摩崖石刻",
@@ -757,7 +832,8 @@
     "lat": 36.2384845,
     "lon": 120.4996663,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "华楼山 Cliff Inscription"
   },
   {
     "name": "华阳书院",
@@ -767,7 +843,8 @@
     "lat": 36.2346142,
     "lon": 120.5031377,
     "description": "华阳书院建于明正德年间，明黄宗昌《崂山志》载：“在华楼山南麓，盖少司寇蓝公伤心时事，退休大崂之侧，卜筑于此者也。”\n蓝公即蓝章，字文绣，即墨人，明成化二十年（1484）进士，曾任都察院右佥都御史、刑部右侍郎等职，后告退归里，于华阳山筑华阳书院，结庐隐居，自号“大崂山人”，教儿子蓝田、蓝囦攻读诗书，后世子孙多就读于此，人才辈出，盛极一时。\n华阳书院占地亩余，东西建有两栋各为三间的砖木结构平房， 分别取名“紫云阁”和“文昌阁”。书院南侧溪流潺潺，山石上刻有“谈经地”“枕石漱流”“曲水流觞”以及“松关”“八仙台",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "华阳 Academy"
   },
   {
     "name": "华阳书院碑记石刻",
@@ -777,7 +854,8 @@
     "lat": 36.2336293,
     "lon": 120.5017555,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "华阳书院碑记 Stone Carving"
   },
   {
     "name": "华阳洞",
@@ -787,7 +865,8 @@
     "lat": 36.2289212,
     "lon": 120.4932182,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "华阳 Cave"
   },
   {
     "name": "南天门",
@@ -797,7 +876,8 @@
     "lat": 36.2368495,
     "lon": 120.4980119,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "南天 Gate"
   },
   {
     "name": "南张村",
@@ -807,7 +887,8 @@
     "lat": 36.1400291,
     "lon": 120.4680201,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "南张 Village"
   },
   {
     "name": "南方院子",
@@ -817,7 +898,8 @@
     "lat": 35.9281535,
     "lon": 120.1966643,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "南方院子"
   },
   {
     "name": "南村镇",
@@ -827,7 +909,8 @@
     "lat": 36.5341029,
     "lon": 120.1271616,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "南 Village"
   },
   {
     "name": "南长坂坡",
@@ -837,7 +920,8 @@
     "lat": 36.1492986,
     "lon": 120.6280365,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "南长坂坡"
   },
   {
     "name": "即墨古城",
@@ -847,7 +931,8 @@
     "lat": 36.3884921,
     "lon": 120.462969,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "即墨 Ancient Town"
   },
   {
     "name": "即墨路小商品市场",
@@ -857,7 +942,8 @@
     "lat": 36.0742252,
     "lon": 120.3187844,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "即墨 Road"
   },
   {
     "name": "原泉(太乙泉)",
@@ -867,7 +953,8 @@
     "lat": 36.179312,
     "lon": 120.6274262,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "原泉(太乙泉)"
   },
   {
     "name": "双兔石",
@@ -877,7 +964,8 @@
     "lat": 36.0860777,
     "lon": 120.428398,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "双兔石"
   },
   {
     "name": "双福",
@@ -887,7 +975,8 @@
     "lat": 36.1828068,
     "lon": 120.6330362,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "双福"
   },
   {
     "name": "双面兽",
@@ -897,7 +986,8 @@
     "lat": 36.2777161,
     "lon": 120.5013607,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "双面兽"
   },
   {
     "name": "台东商业步行街",
@@ -907,7 +997,8 @@
     "lat": 36.082427,
     "lon": 120.3509106,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "台东商业 Walking Street"
   },
   {
     "name": "台东夜市",
@@ -917,7 +1008,8 @@
     "lat": 36.0834948,
     "lon": 120.3503899,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "台东夜市"
   },
   {
     "name": "台东布艺街",
@@ -927,7 +1019,8 @@
     "lat": 36.0881967,
     "lon": 120.3518554,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "台东布艺 Street"
   },
   {
     "name": "吉普车",
@@ -937,7 +1030,8 @@
     "lat": 36.200898,
     "lon": 120.4579155,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "吉普车"
   },
   {
     "name": "名山第一石刻",
@@ -947,7 +1041,8 @@
     "lat": 36.238842,
     "lon": 120.4983163,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "名山第一 Stone Carving"
   },
   {
     "name": "吕美荪故居",
@@ -957,7 +1052,8 @@
     "lat": 36.0607371,
     "lon": 120.3286751,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "吕美荪 Former Residence"
   },
   {
     "name": "听风",
@@ -967,7 +1063,8 @@
     "lat": 36.1957221,
     "lon": 120.4488183,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "听风"
   },
   {
     "name": "周叔迦故居",
@@ -977,7 +1074,8 @@
     "lat": 36.0598601,
     "lon": 120.3320201,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "周叔迦 Former Residence"
   },
   {
     "name": "和尚石",
@@ -987,7 +1085,8 @@
     "lat": 36.2260041,
     "lon": 120.5725816,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "和尚石"
   },
   {
     "name": "响石",
@@ -997,7 +1096,8 @@
     "lat": 36.2504665,
     "lon": 120.4994732,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "响石"
   },
   {
     "name": "哑铃石",
@@ -1007,7 +1107,8 @@
     "lat": 36.1707935,
     "lon": 120.631448,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "哑铃石"
   },
   {
     "name": "啸天犬",
@@ -1017,7 +1118,8 @@
     "lat": 36.3002503,
     "lon": 120.5726502,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "啸天犬"
   },
   {
     "name": "嘉年华游乐区",
@@ -1027,7 +1129,8 @@
     "lat": 36.1936179,
     "lon": 120.4917339,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "嘉年华游乐区"
   },
   {
     "name": "嘉靖甲辰响石石刻",
@@ -1037,7 +1140,8 @@
     "lat": 36.2489578,
     "lon": 120.4980863,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "嘉靖甲辰响石 Stone Carving"
   },
   {
     "name": "回澜阁",
@@ -1047,7 +1151,8 @@
     "lat": 36.0582954,
     "lon": 120.3154339,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "回澜 Pavilion"
   },
   {
     "name": "地下长城",
@@ -1057,7 +1162,8 @@
     "lat": 36.2194017,
     "lon": 120.4852913,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "地下 Great Wall"
   },
   {
     "name": "地棺",
@@ -1067,7 +1173,8 @@
     "lat": 36.2178817,
     "lon": 120.6367517,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "地棺"
   },
   {
     "name": "坊子街山公园",
@@ -1077,7 +1184,8 @@
     "lat": 36.1990756,
     "lon": 120.3875786,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "坊子街山 Park"
   },
   {
     "name": "坎门",
@@ -1087,7 +1195,8 @@
     "lat": 36.180282,
     "lon": 120.6281896,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "坎 Gate"
   },
   {
     "name": "坤门",
@@ -1097,7 +1206,8 @@
     "lat": 36.1722335,
     "lon": 120.6225223,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "坤 Gate"
   },
   {
     "name": "垭口驿站",
@@ -1107,7 +1217,8 @@
     "lat": 36.1453359,
     "lon": 120.6779862,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "垭口驿 Station"
   },
   {
     "name": "外星人",
@@ -1117,7 +1228,8 @@
     "lat": 36.2230217,
     "lon": 120.6171114,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "外星人"
   },
   {
     "name": "大圣故居",
@@ -1127,7 +1239,8 @@
     "lat": 36.2392736,
     "lon": 120.6502785,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大圣 Former Residence"
   },
   {
     "name": "大崂观遗址",
@@ -1137,7 +1250,8 @@
     "lat": 36.240415,
     "lon": 120.5720352,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大崂观 Site"
   },
   {
     "name": "大棒骨",
@@ -1147,7 +1261,8 @@
     "lat": 36.2215528,
     "lon": 120.4602858,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大棒骨"
   },
   {
     "name": "大泽山风景名胜区",
@@ -1157,7 +1272,8 @@
     "lat": 36.9899115,
     "lon": 120.0085124,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大泽 Mountain"
   },
   {
     "name": "大港海关博物馆",
@@ -1167,7 +1283,8 @@
     "lat": 36.0839574,
     "lon": 120.319176,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大港海关 Museum"
   },
   {
     "name": "大珠山风景名胜区",
@@ -1177,7 +1294,8 @@
     "lat": 35.7973292,
     "lon": 119.9991553,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大珠 Mountain"
   },
   {
     "name": "大蘑菇石",
@@ -1187,7 +1305,8 @@
     "lat": 36.2350914,
     "lon": 120.4695027,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大蘑菇石"
   },
   {
     "name": "大象石",
@@ -1197,7 +1316,8 @@
     "lat": 36.2115083,
     "lon": 120.4744434,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大象石"
   },
   {
     "name": "大象鼻子",
@@ -1207,7 +1327,8 @@
     "lat": 36.2007214,
     "lon": 120.4541668,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大象鼻子"
   },
   {
     "name": "大鹰嘴石",
@@ -1217,7 +1338,8 @@
     "lat": 36.1994224,
     "lon": 120.4495974,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "大鹰嘴石"
   },
   {
     "name": "天书",
@@ -1227,7 +1349,8 @@
     "lat": 36.162261,
     "lon": 120.659004,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天书"
   },
   {
     "name": "天后宫",
@@ -1237,7 +1360,8 @@
     "lat": 36.0614722,
     "lon": 120.3222445,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天后 Palace"
   },
   {
     "name": "天寿",
@@ -1247,7 +1371,8 @@
     "lat": 36.2174853,
     "lon": 120.4671857,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天寿"
   },
   {
     "name": "天幕城",
@@ -1257,7 +1382,8 @@
     "lat": 36.0812038,
     "lon": 120.3381518,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天幕城"
   },
   {
     "name": "天心池",
@@ -1267,7 +1393,8 @@
     "lat": 36.1792436,
     "lon": 120.6575968,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天心池"
   },
   {
     "name": "天心石",
@@ -1277,7 +1404,8 @@
     "lat": 36.1708402,
     "lon": 120.6315506,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天心石"
   },
   {
     "name": "天板石",
@@ -1287,7 +1415,8 @@
     "lat": 36.1985334,
     "lon": 120.6313539,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天板石"
   },
   {
     "name": "天柱石",
@@ -1297,7 +1426,8 @@
     "lat": 36.2131814,
     "lon": 120.6548433,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天柱石"
   },
   {
     "name": "天梯石刻",
@@ -1307,7 +1437,8 @@
     "lat": 36.1355573,
     "lon": 120.6593026,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天梯 Stone Carving"
   },
   {
     "name": "天棺",
@@ -1317,7 +1448,8 @@
     "lat": 36.2187834,
     "lon": 120.6397264,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天棺"
   },
   {
     "name": "天池晴波",
@@ -1327,7 +1459,8 @@
     "lat": 36.1557025,
     "lon": 120.6626994,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天池晴波"
   },
   {
     "name": "天河石刻",
@@ -1337,7 +1470,8 @@
     "lat": 36.2058121,
     "lon": 120.4692803,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天河 Stone Carving"
   },
   {
     "name": "天波池",
@@ -1347,7 +1481,8 @@
     "lat": 36.1984244,
     "lon": 120.6716785,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天波池"
   },
   {
     "name": "天液泉",
@@ -1357,7 +1492,8 @@
     "lat": 36.238383,
     "lon": 120.4968517,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天液泉"
   },
   {
     "name": "天生一个仙人洞",
@@ -1367,7 +1503,8 @@
     "lat": 36.2005871,
     "lon": 120.4476985,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天生一个仙人 Cave"
   },
   {
     "name": "天苑",
@@ -1377,7 +1514,8 @@
     "lat": 36.2295181,
     "lon": 120.6537946,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天 Garden"
   },
   {
     "name": "天落水",
@@ -1387,7 +1525,8 @@
     "lat": 36.2314191,
     "lon": 120.4862692,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天落水"
   },
   {
     "name": "天门池",
@@ -1397,7 +1536,8 @@
     "lat": 36.1537332,
     "lon": 120.6330084,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天 Gate"
   },
   {
     "name": "天险",
@@ -1407,7 +1547,8 @@
     "lat": 36.1531731,
     "lon": 120.6636954,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "天险"
   },
   {
     "name": "太师椅",
@@ -1417,7 +1558,8 @@
     "lat": 36.2003611,
     "lon": 120.4541424,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "太师椅"
   },
   {
     "name": "太平顶",
@@ -1427,7 +1569,8 @@
     "lat": 36.068866,
     "lon": 120.3502588,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "太平顶"
   },
   {
     "name": "太清胜境",
@@ -1437,7 +1580,8 @@
     "lat": 36.1378521,
     "lon": 120.6645882,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "太清胜境"
   },
   {
     "name": "夹蛋石",
@@ -1447,7 +1591,8 @@
     "lat": 36.2243728,
     "lon": 120.4851813,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "夹蛋石"
   },
   {
     "name": "奥帆博物馆",
@@ -1457,7 +1602,8 @@
     "lat": 36.0527698,
     "lon": 120.3893664,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "奥帆 Museum"
   },
   {
     "name": "如意石",
@@ -1467,7 +1613,8 @@
     "lat": 36.2194634,
     "lon": 120.6356649,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "如意石"
   },
   {
     "name": "姊妹洞",
@@ -1477,7 +1624,8 @@
     "lat": 36.1917767,
     "lon": 120.6117021,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "姊妹 Cave"
   },
   {
     "name": "姜公背姜婆",
@@ -1487,7 +1635,8 @@
     "lat": 36.2199662,
     "lon": 120.4607429,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "姜公背姜婆"
   },
   {
     "name": "威尼斯水城",
@@ -1497,7 +1646,8 @@
     "lat": 36.20676,
     "lon": 120.2772913,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "威尼斯水城"
   },
   {
     "name": "孔子塑像",
@@ -1507,7 +1657,8 @@
     "lat": 36.1581866,
     "lon": 120.4900137,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "孔子塑像"
   },
   {
     "name": "孔子石（老子石）",
@@ -1517,7 +1668,8 @@
     "lat": 36.1893897,
     "lon": 120.587688,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "孔子石（老子石）"
   },
   {
     "name": "孔子讲书",
@@ -1527,7 +1679,8 @@
     "lat": 36.2216406,
     "lon": 120.4606367,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "孔子讲书"
   },
   {
     "name": "孔祥熙别墅（法国楼）",
@@ -1537,7 +1690,8 @@
     "lat": 36.0598068,
     "lon": 120.3583026,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "孔祥熙别墅（法国 Tower"
   },
   {
     "name": "孙昙采药刻石",
@@ -1547,7 +1701,8 @@
     "lat": 36.2008251,
     "lon": 120.6528984,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "孙昙采药刻石"
   },
   {
     "name": "孤山",
@@ -1557,7 +1712,8 @@
     "lat": 36.1298194,
     "lon": 120.3502044,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "孤 Mountain"
   },
   {
     "name": "安静潭",
@@ -1567,7 +1723,8 @@
     "lat": 36.1464601,
     "lon": 120.648652,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "安静潭"
   },
   {
     "name": "宗鑫博物馆（东莱银行旧址）",
@@ -1577,7 +1734,8 @@
     "lat": 36.0651122,
     "lon": 120.3129968,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "宗鑫 Museum"
   },
   {
     "name": "官帽石",
@@ -1587,7 +1745,8 @@
     "lat": 36.1885442,
     "lon": 120.568322,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "官帽石"
   },
   {
     "name": "宫崎骏漫画街",
@@ -1597,7 +1756,8 @@
     "lat": 36.0630585,
     "lon": 120.3261786,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Palace"
   },
   {
     "name": "寻真门",
@@ -1607,7 +1767,8 @@
     "lat": 36.1362986,
     "lon": 120.662282,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "寻真 Gate"
   },
   {
     "name": "寿星石",
@@ -1617,7 +1778,8 @@
     "lat": 36.1665659,
     "lon": 120.6278882,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "寿星石"
   },
   {
     "name": "将军台",
@@ -1627,7 +1789,8 @@
     "lat": 36.1686639,
     "lon": 120.6296005,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "将军台"
   },
   {
     "name": "小圣天",
@@ -1637,7 +1800,8 @@
     "lat": 36.2193344,
     "lon": 120.463254,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "小圣天"
   },
   {
     "name": "小圣故居",
@@ -1647,7 +1811,8 @@
     "lat": 36.1550306,
     "lon": 120.6129299,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "小圣 Former Residence"
   },
   {
     "name": "小天池",
@@ -1657,7 +1822,8 @@
     "lat": 36.1587352,
     "lon": 120.6578554,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "小天池"
   },
   {
     "name": "小天落水",
@@ -1667,7 +1833,8 @@
     "lat": 36.2291781,
     "lon": 120.4842117,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "小天落水"
   },
   {
     "name": "小湛山堡垒遗址",
@@ -1677,7 +1844,8 @@
     "lat": 36.075658,
     "lon": 120.3628712,
     "description": "德国仲家洼炮台遗址",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "小湛山堡垒 Site"
   },
   {
     "name": "小珠山风景名胜区",
@@ -1687,7 +1855,8 @@
     "lat": 35.9811232,
     "lon": 120.0575351,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "小珠 Mountain"
   },
   {
     "name": "小鸡石",
@@ -1697,7 +1866,8 @@
     "lat": 36.2170302,
     "lon": 120.6157717,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "小鸡石"
   },
   {
     "name": "少海湿地公园",
@@ -1707,7 +1877,8 @@
     "lat": 36.2363911,
     "lon": 120.0777959,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "少海湿地 Park"
   },
   {
     "name": "山海重光",
@@ -1717,7 +1888,8 @@
     "lat": 36.1435591,
     "lon": 120.671562,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Mountain"
   },
   {
     "name": "山神石",
@@ -1727,7 +1899,8 @@
     "lat": 36.9900836,
     "lon": 120.0143324,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Mountain"
   },
   {
     "name": "岳母刺字",
@@ -1737,7 +1910,8 @@
     "lat": 36.2171008,
     "lon": 120.5832069,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "岳母刺字"
   },
   {
     "name": "崂山之谷",
@@ -1747,7 +1921,8 @@
     "lat": 36.1724453,
     "lon": 120.6264434,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "崂 Mountain"
   },
   {
     "name": "崂山风景名胜区九水游览区",
@@ -1757,7 +1932,8 @@
     "lat": 36.2043993,
     "lon": 120.6092124,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "崂 Mountain"
   },
   {
     "name": "崂山风景名胜区仰口游览区",
@@ -1767,7 +1943,8 @@
     "lat": 36.2379984,
     "lon": 120.6619489,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "崂 Mountain"
   },
   {
     "name": "崂山风景名胜区华楼游览区",
@@ -1777,7 +1954,8 @@
     "lat": 36.2364718,
     "lon": 120.5034989,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "崂山风景名胜 华 Tower"
   },
   {
     "name": "崂山风景名胜区太清游览区",
@@ -1787,7 +1965,8 @@
     "lat": 36.1390545,
     "lon": 120.668098,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "崂 Mountain"
   },
   {
     "name": "崂山风景名胜区巨峰游览区",
@@ -1797,7 +1976,8 @@
     "lat": 36.1731096,
     "lon": 120.6244167,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "崂 Mountain"
   },
   {
     "name": "崂山风景名胜区棋盘石游览区",
@@ -1807,7 +1987,8 @@
     "lat": 36.2061329,
     "lon": 120.6762862,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "崂 Mountain"
   },
   {
     "name": "崂山风景名胜区流清游览区",
@@ -1817,7 +1998,8 @@
     "lat": 36.1227821,
     "lon": 120.6052692,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "崂 Mountain"
   },
   {
     "name": "巽门",
@@ -1827,7 +2009,8 @@
     "lat": 36.1729244,
     "lon": 120.6264762,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "巽 Gate"
   },
   {
     "name": "帆船石",
@@ -1837,7 +2020,8 @@
     "lat": 36.2082412,
     "lon": 120.6599038,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "帆船石"
   },
   {
     "name": "平度市博物館",
@@ -1847,7 +2031,8 @@
     "lat": 36.7865201,
     "lon": 119.9521491,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "平度市博物館"
   },
   {
     "name": "平湖度假村",
@@ -1857,7 +2042,8 @@
     "lat": 35.904058,
     "lon": 119.9209932,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "平 Lake"
   },
   {
     "name": "康有为故居",
@@ -1867,7 +2053,8 @@
     "lat": 36.0596978,
     "lon": 120.3342231,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "康有为 Former Residence"
   },
   {
     "name": "德军要塞地下指挥部",
@@ -1877,7 +2064,8 @@
     "lat": 36.0694389,
     "lon": 120.3379718,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "德军要塞地下指挥部"
   },
   {
     "name": "德孝坊怀念堂",
@@ -1887,7 +2075,8 @@
     "lat": 36.1946926,
     "lon": 120.4622222,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "德孝坊怀念堂"
   },
   {
     "name": "德文石刻",
@@ -1897,7 +2086,8 @@
     "lat": 36.1832058,
     "lon": 120.6093931,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "德文 Stone Carving"
   },
   {
     "name": "慧炬院遗址",
@@ -1907,7 +2097,8 @@
     "lat": 36.2649423,
     "lon": 120.4916367,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "慧炬院 Site"
   },
   {
     "name": "戏凤台",
@@ -1917,7 +2108,8 @@
     "lat": 36.1530216,
     "lon": 120.6637881,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "戏凤台"
   },
   {
     "name": "扇子石",
@@ -1927,7 +2119,8 @@
     "lat": 36.2168325,
     "lon": 120.6117273,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "扇子石"
   },
   {
     "name": "抗战八周年-1945",
@@ -1937,7 +2130,8 @@
     "lat": 36.1435292,
     "lon": 120.6717049,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "抗战八周年-1945"
   },
   {
     "name": "护士石",
@@ -1947,7 +2141,8 @@
     "lat": 36.214456,
     "lon": 120.6238407,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "护士石"
   },
   {
     "name": "披云石刻",
@@ -1957,7 +2152,8 @@
     "lat": 36.2367321,
     "lon": 120.497857,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "披云 Stone Carving"
   },
   {
     "name": "拇指石",
@@ -1967,7 +2163,8 @@
     "lat": 36.2216838,
     "lon": 120.6337192,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "拇指石"
   },
   {
     "name": "拦路狗",
@@ -1977,7 +2174,8 @@
     "lat": 36.2285832,
     "lon": 120.4816261,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "拦 Road"
   },
   {
     "name": "摘星亭",
@@ -1987,7 +2185,8 @@
     "lat": 36.172183,
     "lon": 120.6260482,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "摘星亭"
   },
   {
     "name": "放生池",
@@ -1997,7 +2196,8 @@
     "lat": 36.237511,
     "lon": 120.4977797,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "放生池"
   },
   {
     "name": "方特梦幻王国",
@@ -2007,7 +2207,8 @@
     "lat": 36.2077778,
     "lon": 120.2744633,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "方特梦幻王国"
   },
   {
     "name": "无脸婆婆",
@@ -2017,7 +2218,8 @@
     "lat": 36.2276445,
     "lon": 120.4784099,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "无脸婆婆"
   },
   {
     "name": "日月池",
@@ -2027,7 +2229,8 @@
     "lat": 36.1699808,
     "lon": 120.6313509,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "日月池"
   },
   {
     "name": "日月潭",
@@ -2037,7 +2240,8 @@
     "lat": 36.1337941,
     "lon": 120.6504091,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "日月潭"
   },
   {
     "name": "明真洞",
@@ -2047,7 +2251,8 @@
     "lat": 36.237968,
     "lon": 120.4973149,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "明真 Cave"
   },
   {
     "name": "明黄嘉善书院遗址",
@@ -2057,7 +2262,8 @@
     "lat": 36.2250465,
     "lon": 120.4637302,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "明黄嘉善书院 Site"
   },
   {
     "name": "星星潭",
@@ -2067,7 +2273,8 @@
     "lat": 36.1407933,
     "lon": 120.6152232,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "星星潭"
   },
   {
     "name": "春和楼",
@@ -2077,7 +2284,8 @@
     "lat": 36.0706097,
     "lon": 120.3135176,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "春和 Tower"
   },
   {
     "name": "最乐处石刻",
@@ -2087,7 +2295,8 @@
     "lat": 36.2367383,
     "lon": 120.4979339,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "最乐处 Stone Carving"
   },
   {
     "name": "月亮船",
@@ -2097,7 +2306,8 @@
     "lat": 36.2273099,
     "lon": 120.4799789,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "月亮船"
   },
   {
     "name": "望海猴",
@@ -2107,7 +2317,8 @@
     "lat": 36.2117566,
     "lon": 120.4752422,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "望 Sea"
   },
   {
     "name": "望海门",
@@ -2117,7 +2328,8 @@
     "lat": 36.2057486,
     "lon": 120.6621349,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "望 Sea"
   },
   {
     "name": "李哥庄镇",
@@ -2127,7 +2339,8 @@
     "lat": 36.346342,
     "lon": 120.1494383,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "李哥庄 Town"
   },
   {
     "name": "李村公园",
@@ -2137,7 +2350,8 @@
     "lat": 36.1683309,
     "lon": 120.4170228,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "李村 Park"
   },
   {
     "name": "李村商业步行街",
@@ -2147,7 +2361,8 @@
     "lat": 36.1590091,
     "lon": 120.4181877,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "李村商业 Walking Street"
   },
   {
     "name": "李村河公园",
@@ -2157,7 +2372,8 @@
     "lat": 36.1632663,
     "lon": 120.4670567,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "李村河 Park"
   },
   {
     "name": "李沧区科技馆",
@@ -2167,7 +2383,8 @@
     "lat": 36.169302,
     "lon": 120.4173492,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "李沧 Science Museum"
   },
   {
     "name": "李沧文化公园",
@@ -2177,7 +2394,8 @@
     "lat": 36.1678005,
     "lon": 120.4188342,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "李沧文化 Park"
   },
   {
     "name": "栓马柱",
@@ -2187,7 +2405,8 @@
     "lat": 36.2230918,
     "lon": 120.521628,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "栓马柱"
   },
   {
     "name": "桟桥",
@@ -2197,7 +2416,8 @@
     "lat": 36.0599579,
     "lon": 120.3148805,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "桟 Bridge"
   },
   {
     "name": "梨庵子",
@@ -2207,7 +2427,8 @@
     "lat": 36.1358117,
     "lon": 120.6555041,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "梨庵子"
   },
   {
     "name": "棋盘石",
@@ -2217,7 +2438,8 @@
     "lat": 36.1979667,
     "lon": 120.6539293,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "棋盘石"
   },
   {
     "name": "棒槌石",
@@ -2227,7 +2449,8 @@
     "lat": 36.2241054,
     "lon": 120.4844084,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "棒槌石"
   },
   {
     "name": "楼山公园",
@@ -2237,7 +2460,8 @@
     "lat": 36.1962302,
     "lon": 120.380749,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "楼山 Park"
   },
   {
     "name": "楼山物流园",
@@ -2247,7 +2471,8 @@
     "lat": 36.2238294,
     "lon": 120.3739635,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Tower"
   },
   {
     "name": "母子石",
@@ -2257,7 +2482,8 @@
     "lat": 36.1918562,
     "lon": 120.5880928,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "母子石"
   },
   {
     "name": "毛主席石像",
@@ -2267,7 +2493,8 @@
     "lat": 36.0788403,
     "lon": 120.4339897,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "毛主席石像"
   },
   {
     "name": "水晶洞",
@@ -2277,7 +2504,8 @@
     "lat": 36.2076658,
     "lon": 120.4713918,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "水晶 Cave"
   },
   {
     "name": "水洞",
@@ -2287,7 +2515,8 @@
     "lat": 36.2701743,
     "lon": 120.5046077,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "水 Cave"
   },
   {
     "name": "汇泉广场",
@@ -2297,7 +2526,8 @@
     "lat": 36.0584921,
     "lon": 120.3403285,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "汇泉 Square"
   },
   {
     "name": "沈鸿烈别墅",
@@ -2307,7 +2537,8 @@
     "lat": 36.2377666,
     "lon": 120.4962413,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "沈鸿烈别墅"
   },
   {
     "name": "沈鸿烈华楼题字",
@@ -2317,7 +2548,8 @@
     "lat": 36.2384783,
     "lon": 120.498624,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "沈鸿烈华 Tower"
   },
   {
     "name": "沙子口渔港码头",
@@ -2327,7 +2559,8 @@
     "lat": 36.1133131,
     "lon": 120.5541848,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "沙子口渔港 Wharf"
   },
   {
     "name": "沧口公园",
@@ -2337,7 +2570,8 @@
     "lat": 36.1860825,
     "lon": 120.3829158,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "沧口 Park"
   },
   {
     "name": "河马石",
@@ -2347,7 +2581,8 @@
     "lat": 36.2000799,
     "lon": 120.454277,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "River"
   },
   {
     "name": "洋和尚",
@@ -2357,7 +2592,8 @@
     "lat": 36.2277009,
     "lon": 120.4781792,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "洋和尚"
   },
   {
     "name": "洗脸盆",
@@ -2367,7 +2603,8 @@
     "lat": 36.2079882,
     "lon": 120.453527,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "洗脸盆"
   },
   {
     "name": "流云亭",
@@ -2377,7 +2614,8 @@
     "lat": 36.2044527,
     "lon": 120.6178385,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "流云亭"
   },
   {
     "name": "流清河风景区",
@@ -2387,7 +2625,8 @@
     "lat": 36.1324204,
     "lon": 120.5964733,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "流清 River"
   },
   {
     "name": "济公石",
@@ -2397,7 +2636,8 @@
     "lat": 36.2151768,
     "lon": 120.607356,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "济公石"
   },
   {
     "name": "浴日奇观",
@@ -2407,7 +2647,8 @@
     "lat": 36.2016402,
     "lon": 120.6577964,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "浴日奇观"
   },
   {
     "name": "海上回音天坛",
@@ -2417,7 +2658,8 @@
     "lat": 36.0506831,
     "lon": 120.2999109,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sea"
   },
   {
     "name": "海云庵",
@@ -2427,7 +2669,8 @@
     "lat": 36.1108624,
     "lon": 120.3450986,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sea"
   },
   {
     "name": "海云庵庙会",
@@ -2437,7 +2680,8 @@
     "lat": 36.1109928,
     "lon": 120.3478284,
     "description": "青岛糖球会\n中国农历正月十六至正月十八举办",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "海云庵 Temple"
   },
   {
     "name": "海云庵民俗街",
@@ -2447,7 +2691,8 @@
     "lat": 36.1119763,
     "lon": 120.3465324,
     "description": "海云庵糖球会或海云庵庙会 中国农历正月十六至正月十八举办",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sea"
   },
   {
     "name": "海兽馆",
@@ -2457,7 +2702,8 @@
     "lat": 36.0556719,
     "lon": 120.3298719,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sea"
   },
   {
     "name": "海天中心",
@@ -2467,7 +2713,8 @@
     "lat": 36.057116,
     "lon": 120.3975857,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "海天 Center"
   },
   {
     "name": "海泊桥公园",
@@ -2477,7 +2724,8 @@
     "lat": 36.0971672,
     "lon": 120.3506605,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "海泊桥 Park"
   },
   {
     "name": "海洋生物馆",
@@ -2487,7 +2735,8 @@
     "lat": 36.056601,
     "lon": 120.3309442,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sea"
   },
   {
     "name": "海滨旅馆旧址",
@@ -2497,7 +2746,8 @@
     "lat": 36.0582616,
     "lon": 120.3362336,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sea"
   },
   {
     "name": "海豚石",
@@ -2507,7 +2757,8 @@
     "lat": 36.1998783,
     "lon": 120.4527243,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sea"
   },
   {
     "name": "海象石",
@@ -2517,7 +2768,8 @@
     "lat": 36.1699552,
     "lon": 120.6312546,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sea"
   },
   {
     "name": "海阔天空石刻",
@@ -2527,7 +2779,8 @@
     "lat": 36.2389331,
     "lon": 120.4966388,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "海阔天空 Stone Carving"
   },
   {
     "name": "海龟石",
@@ -2537,7 +2790,8 @@
     "lat": 36.1688535,
     "lon": 120.6304,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Sea"
   },
   {
     "name": "清心潭",
@@ -2547,7 +2801,8 @@
     "lat": 36.1456818,
     "lon": 120.6515427,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "清心潭"
   },
   {
     "name": "清水湾",
@@ -2557,7 +2812,8 @@
     "lat": 36.1974408,
     "lon": 120.6454015,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "清水湾"
   },
   {
     "name": "清溪庵庙会",
@@ -2567,7 +2823,8 @@
     "lat": 36.0838115,
     "lon": 120.3409097,
     "description": "青岛萝卜会\n正月初九到正月十五举办",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "清溪庵 Temple"
   },
   {
     "name": "清雅石刻",
@@ -2577,7 +2834,8 @@
     "lat": 36.2360254,
     "lon": 120.657005,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "清雅 Stone Carving"
   },
   {
     "name": "滑溜口",
@@ -2587,7 +2845,8 @@
     "lat": 36.2082413,
     "lon": 120.6332316,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "滑溜口"
   },
   {
     "name": "滴水洞",
@@ -2597,7 +2856,8 @@
     "lat": 36.211335,
     "lon": 120.4621331,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "滴水 Cave"
   },
   {
     "name": "潜艇石",
@@ -2607,7 +2867,8 @@
     "lat": 36.2079804,
     "lon": 120.4713995,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "潜艇石"
   },
   {
     "name": "灵山岛风景区",
@@ -2617,7 +2878,8 @@
     "lat": 35.7625185,
     "lon": 120.1680212,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "灵 Mountain"
   },
   {
     "name": "灵岩窟",
@@ -2627,7 +2889,8 @@
     "lat": 36.2380653,
     "lon": 120.4813621,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "灵岩窟"
   },
   {
     "name": "灵峰道庵",
@@ -2637,7 +2900,8 @@
     "lat": 36.245356,
     "lon": 120.5023403,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "灵峰道庵"
   },
   {
     "name": "烟墩山公园",
@@ -2647,7 +2911,8 @@
     "lat": 36.1960597,
     "lon": 120.3717044,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "烟墩山 Park"
   },
   {
     "name": "牛毛山",
@@ -2657,7 +2922,8 @@
     "lat": 36.1816395,
     "lon": 120.3937155,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "牛毛 Mountain"
   },
   {
     "name": "狗头石",
@@ -2667,7 +2933,8 @@
     "lat": 36.1991426,
     "lon": 120.4518085,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "狗头石"
   },
   {
     "name": "狗熊背",
@@ -2677,7 +2944,8 @@
     "lat": 36.2276403,
     "lon": 120.479561,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "狗熊背"
   },
   {
     "name": "狮子岩",
@@ -2687,7 +2955,8 @@
     "lat": 36.1462719,
     "lon": 120.6783383,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "狮子岩"
   },
   {
     "name": "猪头石",
@@ -2697,7 +2966,8 @@
     "lat": 36.2171301,
     "lon": 120.4550069,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "猪头石"
   },
   {
     "name": "猪肝石",
@@ -2707,7 +2977,8 @@
     "lat": 36.2126473,
     "lon": 120.4637532,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "猪肝石"
   },
   {
     "name": "猪蹄石",
@@ -2717,7 +2988,8 @@
     "lat": 36.2349485,
     "lon": 120.4642975,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "猪蹄石"
   },
   {
     "name": "猿人石",
@@ -2727,7 +2999,8 @@
     "lat": 36.141043,
     "lon": 120.6214238,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "猿人石"
   },
   {
     "name": "玄武洞",
@@ -2737,7 +3010,8 @@
     "lat": 36.1351205,
     "lon": 120.6578387,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "玄武 Cave"
   },
   {
     "name": "玄真洞",
@@ -2747,7 +3021,8 @@
     "lat": 36.1562898,
     "lon": 120.6614449,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "玄真 Cave"
   },
   {
     "name": "玄阳观遗址",
@@ -2757,7 +3032,8 @@
     "lat": 36.2119681,
     "lon": 120.4736658,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "玄阳观 Site"
   },
   {
     "name": "玉女洞",
@@ -2767,7 +3043,8 @@
     "lat": 36.2219892,
     "lon": 120.6329692,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "玉女 Cave"
   },
   {
     "name": "玉女盆",
@@ -2777,7 +3054,8 @@
     "lat": 36.2385759,
     "lon": 120.4962271,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "玉女盆"
   },
   {
     "name": "玉皇洞",
@@ -2787,7 +3065,8 @@
     "lat": 36.2378637,
     "lon": 120.4963111,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "玉皇 Cave"
   },
   {
     "name": "玉蕊楼遗址",
@@ -2797,7 +3076,8 @@
     "lat": 36.2995026,
     "lon": 120.5404896,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "玉蕊楼 Site"
   },
   {
     "name": "王家下河基督教堂",
@@ -2807,7 +3087,8 @@
     "lat": 36.1702279,
     "lon": 120.4792321,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "王家下河基督 Church"
   },
   {
     "name": "王炕",
@@ -2817,7 +3098,8 @@
     "lat": 36.2084216,
     "lon": 120.4410547,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "王炕"
   },
   {
     "name": "王荷波在青岛纪念馆",
@@ -2827,7 +3109,8 @@
     "lat": 36.0901388,
     "lon": 120.3303812,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "王荷波在青岛 Memorial Hall"
   },
   {
     "name": "琅琊台风景名胜区",
@@ -2837,7 +3120,8 @@
     "lat": 35.6469546,
     "lon": 119.8968342,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "琅琊台风景名胜区"
   },
   {
     "name": "琴屿路",
@@ -2847,7 +3131,8 @@
     "lat": 36.0533086,
     "lon": 120.3249192,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "琴屿 Road"
   },
   {
     "name": "瑶池",
@@ -2857,7 +3142,8 @@
     "lat": 36.148234,
     "lon": 120.6725632,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "瑶池"
   },
   {
     "name": "登州周鲁石刻",
@@ -2867,7 +3153,8 @@
     "lat": 36.2748376,
     "lon": 120.5001219,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "登州周鲁 Stone Carving"
   },
   {
     "name": "登州周鲁胶州赵云凤石刻",
@@ -2877,7 +3164,8 @@
     "lat": 36.1562318,
     "lon": 120.6615985,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "登州周鲁胶州赵云凤 Stone Carving"
   },
   {
     "name": "白云洞",
@@ -2887,7 +3175,8 @@
     "lat": 36.2186284,
     "lon": 120.665953,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "白云 Cave"
   },
   {
     "name": "白石头窑",
@@ -2897,7 +3186,8 @@
     "lat": 36.1601553,
     "lon": 120.6512889,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "白石头窑"
   },
   {
     "name": "白石潭",
@@ -2907,7 +3197,8 @@
     "lat": 36.1451483,
     "lon": 120.6517388,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "白石潭"
   },
   {
     "name": "白虎",
@@ -2917,7 +3208,8 @@
     "lat": 36.2057121,
     "lon": 120.4692367,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "白虎"
   },
   {
     "name": "白龙洞",
@@ -2927,7 +3219,8 @@
     "lat": 36.2362588,
     "lon": 120.6576367,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "白龙 Cave"
   },
   {
     "name": "百乐园",
@@ -2937,7 +3230,8 @@
     "lat": 36.2024801,
     "lon": 120.5085145,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "百乐 Garden"
   },
   {
     "name": "百年老屋",
@@ -2947,7 +3241,8 @@
     "lat": 36.223087,
     "lon": 120.5217198,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "百年老屋"
   },
   {
     "name": "百福古井",
@@ -2957,7 +3252,8 @@
     "lat": 36.2233158,
     "lon": 120.5205272,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "百福古井"
   },
   {
     "name": "盘丝洞",
@@ -2967,7 +3263,8 @@
     "lat": 36.1970275,
     "lon": 120.5987872,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "盘丝 Cave"
   },
   {
     "name": "真人洞",
@@ -2977,7 +3274,8 @@
     "lat": 36.2724433,
     "lon": 120.5664006,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "真人 Cave"
   },
   {
     "name": "睡陈抟",
@@ -2987,7 +3285,8 @@
     "lat": 36.200526,
     "lon": 120.447887,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "睡陈抟"
   },
   {
     "name": "督署医院III号病房旧址",
@@ -2997,7 +3296,8 @@
     "lat": 36.0674915,
     "lon": 120.3221504,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "督署医院III号病房旧址"
   },
   {
     "name": "石老人",
@@ -3007,7 +3307,8 @@
     "lat": 36.0884414,
     "lon": 120.4909003,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "石老人"
   },
   {
     "name": "石门小屋",
@@ -3017,7 +3318,8 @@
     "lat": 36.2223135,
     "lon": 120.4830935,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "石 Gate"
   },
   {
     "name": "石门庵遗址",
@@ -3027,7 +3329,8 @@
     "lat": 36.2188882,
     "lon": 120.4874664,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "石门庵 Site"
   },
   {
     "name": "石门开",
@@ -3037,7 +3340,8 @@
     "lat": 36.2272205,
     "lon": 120.5692965,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "石 Gate"
   },
   {
     "name": "石门涧",
@@ -3047,7 +3351,8 @@
     "lat": 36.1751055,
     "lon": 120.6048218,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "石 Gate"
   },
   {
     "name": "石门涧石刻",
@@ -3057,7 +3362,8 @@
     "lat": 36.2030595,
     "lon": 120.4459907,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "石门涧 Stone Carving"
   },
   {
     "name": "石门题记",
@@ -3067,7 +3373,8 @@
     "lat": 36.2250388,
     "lon": 120.4636299,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "石 Gate"
   },
   {
     "name": "石马槽",
@@ -3077,7 +3384,8 @@
     "lat": 36.2044288,
     "lon": 120.4453858,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "石马槽"
   },
   {
     "name": "石鼓",
@@ -3087,7 +3395,8 @@
     "lat": 36.2275632,
     "lon": 120.4788448,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "石鼓"
   },
   {
     "name": "矿晶博物馆",
@@ -3097,7 +3406,8 @@
     "lat": 36.3789181,
     "lon": 120.6841883,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "矿晶 Museum"
   },
   {
     "name": "碧天洞",
@@ -3107,7 +3417,8 @@
     "lat": 36.140391,
     "lon": 120.6424139,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "碧天 Cave"
   },
   {
     "name": "碧月潭",
@@ -3117,7 +3428,8 @@
     "lat": 36.2286349,
     "lon": 120.6311555,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "碧月潭"
   },
   {
     "name": "碰头石",
@@ -3127,7 +3439,8 @@
     "lat": 36.2145608,
     "lon": 120.6169967,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "碰头石"
   },
   {
     "name": "礼泉",
@@ -3137,7 +3450,8 @@
     "lat": 36.1759591,
     "lon": 120.6307052,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "礼泉"
   },
   {
     "name": "神仙座",
@@ -3147,7 +3461,8 @@
     "lat": 36.2759021,
     "lon": 120.555398,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神仙座"
   },
   {
     "name": "神仙桥",
@@ -3157,7 +3472,8 @@
     "lat": 36.239538,
     "lon": 120.480314,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神仙 Bridge"
   },
   {
     "name": "神仙梯",
@@ -3167,7 +3483,8 @@
     "lat": 36.2053781,
     "lon": 120.4705236,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神仙梯"
   },
   {
     "name": "神掌",
@@ -3177,7 +3494,8 @@
     "lat": 36.2242597,
     "lon": 120.6533638,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神掌"
   },
   {
     "name": "神水泉",
@@ -3187,7 +3505,8 @@
     "lat": 36.2122282,
     "lon": 120.5136289,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神水泉"
   },
   {
     "name": "神泉",
@@ -3197,7 +3516,8 @@
     "lat": 36.1577189,
     "lon": 120.6635399,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神泉"
   },
   {
     "name": "神龙泉",
@@ -3207,7 +3527,8 @@
     "lat": 36.2709073,
     "lon": 120.495858,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神龙泉"
   },
   {
     "name": "神龟",
@@ -3217,7 +3538,8 @@
     "lat": 36.2010851,
     "lon": 120.4452884,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神龟"
   },
   {
     "name": "神龟拜寿",
@@ -3227,7 +3549,8 @@
     "lat": 36.2198707,
     "lon": 120.4795374,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神龟拜寿"
   },
   {
     "name": "神龟推球",
@@ -3237,7 +3560,8 @@
     "lat": 36.2115769,
     "lon": 120.6612962,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神龟推球"
   },
   {
     "name": "神龟石",
@@ -3247,7 +3571,8 @@
     "lat": 36.2318914,
     "lon": 120.478185,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "神龟石"
   },
   {
     "name": "福寿金龟",
@@ -3257,7 +3582,8 @@
     "lat": 36.271684,
     "lon": 120.4975004,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "福寿金龟"
   },
   {
     "name": "福山路文化名人街区",
@@ -3267,7 +3593,8 @@
     "lat": 36.060731,
     "lon": 120.3349759,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "福 Mountain"
   },
   {
     "name": "福泰庵",
@@ -3277,7 +3604,8 @@
     "lat": 36.2447305,
     "lon": 120.5158315,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "福泰庵"
   },
   {
     "name": "离门",
@@ -3287,7 +3615,8 @@
     "lat": 36.1715575,
     "lon": 120.6247318,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "离 Gate"
   },
   {
     "name": "童子洞",
@@ -3297,7 +3626,8 @@
     "lat": 36.2131501,
     "lon": 120.5183901,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "童子 Cave"
   },
   {
     "name": "笑池",
@@ -3307,7 +3637,8 @@
     "lat": 36.1631285,
     "lon": 120.6360481,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "笑池"
   },
   {
     "name": "羊角石",
@@ -3317,7 +3648,8 @@
     "lat": 36.1529311,
     "lon": 120.6328282,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "羊角石"
   },
   {
     "name": "美国楼",
@@ -3327,7 +3659,8 @@
     "lat": 36.061422,
     "lon": 120.3554691,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "美国 Tower"
   },
   {
     "name": "翠屏岩",
@@ -3337,7 +3670,8 @@
     "lat": 36.237824,
     "lon": 120.4963253,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "翠屏岩"
   },
   {
     "name": "老头脸",
@@ -3347,7 +3681,8 @@
     "lat": 36.2039368,
     "lon": 120.6203297,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "老头脸"
   },
   {
     "name": "老师父坟",
@@ -3357,7 +3692,8 @@
     "lat": 36.2384394,
     "lon": 120.4956521,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "老师父坟"
   },
   {
     "name": "老碾房",
@@ -3367,7 +3703,8 @@
     "lat": 36.2233278,
     "lon": 120.5205585,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "老碾房"
   },
   {
     "name": "老虎山森林公园",
@@ -3377,7 +3714,8 @@
     "lat": 36.1859727,
     "lon": 120.412326,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "老虎山森林 Park"
   },
   {
     "name": "老虎洞",
@@ -3387,7 +3725,8 @@
     "lat": 36.221858,
     "lon": 120.6110339,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "老虎 Cave"
   },
   {
     "name": "老虎牙",
@@ -3397,7 +3736,8 @@
     "lat": 36.2217655,
     "lon": 120.610996,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "老虎牙"
   },
   {
     "name": "聚仙亭",
@@ -3407,7 +3747,8 @@
     "lat": 36.3034511,
     "lon": 120.5651797,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "聚仙亭"
   },
   {
     "name": "聚仙台",
@@ -3417,7 +3758,8 @@
     "lat": 36.2384719,
     "lon": 120.5000431,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "聚仙台"
   },
   {
     "name": "背来石",
@@ -3427,7 +3769,8 @@
     "lat": 35.7842947,
     "lon": 120.1753948,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "背来石"
   },
   {
     "name": "胭脂潭",
@@ -3437,7 +3780,8 @@
     "lat": 36.1508589,
     "lon": 120.6445701,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "胭脂潭"
   },
   {
     "name": "胶济铁路青岛博物馆",
@@ -3447,7 +3791,8 @@
     "lat": 36.0633687,
     "lon": 120.3084434,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "胶济铁路青岛 Museum"
   },
   {
     "name": "脚丫石",
@@ -3457,7 +3802,8 @@
     "lat": 36.1683691,
     "lon": 120.6355525,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "脚丫石"
   },
   {
     "name": "自然碑",
@@ -3467,7 +3813,8 @@
     "lat": 36.1707739,
     "lon": 120.6240059,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "自然 Monument"
   },
   {
     "name": "艮门",
@@ -3477,7 +3824,8 @@
     "lat": 36.1773407,
     "lon": 120.6291462,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "艮 Gate"
   },
   {
     "name": "芝麻石",
@@ -3487,7 +3835,8 @@
     "lat": 36.2302492,
     "lon": 120.639466,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "芝麻石"
   },
   {
     "name": "花石楼",
@@ -3497,7 +3846,8 @@
     "lat": 36.0499889,
     "lon": 120.3483975,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "花石 Tower"
   },
   {
     "name": "茶涧庙",
@@ -3507,7 +3857,8 @@
     "lat": 36.1796816,
     "lon": 120.6051977,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "茶涧 Temple"
   },
   {
     "name": "莲台寺遗址",
@@ -3517,7 +3868,8 @@
     "lat": 36.2496914,
     "lon": 120.4870791,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "莲台寺 Site"
   },
   {
     "name": "落霞潭",
@@ -3527,7 +3879,8 @@
     "lat": 36.1514733,
     "lon": 120.6438943,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "落霞潭"
   },
   {
     "name": "葫芦洞",
@@ -3537,7 +3890,8 @@
     "lat": 36.1690052,
     "lon": 120.6230936,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "葫芦 Cave"
   },
   {
     "name": "蒲台路美食小巷",
@@ -3547,7 +3901,8 @@
     "lat": 36.0842871,
     "lon": 120.3290976,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "蒲台 Road"
   },
   {
     "name": "蓝树谷青少年世博园",
@@ -3557,7 +3912,8 @@
     "lat": 36.7987743,
     "lon": 120.0943271,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "蓝树谷青少年世博 Garden"
   },
   {
     "name": "蘑菇蛋",
@@ -3567,7 +3923,8 @@
     "lat": 36.2275376,
     "lon": 120.4770716,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "蘑菇蛋"
   },
   {
     "name": "虔女洞",
@@ -3577,7 +3934,8 @@
     "lat": 36.1788857,
     "lon": 120.6168206,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "虔女 Cave"
   },
   {
     "name": "虹桥待月公园",
@@ -3587,7 +3945,8 @@
     "lat": 35.9215109,
     "lon": 120.1334388,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "虹桥待月 Park"
   },
   {
     "name": "蝴蝶楼",
@@ -3597,7 +3956,8 @@
     "lat": 36.0496848,
     "lon": 120.3410434,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "蝴蝶 Tower"
   },
   {
     "name": "蝴蝶泉",
@@ -3607,7 +3967,8 @@
     "lat": 36.2002883,
     "lon": 120.6108392,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "蝴蝶泉"
   },
   {
     "name": "融創城",
@@ -3617,7 +3978,8 @@
     "lat": 35.9044026,
     "lon": 120.0938812,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "融創城"
   },
   {
     "name": "蟹夹石",
@@ -3627,7 +3989,8 @@
     "lat": 36.1493084,
     "lon": 120.6055644,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "蟹夹石"
   },
   {
     "name": "西海岸新区啤酒广场",
@@ -3637,7 +4000,8 @@
     "lat": 35.9546208,
     "lon": 120.2351155,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "西海岸新 啤酒 Square"
   },
   {
     "name": "西海美术馆",
@@ -3647,7 +4011,8 @@
     "lat": 35.9158119,
     "lon": 120.1805777,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "西海 Art Gallery"
   },
   {
     "name": "西班牙风情馆",
@@ -3657,7 +4022,8 @@
     "lat": 36.0519723,
     "lon": 120.3445199,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "西班牙风情馆"
   },
   {
     "name": "要儿石",
@@ -3667,7 +4033,8 @@
     "lat": 36.2023396,
     "lon": 120.4474009,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "要儿石"
   },
   {
     "name": "观星台",
@@ -3677,7 +4044,8 @@
     "lat": 36.2406309,
     "lon": 120.4819192,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "观星台"
   },
   {
     "name": "观音石",
@@ -3687,7 +4055,8 @@
     "lat": 36.2266639,
     "lon": 120.5718368,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "观音石"
   },
   {
     "name": "试刀石风景区",
@@ -3697,7 +4066,8 @@
     "lat": 35.7688447,
     "lon": 120.1771162,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "试刀石风景区"
   },
   {
     "name": "试胆石",
@@ -3707,7 +4077,8 @@
     "lat": 36.1896889,
     "lon": 120.5892587,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "试胆石"
   },
   {
     "name": "诗苑洞",
@@ -3717,7 +4088,8 @@
     "lat": 36.1568816,
     "lon": 120.6631636,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "诗 Garden"
   },
   {
     "name": "货郎鼓石",
@@ -3727,7 +4099,8 @@
     "lat": 36.2751281,
     "lon": 120.5549843,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "货郎鼓石"
   },
   {
     "name": "赫崇本故居",
@@ -3737,7 +4110,8 @@
     "lat": 36.0609574,
     "lon": 120.3289919,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "赫崇本 Former Residence"
   },
   {
     "name": "赵太侔故居",
@@ -3747,7 +4121,8 @@
     "lat": 36.0627902,
     "lon": 120.3261669,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "赵太侔 Former Residence"
   },
   {
     "name": "躲荒洞",
@@ -3757,7 +4132,8 @@
     "lat": 36.2271178,
     "lon": 120.5712881,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "躲荒 Cave"
   },
   {
     "name": "迷魂涧",
@@ -3767,7 +4143,8 @@
     "lat": 36.1572515,
     "lon": 120.5961406,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "迷魂涧"
   },
   {
     "name": "逸夫科技馆",
@@ -3777,7 +4154,8 @@
     "lat": 36.0620512,
     "lon": 120.3320346,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "逸夫 Science Museum"
   },
   {
     "name": "道士帽子",
@@ -3787,7 +4165,8 @@
     "lat": 36.2077314,
     "lon": 120.4557747,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "道士帽子"
   },
   {
     "name": "道路交通博物馆",
@@ -3797,7 +4176,8 @@
     "lat": 36.0806563,
     "lon": 120.31799,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "道路交通 Museum"
   },
   {
     "name": "醉仙石",
@@ -3807,7 +4187,8 @@
     "lat": 36.1530929,
     "lon": 120.6638343,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "醉仙石"
   },
   {
     "name": "采药石",
@@ -3817,7 +4198,8 @@
     "lat": 36.2204602,
     "lon": 120.6361792,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "采药石"
   },
   {
     "name": "重阳洞",
@@ -3827,7 +4209,8 @@
     "lat": 36.2366166,
     "lon": 120.4978173,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "重阳 Cave"
   },
   {
     "name": "金液泉",
@@ -3837,7 +4220,8 @@
     "lat": 36.2376882,
     "lon": 120.4966368,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "金液泉"
   },
   {
     "name": "金童盆",
@@ -3847,7 +4231,8 @@
     "lat": 36.2156987,
     "lon": 120.4799653,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "金童盆"
   },
   {
     "name": "金蝉望月",
@@ -3857,7 +4242,8 @@
     "lat": 36.2699149,
     "lon": 120.4961767,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "金蝉望月"
   },
   {
     "name": "金蟾灵蛇",
@@ -3867,7 +4253,8 @@
     "lat": 36.3064463,
     "lon": 120.5619355,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "金蟾灵蛇"
   },
   {
     "name": "金蟾石",
@@ -3877,7 +4264,8 @@
     "lat": 36.2173079,
     "lon": 120.6108246,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "金蟾石"
   },
   {
     "name": "银杏",
@@ -3887,7 +4275,8 @@
     "lat": 36.2341284,
     "lon": 120.4421808,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "银杏"
   },
   {
     "name": "银海大世界",
@@ -3897,7 +4286,8 @@
     "lat": 36.0567676,
     "lon": 120.4187594,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "银 Sea"
   },
   {
     "name": "镜岩楼上院（疑似）",
@@ -3907,7 +4297,8 @@
     "lat": 36.2323553,
     "lon": 120.482113,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "镜岩 Tower"
   },
   {
     "name": "镜岩楼下院（老庵子）",
@@ -3917,7 +4308,8 @@
     "lat": 36.2324681,
     "lon": 120.4852539,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "镜岩 Tower"
   },
   {
     "name": "镜面石",
@@ -3927,7 +4319,8 @@
     "lat": 36.1543971,
     "lon": 120.6067337,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "镜面石"
   },
   {
     "name": "长征一号",
@@ -3937,7 +4330,8 @@
     "lat": 36.0557771,
     "lon": 120.3213534,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "长征一号"
   },
   {
     "name": "闻一多故居",
@@ -3947,7 +4341,8 @@
     "lat": 36.0675569,
     "lon": 120.3328913,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "闻一多 Former Residence"
   },
   {
     "name": "阴阳石",
@@ -3957,7 +4352,8 @@
     "lat": 36.2055471,
     "lon": 120.4659897,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "阴阳石"
   },
   {
     "name": "雄崖所故城",
@@ -3967,7 +4363,8 @@
     "lat": 36.5836825,
     "lon": 120.8643733,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "雄崖所故城"
   },
   {
     "name": "震门",
@@ -3977,7 +4374,8 @@
     "lat": 36.1748026,
     "lon": 120.6281828,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "震 Gate"
   },
   {
     "name": "霸王台",
@@ -3987,7 +4385,8 @@
     "lat": 36.2226391,
     "lon": 120.4440059,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "霸王台"
   },
   {
     "name": "霸王寨",
@@ -3997,7 +4396,8 @@
     "lat": 36.2202925,
     "lon": 120.4592234,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "霸王寨"
   },
   {
     "name": "霸王洞",
@@ -4007,7 +4407,8 @@
     "lat": 36.2140746,
     "lon": 120.4643616,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "霸王 Cave"
   },
   {
     "name": "青山渔村牌坊",
@@ -4017,7 +4418,8 @@
     "lat": 36.1458777,
     "lon": 120.6789257,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "青 Mountain"
   },
   {
     "name": "青岛一战遗址博物馆",
@@ -4027,7 +4429,8 @@
     "lat": 36.0686007,
     "lon": 120.3399266,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 一战遗址 Museum"
   },
   {
     "name": "青岛党史纪念馆",
@@ -4037,7 +4440,8 @@
     "lat": 36.1071642,
     "lon": 120.3388511,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 党史 Memorial Hall"
   },
   {
     "name": "青岛八大关近代建筑",
@@ -4047,7 +4451,8 @@
     "lat": 36.052286,
     "lon": 120.3468158,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 八大关近代建筑"
   },
   {
     "name": "青岛六中美术馆",
@@ -4057,7 +4462,8 @@
     "lat": 36.0211372,
     "lon": 120.0853909,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 六中 Art Gallery"
   },
   {
     "name": "青岛啤酒博物馆",
@@ -4067,7 +4473,8 @@
     "lat": 36.0789716,
     "lon": 120.3419778,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 啤酒 Museum"
   },
   {
     "name": "青岛城阳铁陨石",
@@ -4077,7 +4484,8 @@
     "lat": 36.2873837,
     "lon": 120.38539,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 城阳铁陨石"
   },
   {
     "name": "青岛天幕城",
@@ -4087,7 +4495,8 @@
     "lat": 36.0809028,
     "lon": 120.3383072,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 天幕城"
   },
   {
     "name": "青岛奥林匹克帆船中心",
@@ -4097,7 +4506,8 @@
     "lat": 36.0557034,
     "lon": 120.3911399,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 奥林匹克帆船 Center"
   },
   {
     "name": "青岛婚纱街遗址",
@@ -4107,7 +4517,8 @@
     "lat": 36.078773,
     "lon": 120.3472662,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 婚纱街 Site"
   },
   {
     "name": "青岛安徒生童话乐园",
@@ -4117,7 +4528,8 @@
     "lat": 36.7271837,
     "lon": 119.9656718,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 安徒生童话乐 Garden"
   },
   {
     "name": "青岛小鱼山文化名人街区",
@@ -4127,7 +4539,8 @@
     "lat": 36.0634869,
     "lon": 120.3289049,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 小鱼 Mountain"
   },
   {
     "name": "青岛崂山湾渔村民俗博物馆",
@@ -4137,7 +4550,8 @@
     "lat": 36.1683061,
     "lon": 120.6875334,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 崂山湾渔村民俗 Museum"
   },
   {
     "name": "青岛市 下关市 结成友好城市植树纪念",
@@ -4147,7 +4561,8 @@
     "lat": 36.0640677,
     "lon": 120.3189702,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 下关 结成友好城 植树纪念"
   },
   {
     "name": "青岛市博物馆",
@@ -4157,7 +4572,8 @@
     "lat": 36.1016154,
     "lon": 120.4680619,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao Museum"
   },
   {
     "name": "青岛市文化馆",
@@ -4167,7 +4583,8 @@
     "lat": 36.0685009,
     "lon": 120.3168334,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao Cultural Center"
   },
   {
     "name": "青岛市美术馆",
@@ -4177,7 +4594,8 @@
     "lat": 36.0614226,
     "lon": 120.3275421,
     "description": "青岛“万字会”旧址",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao Art Gallery"
   },
   {
     "name": "青岛市革命烈士纪念馆",
@@ -4187,7 +4605,8 @@
     "lat": 36.0663394,
     "lon": 120.3577413,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 革命烈士 Memorial Hall"
   },
   {
     "name": "青岛广播电台旧址",
@@ -4197,7 +4616,8 @@
     "lat": 36.0610501,
     "lon": 120.3063685,
     "description": "青岛广播电台1929-1999",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 广播电台旧址"
   },
   {
     "name": "青岛德华大学旧址/青岛黑澜兵营旧址",
@@ -4207,7 +4627,8 @@
     "lat": 36.059461,
     "lon": 120.3054162,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 德华 University"
   },
   {
     "name": "青岛德国建筑群",
@@ -4217,7 +4638,8 @@
     "lat": 36.0553542,
     "lon": 120.3053155,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 德国建筑群"
   },
   {
     "name": "青岛德国总督楼旧址",
@@ -4227,7 +4649,8 @@
     "lat": 36.0647362,
     "lon": 120.3279321,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 德国总督 Tower"
   },
   {
     "name": "青岛德国监狱博物馆",
@@ -4237,7 +4660,8 @@
     "lat": 36.061437,
     "lon": 120.3237461,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 德国监狱 Museum"
   },
   {
     "name": "青岛德国风情街",
@@ -4247,7 +4671,8 @@
     "lat": 36.0780935,
     "lon": 120.3161199,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 德国风情 Street"
   },
   {
     "name": "青岛总理衙门遗址",
@@ -4257,7 +4682,8 @@
     "lat": 36.060354,
     "lon": 120.3243952,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 总理衙门 Site"
   },
   {
     "name": "青岛文具街",
@@ -4267,7 +4693,8 @@
     "lat": 36.0850897,
     "lon": 120.3444748,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 文具 Street"
   },
   {
     "name": "青岛文化街",
@@ -4277,7 +4704,8 @@
     "lat": 36.0841924,
     "lon": 120.3401776,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 文化 Street"
   },
   {
     "name": "青岛文学馆",
@@ -4287,7 +4715,8 @@
     "lat": 36.06602,
     "lon": 120.3164141,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 文学馆"
   },
   {
     "name": "青岛极地海洋世界",
@@ -4297,7 +4726,8 @@
     "lat": 36.0686174,
     "lon": 120.4375246,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 极地 Sea"
   },
   {
     "name": "青岛档案馆",
@@ -4307,7 +4737,8 @@
     "lat": 36.0639117,
     "lon": 120.3293579,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 档案馆"
   },
   {
     "name": "青岛森林野生动物世界",
@@ -4317,7 +4748,8 @@
     "lat": 35.9810614,
     "lon": 120.0527443,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao Forest"
   },
   {
     "name": "青岛海底隧道博物馆",
@@ -4327,7 +4759,8 @@
     "lat": 36.0025667,
     "lon": 120.2851423,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 海底隧道 Museum"
   },
   {
     "name": "青岛海洋科技馆",
@@ -4337,7 +4770,8 @@
     "lat": 36.0574655,
     "lon": 120.3302853,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 海洋 Science Museum"
   },
   {
     "name": "青岛湛山小学",
@@ -4347,7 +4781,8 @@
     "lat": 36.0617698,
     "lon": 120.3693874,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 湛 Mountain"
   },
   {
     "name": "青岛登州路啤酒街",
@@ -4357,7 +4792,8 @@
     "lat": 36.0787056,
     "lon": 120.3421616,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 登州路啤酒 Street"
   },
   {
     "name": "青岛科技街",
@@ -4367,7 +4803,8 @@
     "lat": 36.0825087,
     "lon": 120.3273117,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 科技 Street"
   },
   {
     "name": "青岛科技馆",
@@ -4377,7 +4814,8 @@
     "lat": 36.0632748,
     "lon": 120.3144353,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao Science Museum"
   },
   {
     "name": "青岛纺织博物馆",
@@ -4387,7 +4825,8 @@
     "lat": 36.1439561,
     "lon": 120.3718439,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 纺织 Museum"
   },
   {
     "name": "青岛网红墙",
@@ -4397,7 +4836,8 @@
     "lat": 36.0611841,
     "lon": 120.3264854,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 网红墙"
   },
   {
     "name": "青岛葡萄酒博物馆",
@@ -4407,7 +4847,8 @@
     "lat": 36.0723194,
     "lon": 120.3428327,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 葡萄酒 Museum"
   },
   {
     "name": "青岛规划展览馆",
@@ -4417,7 +4858,8 @@
     "lat": 36.0844561,
     "lon": 120.4561648,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 规划 Exhibition Hall"
   },
   {
     "name": "青岛贝林自然博物馆",
@@ -4427,7 +4869,8 @@
     "lat": 36.0792606,
     "lon": 120.3285944,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 贝林 Natural History Museum"
   },
   {
     "name": "青岛邮电博物馆;青岛市邮政管理局",
@@ -4437,7 +4880,8 @@
     "lat": 36.0632588,
     "lon": 120.316602,
     "description": "Built in 1901, former site of German Imperial Post Office.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 邮电 Museum"
   },
   {
     "name": "青岛雕塑园室外区域",
@@ -4447,7 +4891,8 @@
     "lat": 36.0798863,
     "lon": 120.4499166,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "Qingdao 雕塑 Garden"
   },
   {
     "name": "青島煙草博物館",
@@ -4457,7 +4902,8 @@
     "lat": 36.0885546,
     "lon": 120.3388068,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "青島煙草博物館"
   },
   {
     "name": "青蛙石",
@@ -4467,7 +4913,8 @@
     "lat": 36.2197302,
     "lon": 120.4597147,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "青蛙石"
   },
   {
     "name": "青龙",
@@ -4477,7 +4924,8 @@
     "lat": 36.205776,
     "lon": 120.4695221,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "青龙"
   },
   {
     "name": "青龙岭石刻",
@@ -4487,7 +4935,8 @@
     "lat": 36.2702032,
     "lon": 120.5047967,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "青龙岭 Stone Carving"
   },
   {
     "name": "鞋子石",
@@ -4497,7 +4946,8 @@
     "lat": 36.2199896,
     "lon": 120.4703828,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鞋子石"
   },
   {
     "name": "顶牛石",
@@ -4507,7 +4957,8 @@
     "lat": 36.140129,
     "lon": 120.6458229,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "顶牛石"
   },
   {
     "name": "颐善潭",
@@ -4517,7 +4968,8 @@
     "lat": 36.2252213,
     "lon": 120.4639549,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "颐善潭"
   },
   {
     "name": "风动石",
@@ -4527,7 +4979,8 @@
     "lat": 36.2994287,
     "lon": 120.5722118,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "风动石"
   },
   {
     "name": "风河综合治理工程纪念碑",
@@ -4537,7 +4990,8 @@
     "lat": 35.8610837,
     "lon": 120.0028311,
     "description": "A popular history spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "风 River"
   },
   {
     "name": "风琴崮",
@@ -4547,7 +5001,8 @@
     "lat": 36.2965844,
     "lon": 120.5731468,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "风琴崮"
   },
   {
     "name": "飞云瀑",
@@ -4557,7 +5012,8 @@
     "lat": 36.2163668,
     "lon": 120.5671564,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "飞云瀑"
   },
   {
     "name": "飞来石",
@@ -4567,7 +5023,8 @@
     "lat": 36.1544173,
     "lon": 120.5968087,
     "description": "A popular outdoor spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "飞来石"
   },
   {
     "name": "飞燕石",
@@ -4577,7 +5034,8 @@
     "lat": 36.1345652,
     "lon": 120.6452523,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "飞燕石"
   },
   {
     "name": "飞鹰石",
@@ -4587,7 +5045,8 @@
     "lat": 36.1670098,
     "lon": 120.6462471,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "飞鹰石"
   },
   {
     "name": "食蚁兽",
@@ -4597,7 +5056,8 @@
     "lat": 36.2273909,
     "lon": 120.6279455,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "食蚁兽"
   },
   {
     "name": "马濠运河遗址",
@@ -4607,7 +5067,8 @@
     "lat": 35.9626457,
     "lon": 120.1820239,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "马濠运河 Site"
   },
   {
     "name": "马鞍石",
@@ -4617,7 +5078,8 @@
     "lat": 36.1550932,
     "lon": 120.6053633,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "马鞍石"
   },
   {
     "name": "骆驼祥子博物馆",
@@ -4627,7 +5089,8 @@
     "lat": 36.0623062,
     "lon": 120.3267813,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "骆驼祥子 Museum"
   },
   {
     "name": "骷髅石",
@@ -4637,7 +5100,8 @@
     "lat": 36.2113476,
     "lon": 120.4642469,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "骷髅石"
   },
   {
     "name": "魯邦國際風情街",
@@ -4647,7 +5111,8 @@
     "lat": 36.3053933,
     "lon": 120.4029306,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "魯邦國際風情 Street"
   },
   {
     "name": "鱼头石",
@@ -4657,7 +5122,8 @@
     "lat": 36.1390354,
     "lon": 120.6666185,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鱼头石"
   },
   {
     "name": "鱼鳞口",
@@ -4667,7 +5133,8 @@
     "lat": 36.2018866,
     "lon": 120.6082791,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鱼鳞口"
   },
   {
     "name": "鲤鱼石",
@@ -4677,7 +5144,8 @@
     "lat": 36.140823,
     "lon": 120.6217727,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鲤鱼石"
   },
   {
     "name": "鲨鱼嘴",
@@ -4687,7 +5155,8 @@
     "lat": 36.2044595,
     "lon": 120.4677541,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鲨鱼嘴"
   },
   {
     "name": "鲨鱼嘴（仰天吼）",
@@ -4697,7 +5166,8 @@
     "lat": 36.2188832,
     "lon": 120.4704469,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鲨鱼嘴（仰天吼）"
   },
   {
     "name": "鲸鱼嘴",
@@ -4707,7 +5177,8 @@
     "lat": 36.2012474,
     "lon": 120.457487,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鲸鱼嘴"
   },
   {
     "name": "鲸鱼馆",
@@ -4717,7 +5188,8 @@
     "lat": 36.056882,
     "lon": 120.331158,
     "description": "A popular museum spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鲸鱼馆"
   },
   {
     "name": "鳌首金龟",
@@ -4727,7 +5199,8 @@
     "lat": 36.1361062,
     "lon": 120.660679,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鳌首金龟"
   },
   {
     "name": "鸭子船",
@@ -4737,7 +5210,8 @@
     "lat": 36.2263097,
     "lon": 120.6268921,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鸭子船"
   },
   {
     "name": "鸳鸯戏水",
@@ -4747,7 +5221,8 @@
     "lat": 36.2269929,
     "lon": 120.4737367,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鸳鸯戏水"
   },
   {
     "name": "鸳鸯石",
@@ -4757,7 +5232,8 @@
     "lat": 36.3009355,
     "lon": 120.5719978,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鸳鸯石"
   },
   {
     "name": "鸽子洞",
@@ -4767,7 +5243,8 @@
     "lat": 36.2055997,
     "lon": 120.4655722,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鸽子 Cave"
   },
   {
     "name": "鹦鹉石",
@@ -4777,7 +5254,8 @@
     "lat": 36.1995041,
     "lon": 120.4523369,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鹦鹉石"
   },
   {
     "name": "鹰嘴石",
@@ -4787,7 +5265,8 @@
     "lat": 36.2378017,
     "lon": 120.4789804,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "鹰嘴石"
   },
   {
     "name": "黄庭庵遗址",
@@ -4797,7 +5276,8 @@
     "lat": 36.2701303,
     "lon": 120.5044335,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "黄庭庵 Site"
   },
   {
     "name": "黄石洞",
@@ -4807,7 +5287,8 @@
     "lat": 36.2654592,
     "lon": 120.5008271,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "黄石 Cave"
   },
   {
     "name": "齐长城烽火台",
@@ -4817,7 +5298,8 @@
     "lat": 35.9933871,
     "lon": 120.1728347,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "齐 Great Wall"
   },
   {
     "name": "龙山风景区",
@@ -4827,7 +5309,8 @@
     "lat": 36.3805585,
     "lon": 120.5513535,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "龙 Mountain"
   },
   {
     "name": "龙泉",
@@ -4837,7 +5320,8 @@
     "lat": 36.22511,
     "lon": 120.4639866,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "龙泉"
   },
   {
     "name": "龙脊背",
@@ -4847,7 +5331,8 @@
     "lat": 36.2186161,
     "lon": 120.4709421,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "龙脊背"
   },
   {
     "name": "龟头石",
@@ -4857,6 +5342,7 @@
     "lat": 36.2462739,
     "lon": 120.4821422,
     "description": "A popular sightseeing spot in Qingdao.",
-    "city": "Qingdao"
+    "city": "Qingdao",
+    "name_en": "龟头石"
   }
 ]

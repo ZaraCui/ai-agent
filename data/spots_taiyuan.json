@@ -7,7 +7,8 @@
     "lat": 37.8103892,
     "lon": 112.5295467,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Art Museum"
   },
   {
     "name": "Cave Number 1",
@@ -17,7 +18,8 @@
     "lat": 37.7348633,
     "lon": 112.3785449,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Cave Number 1"
   },
   {
     "name": "Cave Number 2",
@@ -27,7 +29,8 @@
     "lat": 37.7348633,
     "lon": 112.3782411,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Cave Number 2"
   },
   {
     "name": "Cave Number 3",
@@ -37,7 +40,8 @@
     "lat": 37.7348888,
     "lon": 112.3781949,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Cave Number 3"
   },
   {
     "name": "Cave Number 6",
@@ -47,7 +51,8 @@
     "lat": 37.7349521,
     "lon": 112.3781018,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Cave Number 6"
   },
   {
     "name": "Cave Number 7",
@@ -57,7 +62,8 @@
     "lat": 37.7349804,
     "lon": 112.3780739,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Cave Number 7"
   },
   {
     "name": "Cave Number 8",
@@ -67,7 +73,8 @@
     "lat": 37.7349941,
     "lon": 112.3780573,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Cave Number 8"
   },
   {
     "name": "Cave Number 9",
@@ -77,7 +84,8 @@
     "lat": 37.7358949,
     "lon": 112.377279,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Cave Number 9"
   },
   {
     "name": "White Dragon Cave",
@@ -87,7 +95,8 @@
     "lat": 37.735994,
     "lon": 112.3781044,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "White Dragon Cave"
   },
   {
     "name": "不二寺",
@@ -97,7 +106,8 @@
     "lat": 38.0514745,
     "lon": 112.6603741,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "不二 Temple"
   },
   {
     "name": "中共太原支部旧址",
@@ -107,7 +117,8 @@
     "lat": 37.8635061,
     "lon": 112.5639343,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "中共太原支部旧址"
   },
   {
     "name": "中国清徐关帝城",
@@ -117,7 +128,8 @@
     "lat": 37.6260815,
     "lon": 112.3536606,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "中国清徐关帝城"
   },
   {
     "name": "中国煤炭博物馆",
@@ -127,7 +139,8 @@
     "lat": 37.8564574,
     "lon": 112.5217717,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "中国煤炭 Museum"
   },
   {
     "name": "九州神韵",
@@ -137,7 +150,8 @@
     "lat": 38.0475728,
     "lon": 112.6441417,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "九州神韵"
   },
   {
     "name": "傅山纪念馆",
@@ -147,7 +161,8 @@
     "lat": 37.7078968,
     "lon": 112.4349514,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "傅山 Memorial Hall"
   },
   {
     "name": "千渡·长江美术馆",
@@ -157,7 +172,8 @@
     "lat": 37.886201,
     "lon": 112.6082507,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "千渡·长江 Art Gallery"
   },
   {
     "name": "双塔烈士陵园",
@@ -167,7 +183,8 @@
     "lat": 37.8444787,
     "lon": 112.592603,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "双 Pagoda"
   },
   {
     "name": "唐华严经幢",
@@ -177,7 +194,8 @@
     "lat": 37.7517696,
     "lon": 112.4357559,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "唐华严经幢"
   },
   {
     "name": "唐景云碑",
@@ -187,7 +205,8 @@
     "lat": 37.7517679,
     "lon": 112.435818,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "唐景云 Monument"
   },
   {
     "name": "唱经楼",
@@ -197,7 +216,8 @@
     "lat": 37.8707479,
     "lon": 112.5589679,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "唱经 Tower"
   },
   {
     "name": "国民师范旧址",
@@ -207,7 +227,8 @@
     "lat": 37.8860298,
     "lon": 112.5679698,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "国民师范旧址"
   },
   {
     "name": "大型雕塑《力量》",
@@ -217,7 +238,8 @@
     "lat": 37.8586306,
     "lon": 112.5676335,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "大型雕塑《力量》"
   },
   {
     "name": "大王庙",
@@ -227,7 +249,8 @@
     "lat": 38.0472825,
     "lon": 112.7996504,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "大王 Temple"
   },
   {
     "name": "天龙山公路3层回旋高架桥",
@@ -237,7 +260,8 @@
     "lat": 37.721842,
     "lon": 112.4006927,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "天龙 Mountain"
   },
   {
     "name": "天龙山石窟",
@@ -247,7 +271,8 @@
     "lat": 37.7353851,
     "lon": 112.3777897,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "天龙山 Grotto"
   },
   {
     "name": "太原动物园",
@@ -257,7 +282,8 @@
     "lat": 37.9102222,
     "lon": 112.5804316,
     "description": "A popular outdoor spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan Zoo"
   },
   {
     "name": "太原动物园-南门",
@@ -267,7 +293,8 @@
     "lat": 37.906451,
     "lon": 112.5678054,
     "description": "A popular outdoor spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan Zoo"
   },
   {
     "name": "太原县牺盟会旧址",
@@ -277,7 +304,8 @@
     "lat": 37.7288409,
     "lon": 112.4786183,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan 牺盟会旧址"
   },
   {
     "name": "太原古县城",
@@ -287,7 +315,8 @@
     "lat": 37.7268758,
     "lon": 112.4795886,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan 古 城"
   },
   {
     "name": "太原古城模型",
@@ -297,7 +326,8 @@
     "lat": 37.8618946,
     "lon": 112.5676302,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan Ancient Town"
   },
   {
     "name": "太原市博物馆",
@@ -307,7 +337,8 @@
     "lat": 37.8047441,
     "lon": 112.5274029,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan Museum"
   },
   {
     "name": "太原市美术馆",
@@ -317,7 +348,8 @@
     "lat": 37.8107955,
     "lon": 112.5299528,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan Art Gallery"
   },
   {
     "name": "太原市规划展示馆",
@@ -327,7 +359,8 @@
     "lat": 37.7584943,
     "lon": 112.5017367,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan 规划展示馆"
   },
   {
     "name": "太原方特东方神画",
@@ -337,7 +370,8 @@
     "lat": 38.0433702,
     "lon": 112.6465795,
     "description": "A popular outdoor spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan 方特东方神画"
   },
   {
     "name": "太原晋商博物馆",
@@ -347,7 +381,8 @@
     "lat": 37.850843,
     "lon": 112.5564763,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan 晋商 Museum"
   },
   {
     "name": "太原海洋大世界",
@@ -357,7 +392,8 @@
     "lat": 37.8576122,
     "lon": 112.5895176,
     "description": "A popular outdoor spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan Sea"
   },
   {
     "name": "太原解放纪念碑",
@@ -367,7 +403,8 @@
     "lat": 37.8955697,
     "lon": 112.606589,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan 解放纪念 Monument"
   },
   {
     "name": "太原革命历史陈列馆",
@@ -377,7 +414,8 @@
     "lat": 37.8856392,
     "lon": 112.5679846,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Taiyuan 革命历史陈列馆"
   },
   {
     "name": "孟姜女",
@@ -387,7 +425,8 @@
     "lat": 38.0463063,
     "lon": 112.6454696,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "孟姜女"
   },
   {
     "name": "山西博物院",
@@ -397,7 +436,8 @@
     "lat": 37.8648498,
     "lon": 112.5248994,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Mountain"
   },
   {
     "name": "山西地质博物馆",
@@ -407,7 +447,8 @@
     "lat": 37.8667511,
     "lon": 112.5257137,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "山西地质 Museum"
   },
   {
     "name": "山西大学堂旧址",
@@ -417,7 +458,8 @@
     "lat": 37.8623715,
     "lon": 112.5713466,
     "description": "A popular outdoor spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "山西 University"
   },
   {
     "name": "山西大学堂校门（仿）",
@@ -427,7 +469,8 @@
     "lat": 37.8041637,
     "lon": 112.5800517,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "山西 University"
   },
   {
     "name": "山西慧光古灯博物馆",
@@ -437,7 +480,8 @@
     "lat": 37.7757324,
     "lon": 112.4411066,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "山西慧光古灯 Museum"
   },
   {
     "name": "山西省科技馆",
@@ -447,7 +491,8 @@
     "lat": 37.8030076,
     "lon": 112.5291474,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "山西 Science Museum"
   },
   {
     "name": "山西省立川至医学专科学校旧址",
@@ -457,7 +502,8 @@
     "lat": 37.8774193,
     "lon": 112.5695088,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "山西 立川至医学专科 School"
   },
   {
     "name": "山西省美术馆",
@@ -467,7 +513,8 @@
     "lat": 37.8574648,
     "lon": 112.5360534,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "山西 Art Gallery"
   },
   {
     "name": "山西考古博物馆",
@@ -477,7 +524,8 @@
     "lat": 37.8649953,
     "lon": 112.5736007,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "山西考古 Museum"
   },
   {
     "name": "山西财经大学校史馆",
@@ -487,7 +535,8 @@
     "lat": 37.7906383,
     "lon": 112.580514,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "山西财经大 School"
   },
   {
     "name": "巴克创奇梦工厂",
@@ -497,7 +546,8 @@
     "lat": 37.7215641,
     "lon": 112.5955728,
     "description": "A popular outdoor spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "巴克创奇梦工厂"
   },
   {
     "name": "师魂石",
@@ -507,7 +557,8 @@
     "lat": 37.742834,
     "lon": 112.659317,
     "description": "山西师范大学",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "师魂石"
   },
   {
     "name": "帖木儿塔",
@@ -517,7 +568,8 @@
     "lat": 38.2850764,
     "lon": 112.8901419,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "帖木儿 Pagoda"
   },
   {
     "name": "开化寺",
@@ -527,7 +579,8 @@
     "lat": 38.1892995,
     "lon": 112.6924024,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "开化 Temple"
   },
   {
     "name": "悬泉寺",
@@ -537,7 +590,8 @@
     "lat": 37.9828989,
     "lon": 112.370405,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "悬泉 Temple"
   },
   {
     "name": "成语童话",
@@ -547,7 +601,8 @@
     "lat": 38.0473783,
     "lon": 112.6489278,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "成语童话"
   },
   {
     "name": "拱极门",
@@ -557,7 +612,8 @@
     "lat": 37.8877511,
     "lon": 112.5661481,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "拱极 Gate"
   },
   {
     "name": "昆仑探秘",
@@ -567,7 +623,8 @@
     "lat": 38.0473492,
     "lon": 112.6460266,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "昆仑探秘"
   },
   {
     "name": "晋商博物院",
@@ -577,7 +634,8 @@
     "lat": 37.8746419,
     "lon": 112.5564528,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "晋商博物院"
   },
   {
     "name": "晋祠",
@@ -587,7 +645,8 @@
     "lat": 37.7081653,
     "lon": 112.4349977,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "晋祠"
   },
   {
     "name": "晋阳古城",
@@ -597,7 +656,8 @@
     "lat": 37.7279074,
     "lon": 112.4806205,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "晋阳 Ancient Town"
   },
   {
     "name": "曹天文昆虫标本馆",
@@ -607,7 +667,8 @@
     "lat": 37.7455713,
     "lon": 112.466021,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "曹天文昆虫标本馆"
   },
   {
     "name": "梁祝",
@@ -617,7 +678,8 @@
     "lat": 38.0448047,
     "lon": 112.6428272,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "梁祝"
   },
   {
     "name": "森林公园",
@@ -627,7 +689,8 @@
     "lat": 37.9085136,
     "lon": 112.527088,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "森林 Park"
   },
   {
     "name": "植物科普馆",
@@ -637,7 +700,8 @@
     "lat": 37.7448895,
     "lon": 112.46592,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "植物科普馆"
   },
   {
     "name": "毛泽东像",
@@ -647,7 +711,8 @@
     "lat": 37.805044,
     "lon": 112.5788598,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "毛泽东像"
   },
   {
     "name": "水漫金山",
@@ -657,7 +722,8 @@
     "lat": 38.0457395,
     "lon": 112.6421036,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "水漫金 Mountain"
   },
   {
     "name": "汾河二库国家水利风景区",
@@ -667,7 +733,8 @@
     "lat": 37.9864182,
     "lon": 112.3750169,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "汾 River"
   },
   {
     "name": "清源文庙",
@@ -677,7 +744,8 @@
     "lat": 37.6113205,
     "lon": 112.3418807,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "清源文 Temple"
   },
   {
     "name": "火神庙",
@@ -687,7 +755,8 @@
     "lat": 37.6114857,
     "lon": 112.3414314,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "火神 Temple"
   },
   {
     "name": "熊出没剧场",
@@ -697,7 +766,8 @@
     "lat": 38.0437748,
     "lon": 112.6401058,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "熊出没剧场"
   },
   {
     "name": "碑林公园",
@@ -707,7 +777,8 @@
     "lat": 37.8506149,
     "lon": 112.5336005,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "碑林 Park"
   },
   {
     "name": "神州塔",
@@ -717,7 +788,8 @@
     "lat": 38.0462146,
     "lon": 112.6436048,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "神州 Pagoda"
   },
   {
     "name": "神画",
@@ -727,7 +799,8 @@
     "lat": 38.0422899,
     "lon": 112.6408044,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "神画"
   },
   {
     "name": "纯阳宫",
@@ -737,7 +810,8 @@
     "lat": 37.861963,
     "lon": 112.5658898,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "纯阳 Palace"
   },
   {
     "name": "继往开来",
@@ -747,7 +821,8 @@
     "lat": 38.0154231,
     "lon": 112.4332191,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "继往开来"
   },
   {
     "name": "罗贯中纪念馆",
@@ -757,7 +832,8 @@
     "lat": 37.6241201,
     "lon": 112.3554493,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "罗贯中 Memorial Hall"
   },
   {
     "name": "美术馆",
@@ -767,7 +843,8 @@
     "lat": 37.7400264,
     "lon": 112.6582698,
     "description": "山西师范大学",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "Art Gallery"
   },
   {
     "name": "莲花宝洞",
@@ -777,7 +854,8 @@
     "lat": 37.7523977,
     "lon": 112.4358898,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "莲花宝 Cave"
   },
   {
     "name": "董寿平美术馆",
@@ -787,7 +865,8 @@
     "lat": 37.7071806,
     "lon": 112.4352545,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "董寿平 Art Gallery"
   },
   {
     "name": "观景亭",
@@ -797,7 +876,8 @@
     "lat": 37.732573,
     "lon": 112.3769552,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "观景亭"
   },
   {
     "name": "观景塔",
@@ -807,7 +887,8 @@
     "lat": 37.7443536,
     "lon": 112.4574836,
     "description": "A popular outdoor spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "观景 Pagoda"
   },
   {
     "name": "轩辕庙",
@@ -817,7 +898,8 @@
     "lat": 38.0679892,
     "lon": 112.7633249,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "轩辕 Temple"
   },
   {
     "name": "迎宪村武庙",
@@ -827,7 +909,8 @@
     "lat": 37.6112817,
     "lon": 112.3412893,
     "description": "A popular museum spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "迎宪村武 Temple"
   },
   {
     "name": "钟楼",
@@ -837,7 +920,8 @@
     "lat": 37.7322421,
     "lon": 112.3761398,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "钟 Tower"
   },
   {
     "name": "飞跃狗熊岭",
@@ -847,7 +931,8 @@
     "lat": 38.0440747,
     "lon": 112.6410124,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "飞跃狗熊岭"
   },
   {
     "name": "首义门",
@@ -857,7 +942,8 @@
     "lat": 37.8612885,
     "lon": 112.5676564,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "首义 Gate"
   },
   {
     "name": "龙山石窟",
@@ -867,7 +953,8 @@
     "lat": 37.7321511,
     "lon": 112.4297381,
     "description": "A popular history spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "龙山 Grotto"
   },
   {
     "name": "龙泉",
@@ -877,6 +964,7 @@
     "lat": 37.7523579,
     "lon": 112.4362592,
     "description": "A popular sightseeing spot in Taiyuan.",
-    "city": "Taiyuan"
+    "city": "Taiyuan",
+    "name_en": "龙泉"
   }
 ]

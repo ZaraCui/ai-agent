@@ -7,7 +7,8 @@
     "lat": 23.3728011,
     "lon": 113.2880103,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "\"Airport\" Sign (rest point)"
   },
   {
     "name": "3号炮池",
@@ -17,7 +18,8 @@
     "lat": 22.7680309,
     "lon": 113.6117455,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "3号炮池"
   },
   {
     "name": "Baishuizhai mountain main entrance",
@@ -27,7 +29,8 @@
     "lat": 23.5826186,
     "lon": 113.7616955,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Baishuizhai mountain main entrance"
   },
   {
     "name": "Chinese Coin House somewhere here",
@@ -37,7 +40,8 @@
     "lat": 23.0634463,
     "lon": 113.2737934,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Chinese Coin House somewhere here"
   },
   {
     "name": "Chinese Opera Museum",
@@ -47,7 +51,8 @@
     "lat": 23.1186608,
     "lon": 113.2328579,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Chinese Opera Museum"
   },
   {
     "name": "Deers",
@@ -57,7 +62,8 @@
     "lat": 23.372777,
     "lon": 113.2877337,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Deers"
   },
   {
     "name": "Spring Garden",
@@ -67,7 +73,8 @@
     "lat": 23.1233021,
     "lon": 113.2852476,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Spring Garden"
   },
   {
     "name": "一号炮池",
@@ -77,7 +84,8 @@
     "lat": 22.767875,
     "lon": 113.6108716,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "一号炮池"
   },
   {
     "name": "七十二家房客拍摄基地",
@@ -87,7 +95,8 @@
     "lat": 23.0978414,
     "lon": 113.3124068,
     "description": "暂停开放自2025年4月1日至2025年7月中旬。\nSuspended from 1 April 2025 until mid-July 2025.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "七十二家房客拍摄基地"
   },
   {
     "name": "万木草堂",
@@ -97,7 +106,8 @@
     "lat": 23.1280559,
     "lon": 113.2665258,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "万木草堂"
   },
   {
     "name": "万里波澄",
@@ -107,7 +117,8 @@
     "lat": 23.0842981,
     "lon": 113.4929579,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "万里波澄"
   },
   {
     "name": "三元里平英团遗址",
@@ -117,7 +128,8 @@
     "lat": 23.1634113,
     "lon": 113.2547282,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "三元里平英团 Site"
   },
   {
     "name": "三元里抗英斗争纪念碑",
@@ -127,7 +139,8 @@
     "lat": 23.1572384,
     "lon": 113.2553587,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "三元里抗英斗争纪念 Monument"
   },
   {
     "name": "上下九商业步行街",
@@ -137,7 +150,8 @@
     "lat": 23.1175043,
     "lon": 113.242931,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "上下九商业 Walking Street"
   },
   {
     "name": "丛林发现",
@@ -147,7 +161,8 @@
     "lat": 23.0020935,
     "lon": 113.3141533,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "丛 Forest"
   },
   {
     "name": "东坡像",
@@ -157,7 +172,8 @@
     "lat": 23.1815483,
     "lon": 113.4672575,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "东坡像"
   },
   {
     "name": "东大门",
@@ -167,7 +183,8 @@
     "lat": 23.1471223,
     "lon": 113.3054909,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "东大 Gate"
   },
   {
     "name": "东平大押",
@@ -177,7 +194,8 @@
     "lat": 23.12929,
     "lon": 113.2731676,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "东平大押"
   },
   {
     "name": "东征阵亡烈士纪念坊",
@@ -187,7 +205,8 @@
     "lat": 23.0865507,
     "lon": 113.4113895,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "东征阵亡烈士纪念坊"
   },
   {
     "name": "东征阵亡烈士纪念碑",
@@ -197,7 +216,8 @@
     "lat": 23.0840173,
     "lon": 113.4116816,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "东征阵亡烈士纪念 Monument"
   },
   {
     "name": "东林梁公祠",
@@ -207,7 +227,8 @@
     "lat": 23.0547201,
     "lon": 113.3696021,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "东 Forest"
   },
   {
     "name": "东涌镇标",
@@ -217,7 +238,8 @@
     "lat": 22.8902894,
     "lon": 113.4510714,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "东涌 Town"
   },
   {
     "name": "东濠涌博物馆",
@@ -227,7 +249,8 @@
     "lat": 23.1312879,
     "lon": 113.2733394,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "东濠涌 Museum"
   },
   {
     "name": "两广地质调查所纪念碑",
@@ -237,7 +260,8 @@
     "lat": 23.1040783,
     "lon": 113.2943443,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "两广地质调查所纪念 Monument"
   },
   {
     "name": "中共三大会址纪念馆",
@@ -247,7 +271,8 @@
     "lat": 23.1216915,
     "lon": 113.2906285,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "中共三大会址 Memorial Hall"
   },
   {
     "name": "中共三大会议办公楼",
@@ -257,7 +282,8 @@
     "lat": 23.120994,
     "lon": 113.2899274,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "中共三大会议办公 Tower"
   },
   {
     "name": "中华全国总工会旧址",
@@ -267,7 +293,8 @@
     "lat": 23.1218902,
     "lon": 113.272421,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "中华全国总工会旧址"
   },
   {
     "name": "中国国家版本馆广州分馆",
@@ -277,7 +304,8 @@
     "lat": 23.6946121,
     "lon": 113.6949065,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "中国国家版本馆广州分馆"
   },
   {
     "name": "中国国民党一大旧址",
@@ -287,7 +315,8 @@
     "lat": 23.1267222,
     "lon": 113.2717244,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "中国国民党一大旧址"
   },
   {
     "name": "中山像",
@@ -297,7 +326,8 @@
     "lat": 23.1545233,
     "lon": 113.3422791,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "中 Mountain"
   },
   {
     "name": "中铁隧道博物馆",
@@ -307,7 +337,8 @@
     "lat": 22.7620771,
     "lon": 113.54717,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "中铁隧道 Museum"
   },
   {
     "name": "二号炮池",
@@ -317,7 +348,8 @@
     "lat": 22.7679016,
     "lon": 113.6114163,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "二号炮池"
   },
   {
     "name": "云山茶苑",
@@ -327,7 +359,8 @@
     "lat": 23.1959105,
     "lon": 113.2973673,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "云 Mountain"
   },
   {
     "name": "云潺",
@@ -337,7 +370,8 @@
     "lat": 23.1752316,
     "lon": 113.2950826,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "云潺"
   },
   {
     "name": "五羊邨",
@@ -347,7 +381,8 @@
     "lat": 23.1224316,
     "lon": 113.3080654,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "五羊邨"
   },
   {
     "name": "亚细亚花地仓",
@@ -357,7 +392,8 @@
     "lat": 23.0958888,
     "lon": 113.2395307,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "亚细亚花地仓"
   },
   {
     "name": "从化区博物馆",
@@ -367,7 +403,8 @@
     "lat": 23.5512566,
     "lon": 113.5875712,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "从化 Museum"
   },
   {
     "name": "从化市国家档案馆",
@@ -377,7 +414,8 @@
     "lat": 23.5580458,
     "lon": 113.6014711,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "从化市国家档案馆"
   },
   {
     "name": "余荫山房",
@@ -387,7 +425,8 @@
     "lat": 23.013987,
     "lon": 113.3898071,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "余荫 Mountain"
   },
   {
     "name": "侏罗纪森林",
@@ -397,7 +436,8 @@
     "lat": 23.0078337,
     "lon": 113.3090733,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "侏罗纪 Forest"
   },
   {
     "name": "儿童天地",
@@ -407,7 +447,8 @@
     "lat": 23.0017627,
     "lon": 113.3106983,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "儿童天地"
   },
   {
     "name": "元始梁公祠",
@@ -417,7 +458,8 @@
     "lat": 23.0535251,
     "lon": 113.3685383,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "元始梁公祠"
   },
   {
     "name": "先烈纪念馆",
@@ -427,7 +469,8 @@
     "lat": 23.1469629,
     "lon": 113.3055128,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "先烈 Memorial Hall"
   },
   {
     "name": "八和会馆",
@@ -437,7 +480,8 @@
     "lat": 23.1167036,
     "lon": 113.2340483,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "八和 Guild Hall"
   },
   {
     "name": "八旗博物馆",
@@ -447,7 +491,8 @@
     "lat": 23.120021,
     "lon": 113.2702271,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "八旗 Museum"
   },
   {
     "name": "农民运动讲习所纪念馆",
@@ -457,7 +502,8 @@
     "lat": 23.1302367,
     "lon": 113.2711239,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "农民运动讲习所 Memorial Hall"
   },
   {
     "name": "冯如坠机处纪念碑",
@@ -467,7 +513,8 @@
     "lat": 23.1510086,
     "lon": 113.3094383,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "冯如坠机处纪念 Monument"
   },
   {
     "name": "凤凰古站",
@@ -477,7 +524,8 @@
     "lat": 23.1274444,
     "lon": 113.5688089,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "凤凰古 Station"
   },
   {
     "name": "利来发廊",
@@ -487,7 +535,8 @@
     "lat": 23.1032783,
     "lon": 113.2457655,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "利来发廊"
   },
   {
     "name": "利济桥",
@@ -497,7 +546,8 @@
     "lat": 23.0973286,
     "lon": 113.2683655,
     "description": "粤语维基百科:https://zh-yue.wikipedia.org/wiki/%E5%BE%85%E6%9C%88%E6%A9%8B",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "利济 Bridge"
   },
   {
     "name": "前山凌公祠",
@@ -507,7 +557,8 @@
     "lat": 23.0762506,
     "lon": 113.4035488,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "前 Mountain"
   },
   {
     "name": "化隆馮公祠",
@@ -517,7 +568,8 @@
     "lat": 23.0928107,
     "lon": 113.3893925,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "化隆馮公祠"
   },
   {
     "name": "化龙",
@@ -527,7 +579,8 @@
     "lat": 23.0448566,
     "lon": 113.4369859,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "化龙"
   },
   {
     "name": "北京路",
@@ -537,7 +590,8 @@
     "lat": 23.1177762,
     "lon": 113.2656033,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Beijing Road"
   },
   {
     "name": "北京路商业步行街",
@@ -547,7 +601,8 @@
     "lat": 23.1247636,
     "lon": 113.2640005,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Beijing 路商业 Walking Street"
   },
   {
     "name": "北亭村“路接青云”街门",
@@ -557,7 +612,8 @@
     "lat": 23.0546503,
     "lon": 113.3694571,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "北亭村“路接青云” Street"
   },
   {
     "name": "北亭村民居",
@@ -567,7 +623,8 @@
     "lat": 23.0568263,
     "lon": 113.3786035,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "北亭 Village"
   },
   {
     "name": "北亭梁氏宗祠",
@@ -577,7 +634,8 @@
     "lat": 23.0529218,
     "lon": 113.3679828,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "北亭梁氏宗祠"
   },
   {
     "name": "医学博物馆",
@@ -587,7 +645,8 @@
     "lat": 23.1300301,
     "lon": 113.2847093,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "医学 Museum"
   },
   {
     "name": "十九军阵亡将士纪念碑",
@@ -597,7 +656,8 @@
     "lat": 23.1483144,
     "lon": 113.3040831,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "十九军阵亡将士纪念 Monument"
   },
   {
     "name": "十九路军淞泸抗日残疾军人教养院纪念碑",
@@ -607,7 +667,8 @@
     "lat": 23.100233,
     "lon": 113.3007662,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "十九 Road"
   },
   {
     "name": "十八罗汉塔",
@@ -617,7 +678,8 @@
     "lat": 22.7908263,
     "lon": 113.4054437,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "十八罗汉 Pagoda"
   },
   {
     "name": "十香园",
@@ -627,7 +689,8 @@
     "lat": 23.0948273,
     "lon": 113.2685949,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "十香 Garden"
   },
   {
     "name": "华南农业博物馆",
@@ -637,7 +700,8 @@
     "lat": 23.1596318,
     "lon": 113.346376,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "华南农业 Museum"
   },
   {
     "name": "协同和机器厂博物馆",
@@ -647,7 +711,8 @@
     "lat": 23.0921364,
     "lon": 113.2406216,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "协同和机器厂 Museum"
   },
   {
     "name": "协同和机器厂旧址",
@@ -657,7 +722,8 @@
     "lat": 23.0918443,
     "lon": 113.2407927,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "协同和机器厂旧址"
   },
   {
     "name": "南华珠宝艺术博物馆",
@@ -667,7 +733,8 @@
     "lat": 22.8841179,
     "lon": 113.4840663,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南华珠宝艺术 Museum"
   },
   {
     "name": "南华西街爱国主义教育基地",
@@ -677,7 +744,8 @@
     "lat": 23.1044346,
     "lon": 113.2503077,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南华西 Street"
   },
   {
     "name": "南华西街牌坊",
@@ -687,7 +755,8 @@
     "lat": 23.1056576,
     "lon": 113.2497689,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南华西 Street"
   },
   {
     "name": "南山瀑布",
@@ -697,7 +766,8 @@
     "lat": 23.7401571,
     "lon": 113.793896,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南山 Waterfall"
   },
   {
     "name": "南汉二陵博物馆",
@@ -707,7 +777,8 @@
     "lat": 23.0496696,
     "lon": 113.3775759,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南汉二陵 Museum"
   },
   {
     "name": "南汉二陵（康陵）",
@@ -717,7 +788,8 @@
     "lat": 23.0483568,
     "lon": 113.3763118,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南汉二 Mausoleum"
   },
   {
     "name": "南汉二陵（德陵）",
@@ -727,7 +799,8 @@
     "lat": 23.0561559,
     "lon": 113.3723519,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南汉二 Mausoleum"
   },
   {
     "name": "南沙十九涌渔人码头",
@@ -737,7 +810,8 @@
     "lat": 22.6032584,
     "lon": 113.6411841,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南沙十九涌渔人 Wharf"
   },
   {
     "name": "南沙天后宫",
@@ -747,7 +821,8 @@
     "lat": 22.7600079,
     "lon": 113.6156981,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南沙天后 Palace"
   },
   {
     "name": "南沙永乐生态园",
@@ -757,7 +832,8 @@
     "lat": 22.667735,
     "lon": 113.6039727,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南沙永乐生态 Garden"
   },
   {
     "name": "南湖游乐园",
@@ -767,7 +843,8 @@
     "lat": 23.2226234,
     "lon": 113.3281442,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南湖 Amusement Park"
   },
   {
     "name": "南美探秘",
@@ -777,7 +854,8 @@
     "lat": 23.0039348,
     "lon": 113.3119881,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南美探秘"
   },
   {
     "name": "南越王博物院王墓展区",
@@ -787,7 +865,8 @@
     "lat": 23.1407175,
     "lon": 113.255608,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南越王博物院王 Tomb"
   },
   {
     "name": "南越王宫博物馆",
@@ -797,7 +876,8 @@
     "lat": 23.1296624,
     "lon": 113.2647787,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "南越王宫 Museum"
   },
   {
     "name": "去嚣亭",
@@ -807,7 +887,8 @@
     "lat": 23.1813482,
     "lon": 113.2757965,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "去嚣亭"
   },
   {
     "name": "古采石场",
@@ -817,7 +898,8 @@
     "lat": 22.9866751,
     "lon": 113.5023459,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "古采石场"
   },
   {
     "name": "史坚如先生祠",
@@ -827,7 +909,8 @@
     "lat": 23.1419545,
     "lon": 113.2892179,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "史坚如先生祠"
   },
   {
     "name": "叶剑英同志纪念碑",
@@ -837,7 +920,8 @@
     "lat": 23.1316497,
     "lon": 113.2796672,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "叶剑英同志纪念 Monument"
   },
   {
     "name": "吴尚时",
@@ -847,7 +931,8 @@
     "lat": 23.0845796,
     "lon": 113.3424288,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "吴尚时"
   },
   {
     "name": "喻培伦衣冠冢",
@@ -857,7 +942,8 @@
     "lat": 23.1405634,
     "lon": 113.2897477,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "喻培伦衣冠冢"
   },
   {
     "name": "四方炮台遗址",
@@ -867,7 +953,8 @@
     "lat": 23.1431817,
     "lon": 113.2626759,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "四方炮台 Site"
   },
   {
     "name": "回归林",
@@ -877,7 +964,8 @@
     "lat": 23.1982735,
     "lon": 113.2950546,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "回归 Forest"
   },
   {
     "name": "团一大纪念馆",
@@ -887,7 +975,8 @@
     "lat": 23.1212122,
     "lon": 113.2717389,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "团一大 Memorial Hall"
   },
   {
     "name": "圆炮台遗址",
@@ -897,7 +986,8 @@
     "lat": 23.145573,
     "lon": 113.2614049,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "圆炮台 Site"
   },
   {
     "name": "培正校史博物馆",
@@ -907,7 +997,8 @@
     "lat": 23.1215689,
     "lon": 113.2929462,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "培正校史 Museum"
   },
   {
     "name": "培道校史馆",
@@ -917,7 +1008,8 @@
     "lat": 23.1247444,
     "lon": 113.2919164,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "培道校史馆"
   },
   {
     "name": "塔菲森林",
@@ -927,7 +1019,8 @@
     "lat": 23.1626854,
     "lon": 113.2048972,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "塔菲 Forest"
   },
   {
     "name": "增城区博物馆",
@@ -937,7 +1030,8 @@
     "lat": 23.288526,
     "lon": 113.8082924,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "增城 Museum"
   },
   {
     "name": "大吉火车",
@@ -947,7 +1041,8 @@
     "lat": 23.0854799,
     "lon": 113.4515922,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "大吉火车"
   },
   {
     "name": "大埔围美丽乡村景区",
@@ -957,7 +1052,8 @@
     "lat": 23.2201971,
     "lon": 113.8860153,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "大埔围美丽乡 Village"
   },
   {
     "name": "大小马站书院群",
@@ -967,7 +1063,8 @@
     "lat": 23.127345,
     "lon": 113.2612147,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "大小马站 Academy"
   },
   {
     "name": "天下第一碑",
@@ -977,7 +1074,8 @@
     "lat": 23.1761734,
     "lon": 113.2951436,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "天下第一 Monument"
   },
   {
     "name": "天下第一龙",
@@ -987,7 +1085,8 @@
     "lat": 23.1776757,
     "lon": 113.2955423,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "天下第一龙"
   },
   {
     "name": "天南第一峰",
@@ -997,7 +1096,8 @@
     "lat": 23.1743169,
     "lon": 113.2971063,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "天南第一峰"
   },
   {
     "name": "天池花海",
@@ -1007,7 +1107,8 @@
     "lat": 23.6221079,
     "lon": 113.8068159,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "天池花 Sea"
   },
   {
     "name": "太古仓码头",
@@ -1017,7 +1118,8 @@
     "lat": 23.0919016,
     "lon": 113.2475706,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "太古仓 Wharf"
   },
   {
     "name": "孙中山大元帅府纪念馆",
@@ -1027,7 +1129,8 @@
     "lat": 23.1123319,
     "lon": 113.2736856,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "孙中山大元帅府 Memorial Hall"
   },
   {
     "name": "孙中山读书纪念碑",
@@ -1037,7 +1140,8 @@
     "lat": 23.1375463,
     "lon": 113.2594771,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "孙中 Mountain"
   },
   {
     "name": "孙中山铜像",
@@ -1047,7 +1151,8 @@
     "lat": 23.0995802,
     "lon": 113.2930231,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "孙中 Mountain"
   },
   {
     "name": "孙总理纪念碑",
@@ -1057,7 +1162,8 @@
     "lat": 23.0884583,
     "lon": 113.4188273,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "孙总理纪念 Monument"
   },
   {
     "name": "安来市牌坊",
@@ -1067,7 +1173,8 @@
     "lat": 23.0776193,
     "lon": 113.4061401,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "安来市牌坊"
   },
   {
     "name": "宝鸭岗黑旗军碉堡遗迹",
@@ -1077,7 +1184,8 @@
     "lat": 23.1668489,
     "lon": 113.3352131,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "宝鸭岗黑旗军碉堡遗迹"
   },
   {
     "name": "富裕围",
@@ -1087,7 +1195,8 @@
     "lat": 23.0399817,
     "lon": 113.4529476,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "富裕围"
   },
   {
     "name": "山魈",
@@ -1097,7 +1206,8 @@
     "lat": 23.0015282,
     "lon": 113.3129782,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Mountain"
   },
   {
     "name": "岭南金融博物馆",
@@ -1107,7 +1217,8 @@
     "lat": 23.1265619,
     "lon": 113.2612272,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "岭南金融 Museum"
   },
   {
     "name": "左垣家塾",
@@ -1117,7 +1228,8 @@
     "lat": 23.0926034,
     "lon": 113.3893642,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "左垣家塾"
   },
   {
     "name": "帽峰古庙景区",
@@ -1127,7 +1239,8 @@
     "lat": 23.3057902,
     "lon": 113.4618372,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "帽峰古 Temple"
   },
   {
     "name": "平和大押",
@@ -1137,7 +1250,8 @@
     "lat": 23.2578334,
     "lon": 113.2571184,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "平和大押"
   },
   {
     "name": "广东中医药博物馆",
@@ -1147,7 +1261,8 @@
     "lat": 23.0611372,
     "lon": 113.4000221,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东中医药 Museum"
   },
   {
     "name": "广东华侨博物馆",
@@ -1157,7 +1272,8 @@
     "lat": 23.1111966,
     "lon": 113.3004394,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东华侨 Museum"
   },
   {
     "name": "广东外事博物馆",
@@ -1167,7 +1283,8 @@
     "lat": 23.1089807,
     "lon": 113.2426254,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东外事 Museum"
   },
   {
     "name": "广东文学馆",
@@ -1177,7 +1294,8 @@
     "lat": 23.1038225,
     "lon": 113.2343566,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东文学馆"
   },
   {
     "name": "广东时代美术馆",
@@ -1187,7 +1305,8 @@
     "lat": 23.2249879,
     "lon": 113.2809906,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东时代 Art Gallery"
   },
   {
     "name": "广东电视塔",
@@ -1197,7 +1316,8 @@
     "lat": 23.1437611,
     "lon": 113.2641664,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东电视 Pagoda"
   },
   {
     "name": "广东省农民协会旧址（越秀区廉洁文化教育馆）",
@@ -1207,7 +1327,8 @@
     "lat": 23.1311224,
     "lon": 113.2752817,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东省农民协会旧址（越秀区廉洁文化教育馆）"
   },
   {
     "name": "广东省凉茶养生博物馆",
@@ -1217,7 +1338,8 @@
     "lat": 23.1819158,
     "lon": 113.4453282,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东 凉茶养生 Museum"
   },
   {
     "name": "广东省博物馆",
@@ -1227,7 +1349,8 @@
     "lat": 23.1174149,
     "lon": 113.3214228,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东 Museum"
   },
   {
     "name": "广东科学中心",
@@ -1237,7 +1360,8 @@
     "lat": 23.0419948,
     "lon": 113.3566901,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东科学 Center"
   },
   {
     "name": "广东美术馆",
@@ -1247,7 +1371,8 @@
     "lat": 23.1030314,
     "lon": 113.2355596,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东 Art Gallery"
   },
   {
     "name": "广东航空纪念碑",
@@ -1257,7 +1382,8 @@
     "lat": 23.1464678,
     "lon": 113.3041907,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东航空纪念 Monument"
   },
   {
     "name": "广东非遗馆",
@@ -1267,7 +1393,8 @@
     "lat": 23.104015,
     "lon": 113.2345095,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东非遗馆"
   },
   {
     "name": "广东革命历史博物馆",
@@ -1277,7 +1404,8 @@
     "lat": 23.1311597,
     "lon": 113.2780654,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广东革命 History Museum"
   },
   {
     "name": "广地花园南门",
@@ -1287,7 +1415,8 @@
     "lat": 23.0196965,
     "lon": 113.3312247,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广地花园南 Gate"
   },
   {
     "name": "广地花园西北门",
@@ -1297,7 +1426,8 @@
     "lat": 23.0244687,
     "lon": 113.3310184,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "广地花园西北 Gate"
   },
   {
     "name": "广州七星岗古海岸遗址科学公园",
@@ -1307,7 +1437,8 @@
     "lat": 23.0845771,
     "lon": 113.3424722,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 七星岗古海岸遗址科学 Park"
   },
   {
     "name": "广州东方博物馆",
@@ -1317,7 +1448,8 @@
     "lat": 22.9529726,
     "lon": 113.4915184,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 东方 Museum"
   },
   {
     "name": "广州人民艺术中心",
@@ -1327,7 +1459,8 @@
     "lat": 23.145524,
     "lon": 113.2752946,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 人民艺术 Center"
   },
   {
     "name": "广州从化北回归线标志塔",
@@ -1337,7 +1470,8 @@
     "lat": 23.4419351,
     "lon": 113.4823299,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 从化北回归线标志 Pagoda"
   },
   {
     "name": "广州动物园",
@@ -1347,7 +1481,8 @@
     "lat": 23.1433998,
     "lon": 113.2997481,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou Zoo"
   },
   {
     "name": "广州十三行博物馆",
@@ -1357,7 +1492,8 @@
     "lat": 23.1116347,
     "lon": 113.2455829,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 十三行 Museum"
   },
   {
     "name": "广州华侨博物馆",
@@ -1367,7 +1503,8 @@
     "lat": 23.1156732,
     "lon": 113.2593796,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 华侨 Museum"
   },
   {
     "name": "广州博物馆",
@@ -1377,7 +1514,8 @@
     "lat": 23.1404187,
     "lon": 113.2604199,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou Museum"
   },
   {
     "name": "广州原点",
@@ -1387,7 +1525,8 @@
     "lat": 23.1288451,
     "lon": 113.2590073,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 原点"
   },
   {
     "name": "广州园",
@@ -1397,7 +1536,8 @@
     "lat": 23.2110156,
     "lon": 113.2864963,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou Garden"
   },
   {
     "name": "广州地铁博物馆",
@@ -1407,7 +1547,8 @@
     "lat": 23.0981068,
     "lon": 113.3774061,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 地铁 Museum"
   },
   {
     "name": "广州城市公园展览馆",
@@ -1417,7 +1558,8 @@
     "lat": 23.1408954,
     "lon": 113.2636519,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 城 公园 Exhibition Hall"
   },
   {
     "name": "广州增城地质公园博物馆",
@@ -1427,7 +1569,8 @@
     "lat": 23.5837214,
     "lon": 113.757543,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 增城地质公园 Museum"
   },
   {
     "name": "广州大学校史展览厅",
@@ -1437,7 +1580,8 @@
     "lat": 23.0425724,
     "lon": 113.3653266,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 大 School"
   },
   {
     "name": "广州市儿童公园",
@@ -1447,7 +1591,8 @@
     "lat": 23.1872398,
     "lon": 113.2664774,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 儿童 Park"
   },
   {
     "name": "广州市历史文化街区",
@@ -1457,7 +1602,8 @@
     "lat": 23.1060251,
     "lon": 113.2546177,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 历史文化 Street"
   },
   {
     "name": "广州市城市规划展览中心",
@@ -1467,7 +1613,8 @@
     "lat": 23.1938121,
     "lon": 113.2722705,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 城 规划展览 Center"
   },
   {
     "name": "广州市文化馆",
@@ -1477,7 +1624,8 @@
     "lat": 23.0776709,
     "lon": 113.3230651,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou Cultural Center"
   },
   {
     "name": "广州市禁毒教育馆",
@@ -1487,7 +1635,8 @@
     "lat": 23.1246806,
     "lon": 113.2325091,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 禁毒教育馆"
   },
   {
     "name": "广州市革命历史博物馆",
@@ -1497,7 +1646,8 @@
     "lat": 23.1271846,
     "lon": 113.2593339,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 革命 History Museum"
   },
   {
     "name": "广州曼古园",
@@ -1507,7 +1657,8 @@
     "lat": 23.4042431,
     "lon": 113.1529965,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 曼古 Garden"
   },
   {
     "name": "广州殡葬博物馆",
@@ -1517,7 +1668,8 @@
     "lat": 23.1665154,
     "lon": 113.3328961,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 殡葬 Museum"
   },
   {
     "name": "广州海事博物馆",
@@ -1527,7 +1679,8 @@
     "lat": 23.0819288,
     "lon": 113.4963499,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 海事 Museum"
   },
   {
     "name": "广州海洋馆",
@@ -1537,7 +1690,8 @@
     "lat": 23.1463754,
     "lon": 113.2992822,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou Sea"
   },
   {
     "name": "广州碑林",
@@ -1547,7 +1701,8 @@
     "lat": 23.1774691,
     "lon": 113.2953861,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 碑 Forest"
   },
   {
     "name": "广州空港博览中心",
@@ -1557,7 +1712,8 @@
     "lat": 23.3614193,
     "lon": 113.2968125,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 空港博览 Center"
   },
   {
     "name": "广州艺术博物院",
@@ -1567,7 +1723,8 @@
     "lat": 23.1037233,
     "lon": 113.3207438,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 艺术博物院"
   },
   {
     "name": "广州融创乐园",
@@ -1577,7 +1734,8 @@
     "lat": 23.4313958,
     "lon": 113.2349082,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 融创乐 Garden"
   },
   {
     "name": "广州融创体育世界",
@@ -1587,7 +1745,8 @@
     "lat": 23.4284102,
     "lon": 113.22684,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 融创体育世界"
   },
   {
     "name": "广州贡院历史陈列馆",
@@ -1597,7 +1756,8 @@
     "lat": 23.1276358,
     "lon": 113.272072,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 贡院历史陈列馆"
   },
   {
     "name": "广州起义纪念馆",
@@ -1607,7 +1767,8 @@
     "lat": 23.1269931,
     "lon": 113.2591399,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 起义 Memorial Hall"
   },
   {
     "name": "广州邮政博览馆（广东邮务管理局旧址）",
@@ -1617,7 +1778,8 @@
     "lat": 23.1104191,
     "lon": 113.246854,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 邮政博览馆（广东邮务管理局旧址）"
   },
   {
     "name": "广州钧明欢乐世界",
@@ -1627,7 +1789,8 @@
     "lat": 23.1930167,
     "lon": 113.5885586,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 钧明欢乐世界"
   },
   {
     "name": "广州铁路博物馆",
@@ -1637,7 +1800,8 @@
     "lat": 23.1144661,
     "lon": 113.2256725,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 铁路 Museum"
   },
   {
     "name": "广州铁路博物馆（旧黄沙车站）",
@@ -1647,7 +1811,8 @@
     "lat": 23.1141842,
     "lon": 113.2265192,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 铁路 Museum"
   },
   {
     "name": "广州青少年科技馆",
@@ -1657,7 +1822,8 @@
     "lat": 23.1452004,
     "lon": 113.266491,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Guangzhou 青少年 Science Museum"
   },
   {
     "name": "廖仲恺何香凝纪念馆",
@@ -1667,7 +1833,8 @@
     "lat": 23.1112632,
     "lon": 113.2748136,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "廖仲恺何香凝 Memorial Hall"
   },
   {
     "name": "廖仲恺先生像",
@@ -1677,7 +1844,8 @@
     "lat": 23.1085487,
     "lon": 113.2764145,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "廖仲恺先生像"
   },
   {
     "name": "廖仲恺先生纪念碑",
@@ -1687,7 +1855,8 @@
     "lat": 23.1115709,
     "lon": 113.2750545,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "廖仲恺先生纪念 Monument"
   },
   {
     "name": "得和园",
@@ -1697,7 +1866,8 @@
     "lat": 23.0728046,
     "lon": 113.3176366,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "得和 Garden"
   },
   {
     "name": "快乐森林（动物表演）",
@@ -1707,7 +1877,8 @@
     "lat": 23.00629,
     "lon": 113.309134,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "快乐 Forest"
   },
   {
     "name": "恒业船厂",
@@ -1717,7 +1888,8 @@
     "lat": 22.8964887,
     "lon": 113.5173802,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "恒业船厂"
   },
   {
     "name": "惺亭",
@@ -1727,7 +1899,8 @@
     "lat": 23.1003158,
     "lon": 113.2931647,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "惺亭"
   },
   {
     "name": "抗击非典纪念碑",
@@ -1737,7 +1910,8 @@
     "lat": 23.154766,
     "lon": 113.2656902,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "抗击非典纪念 Monument"
   },
   {
     "name": "抗日亭",
@@ -1747,7 +1921,8 @@
     "lat": 23.1461973,
     "lon": 113.3046078,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "抗日亭"
   },
   {
     "name": "抗日阵亡将士题名碑",
@@ -1757,7 +1932,8 @@
     "lat": 23.1472633,
     "lon": 113.3043556,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "抗日阵亡将士题名 Monument"
   },
   {
     "name": "摘星奇缘",
@@ -1767,7 +1943,8 @@
     "lat": 23.1162827,
     "lon": 113.2589549,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "摘星奇缘"
   },
   {
     "name": "摩崖石刻",
@@ -1777,7 +1954,8 @@
     "lat": 23.1776831,
     "lon": 113.2953411,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Cliff Inscription"
   },
   {
     "name": "敬师亭",
@@ -1787,7 +1965,8 @@
     "lat": 23.0770831,
     "lon": 113.2219702,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "敬师亭"
   },
   {
     "name": "文化广场记",
@@ -1797,7 +1976,8 @@
     "lat": 23.2026494,
     "lon": 113.2847708,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "文化 Square"
   },
   {
     "name": "斗姥宫",
@@ -1807,7 +1987,8 @@
     "lat": 23.1307288,
     "lon": 113.2446622,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "斗姥 Palace"
   },
   {
     "name": "新一军墓地四柱纪念碑",
@@ -1817,7 +1998,8 @@
     "lat": 23.1591279,
     "lon": 113.304635,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "新一军 Tomb"
   },
   {
     "name": "新南村",
@@ -1827,7 +2009,8 @@
     "lat": 23.3826864,
     "lon": 113.4903712,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "新南 Village"
   },
   {
     "name": "新校训石",
@@ -1837,7 +2020,8 @@
     "lat": 23.158092,
     "lon": 113.3419718,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "新校训石"
   },
   {
     "name": "新渔人码头",
@@ -1847,7 +2031,8 @@
     "lat": 22.7742474,
     "lon": 113.5113594,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "新渔人 Wharf"
   },
   {
     "name": "新造美术馆",
@@ -1857,7 +2042,8 @@
     "lat": 23.0418144,
     "lon": 113.4108585,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "新造 Art Gallery"
   },
   {
     "name": "方圆美术馆",
@@ -1867,7 +2053,8 @@
     "lat": 22.8062969,
     "lon": 113.4020122,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "方圆 Art Gallery"
   },
   {
     "name": "日军侵华碉堡遗址",
@@ -1877,7 +2064,8 @@
     "lat": 23.2312119,
     "lon": 113.3709942,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "日军侵华碉堡 Site"
   },
   {
     "name": "日晷",
@@ -1887,7 +2075,8 @@
     "lat": 23.1547807,
     "lon": 113.3400817,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "日晷"
   },
   {
     "name": "旺村革命烈士纪念碑",
@@ -1897,7 +2086,8 @@
     "lat": 23.3203245,
     "lon": 113.5590235,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "旺 Village"
   },
   {
     "name": "星海纪念馆",
@@ -1907,7 +2097,8 @@
     "lat": 23.152169,
     "lon": 113.2991122,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "星海 Memorial Hall"
   },
   {
     "name": "晃亭梁公祠",
@@ -1917,7 +2108,8 @@
     "lat": 23.0927078,
     "lon": 113.3894118,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "晃亭梁公祠"
   },
   {
     "name": "曾豫斋墓",
@@ -1927,7 +2119,8 @@
     "lat": 23.0427901,
     "lon": 113.3819328,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "曾豫斋 Tomb"
   },
   {
     "name": "李小龙祖居",
@@ -1937,7 +2130,8 @@
     "lat": 23.1179365,
     "lon": 113.2317548,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "李小龙祖居"
   },
   {
     "name": "松嶠",
@@ -1947,7 +2141,8 @@
     "lat": 23.1032185,
     "lon": 113.2676173,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "松嶠"
   },
   {
     "name": "枕涛屋",
@@ -1957,7 +2152,8 @@
     "lat": 23.0739894,
     "lon": 113.3226248,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "枕涛屋"
   },
   {
     "name": "枫林红叶",
@@ -1967,7 +2163,8 @@
     "lat": 23.6301523,
     "lon": 113.7645928,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "枫 Forest"
   },
   {
     "name": "校史展览馆",
@@ -1977,7 +2174,8 @@
     "lat": 23.1597785,
     "lon": 113.3440954,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "校史 Exhibition Hall"
   },
   {
     "name": "校训石",
@@ -1987,7 +2185,8 @@
     "lat": 23.338798,
     "lon": 113.3765453,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "校训石"
   },
   {
     "name": "校门石",
@@ -1997,7 +2196,8 @@
     "lat": 23.1524331,
     "lon": 113.3424215,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "校 Gate"
   },
   {
     "name": "桃花涧",
@@ -2007,7 +2207,8 @@
     "lat": 23.1937115,
     "lon": 113.3012876,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "桃花涧"
   },
   {
     "name": "桃花源",
@@ -2017,7 +2218,8 @@
     "lat": 23.6468596,
     "lon": 113.7798912,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "桃花源"
   },
   {
     "name": "梁明诚雕塑园",
@@ -2027,7 +2229,8 @@
     "lat": 23.0372426,
     "lon": 113.3782576,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "梁明诚雕塑 Garden"
   },
   {
     "name": "梅花谷",
@@ -2037,7 +2240,8 @@
     "lat": 23.2017114,
     "lon": 113.3027339,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "梅花谷"
   },
   {
     "name": "欢乐湾水上乐园",
@@ -2047,7 +2251,8 @@
     "lat": 23.2466048,
     "lon": 113.8273824,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "欢乐湾水上乐 Garden"
   },
   {
     "name": "欢乐老爷车",
@@ -2057,7 +2262,8 @@
     "lat": 22.9990518,
     "lon": 113.3216788,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "欢乐老爷车"
   },
   {
     "name": "水生植物园",
@@ -2067,7 +2273,8 @@
     "lat": 23.6231042,
     "lon": 113.8116019,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "水生 Botanical Garden"
   },
   {
     "name": "汇津桥",
@@ -2077,7 +2284,8 @@
     "lat": 23.0950975,
     "lon": 113.2584522,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "汇津 Bridge"
   },
   {
     "name": "沙基惨案纪念碑",
@@ -2087,7 +2295,8 @@
     "lat": 23.1093717,
     "lon": 113.2453002,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "沙基惨案纪念 Monument"
   },
   {
     "name": "沙湾",
@@ -2097,7 +2306,8 @@
     "lat": 23.1928946,
     "lon": 113.4235248,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "沙湾"
   },
   {
     "name": "沙湾古镇",
@@ -2107,7 +2317,8 @@
     "lat": 22.9046863,
     "lon": 113.3316998,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "沙湾 Ancient Town"
   },
   {
     "name": "沙路码头",
@@ -2117,7 +2328,8 @@
     "lat": 23.0754393,
     "lon": 113.441094,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "沙路 Wharf"
   },
   {
     "name": "沙面",
@@ -2127,7 +2339,8 @@
     "lat": 23.1094809,
     "lon": 113.2392742,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "沙面"
   },
   {
     "name": "沥滘牌坊",
@@ -2137,7 +2350,8 @@
     "lat": 23.0653832,
     "lon": 113.3105817,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "沥滘牌坊"
   },
   {
     "name": "河马水寨",
@@ -2147,7 +2361,8 @@
     "lat": 23.0020993,
     "lon": 113.3116365,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "River"
   },
   {
     "name": "洪恩桥",
@@ -2157,7 +2372,8 @@
     "lat": 23.1231272,
     "lon": 113.2778225,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "洪恩 Bridge"
   },
   {
     "name": "洪秀全故居",
@@ -2167,7 +2383,8 @@
     "lat": 23.4193713,
     "lon": 113.1672062,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "洪秀全 Former Residence"
   },
   {
     "name": "洲头咀反租地抗英斗争纪念碑",
@@ -2177,7 +2394,8 @@
     "lat": 23.1067223,
     "lon": 113.2445445,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "洲头咀反租地抗英斗争纪念 Monument"
   },
   {
     "name": "流溪河源头",
@@ -2187,7 +2405,8 @@
     "lat": 23.8005862,
     "lon": 114.0164026,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "流溪 River"
   },
   {
     "name": "流花西苑",
@@ -2197,7 +2416,8 @@
     "lat": 23.1388219,
     "lon": 113.2387135,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "流花西 Garden"
   },
   {
     "name": "浔峰阁",
@@ -2207,7 +2427,8 @@
     "lat": 23.1688162,
     "lon": 113.1917116,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "浔峰 Pavilion"
   },
   {
     "name": "浮雕墙",
@@ -2217,7 +2438,8 @@
     "lat": 23.1472588,
     "lon": 113.3036493,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "浮雕墙"
   },
   {
     "name": "海不扬波",
@@ -2227,7 +2449,8 @@
     "lat": 23.212774,
     "lon": 113.285684,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Sea"
   },
   {
     "name": "海东京畿园",
@@ -2237,7 +2460,8 @@
     "lat": 23.1431663,
     "lon": 113.2586061,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Sea"
   },
   {
     "name": "海珠桥",
@@ -2247,7 +2471,8 @@
     "lat": 23.1153222,
     "lon": 113.2616824,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "Sea"
   },
   {
     "name": "涂鸦墙",
@@ -2257,7 +2482,8 @@
     "lat": 23.1814191,
     "lon": 113.4644746,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "涂鸦墙"
   },
   {
     "name": "深中通道观景台",
@@ -2267,7 +2493,8 @@
     "lat": 22.5753345,
     "lon": 113.6484279,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "深中通道观景台"
   },
   {
     "name": "清平市场",
@@ -2277,7 +2504,8 @@
     "lat": 23.1125134,
     "lon": 113.2395272,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "清平市场"
   },
   {
     "name": "湖山瞰台",
@@ -2287,7 +2515,8 @@
     "lat": 23.4814783,
     "lon": 113.4161018,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "湖 Mountain"
   },
   {
     "name": "潮州凤凰单茶博物馆",
@@ -2297,7 +2526,8 @@
     "lat": 23.1091701,
     "lon": 113.237171,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "潮州凤凰单茶 Museum"
   },
   {
     "name": "火炉山",
@@ -2307,7 +2537,8 @@
     "lat": 23.1836958,
     "lon": 113.384614,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "火炉 Mountain"
   },
   {
     "name": "火箭过山车",
@@ -2317,7 +2548,8 @@
     "lat": 23.001985,
     "lon": 113.3260972,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "火箭过 Mountain"
   },
   {
     "name": "烈士碑",
@@ -2327,7 +2559,8 @@
     "lat": 23.3273333,
     "lon": 113.5661089,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "烈士 Monument"
   },
   {
     "name": "熊森林",
@@ -2337,7 +2570,8 @@
     "lat": 23.0017578,
     "lon": 113.3149523,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "熊 Forest"
   },
   {
     "name": "熊猫4D剧场",
@@ -2347,7 +2581,8 @@
     "lat": 23.0053747,
     "lon": 113.313355,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "熊猫4D剧场"
   },
   {
     "name": "熊猫村",
@@ -2357,7 +2592,8 @@
     "lat": 23.0030591,
     "lon": 113.3104973,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "熊猫 Village"
   },
   {
     "name": "爬山廊",
@@ -2367,7 +2603,8 @@
     "lat": 23.1783612,
     "lon": 113.2956469,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "爬 Mountain"
   },
   {
     "name": "牌坊",
@@ -2377,7 +2614,8 @@
     "lat": 23.2574597,
     "lon": 113.257915,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "牌坊"
   },
   {
     "name": "狮岭金狮水上乐园",
@@ -2387,7 +2625,8 @@
     "lat": 23.4843564,
     "lon": 113.1431534,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "狮岭金狮水上乐 Garden"
   },
   {
     "name": "猴山",
@@ -2397,7 +2636,8 @@
     "lat": 23.1441122,
     "lon": 113.3007141,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "猴 Mountain"
   },
   {
     "name": "珠江啤酒博物馆",
@@ -2407,7 +2647,8 @@
     "lat": 23.108751,
     "lon": 113.3375512,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "珠江啤酒 Museum"
   },
   {
     "name": "琶洲塔",
@@ -2417,7 +2658,8 @@
     "lat": 23.1017511,
     "lon": 113.3702788,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "琶洲 Pagoda"
   },
   {
     "name": "番禺博物馆",
@@ -2427,7 +2669,8 @@
     "lat": 22.9535655,
     "lon": 113.3398764,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "番禺 Museum"
   },
   {
     "name": "番禺汽车城",
@@ -2437,7 +2680,8 @@
     "lat": 23.0271182,
     "lon": 113.4616307,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "番禺汽车城"
   },
   {
     "name": "瘗发塔",
@@ -2447,7 +2691,8 @@
     "lat": 23.1323513,
     "lon": 113.2511127,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "瘗发 Pagoda"
   },
   {
     "name": "白云晚望",
@@ -2457,7 +2702,8 @@
     "lat": 23.1737041,
     "lon": 113.2959168,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "白云晚望"
   },
   {
     "name": "白云松涛",
@@ -2467,7 +2713,8 @@
     "lat": 23.1893552,
     "lon": 113.3045046,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "白云松涛"
   },
   {
     "name": "白兔港炮台",
@@ -2477,7 +2724,8 @@
     "lat": 23.0866757,
     "lon": 113.4263675,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "白兔 Port"
   },
   {
     "name": "白水寨景区",
@@ -2487,7 +2735,8 @@
     "lat": 23.5975367,
     "lon": 113.7529716,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "白水寨景区"
   },
   {
     "name": "白虎跳水",
@@ -2497,7 +2746,8 @@
     "lat": 23.0056467,
     "lon": 113.3098998,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "白虎跳水"
   },
   {
     "name": "百万葵园",
@@ -2507,7 +2757,8 @@
     "lat": 22.6312366,
     "lon": 113.6149903,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "百万葵 Garden"
   },
   {
     "name": "百鸟归巢",
@@ -2517,7 +2768,8 @@
     "lat": 23.6218428,
     "lon": 113.7722669,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "百鸟归巢"
   },
   {
     "name": "盘古山泉水世界",
@@ -2527,7 +2779,8 @@
     "lat": 23.4876036,
     "lon": 113.1472474,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "盘古 Mountain"
   },
   {
     "name": "省港罢工纪念馆",
@@ -2537,7 +2790,8 @@
     "lat": 23.1205719,
     "lon": 113.2720295,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "港罢工 Memorial Hall"
   },
   {
     "name": "瞭望塔",
@@ -2547,7 +2801,8 @@
     "lat": 23.3687792,
     "lon": 113.3136882,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "瞭望 Pagoda"
   },
   {
     "name": "石门香雪",
@@ -2557,7 +2812,8 @@
     "lat": 23.6402659,
     "lon": 113.7828024,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "石 Gate"
   },
   {
     "name": "社稷之神碑",
@@ -2567,7 +2823,8 @@
     "lat": 23.0510337,
     "lon": 113.3652308,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "社稷之神 Monument"
   },
   {
     "name": "禾下戏鱼",
@@ -2577,7 +2834,8 @@
     "lat": 23.0831457,
     "lon": 113.4512775,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "禾下戏鱼"
   },
   {
     "name": "穗华园",
@@ -2587,7 +2845,8 @@
     "lat": 23.2147155,
     "lon": 113.2881281,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "穗华 Garden"
   },
   {
     "name": "竹溪",
@@ -2597,7 +2856,8 @@
     "lat": 23.1952051,
     "lon": 113.2996652,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "竹溪"
   },
   {
     "name": "粤剧艺术博物馆",
@@ -2607,7 +2867,8 @@
     "lat": 23.1181587,
     "lon": 113.2327667,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "粤剧艺术 Museum"
   },
   {
     "name": "粤晖园",
@@ -2617,7 +2878,8 @@
     "lat": 23.1315081,
     "lon": 113.362431,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "粤晖 Garden"
   },
   {
     "name": "粤海关旧址（中国海关博物馆广州分馆）",
@@ -2627,7 +2889,8 @@
     "lat": 23.1099962,
     "lon": 113.2457379,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "粤海关旧址（中国海关 Museum"
   },
   {
     "name": "粤海第一关纪念馆",
@@ -2637,7 +2900,8 @@
     "lat": 23.08883,
     "lon": 113.3859553,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "粤海第一关 Memorial Hall"
   },
   {
     "name": "粤秀园",
@@ -2647,7 +2911,8 @@
     "lat": 23.213266,
     "lon": 113.2874517,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "粤秀 Garden"
   },
   {
     "name": "羊城艺术馆",
@@ -2657,7 +2922,8 @@
     "lat": 23.1742228,
     "lon": 113.2946324,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "羊城 Art Museum"
   },
   {
     "name": "翠竹园",
@@ -2667,7 +2933,8 @@
     "lat": 23.1997146,
     "lon": 113.2955478,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "翠竹 Garden"
   },
   {
     "name": "翰林斋美术馆",
@@ -2677,7 +2944,8 @@
     "lat": 23.1547283,
     "lon": 113.2644757,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "翰林斋 Art Gallery"
   },
   {
     "name": "考拉广场",
@@ -2687,7 +2955,8 @@
     "lat": 23.0027158,
     "lon": 113.3095878,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "考拉 Square"
   },
   {
     "name": "聚芳园",
@@ -2697,7 +2966,8 @@
     "lat": 23.1539072,
     "lon": 113.2754589,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "聚芳 Garden"
   },
   {
     "name": "自由落体",
@@ -2707,7 +2977,8 @@
     "lat": 23.0008418,
     "lon": 113.3251444,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "自由落体"
   },
   {
     "name": "自贸区牌坊",
@@ -2717,7 +2988,8 @@
     "lat": 22.802988,
     "lon": 113.4765357,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "自贸区牌坊"
   },
   {
     "name": "芙蓉洲",
@@ -2727,7 +2999,8 @@
     "lat": 23.1407368,
     "lon": 113.2478638,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "芙蓉洲"
   },
   {
     "name": "花城丝路园",
@@ -2737,7 +3010,8 @@
     "lat": 23.2127945,
     "lon": 113.2858621,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "花城丝 Road"
   },
   {
     "name": "花畔塔影",
@@ -2747,7 +3021,8 @@
     "lat": 23.0732468,
     "lon": 113.3183083,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "花畔 Pagoda"
   },
   {
     "name": "茶山",
@@ -2757,7 +3032,8 @@
     "lat": 23.196747,
     "lon": 113.2963545,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "茶 Mountain"
   },
   {
     "name": "荔枝湾景区",
@@ -2767,7 +3043,8 @@
     "lat": 23.1237347,
     "lon": 113.2312728,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "荔枝湾景区"
   },
   {
     "name": "荔湾博物馆",
@@ -2777,7 +3054,8 @@
     "lat": 23.1224018,
     "lon": 113.2305374,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "荔湾 Museum"
   },
   {
     "name": "莲花古城",
@@ -2787,7 +3065,8 @@
     "lat": 22.9946437,
     "lon": 113.498702,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "莲花 Ancient Town"
   },
   {
     "name": "莲花山旅游区",
@@ -2797,7 +3076,8 @@
     "lat": 22.9905365,
     "lon": 113.4970392,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "莲花 Mountain"
   },
   {
     "name": "莲麻小镇",
@@ -2807,7 +3087,8 @@
     "lat": 23.8937795,
     "lon": 113.9983535,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "莲麻小 Town"
   },
   {
     "name": "菩提树",
@@ -2817,7 +3098,8 @@
     "lat": 23.1323398,
     "lon": 113.2512859,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "菩提树"
   },
   {
     "name": "落羽松林",
@@ -2827,7 +3109,8 @@
     "lat": 23.1375641,
     "lon": 113.2459097,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "落羽松 Forest"
   },
   {
     "name": "蒋光鼐故居博物馆",
@@ -2837,7 +3120,8 @@
     "lat": 23.122112,
     "lon": 113.2301519,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "蒋光鼐故居 Museum"
   },
   {
     "name": "蒲洲花园",
@@ -2847,7 +3131,8 @@
     "lat": 22.7652492,
     "lon": 113.6116391,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "蒲洲花 Garden"
   },
   {
     "name": "蜜蜂世界",
@@ -2857,7 +3142,8 @@
     "lat": 23.1991291,
     "lon": 113.2882782,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "蜜蜂世界"
   },
   {
     "name": "西门瓮城遗址",
@@ -2867,7 +3153,8 @@
     "lat": 23.1277236,
     "lon": 113.2489296,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "西门瓮城 Site"
   },
   {
     "name": "规划展览馆",
@@ -2877,7 +3164,8 @@
     "lat": 22.8005344,
     "lon": 113.519071,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "规划 Exhibition Hall"
   },
   {
     "name": "认植芳木名单",
@@ -2887,7 +3175,8 @@
     "lat": 23.202661,
     "lon": 113.2850132,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "认植芳木名单"
   },
   {
     "name": "超级大摆锤",
@@ -2897,7 +3186,8 @@
     "lat": 23.0005588,
     "lon": 113.3238604,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "超级大摆锤"
   },
   {
     "name": "越南范鸿泰墓",
@@ -2907,7 +3197,8 @@
     "lat": 23.1439928,
     "lon": 113.2886423,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "越南范鸿泰 Tomb"
   },
   {
     "name": "越南青年政治训练班旧址、越南青年革命同志会旧址",
@@ -2917,7 +3208,8 @@
     "lat": 23.1252321,
     "lon": 113.271575,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "越南青年政治训练班旧址、越南青年革命同志会旧址"
   },
   {
     "name": "越王井",
@@ -2927,7 +3219,8 @@
     "lat": 23.1368217,
     "lon": 113.2578723,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "越王井"
   },
   {
     "name": "车歪炮台遗址",
@@ -2937,7 +3230,8 @@
     "lat": 23.072977,
     "lon": 113.25248,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "车歪炮台 Site"
   },
   {
     "name": "辛亥革命纪念馆",
@@ -2947,7 +3241,8 @@
     "lat": 23.0747126,
     "lon": 113.4151112,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "辛亥革命 Memorial Hall"
   },
   {
     "name": "逗趣园",
@@ -2957,7 +3252,8 @@
     "lat": 23.1429803,
     "lon": 113.3015494,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "逗趣 Garden"
   },
   {
     "name": "邓世昌纪念馆",
@@ -2967,7 +3263,8 @@
     "lat": 23.1038433,
     "lon": 113.2551371,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "邓世昌 Memorial Hall"
   },
   {
     "name": "邓氏宗祠",
@@ -2977,7 +3274,8 @@
     "lat": 23.1037326,
     "lon": 113.2550994,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "邓氏宗祠"
   },
   {
     "name": "郑仙岩",
@@ -2987,7 +3285,8 @@
     "lat": 23.1736198,
     "lon": 113.2970218,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "郑仙岩"
   },
   {
     "name": "金印游乐场",
@@ -2997,7 +3296,8 @@
     "lat": 23.1415101,
     "lon": 113.2621873,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "金印游乐场"
   },
   {
     "name": "锦纶会馆",
@@ -3007,7 +3307,8 @@
     "lat": 23.1193094,
     "lon": 113.2418756,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "锦纶 Guild Hall"
   },
   {
     "name": "锦绣南天",
@@ -3017,7 +3318,8 @@
     "lat": 23.1796542,
     "lon": 113.2948592,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "锦绣南天"
   },
   {
     "name": "长隆旅游度假区",
@@ -3027,7 +3329,8 @@
     "lat": 23.0030686,
     "lon": 113.3212177,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "长隆旅游度假区"
   },
   {
     "name": "长隆欢乐世界",
@@ -3037,7 +3340,8 @@
     "lat": 23.002645,
     "lon": 113.324142,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "长隆欢乐世界"
   },
   {
     "name": "长隆水上乐园",
@@ -3047,7 +3351,8 @@
     "lat": 23.0041472,
     "lon": 113.3194995,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "长隆水上乐 Garden"
   },
   {
     "name": "长隆野生动物世界",
@@ -3057,7 +3362,8 @@
     "lat": 23.005461,
     "lon": 113.3102228,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "长隆野生动物世界"
   },
   {
     "name": "长隆飞鸟乐园",
@@ -3067,7 +3373,8 @@
     "lat": 23.0289059,
     "lon": 113.2716189,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "长隆飞鸟乐 Garden"
   },
   {
     "name": "陈子壮纪念馆",
@@ -3077,7 +3384,8 @@
     "lat": 23.155695,
     "lon": 113.2009943,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "陈子壮 Memorial Hall"
   },
   {
     "name": "陈家祠",
@@ -3087,7 +3395,8 @@
     "lat": 23.1298279,
     "lon": 113.2401325,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "陈家祠"
   },
   {
     "name": "隐湖半岛",
@@ -3097,7 +3406,8 @@
     "lat": 23.4810997,
     "lon": 113.4118632,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "隐 Lake"
   },
   {
     "name": "雨林仙踪",
@@ -3107,7 +3417,8 @@
     "lat": 23.0060666,
     "lon": 113.3082093,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "雨 Forest"
   },
   {
     "name": "静心台",
@@ -3117,7 +3428,8 @@
     "lat": 23.1811603,
     "lon": 113.2746779,
     "description": "A popular outdoor spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "静心台"
   },
   {
     "name": "非洲发现",
@@ -3127,7 +3439,8 @@
     "lat": 23.0023459,
     "lon": 113.3119355,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "非洲发现"
   },
   {
     "name": "非洲森林",
@@ -3137,7 +3450,8 @@
     "lat": 23.0018664,
     "lon": 113.3131042,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "非洲 Forest"
   },
   {
     "name": "革命烈士纪念碑",
@@ -3147,7 +3461,8 @@
     "lat": 23.2199403,
     "lon": 113.8830057,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "革命烈士纪念 Monument"
   },
   {
     "name": "飞鹅岭新石器时期遗址",
@@ -3157,7 +3472,8 @@
     "lat": 23.1814502,
     "lon": 113.3600101,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "飞鹅岭新石器时期 Site"
   },
   {
     "name": "马涌禁占官涌碑记",
@@ -3167,7 +3483,8 @@
     "lat": 23.0950259,
     "lon": 113.2588203,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "马涌禁占官涌 Monument"
   },
   {
     "name": "高剑父纪念馆",
@@ -3177,7 +3494,8 @@
     "lat": 23.1392805,
     "lon": 113.2558553,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "高剑父 Memorial Hall"
   },
   {
     "name": "鲁迅纪念馆",
@@ -3187,7 +3505,8 @@
     "lat": 23.1267325,
     "lon": 113.2715576,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "鲁迅 Memorial Hall"
   },
   {
     "name": "鸣春谷",
@@ -3197,7 +3516,8 @@
     "lat": 23.1744431,
     "lon": 113.2965949,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "鸣春谷"
   },
   {
     "name": "黄埔军校旧址纪念馆",
@@ -3207,7 +3527,8 @@
     "lat": 23.0887681,
     "lon": 113.4194969,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "黄埔军校旧址 Memorial Hall"
   },
   {
     "name": "黄埔古港",
@@ -3217,7 +3538,8 @@
     "lat": 23.0877418,
     "lon": 113.3856321,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "黄埔古 Port"
   },
   {
     "name": "黄埔国际会议中心",
@@ -3227,7 +3549,8 @@
     "lat": 23.2235234,
     "lon": 113.5235203,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "黄埔国际会议 Center"
   },
   {
     "name": "黄花岗七十二烈士纪念碑",
@@ -3237,7 +3560,8 @@
     "lat": 23.1432907,
     "lon": 113.2892138,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "黄花岗七十二烈士纪念 Monument"
   },
   {
     "name": "黄花岗起义指挥部旧址纪念馆",
@@ -3247,7 +3571,8 @@
     "lat": 23.1321492,
     "lon": 113.2647209,
     "description": "A popular museum spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "黄花岗起义指挥部旧址 Memorial Hall"
   },
   {
     "name": "黎巨川墓",
@@ -3257,7 +3582,8 @@
     "lat": 22.947519,
     "lon": 113.297683,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "黎巨川 Tomb"
   },
   {
     "name": "黑猩猩馆",
@@ -3267,7 +3593,8 @@
     "lat": 23.0015726,
     "lon": 113.3138794,
     "description": "A popular sightseeing spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "黑猩猩馆"
   },
   {
     "name": "龙虎墙",
@@ -3277,6 +3604,7 @@
     "lat": 23.1263035,
     "lon": 113.2706414,
     "description": "A popular history spot in Guangzhou.",
-    "city": "Guangzhou"
+    "city": "Guangzhou",
+    "name_en": "龙虎墙"
   }
 ]

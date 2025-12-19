@@ -6,7 +6,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Statue of Liberty — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Statue of. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Statue of Liberty — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Statue of. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Statue of Liberty"
     },
     {
         "name": "Central Park",
@@ -15,7 +16,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Central Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Central Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Central Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Central Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Central Park"
     },
     {
         "name": "Metropolitan Museum of Art",
@@ -24,7 +26,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Metropolitan Museum of Art — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Metropolitan Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Metropolitan Museum of Art — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Metropolitan Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Metropolitan Museum of Art"
     },
     {
         "name": "Times Square",
@@ -33,7 +36,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Times Square — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Times Square. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Times Square — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Times Square. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Times Square"
     },
     {
         "name": "Brooklyn Bridge",
@@ -42,7 +46,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Brooklyn Bridge — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Brooklyn Bridge. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Brooklyn Bridge — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Brooklyn Bridge. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Brooklyn Bridge"
     },
     {
         "name": "9/11 Memorial & Museum",
@@ -51,7 +56,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "9/11 Memorial & Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: 9/11 Memorial. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "9/11 Memorial & Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: 9/11 Memorial. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "9/11 Memorial & Museum"
     },
     {
         "name": "Broadway Theater District",
@@ -60,7 +66,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Broadway Theater District — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Broadway Theater. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Broadway Theater District — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Broadway Theater. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Broadway Theater District"
     },
     {
         "name": "Fifth Avenue Shopping",
@@ -69,7 +76,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Fifth Avenue Shopping — Shopping area with stores and local vendors; good for browsing. Highlights: Fifth Avenue. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Fifth Avenue Shopping — Shopping area with stores and local vendors; good for browsing. Highlights: Fifth Avenue. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Fifth Avenue Shopping"
     },
     {
         "name": "High Line",
@@ -78,7 +86,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "High Line — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: High Line. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "High Line — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: High Line. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "High Line"
     },
     {
         "name": "Chelsea Market",
@@ -87,7 +96,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Chelsea Market — Shopping area with stores and local vendors; good for browsing. Highlights: Chelsea Market. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Chelsea Market — Shopping area with stores and local vendors; good for browsing. Highlights: Chelsea Market. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Chelsea Market"
     },
     {
         "name": "Museum of Modern Art (MoMA)",
@@ -96,7 +106,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Museum of Modern Art (MoMA) — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: MoMA. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Museum of Modern Art (MoMA) — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: MoMA. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Museum of Modern Art (MoMA)"
     },
     {
         "name": "SoHo Shopping District",
@@ -105,7 +116,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "SoHo Shopping District — Shopping area with stores and local vendors; good for browsing. Highlights: SoHo. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "SoHo Shopping District — Shopping area with stores and local vendors; good for browsing. Highlights: SoHo. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "SoHo Shopping District"
     },
     {
         "name": "Coney Island",
@@ -114,7 +126,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Coney Island — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Coney Island. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Coney Island — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Coney Island. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Coney Island"
     },
     {
         "name": "Wall Street",
@@ -123,7 +136,8 @@
         "category": "outdoor",
         "duration_minutes": 30,
         "rating": 4.0,
-        "description": "Wall Street — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Wall Street. Typical visit ~30 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Wall Street — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Wall Street. Typical visit ~30 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Wall Street"
     },
     {
         "name": "Madison Avenue Shopping",
@@ -132,7 +146,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Madison Avenue Shopping — Shopping area with stores and local vendors; good for browsing. Highlights: Madison Avenue. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Madison Avenue Shopping — Shopping area with stores and local vendors; good for browsing. Highlights: Madison Avenue. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Madison Avenue Shopping"
     },
     {
         "name": "Bryant Park",
@@ -141,7 +156,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Bryant Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Bryant Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Bryant Park — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Bryant Park. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Bryant Park"
     },
     {
         "name": "Lincoln Center for the Performing Arts",
@@ -150,7 +166,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Lincoln Center for the Performing Arts — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Lincoln Center. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Lincoln Center for the Performing Arts — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Lincoln Center. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Lincoln Center for the Performing Arts"
     },
     {
         "name": "Fulton Street Mall",
@@ -159,6 +176,7 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Fulton Street Mall — Shopping area with stores and local vendors; good for browsing. Highlights: Fulton Street Mall. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Fulton Street Mall — Shopping area with stores and local vendors; good for browsing. Highlights: Fulton Street Mall. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Fulton Street Mall"
     }
 ]

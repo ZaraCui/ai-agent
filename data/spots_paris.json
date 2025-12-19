@@ -6,7 +6,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Eiffel Tower — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Eiffel Tower. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Eiffel Tower — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Eiffel Tower. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Eiffel Tower"
     },
     {
         "name": "Louvre Museum",
@@ -15,7 +16,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Louvre Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Louvre Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Louvre Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Louvre Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Louvre Museum"
     },
     {
         "name": "Notre-Dame Cathedral",
@@ -24,7 +26,8 @@
         "category": "temple",
         "duration_minutes": 45,
         "rating": 4.1,
-        "description": "Notre-Dame Cathedral — Historic or religious site, usually quiet and culturally significant. Highlights: Notre-Dame Cathedral. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Notre-Dame Cathedral — Historic or religious site, usually quiet and culturally significant. Highlights: Notre-Dame Cathedral. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Notre-Dame Cathedral"
     },
     {
         "name": "Champs-Élysées",
@@ -33,7 +36,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Champs-Élysées — Shopping area with stores and local vendors; good for browsing. Highlights: Champs-Élysées. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Champs-Élysées — Shopping area with stores and local vendors; good for browsing. Highlights: Champs-Élysées. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Champs-Élysées"
     },
     {
         "name": "Montmartre",
@@ -42,7 +46,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Montmartre — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Montmartre. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Montmartre — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Montmartre. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Montmartre"
     },
     {
         "name": "Musée d'Orsay",
@@ -51,7 +56,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Musée d'Orsay — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Musée d'Orsay. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Musée d'Orsay — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Musée d'Orsay. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Musée d'Orsay"
     },
     {
         "name": "Luxembourg Gardens",
@@ -60,7 +66,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Luxembourg Gardens — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Luxembourg Gardens. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Luxembourg Gardens — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Luxembourg Gardens. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Luxembourg Gardens"
     },
     {
         "name": "Sainte-Chapelle",
@@ -69,7 +76,8 @@
         "category": "temple",
         "duration_minutes": 45,
         "rating": 4.1,
-        "description": "Sainte-Chapelle — Historic or religious site, usually quiet and culturally significant. Highlights: Sainte-Chapelle. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Sainte-Chapelle — Historic or religious site, usually quiet and culturally significant. Highlights: Sainte-Chapelle. Typical visit ~45 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Sainte-Chapelle"
     },
     {
         "name": "Le Marais",
@@ -78,7 +86,8 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 3.9,
-        "description": "Le Marais — Shopping area with stores and local vendors; good for browsing. Highlights: Le Marais. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Le Marais — Shopping area with stores and local vendors; good for browsing. Highlights: Le Marais. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Le Marais"
     },
     {
         "name": "Palace of Versailles",
@@ -87,7 +96,8 @@
         "category": "indoor",
         "duration_minutes": 120,
         "rating": 4.4,
-        "description": "Palace of Versailles — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Palace of Versailles. Typical visit ~120 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Palace of Versailles — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Palace of Versailles. Typical visit ~120 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Palace of Versailles"
     },
     {
         "name": "Tuileries Garden",
@@ -96,7 +106,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Tuileries Garden — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Tuileries Garden. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Tuileries Garden — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Tuileries Garden. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Tuileries Garden"
     },
     {
         "name": "Rodin Museum",
@@ -105,7 +116,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Rodin Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Rodin Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Rodin Museum — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Rodin Museum. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Rodin Museum"
     },
     {
         "name": "Place de la Concorde",
@@ -114,7 +126,8 @@
         "category": "outdoor",
         "duration_minutes": 30,
         "rating": 4.0,
-        "description": "Place de la Concorde — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Place de la Concorde. Typical visit ~30 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Place de la Concorde — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Place de la Concorde. Typical visit ~30 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Place de la Concorde"
     },
     {
         "name": "Centre Pompidou",
@@ -123,7 +136,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.2,
-        "description": "Centre Pompidou — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Centre Pompidou. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Centre Pompidou — Well-curated indoor spot; expect exhibits or sheltered activities. Highlights: Centre Pompidou. Typical visit ~90 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Centre Pompidou"
     },
     {
         "name": "Père Lachaise Cemetery",
@@ -132,7 +146,8 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.1,
-        "description": "Père Lachaise Cemetery — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Père Lachaise Cemetery. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Père Lachaise Cemetery — Popular outdoor attraction with scenic views and good photo opportunities. Highlights: Père Lachaise Cemetery. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Père Lachaise Cemetery"
     },
     {
         "name": "Galeries Lafayette",
@@ -141,6 +156,7 @@
         "category": "shopping",
         "duration_minutes": 60,
         "rating": 4.0,
-        "description": "Galeries Lafayette — Shopping area with stores and local vendors; good for browsing. Highlights: Galeries Lafayette. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons."
+        "description": "Galeries Lafayette — Shopping area with stores and local vendors; good for browsing. Highlights: Galeries Lafayette. Typical visit ~60 minutes. Rating reflects typical visitor satisfaction and category averages. Consider booking tickets in advance for busy seasons.",
+        "name_en": "Galeries Lafayette"
     }
 ]

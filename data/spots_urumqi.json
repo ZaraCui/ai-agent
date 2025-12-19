@@ -7,7 +7,8 @@
     "lat": 43.8059878,
     "lon": 87.6402907,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "Garden of shining stars"
   },
   {
     "name": "Mount Nan Pastures",
@@ -17,7 +18,8 @@
     "lat": 43.4348101,
     "lon": 87.1784068,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "Mount Nan Pastures"
   },
   {
     "name": "Urumqi Yamalike Mountain Scenic Area (乌鲁木齐雅马里克山旅游风景区)",
@@ -27,7 +29,8 @@
     "lat": 43.7709315,
     "lon": 87.5553498,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "Urumqi Yamalike Mountain Scenic Area (乌鲁木齐雅马里克 Mountain"
   },
   {
     "name": "سۇ ئۈستى باغچىسى 水上乐园",
@@ -37,7 +40,8 @@
     "lat": 43.7539572,
     "lon": 87.6118239,
     "description": "A popular outdoor spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "سۇ ئۈستى باغچىسى 水上乐 Garden"
   },
   {
     "name": "东道海子",
@@ -47,7 +51,8 @@
     "lat": 44.595306,
     "lon": 87.601791,
     "description": "A popular outdoor spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "东道 Sea"
   },
   {
     "name": "丝绸之路国际滑雪场",
@@ -57,7 +62,8 @@
     "lat": 43.4431133,
     "lon": 87.4123485,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "丝绸之 Road"
   },
   {
     "name": "中国彩棉科技园（AAAA风景区）",
@@ -67,7 +73,8 @@
     "lat": 43.9345012,
     "lon": 87.4286771,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "中国彩棉科技 Garden"
   },
   {
     "name": "乌公吴王之家",
@@ -77,7 +84,8 @@
     "lat": 43.878132,
     "lon": 87.5823877,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "乌公吴王之家"
   },
   {
     "name": "乌拉泊古城",
@@ -87,7 +95,8 @@
     "lat": 43.6406761,
     "lon": 87.5871321,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "乌拉泊 Ancient Town"
   },
   {
     "name": "乌鲁木齐市博物馆",
@@ -97,7 +106,8 @@
     "lat": 43.8699699,
     "lon": 87.6160965,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "Urumqi Museum"
   },
   {
     "name": "乌鲁木齐市科学技术馆 ئۈرۈمچى پەن-تېخنىكا مۇزېيى",
@@ -107,7 +117,8 @@
     "lat": 43.792466,
     "lon": 87.6019912,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "Urumqi 科学技术馆 ئۈرۈمچى پەن-تېخنىكا مۇزېيى"
   },
   {
     "name": "乌鲁木齐市规划馆",
@@ -117,7 +128,8 @@
     "lat": 43.870701,
     "lon": 87.6169995,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "Urumqi 规划馆"
   },
   {
     "name": "亚洲大陆地理中心",
@@ -127,7 +139,8 @@
     "lat": 43.6747937,
     "lon": 87.3324804,
     "description": "A popular history spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "亚洲大陆地理 Center"
   },
   {
     "name": "人民广场",
@@ -137,7 +150,8 @@
     "lat": 43.7939539,
     "lon": 87.6212561,
     "description": "A popular history spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "人民 Square"
   },
   {
     "name": "人民英雄纪念碑",
@@ -147,7 +161,8 @@
     "lat": 43.7320822,
     "lon": 87.5940179,
     "description": "A popular history spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "人民英雄纪念 Monument"
   },
   {
     "name": "八路军驻新疆办事处纪念馆",
@@ -157,7 +172,8 @@
     "lat": 43.7723402,
     "lon": 87.6128384,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "八路军驻新疆办事处 Memorial Hall"
   },
   {
     "name": "八路军驻疆办事处纪念馆",
@@ -167,7 +183,8 @@
     "lat": 43.7717752,
     "lon": 87.6127718,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "八路军驻疆办事处 Memorial Hall"
   },
   {
     "name": "刘锦棠将军",
@@ -177,7 +194,8 @@
     "lat": 43.9685329,
     "lon": 87.6597973,
     "description": "A popular history spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "刘锦棠将军"
   },
   {
     "name": "新疆公安厅警史馆",
@@ -187,7 +205,8 @@
     "lat": 43.7811009,
     "lon": 87.5942881,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "新疆公安厅警史馆"
   },
   {
     "name": "新疆各族人民烈士纪念碑 شىنجاڭدىكى ھەر مىللەت شېھىتلىرى خاتىرە ئابىدىسى",
@@ -197,7 +216,8 @@
     "lat": 43.7938656,
     "lon": 87.6003063,
     "description": "A popular history spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "新疆各族人民烈士纪念 Monument"
   },
   {
     "name": "新疆国际大巴扎",
@@ -207,7 +227,8 @@
     "lat": 43.7788048,
     "lon": 87.6151646,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "新疆国际大巴扎"
   },
   {
     "name": "新疆地质矿产博物馆",
@@ -217,7 +238,8 @@
     "lat": 43.8289693,
     "lon": 87.5103983,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "新疆地质矿产 Museum"
   },
   {
     "name": "新疆天山野生动物园",
@@ -227,7 +249,8 @@
     "lat": 43.6802816,
     "lon": 87.8100538,
     "description": "A popular outdoor spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "新疆天山野生 Zoo"
   },
   {
     "name": "新疆科技馆",
@@ -237,7 +260,8 @@
     "lat": 43.8325986,
     "lon": 87.5753629,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "新疆 Science Museum"
   },
   {
     "name": "新疆维吾尔自治区博物馆",
@@ -247,7 +271,8 @@
     "lat": 43.8180991,
     "lon": 87.5806274,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "新疆维吾尔自治 Museum"
   },
   {
     "name": "新疆美术馆",
@@ -257,7 +282,8 @@
     "lat": 43.8285317,
     "lon": 87.5819264,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "新疆 Art Gallery"
   },
   {
     "name": "毛泽民故居",
@@ -267,7 +293,8 @@
     "lat": 43.791232,
     "lon": 87.6203321,
     "description": "A popular museum spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "毛泽民 Former Residence"
   },
   {
     "name": "燕儿窝风景区",
@@ -277,7 +304,8 @@
     "lat": 43.7209164,
     "lon": 87.5859888,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "燕儿窝风景区"
   },
   {
     "name": "科威特塔",
@@ -287,7 +315,8 @@
     "lat": 43.9534067,
     "lon": 87.694948,
     "description": "A popular history spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "科威特 Pagoda"
   },
   {
     "name": "金泉公园",
@@ -297,7 +326,8 @@
     "lat": 43.7362713,
     "lon": 87.6274992,
     "description": "A popular outdoor spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "金泉 Park"
   },
   {
     "name": "阿唛龙幻想乐园",
@@ -307,7 +337,8 @@
     "lat": 43.8302484,
     "lon": 87.4201555,
     "description": "A popular outdoor spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "阿唛龙幻想乐 Garden"
   },
   {
     "name": "雅玛里克山宝塔",
@@ -317,6 +348,7 @@
     "lat": 43.8019441,
     "lon": 87.5850128,
     "description": "A popular sightseeing spot in Urumqi.",
-    "city": "Urumqi"
+    "city": "Urumqi",
+    "name_en": "雅玛里克山宝 Pagoda"
   }
 ]

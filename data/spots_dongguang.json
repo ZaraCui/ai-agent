@@ -7,7 +7,8 @@
     "lat": 23.043152,
     "lon": 113.7508467,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "Dongguang Museum"
   },
   {
     "name": "东莞市博物馆",
@@ -17,7 +18,8 @@
     "lat": 23.0120897,
     "lon": 113.7458484,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "Dongguang Museum"
   },
   {
     "name": "东莞市展览馆",
@@ -27,7 +29,8 @@
     "lat": 23.0191771,
     "lon": 113.7435313,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "Dongguang Exhibition Hall"
   },
   {
     "name": "东莞市科学技术博物馆",
@@ -37,7 +40,8 @@
     "lat": 23.012222,
     "lon": 113.74137,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "Dongguang Science & Technology Museum"
   },
   {
     "name": "东莞市逸颐艺舍博物馆",
@@ -47,7 +51,8 @@
     "lat": 23.0142436,
     "lon": 113.9656639,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "Dongguang 逸颐艺舍 Museum"
   },
   {
     "name": "东莞植物园",
@@ -57,7 +62,8 @@
     "lat": 22.9697183,
     "lon": 113.7445646,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "Dongguang Botanical Garden"
   },
   {
     "name": "东莞蚝岗遗址博物馆",
@@ -67,7 +73,8 @@
     "lat": 23.0297631,
     "lon": 113.7343874,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "Dongguang 蚝岗遗址 Museum"
   },
   {
     "name": "东莞香市动物园",
@@ -77,7 +84,8 @@
     "lat": 22.999082,
     "lon": 113.8463404,
     "description": "A popular outdoor spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "Dongguang 香 Zoo"
   },
   {
     "name": "仙宫岭",
@@ -87,7 +95,8 @@
     "lat": 22.907518,
     "lon": 114.1117931,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "仙 Palace"
   },
   {
     "name": "仙溪福地欧公文化景区",
@@ -97,7 +106,8 @@
     "lat": 23.1187461,
     "lon": 113.863556,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "仙溪福地欧公文化景区"
   },
   {
     "name": "击毙日军大佐战场遗址",
@@ -107,7 +117,8 @@
     "lat": 23.0703325,
     "lon": 114.0610671,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "击毙日军大佐战场 Site"
   },
   {
     "name": "南山炮台",
@@ -117,7 +128,8 @@
     "lat": 22.7997989,
     "lon": 113.6222618,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "南 Mountain"
   },
   {
     "name": "厦塘村炮楼",
@@ -127,7 +139,8 @@
     "lat": 22.8384083,
     "lon": 114.1661345,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "厦塘村炮 Tower"
   },
   {
     "name": "古树博物馆",
@@ -137,7 +150,8 @@
     "lat": 22.9096009,
     "lon": 114.0908817,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "古树 Museum"
   },
   {
     "name": "可园博物馆",
@@ -147,7 +161,8 @@
     "lat": 23.0456075,
     "lon": 113.7384,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "可园 Museum"
   },
   {
     "name": "启一黄公祠",
@@ -157,7 +172,8 @@
     "lat": 22.7792744,
     "lon": 114.11482,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "启一黄公祠"
   },
   {
     "name": "宝山森林公园",
@@ -167,7 +183,8 @@
     "lat": 22.8785014,
     "lon": 114.0280215,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "宝山森林 Park"
   },
   {
     "name": "岭南美术馆",
@@ -177,7 +194,8 @@
     "lat": 23.0463037,
     "lon": 113.7370102,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "岭南 Art Gallery"
   },
   {
     "name": "广东东江纵队纪念馆",
@@ -187,7 +205,8 @@
     "lat": 22.8864669,
     "lon": 113.8069135,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "广东东江纵队 Memorial Hall"
   },
   {
     "name": "广东观音山国家森林公园",
@@ -197,7 +216,8 @@
     "lat": 22.9077213,
     "lon": 114.1041877,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "广东观音山国家森林 Park"
   },
   {
     "name": "感恩广场",
@@ -207,7 +227,8 @@
     "lat": 22.903183,
     "lon": 114.11477,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "感恩 Square"
   },
   {
     "name": "杨桥探幽",
@@ -217,7 +238,8 @@
     "lat": 22.8776207,
     "lon": 114.1528635,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "杨 Bridge"
   },
   {
     "name": "松山湖风景区",
@@ -227,7 +249,8 @@
     "lat": 22.8935744,
     "lon": 113.8782257,
     "description": "A popular outdoor spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "松 Mountain"
   },
   {
     "name": "森晖博物馆",
@@ -237,7 +260,8 @@
     "lat": 23.0433122,
     "lon": 113.735496,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "森晖 Museum"
   },
   {
     "name": "森林萌宠乐园",
@@ -247,7 +271,8 @@
     "lat": 22.9112137,
     "lon": 114.0981029,
     "description": "A popular outdoor spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "Forest"
   },
   {
     "name": "欧仙院",
@@ -257,7 +282,8 @@
     "lat": 23.1196847,
     "lon": 113.8643808,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "欧仙院"
   },
   {
     "name": "海战博物馆",
@@ -267,7 +293,8 @@
     "lat": 22.7990519,
     "lon": 113.6267658,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "海战 Museum"
   },
   {
     "name": "状元笔遗址",
@@ -277,7 +304,8 @@
     "lat": 22.9398759,
     "lon": 113.8759064,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "状元笔 Site"
   },
   {
     "name": "芙蓉寺",
@@ -287,7 +315,8 @@
     "lat": 22.8800391,
     "lon": 114.0287196,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "芙蓉 Temple"
   },
   {
     "name": "芙蓉峡",
@@ -297,7 +326,8 @@
     "lat": 22.8767477,
     "lon": 114.0285791,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "芙蓉峡"
   },
   {
     "name": "虎门林则徐纪念馆",
@@ -307,7 +337,8 @@
     "lat": 22.8271486,
     "lon": 113.6548767,
     "description": "A popular museum spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "虎门林则徐 Memorial Hall"
   },
   {
     "name": "虎门销化鸦片纪念碑",
@@ -317,7 +348,8 @@
     "lat": 22.8276036,
     "lon": 113.6550076,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "虎 Gate"
   },
   {
     "name": "蝴蝶谷",
@@ -327,7 +359,8 @@
     "lat": 22.930027,
     "lon": 113.7481719,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "蝴蝶谷"
   },
   {
     "name": "见龙",
@@ -337,7 +370,8 @@
     "lat": 22.9074028,
     "lon": 114.111352,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "见龙"
   },
   {
     "name": "观音广场",
@@ -347,7 +381,8 @@
     "lat": 22.9049754,
     "lon": 114.1160456,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "观音 Square"
   },
   {
     "name": "金鳌洲塔",
@@ -357,7 +392,8 @@
     "lat": 23.041245,
     "lon": 113.7313263,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "金鳌洲 Pagoda"
   },
   {
     "name": "钟塔",
@@ -367,7 +403,8 @@
     "lat": 22.7905296,
     "lon": 113.7970308,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "钟 Pagoda"
   },
   {
     "name": "问天台",
@@ -377,7 +414,8 @@
     "lat": 22.9683979,
     "lon": 113.8238284,
     "description": "A popular outdoor spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "问天台"
   },
   {
     "name": "阇西山公园",
@@ -387,7 +425,8 @@
     "lat": 22.9002232,
     "lon": 113.6004965,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "阇西山 Park"
   },
   {
     "name": "阿婆正羔",
@@ -397,7 +436,8 @@
     "lat": 23.0656343,
     "lon": 113.9131253,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "阿婆正羔"
   },
   {
     "name": "靖远炮台",
@@ -407,7 +447,8 @@
     "lat": 22.7999601,
     "lon": 113.621343,
     "description": "A popular history spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "靖远炮台"
   },
   {
     "name": "龙凤山庄影视度假村",
@@ -417,6 +458,7 @@
     "lat": 22.720114,
     "lon": 114.1887727,
     "description": "A popular sightseeing spot in Dongguan.",
-    "city": "Dongguang"
+    "city": "Dongguang",
+    "name_en": "龙凤 Mountain"
   }
 ]

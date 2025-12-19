@@ -6,16 +6,18 @@
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.5,
-        "description": "The Bund — Iconic waterfront area with colonial-era buildings and stunning skyline views. Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes."
+        "description": "The Bund — Iconic waterfront area with colonial-era buildings and stunning skyline views. Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes.",
+        "name_en": "The Bund"
     },
     {
         "name": "Yu Garden",
-        "lat": 31.2280,
-        "lon": 121.4920,
+        "lat": 31.228,
+        "lon": 121.492,
         "category": "outdoor",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Yu Garden — Classical Chinese garden with pavilions, rockeries, and ponds dating back to the Ming Dynasty. Beautiful traditional gardens and architecture. Typical visit ~90 minutes."
+        "description": "Yu Garden — Classical Chinese garden with pavilions, rockeries, and ponds dating back to the Ming Dynasty. Beautiful traditional gardens and architecture. Typical visit ~90 minutes.",
+        "name_en": "Yu Garden"
     },
     {
         "name": "Shanghai Tower",
@@ -24,7 +26,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.4,
-        "description": "Shanghai Tower — The tallest building in China with an observation deck offering panoramic views of the city. Well-curated indoor spot with amazing city views. Typical visit ~90 minutes."
+        "description": "Shanghai Tower — The tallest building in China with an observation deck offering panoramic views of the city. Well-curated indoor spot with amazing city views. Typical visit ~90 minutes.",
+        "name_en": "Shanghai Tower"
     },
     {
         "name": "Nanjing Road",
@@ -33,7 +36,8 @@
         "category": "shopping",
         "duration_minutes": 120,
         "rating": 4.1,
-        "description": "Nanjing Road — Famous shopping street with a mix of traditional stores and modern malls. Shopping area with stores and local vendors; good for browsing. Typical visit ~120 minutes."
+        "description": "Nanjing Road — Famous shopping street with a mix of traditional stores and modern malls. Shopping area with stores and local vendors; good for browsing. Typical visit ~120 minutes.",
+        "name_en": "Nanjing Road"
     },
     {
         "name": "Jade Buddha Temple",
@@ -42,7 +46,8 @@
         "category": "temple",
         "duration_minutes": 45,
         "rating": 4.2,
-        "description": "Jade Buddha Temple — Buddhist temple known for its two jade Buddha statues and serene atmosphere. Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes."
+        "description": "Jade Buddha Temple — Buddhist temple known for its two jade Buddha statues and serene atmosphere. Historic or religious site, usually quiet and culturally significant. Typical visit ~45 minutes.",
+        "name_en": "Jade Buddha Temple"
     },
     {
         "name": "Shanghai Museum",
@@ -51,7 +56,8 @@
         "category": "museum",
         "duration_minutes": 120,
         "rating": 4.6,
-        "description": "Shanghai Museum — World-class museum showcasing ancient Chinese art, including ceramics, paintings, and calligraphy. High-quality museum with notable collections; allow more time. Typical visit ~120 minutes."
+        "description": "Shanghai Museum — World-class museum showcasing ancient Chinese art, including ceramics, paintings, and calligraphy. High-quality museum with notable collections; allow more time. Typical visit ~120 minutes.",
+        "name_en": "Shanghai Museum"
     },
     {
         "name": "Xintiandi",
@@ -60,7 +66,8 @@
         "category": "shopping",
         "duration_minutes": 90,
         "rating": 4.2,
-        "description": "Xintiandi — Trendy area with restored Shikumen houses now serving as cafes, restaurants, and shops. Popular entertainment and shopping district. Typical visit ~90 minutes."
+        "description": "Xintiandi — Trendy area with restored Shikumen houses now serving as cafes, restaurants, and shops. Popular entertainment and shopping district. Typical visit ~90 minutes.",
+        "name_en": "Xintiandi"
     },
     {
         "name": "Oriental Pearl Tower",
@@ -69,7 +76,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.0,
-        "description": "Oriental Pearl Tower — Futuristic TV tower with observation decks and a revolving restaurant. Well-curated indoor spot with panoramic city views. Typical visit ~90 minutes."
+        "description": "Oriental Pearl Tower — Futuristic TV tower with observation decks and a revolving restaurant. Well-curated indoor spot with panoramic city views. Typical visit ~90 minutes.",
+        "name_en": "Oriental Pearl Tower"
     },
     {
         "name": "Tianzifang",
@@ -78,7 +86,8 @@
         "category": "shopping",
         "duration_minutes": 90,
         "rating": 4.3,
-        "description": "Tianzifang — Artistic enclave with narrow alleys filled with galleries, boutiques, and eateries. Shopping and art area with unique local character. Typical visit ~90 minutes."
+        "description": "Tianzifang — Artistic enclave with narrow alleys filled with galleries, boutiques, and eateries. Shopping and art area with unique local character. Typical visit ~90 minutes.",
+        "name_en": "Tianzifang"
     },
     {
         "name": "Shanghai Disneyland",
@@ -87,16 +96,18 @@
         "category": "outdoor",
         "duration_minutes": 360,
         "rating": 4.5,
-        "description": "Shanghai Disneyland — Large theme park featuring Disney-themed rides, shows, and attractions. Popular outdoor attraction; plan a full day visit. Typical visit ~360 minutes."
+        "description": "Shanghai Disneyland — Large theme park featuring Disney-themed rides, shows, and attractions. Popular outdoor attraction; plan a full day visit. Typical visit ~360 minutes.",
+        "name_en": "Shanghai Disneyland"
     },
     {
         "name": "Fuxing Park",
-        "lat": 31.2200,
+        "lat": 31.22,
         "lon": 121.4651,
         "category": "outdoor",
         "duration_minutes": 60,
         "rating": 4.1,
-        "description": "Fuxing Park — Beautiful park with French-style gardens, a lake, and recreational areas. Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes."
+        "description": "Fuxing Park — Beautiful park with French-style gardens, a lake, and recreational areas. Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~60 minutes.",
+        "name_en": "Fuxing Park"
     },
     {
         "name": "Shanghai Science and Technology Museum",
@@ -105,7 +116,8 @@
         "category": "museum",
         "duration_minutes": 150,
         "rating": 4.4,
-        "description": "Shanghai Science and Technology Museum — Interactive museum with exhibits on science, technology, and natural history. High-quality museum with notable collections; allow more time. Typical visit ~150 minutes."
+        "description": "Shanghai Science and Technology Museum — Interactive museum with exhibits on science, technology, and natural history. High-quality museum with notable collections; allow more time. Typical visit ~150 minutes.",
+        "name_en": "Shanghai Science and Technology Museum"
     },
     {
         "name": "Longhua Temple",
@@ -114,16 +126,18 @@
         "category": "temple",
         "duration_minutes": 60,
         "rating": 4.2,
-        "description": "Longhua Temple — Ancient Buddhist temple complex with beautiful architecture and gardens. Historic or religious site, usually quiet and culturally significant. Typical visit ~60 minutes."
+        "description": "Longhua Temple — Ancient Buddhist temple complex with beautiful architecture and gardens. Historic or religious site, usually quiet and culturally significant. Typical visit ~60 minutes.",
+        "name_en": "Longhua Temple"
     },
     {
         "name": "People's Square",
         "lat": 31.2281,
-        "lon": 121.4750,
+        "lon": 121.475,
         "category": "outdoor",
         "duration_minutes": 45,
         "rating": 4.0,
-        "description": "People's Square — Central public square surrounded by museums, theaters, and government buildings. Popular outdoor attraction with good access to other sites. Typical visit ~45 minutes."
+        "description": "People's Square — Central public square surrounded by museums, theaters, and government buildings. Popular outdoor attraction with good access to other sites. Typical visit ~45 minutes.",
+        "name_en": "People's Square"
     },
     {
         "name": "Shanghai Circus World",
@@ -132,16 +146,18 @@
         "category": "indoor",
         "duration_minutes": 120,
         "rating": 4.4,
-        "description": "Shanghai Circus World — Venue offering spectacular circus performances featuring acrobatics and stunts. Well-curated indoor entertainment; evening shows recommended. Typical visit ~120 minutes."
+        "description": "Shanghai Circus World — Venue offering spectacular circus performances featuring acrobatics and stunts. Well-curated indoor entertainment; evening shows recommended. Typical visit ~120 minutes.",
+        "name_en": "Shanghai Circus World"
     },
     {
         "name": "Zhujiajiao Water Town",
-        "lat": 31.1120,
+        "lat": 31.112,
         "lon": 121.0524,
         "category": "outdoor",
         "duration_minutes": 180,
         "rating": 4.3,
-        "description": "Zhujiajiao Water Town — Ancient water town with canals, traditional architecture, and charming streets. Popular outdoor attraction; plan a half-day visit. Typical visit ~180 minutes."
+        "description": "Zhujiajiao Water Town — Ancient water town with canals, traditional architecture, and charming streets. Popular outdoor attraction; plan a half-day visit. Typical visit ~180 minutes.",
+        "name_en": "Zhujiajiao Water Town"
     },
     {
         "name": "Shanghai Botanical Garden",
@@ -150,7 +166,8 @@
         "category": "outdoor",
         "duration_minutes": 120,
         "rating": 4.2,
-        "description": "Shanghai Botanical Garden — Expansive garden featuring diverse plant species, themed gardens, and greenhouses. Popular outdoor attraction with scenic views. Typical visit ~120 minutes."
+        "description": "Shanghai Botanical Garden — Expansive garden featuring diverse plant species, themed gardens, and greenhouses. Popular outdoor attraction with scenic views. Typical visit ~120 minutes.",
+        "name_en": "Shanghai Botanical Garden"
     },
     {
         "name": "M50 Creative Park",
@@ -159,7 +176,8 @@
         "category": "indoor",
         "duration_minutes": 90,
         "rating": 4.0,
-        "description": "M50 Creative Park — Contemporary art district with galleries, studios, and cafes in a former industrial area. Well-curated indoor spot for art enthusiasts. Typical visit ~90 minutes."
+        "description": "M50 Creative Park — Contemporary art district with galleries, studios, and cafes in a former industrial area. Well-curated indoor spot for art enthusiasts. Typical visit ~90 minutes.",
+        "name_en": "M50 Creative Park"
     },
     {
         "name": "Shanghai Ocean Aquarium",
@@ -168,7 +186,8 @@
         "category": "indoor",
         "duration_minutes": 120,
         "rating": 4.3,
-        "description": "Shanghai Ocean Aquarium — Large aquarium featuring marine life from around the world and underwater tunnels. Well-curated indoor spot; great for families. Typical visit ~120 minutes."
+        "description": "Shanghai Ocean Aquarium — Large aquarium featuring marine life from around the world and underwater tunnels. Well-curated indoor spot; great for families. Typical visit ~120 minutes.",
+        "name_en": "Shanghai Ocean Aquarium"
     },
     {
         "name": "Century Park",
@@ -177,15 +196,17 @@
         "category": "outdoor",
         "duration_minutes": 90,
         "rating": 4.1,
-        "description": "Century Park — Spacious urban park with lakes, gardens, and recreational facilities. Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~90 minutes."
+        "description": "Century Park — Spacious urban park with lakes, gardens, and recreational facilities. Popular outdoor attraction with scenic views and good photo opportunities. Typical visit ~90 minutes.",
+        "name_en": "Century Park"
     },
     {
         "name": "Shanghai Grand Theatre",
         "lat": 31.2287,
-        "lon": 121.4750,
+        "lon": 121.475,
         "category": "indoor",
         "duration_minutes": 150,
         "rating": 4.3,
-        "description": "Shanghai Grand Theatre — Modern performing arts venue hosting operas, ballets, and concerts. Well-curated indoor entertainment; check performance schedule. Typical visit ~150 minutes."
+        "description": "Shanghai Grand Theatre — Modern performing arts venue hosting operas, ballets, and concerts. Well-curated indoor entertainment; check performance schedule. Typical visit ~150 minutes.",
+        "name_en": "Shanghai Grand Theatre"
     }
 ]

@@ -17,6 +17,10 @@ the agent explores multiple candidate itineraries, evaluates them under differen
 
 ## ✨ Key Features
 
+- **Bilingual Support (中英双语)**
+  - All spots include both Chinese and English names
+  - Perfect for both local and international travelers
+  - Automatic bilingual display in UI
 - **World Modeling**
   - Structured representation of cities, spots, daily plans, and itineraries
 - **Planning & Search**

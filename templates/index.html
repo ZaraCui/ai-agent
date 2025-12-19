@@ -627,6 +627,7 @@
                     </div>
                     <div class="ml-3 text-sm flex-1">
                         <span class="font-semibold text-slate-800 group-hover:text-indigo-700 transition-colors block mb-0.5">${spot.name}</span>
+                        ${spot.name_en && spot.name_en !== spot.name ? `<span class="text-xs text-slate-500 block mb-1">${spot.name_en}</span>` : ''}
                         <div class="flex items-center justify-between mt-1">
                             <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-slate-100 text-slate-600">
                                 ${spot.category || 'Sightseeing'}
@@ -703,7 +704,11 @@
                 <div class="spot-card group hover:shadow-md hover:border-indigo-500/30">
                     <div class="flex justify-between items-start mb-2">
                         <h4 class="font-bold text-slate-800 text-lg flex items-center">
-                            <span class="mr-2 text-indigo-500">📍</span> ${spot.name}
+                            <span class="mr-2 text-indigo-500">📍</span> 
+                            <div class="flex flex-col">
+                                <span>${spot.name}</span>
+                                ${spot.name_en && spot.name_en !== spot.name ? `<span class="text-sm font-normal text-slate-500">${spot.name_en}</span>` : ''}
+                            </div>
                         </h4>
                         <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-50 text-indigo-700 border border-indigo-100">
                             ${spot.category || 'Sightseeing'}
