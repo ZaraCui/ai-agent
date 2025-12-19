@@ -1,36 +1,36 @@
 #!/usr/bin/env python3
 """
-拆分中国城市景点JSON文件
-将spots_china_cities.json拆分成每个城市一个单独的JSON文件
+Split China cities spots JSON file
+Split spots_china_cities.json into separate JSON files for each city
 """
 import json
 import os
 from collections import defaultdict
 
 def split_china_spots():
-    # 读取合并的JSON文件
+    # Read the merged JSON file
     input_file = 'data/spots_china_cities.json'
     
-    print(f"正在读取 {input_file}...")
+    print(f"Reading {input_file}...")
     with open(input_file, 'r', encoding='utf-8') as f:
         all_spots = json.load(f)
     
-    print(f"总共读取了 {len(all_spots)} 个景点")
+    print(f"Total spots loaded: {len(all_spots)}")
     
-    # 按城市分组
+    # Group spots by city
     spots_by_city = defaultdict(list)
     for spot in all_spots:
         city = spot.get('city', 'Unknown')
         spots_by_city[city].append(spot)
     
-    print(f"\n发现 {len(spots_by_city)} 个城市:")
+    print(f"\nFound {len(spots_by_city)} cities:")
     for city, spots in sorted(spots_by_city.items()):
-        print(f"  - {city}: {len(spots)} 个景点")
+        print(f"  - {city}: {len(spots)} spots")
     
-    # 为每个城市创建单独的JSON文件
-    print("\n开始创建单独的JSON文件...")
+    # Create separate JSON files for each city
+    print("\nCreating individual JSON files...")
     for city, spots in spots_by_city.items():
-        # 将城市名转换为文件名（小写，处理特殊字符）
+        # Convert city name to filename (lowercase, handle special characters)
         city_filename_map = {
             'Beijing': 'beijing',
             'Shanghai': 'shanghai',
@@ -59,13 +59,13 @@ def split_china_spots():
         filename = city_filename_map.get(city, city.lower().replace(' ', '').replace('\'', ''))
         output_file = f'data/spots_{filename}.json'
         
-        # 写入JSON文件
+        # Write JSON file
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(spots, f, ensure_ascii=False, indent=2)
         
-        print(f"  ✓ 已创建 {output_file} ({len(spots)} 个景点)")
+        print(f"  ✓ Created {output_file} ({len(spots)} spots)")
     
-    print(f"\n完成！共创建了 {len(spots_by_city)} 个城市的JSON文件")
+    print(f"\nDone! Created JSON files for {len(spots_by_city)} cities")
 
 if __name__ == '__main__':
     split_china_spots()
