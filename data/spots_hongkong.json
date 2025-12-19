@@ -1,0 +1,5717 @@
+[
+  {
+    "name": "002",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4485526,
+    "lon": 114.1635201,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "10 Chancery Lane Art Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2807329,
+    "lon": 114.1534761,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "112",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4488501,
+    "lon": 114.163213,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "13/31",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3039165,
+    "lon": 114.2165772,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "1881 Heritage",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2952566,
+    "lon": 114.1699495,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "223",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4483624,
+    "lon": 114.1636378,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "229",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4486858,
+    "lon": 114.1633565,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "276",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4485284,
+    "lon": 114.1634899,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "302",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4487064,
+    "lon": 114.1633873,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "313",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4482197,
+    "lon": 114.1637622,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "33A機槍堡 (鶴咀炮台) Pillbox 33A (Cape D'Aguilar Battery)",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2109277,
+    "lon": 114.2416116,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Allied Plaza",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3233481,
+    "lon": 114.168688,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Artillery Observation Post",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2578915,
+    "lon": 114.1490048,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "ArtisTree",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2868497,
+    "lon": 114.2108313,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Beginning of 10,000 Buddhas",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3864342,
+    "lon": 114.1865393,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Blue Lotus Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2843197,
+    "lon": 114.1472903,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Chungking mansions",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.296242,
+    "lon": 114.1729015,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Crown Wine Cellars",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2521105,
+    "lon": 114.1829797,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "C座 Block C",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2747707,
+    "lon": 114.1174927,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "DC-3客機 Douglas DC-3 “Betsy”",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2979795,
+    "lon": 113.9334255,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Dope! Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3679678,
+    "lon": 114.1196511,
+    "description": "Online art gallery specialised in famous contemporary art editions and toys. Authenticity guaranteed. Shipping worldwide, contact us by email for cryptocurrency payment."
+  },
+  {
+    "name": "Dragons back trail",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2386216,
+    "lon": 114.2437333,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "F11攝影博物館 F11 Foto Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2685665,
+    "lon": 114.1857975,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "Fighting SARS Memorial",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2766103,
+    "lon": 114.1611292,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Forbes Street Tree Wall 科士街樹牆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.281232,
+    "lon": 114.1272598,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Gallery Jeeum",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3083658,
+    "lon": 114.0171064,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Glimpse PMQ",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.283325,
+    "lon": 114.1518365,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "Global geo park unesco",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.365875,
+    "lon": 114.373985,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Green Bridge",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4800189,
+    "lon": 114.0347338,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Grotto SKW",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2813241,
+    "lon": 114.2307562,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Historic tram car",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2708409,
+    "lon": 114.1496004,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Hong Kong Film Awards",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2932725,
+    "lon": 114.1727356,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Hong Kong and Whampoa Dock",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.303695,
+    "lon": 114.189501,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "International Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3098928,
+    "lon": 114.1713869,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Inverted Siphon 2",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2783909,
+    "lon": 114.1325119,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Iron Man 石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3889225,
+    "lon": 113.9897131,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Japanese AOP",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2823777,
+    "lon": 114.205203,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "John Robert Osborn Statue",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2779707,
+    "lon": 114.161995,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Kau Ling Chung View Compass",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2038959,
+    "lon": 113.8663351,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Louise Bourgeois",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2802487,
+    "lon": 114.1576806,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "M+",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3008324,
+    "lon": 114.1591653,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "MOU PROJECTS",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.248294,
+    "lon": 114.1675752,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Marina maison",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2853979,
+    "lon": 114.1486032,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Memorial Stone of Shing Mun Reservoir",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3787757,
+    "lon": 114.147596,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Middle Spur AOP",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2424449,
+    "lon": 114.1917075,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Mini Great Wall Trailhead",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2062605,
+    "lon": 114.0349356,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Nam Shan, Lantau",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2496814,
+    "lon": 113.9893198,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Neon Deer",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2777183,
+    "lon": 114.1767457,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Ocean Vista",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2310082,
+    "lon": 114.1723143,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Old School",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2051698,
+    "lon": 114.1453687,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Opening of Cyberport Phases I & II and Visitor Centre",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2618467,
+    "lon": 114.1310191,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "PB121",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.349016,
+    "lon": 114.2416192,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "PB401",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3775465,
+    "lon": 114.1471543,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "PB402",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3770765,
+    "lon": 114.1453824,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "PB403",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3756348,
+    "lon": 114.1447194,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "PODIUM",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2486264,
+    "lon": 114.1684658,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Pak Tsz Lane Park",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2833654,
+    "lon": 114.152992,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Palm Villa’s ruins",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2290633,
+    "lon": 114.2181538,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Para Site",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2912265,
+    "lon": 114.2089984,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Paragliding Launch Area",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3701637,
+    "lon": 114.3738057,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Parallel Space",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3273549,
+    "lon": 114.1632569,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Pillbox 214",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3671105,
+    "lon": 114.1943048,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Pillbox JLO1",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2610317,
+    "lon": 114.19518,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Pillbox PB108",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3472526,
+    "lon": 114.2663626,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Pillbox PB109",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3520725,
+    "lon": 114.2647017,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Pillbox PB3",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.257631,
+    "lon": 114.192126,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Po Leung Kuk Museum 保良局歷史博物館",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2767091,
+    "lon": 114.1847376,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "Poem Stone",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4258466,
+    "lon": 114.1226097,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Rickshaw Sightseeing Bus Tour",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2866119,
+    "lon": 114.1604447,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Sampan Boat",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2468144,
+    "lon": 114.159421,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Shun Heng Hong",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2858951,
+    "lon": 114.1526149,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Siena Park Viewpoint",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3046261,
+    "lon": 114.0120271,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Silver Waterfall lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2734591,
+    "lon": 113.9915519,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Sky Terrace 428",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2713037,
+    "lon": 114.1501603,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "SoHo East 蘇豪東",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2866146,
+    "lon": 114.2235674,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Standing Rock",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2920754,
+    "lon": 113.9942703,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Stanley Section 鴻燊段",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2237707,
+    "lon": 114.2084676,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Stonecutters Bridge Viewpoint",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3231921,
+    "lon": 114.122304,
+    "description": "Small car park and a viewpoint with a view over the port, also good for fishing."
+  },
+  {
+    "name": "Taikoo Dock",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2866852,
+    "lon": 114.2180992,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "That Space",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2676778,
+    "lon": 113.9976678,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Tiny Space Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2848312,
+    "lon": 114.1481024,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "Trick Eye Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2698578,
+    "lon": 114.1500754,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "Tsim Sha Tsui Promenade",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2994457,
+    "lon": 114.1851628,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Victoria City Boundary Stone",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2790951,
+    "lon": 114.1373951,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "WWII",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.551308,
+    "lon": 114.2195305,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Walled City Model",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3318056,
+    "lon": 114.1905749,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Wartime Cooking Stoves",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2780084,
+    "lon": 114.2112048,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Watchtower",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2956407,
+    "lon": 113.9709181,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "Western Garden",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4512622,
+    "lon": 114.1801069,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "Wilson Trail 衛奕信徑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2236854,
+    "lon": 114.2087022,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "Wooden Cube",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2934509,
+    "lon": 114.1724301,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "World War II Japanese Army Memorial Pagoda",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3251781,
+    "lon": 114.1794156,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "comic street",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3007046,
+    "lon": 114.1714633,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "一新美術館 Sun Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2876281,
+    "lon": 114.1417857,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "三棟屋博物館 Sam Tung Uk Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3720347,
+    "lon": 114.1202262,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "三角石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2751997,
+    "lon": 113.9176752,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "上水塘石橋 Masonry Bridge of Upper Reservior",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2564111,
+    "lon": 114.2103721,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "上窰民俗文物館 Sheung Yiu Folk Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3925693,
+    "lon": 114.3213491,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "中尉石室",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3928152,
+    "lon": 114.2447033,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "中環至半山自動扶手電梯系統 Central-Mid-Levels Escalator System",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2831326,
+    "lon": 114.1544301,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "中電鐘樓文化館 CLP Pulse",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3214531,
+    "lon": 114.1772258,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "九担租楓香林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5051037,
+    "lon": 114.2444509,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "九管石塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3828612,
+    "lon": 113.9963002,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "九龍公園瞭望台 Viewing Cone, Kowloon Park",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3004035,
+    "lon": 114.1693834,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "九龍公眾碼頭 Kowloon Public Pier",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2931973,
+    "lon": 114.1700881,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "九龍城 Kowloon City",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3207116,
+    "lon": 114.1769293,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "九龍關石碑 Kowloon Pass Custom's Stone Tablets",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3483964,
+    "lon": 114.0550586,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "二十四孝瓷畫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.490583,
+    "lon": 114.1385674,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "二轉鎮流碑",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3416642,
+    "lon": 114.0544954,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "五行石 Reclining Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1982534,
+    "lon": 114.0183759,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "亞公角",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.551157,
+    "lon": 114.2067193,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "亞洲協會藝術館 Asia Society Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.275016,
+    "lon": 114.1656493,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "人頭石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2044645,
+    "lon": 114.0392786,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "人頭石 Human Head Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2063546,
+    "lon": 114.0396528,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "仙人曬靴石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3450569,
+    "lon": 114.2175746,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "仙翁迎賓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2151589,
+    "lon": 114.0032784,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "佛光寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3682882,
+    "lon": 114.258504,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "佛山輪船罹難紀念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.323252,
+    "lon": 114.0541284,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "佛手崖 Palm Cliff",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1578182,
+    "lon": 114.2569498,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "佛頭洲稅關遺址 Site of Chinese Customs Station, Fat Tong Chau",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2796821,
+    "lon": 114.2672804,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "來發公園",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4699655,
+    "lon": 114.1510988,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "假月牙谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3949327,
+    "lon": 113.9364004,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "傻人塔 (頂層)",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3521931,
+    "lon": 114.189475,
+    "description": "\"Fool Tower\""
+  },
+  {
+    "name": "傻人塔(底層)",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3522223,
+    "lon": 114.1893812,
+    "description": "\"Fool Tower\""
+  },
+  {
+    "name": "僧人石 Monk Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1579857,
+    "lon": 114.2589836,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "元五墳觀景台 Yuen Ng Fan Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3811001,
+    "lon": 114.335999,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "兒童藝廊 Kids' Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3324294,
+    "lon": 114.1775306,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "兔仔許願石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3616687,
+    "lon": 114.2240173,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "八十七神仙圖 Mural of 87 Immortals",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4902732,
+    "lon": 114.1379716,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "八鄉牌樓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4400418,
+    "lon": 114.0702462,
+    "description": "Archway/gateway"
+  },
+  {
+    "name": "分流炮台 Fan Lau Fort",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1984424,
+    "lon": 113.8511198,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "分流石圓環 Fan Lau Stone Circle",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1977405,
+    "lon": 113.8480213,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "分流石筍 Fan Lau Stalagmite",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1980295,
+    "lon": 113.8522894,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "前水警總部 Former Marine Police Headquarters Compound",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2956454,
+    "lon": 114.1699592,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "前深水埗配水庫 Ex-Sham Shui Po Service Reservoir",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3299967,
+    "lon": 114.1683567,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "創修荔枝窩村直達東和墟大路紀念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5218244,
+    "lon": 114.2448449,
+    "description": "民國九年立"
+  },
+  {
+    "name": "劉氐宗祠",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4072812,
+    "lon": 114.1748533,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "劍虹石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2389061,
+    "lon": 113.9075551,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "劍龍石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4385947,
+    "lon": 114.3762966,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "動畫藝術廊 Art of Animation",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3134244,
+    "lon": 114.0435859,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "北大刀屻觀景臺 Pak Tai To Yan Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4675385,
+    "lon": 114.1291372,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "北潭石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4168314,
+    "lon": 114.3171384,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "十字溝",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3564356,
+    "lon": 114.3750821,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "千島湖清景台 Reservoir Islands Viewpoint",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3909362,
+    "lon": 114.0241566,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "南山觀景台 Nam Shan Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2549555,
+    "lon": 113.9879217,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "南峰臺",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3363965,
+    "lon": 114.102034,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "南望長堤 South Bank",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3202092,
+    "lon": 114.196688,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "南生圍婚紗橋",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4581233,
+    "lon": 114.0342156,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "博加拉炮台 Bokhara Battery",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2095799,
+    "lon": 114.2579634,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "博雅山莊 Pok Ngar Villa",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3794195,
+    "lon": 114.1777322,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "印洲塘觀景台 Double Haven Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5231085,
+    "lon": 114.2838819,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "卵石躉 Pebble Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2801605,
+    "lon": 114.2128209,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "叢林商店 The Trading Post",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3078152,
+    "lon": 114.0386161,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "古井 Old Well",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4459451,
+    "lon": 114.0074766,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "史諾比開心世界 Snoopy's World",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3820002,
+    "lon": 114.1892794,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "司徒拔道眺望處 Stubbs Road Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.27031,
+    "lon": 114.1758478,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "合一亭 Pavilion of Harmony",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4215946,
+    "lon": 114.2099276,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "吉澳地質教育中心 Kat O Geoheritage Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5481188,
+    "lon": 114.2916073,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "吐露角 Tolo Corner",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4512361,
+    "lon": 114.1927562,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "吐露角觀景臺 Tolo Harbour Viewing Terrace",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4409643,
+    "lon": 114.1854827,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "啟德展館 Kai Tak Gallery",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3231893,
+    "lon": 114.1964031,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "喬沛德號 Peter Quick",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4475205,
+    "lon": 114.1644953,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "單L躉 Single-L Stone Base",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2680889,
+    "lon": 114.2134306,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "嘉咸街街市 Graham Street Street Market",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2831746,
+    "lon": 114.1539336,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "嘉道理農場暨植物園 Kadoorie Farm and Botanic Garden",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4288272,
+    "lon": 114.1214863,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "噴水岩",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2544528,
+    "lon": 114.2973471,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "四柱擎天 Post Office Pillars",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4303039,
+    "lon": 114.1174605,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "四柱躉 Four-pillar Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2792973,
+    "lon": 114.2128525,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "四破躉 Four-Crushed Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2692899,
+    "lon": 114.213374,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "國殤之柱 Pillar of Shame",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.283075,
+    "lon": 114.13661,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "圍頭村牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4629683,
+    "lon": 114.1479861,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "園圃街雀鳥花園 Yuen Po Street Bird Garden",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3258557,
+    "lon": 114.1738372,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "圓墩觀景台 Yuen Tun Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3710316,
+    "lon": 114.0499672,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "圓形天橋 Circular Bridge",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2796141,
+    "lon": 114.1863272,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "土地灣機槍堡 Pillbox 033",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2265859,
+    "lon": 114.2367507,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "坑邊躉 Stream-Side Stone Base",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2731563,
+    "lon": 114.2131418,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "城門新村",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4840579,
+    "lon": 114.1454843,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "城門水塘 Shing Mun Reservoir",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.386993,
+    "lon": 114.1484956,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "夢想之泉 Dreamer's Spring",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3073897,
+    "lon": 114.0383058,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "大嘴鳥石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3897174,
+    "lon": 113.9891844,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "大坑墩觀景台 Tai Hang Tun Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2909352,
+    "lon": 114.301335,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大坑墩風箏場觀景台 Tai Hang Tun Kite Flying Area Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2895301,
+    "lon": 114.299988,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大埔地質教育中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4540148,
+    "lon": 114.2136362,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "大埔完善路落成",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4492062,
+    "lon": 114.1769563,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "大埔道瞭望處 Tai Po Road Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3598239,
+    "lon": 114.1616248,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大富翁夢想世界Monopoly Dreams Hong Kong",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2702035,
+    "lon": 114.1498893,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "大帽山郊野公園觀景台 (北面) Tai Mo Shan Country Park Viewing Point (North)",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4120519,
+    "lon": 114.1166484,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大帽山郊野公園觀景台 (南面) Tai Mo Shan Country Park Viewing Point (South)",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4114144,
+    "lon": 114.1171652,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大帽山郊野公園觀景台 Tai Mo Shan Country Park View Compass",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3838219,
+    "lon": 114.1180769,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大廟灣刻石 Rock Inscription at Joss House Bay",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2708316,
+    "lon": 114.2901673,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "大東山一號觀景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2523022,
+    "lon": 113.9519081,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大棠有機生態園 Tai Tong Organic EcoPark",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.406938,
+    "lon": 114.0266003,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大棠楓香林 Tai Tong Sweet Gum Woods (Red Leaves)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3983175,
+    "lon": 114.0365053,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "大棠觀景台 Tai Tong Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4096736,
+    "lon": 114.0304331,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大欖涌水塘紀念碑 Tai Lam Chung Reservoir Memorial Stone",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.395964,
+    "lon": 114.0458718,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "大欖自然教育徑觀景台 Tai Lam Nature Trail Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3807516,
+    "lon": 114.0404896,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大水管 Big Water Pipes",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5159566,
+    "lon": 114.1159131,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "大浪灣石刻 Big Wave Bay Rock Carving",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2461941,
+    "lon": 114.2487864,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "大潭機槍堡 Tai Tam Bay Pillbox",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2267742,
+    "lon": 114.2180992,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "大潭觀景台 Tai Tam Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2579753,
+    "lon": 114.2081385,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大澳橋",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2539106,
+    "lon": 113.862126,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大澳觀景台 Tai O View Compass",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2416142,
+    "lon": 113.8560984,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大石墜谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4342877,
+    "lon": 113.9682363,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "大美督家樂徑觀景台 Tai Mei Tuk Family Walk Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4709931,
+    "lon": 114.2348847,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "大菴瓦窰",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4442797,
+    "lon": 114.1354002,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "大鏟洲",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3754721,
+    "lon": 114.2906797,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "天一泉 One-World-Fountain",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3377461,
+    "lon": 114.2644625,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "天后之牀",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3875257,
+    "lon": 113.9916826,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "天壇大佛 Tian Tan Buddha Statue",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2539595,
+    "lon": 113.9050121,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "天文公園 Astropark",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3759073,
+    "lon": 114.3360919,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "天書壁 Heavenly Book Wall",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2807276,
+    "lon": 113.959922,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "天水圍綠田園 Tin Shui Wai Greenfield",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4640964,
+    "lon": 113.9927679,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "天空走廊 Sky Corridor",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3037517,
+    "lon": 114.1657151,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "天際100 Sky100",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3033403,
+    "lon": 114.1603807,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "太平山獅子亭 The Peak Lions Viewpoint",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2709379,
+    "lon": 114.1508249,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "奧斯本紀念碑 Osborn Memorial",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2596772,
+    "lon": 114.1985089,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "奧運橋 Olympic Bridge",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2790216,
+    "lon": 114.1872268,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "女人街 Ladies Market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3175416,
+    "lon": 114.1709038,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "姻緣石 Lover's Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2708788,
+    "lon": 114.1765318,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "子午線北標記石柱",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3478989,
+    "lon": 114.1744252,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "孖仔躉 Twin Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2774472,
+    "lon": 114.2129967,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "孤獨躉 Lone Stone Base",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2674678,
+    "lon": 114.2134702,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "孫中山像 Sun Yat-sen Statue",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2897349,
+    "lon": 114.1455457,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "孫中山紀念館 Dr Sun Yat-sen Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2819715,
+    "lon": 114.1507927,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "孫逸仙博士紀念碑 Dr Sun Yat-sen Monument",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3775376,
+    "lon": 113.959386,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "宋王臺遺跡 Sung Wong Toi relic",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3251364,
+    "lon": 114.1894221,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "官門遺洞 Sea Cave",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3616728,
+    "lon": 114.3730712,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "富善街街市 Fu Shin Street Market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4487271,
+    "lon": 114.1647101,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "寶燕園",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4473603,
+    "lon": 114.1578206,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "寶馬山觀景台 Braemar Hill Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.285471,
+    "lon": 114.2071475,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "將軍石 Old Man Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2580726,
+    "lon": 113.8543613,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "小丑石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4002263,
+    "lon": 114.1227657,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "小瀛故事館 Siu Ying Story Room",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5271125,
+    "lon": 114.2607647,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "尖鼻咀觀景台 Tsim Bei Tsui Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4848708,
+    "lon": 114.0087988,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "尤德爵士紀念亭觀景台 Edward Youde Memorial Pavilion Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5117702,
+    "lon": 114.2135786,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "尤德觀鳥園 Edward Youde Aviary",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2764636,
+    "lon": 114.1606557,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "展城館 City Gallery",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2825726,
+    "lon": 114.1621889,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "屯門徑彩虹段",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3989419,
+    "lon": 113.9835281,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "山坡躉 Slope Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2747465,
+    "lon": 114.2130708,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "山字石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1861949,
+    "lon": 114.1446927,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "山澗躉 Stream Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2714351,
+    "lon": 114.2132431,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "山藏智叟石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3199011,
+    "lon": 114.0162169,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "山頂 The Peak",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.271123,
+    "lon": 114.1501414,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "山頂纜車 Peak Tram",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2743493,
+    "lon": 114.1547958,
+    "description": "1.4 km funicular ride from Central 400m up to Victoria Peak"
+  },
+  {
+    "name": "峇里石門 Balinese Stone Gateway",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3078406,
+    "lon": 114.0378712,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "嶼北界碑 North Lantau Obelisk",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2591405,
+    "lon": 113.866205,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "嶼南界碑 South Lantau Obelisk",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2032717,
+    "lon": 113.8667206,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "川龍家樂徑觀景台 Chuen Lung Family Walk Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3943549,
+    "lon": 114.1061663,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "左右門神",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.380671,
+    "lon": 113.9974359,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "巫氏古宅 Mo's Old House",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1649607,
+    "lon": 114.2584763,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "平台躉 Terrace Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2769992,
+    "lon": 114.2130005,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "幸福小魚 The Wish Fish",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5434736,
+    "lon": 114.2260515,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "幻彩詠香江 Symphony of Lights",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.290617,
+    "lon": 114.1676469,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "康柏躉 Hong Pak Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2700751,
+    "lon": 114.21336,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "廟街 Temple Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3041789,
+    "lon": 114.1697182,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "廟街夜市 Temple Street Night Market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3110785,
+    "lon": 114.1702731,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "廟街牌樓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3055204,
+    "lon": 114.1697375,
+    "description": "Archway/gateway"
+  },
+  {
+    "name": "御筆石林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2946906,
+    "lon": 113.9846808,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "微笑老鼠石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.374177,
+    "lon": 114.2094537,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "德華公立學校",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4076641,
+    "lon": 114.1813515,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "志明橋 Jimmy Bridge",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3172728,
+    "lon": 114.2133959,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "怡和午砲 Noonday Gun",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.282598,
+    "lon": 114.183816,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "愛情鎖",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4359848,
+    "lon": 114.2001755,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "戰時爐灶 Wartime Stoves",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2758163,
+    "lon": 114.2133772,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "扶輪公園自然教育徑觀景台 Rotary Park Nature Trail Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4015602,
+    "lon": 114.1091313,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "扶輪公園觀景台 Rotary Club Garden Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4041056,
+    "lon": 114.1058765,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "拾翠坪",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3920163,
+    "lon": 114.1537315,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "挪亞方舟 Noah's Ark",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3482682,
+    "lon": 114.061302,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "捨身崖紀念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2796131,
+    "lon": 113.9135783,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "撿豬灣一號觀景點 Kim Chu Wan Viewpoint 1",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3582885,
+    "lon": 114.3748123,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "撿豬灣二號觀景點 Kim Chu Wan Viewpoint 2",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3580318,
+    "lon": 114.3765593,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "敬羅家塾 King Law Ka Shuk",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4548604,
+    "lon": 114.157374,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "文物館 Art Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4190392,
+    "lon": 114.206227,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "斜炮石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3514246,
+    "lon": 114.3224467,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "斬竹灣抗日英烈紀念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.386959,
+    "lon": 114.306593,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "斬頸洲峽道",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5483083,
+    "lon": 114.4250014,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "新三險 3 Challenges",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2672014,
+    "lon": 113.9615626,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "新娘潭 Bride's Pool",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5032276,
+    "lon": 114.2370567,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "日晷 Sundial",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4520266,
+    "lon": 114.1660622,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "旺角花墟 Mong Kok Flower Market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3249853,
+    "lon": 114.1720794,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "昂堂山獅子亭 Ngong Tong Shan Lion's Pavilion",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3908931,
+    "lon": 114.1892573,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "昂平觀景台 Ngong Ping Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3909743,
+    "lon": 114.2528769,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "昆蟲屋",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4506774,
+    "lon": 114.1786216,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "星光大道 Avenue of Stars",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2942723,
+    "lon": 114.1746857,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "春暉園",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.44503,
+    "lon": 114.1690072,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "春秧街街市 Chun Yeung Street Market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2912573,
+    "lon": 114.1976736,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "春風亭觀景台 Spring Breeze Pavilion Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4777039,
+    "lon": 114.2354525,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "普田塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2245969,
+    "lon": 113.8703634,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "曾大屋 Tsang Tai Uk",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3739477,
+    "lon": 114.1905317,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "月牙谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3996021,
+    "lon": 113.9410732,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "李小龍取景地",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2290516,
+    "lon": 114.2190773,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "李鄭屋漢墓博物館 Lei Cheng Uk Han Tomb Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.33801,
+    "lon": 114.1600103,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "東壩觀景點 East Dam Viewpoint",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.361418,
+    "lon": 114.3719076,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "東涌炮台 Tung Chung Fort",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2778889,
+    "lon": 113.9361578,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "東翼 East Wing",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2942598,
+    "lon": 114.1720295,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "東華三院文物館 Tung Wah Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3150001,
+    "lon": 114.1718556,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "東華痘局 Tung Wah Smallpox Hospital Memorial",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2821043,
+    "lon": 114.1230841,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "東龍洲炮台 Tung Lung Fort",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2550809,
+    "lon": 114.2968161,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "東龍洲炮台特別地區 Tung Lung Fort Special Area",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2555933,
+    "lon": 114.2959619,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "東龍洲石刻 Rock Carving on Tung Lung Chau",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2529816,
+    "lon": 114.282848,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "松林廢堡 Pinewood Battery (Deserted)",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2778499,
+    "lon": 114.1358759,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "林士石 Rumsey Rock",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.300953,
+    "lon": 114.184362,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "林村河站 Lam Tsuen River Station",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4503809,
+    "lon": 114.1706927,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "林村許願樹 Lam Tsuen Wishing Tree",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4563045,
+    "lon": 114.1426655,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "柏架山道觀景台 Mount Parker Road Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2724196,
+    "lon": 114.2119595,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "梅子林故事館",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5188334,
+    "lon": 114.2561883,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "梅窩文化展覽中心 Mui Wo Culture & Heritage Exhibition Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2679894,
+    "lon": 113.9973119,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "梅蔚刻石 Mui Wai Rock Inscription",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3485649,
+    "lon": 114.0551408,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "楊衢雲烈士殉難處",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2837533,
+    "lon": 114.1528108,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "標尖角觀景台 Biu Tsim Kok Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3667794,
+    "lon": 114.3777065,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "橋咀觀景台 Kiu Tsui Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3633602,
+    "lon": 114.2931903,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "橋邊躉 Bridge-Side Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2809092,
+    "lon": 114.2128331,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "機槍堡 PB206",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3705618,
+    "lon": 114.2074577,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "機槍堡 Pillbox PB220",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.352252,
+    "lon": 114.1819465,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "機槍堡 Pillbox PB221",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3509118,
+    "lon": 114.1802616,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "機槍堡 Pillbox PB222",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3505139,
+    "lon": 114.1758714,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "機槍堡PB205",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3771395,
+    "lon": 114.2090778,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "機槍堡PB311",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3652792,
+    "lon": 114.1608364,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "機槍堡PB312",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3642487,
+    "lon": 114.1583644,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "橫衝直撞 Bumper Blaster",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2346169,
+    "lon": 114.1720376,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "歌連臣角砲台探射燈碉堡 Cape Collinson Battery Searchlight (North)",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2535401,
+    "lon": 114.2555394,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "歌連臣角砲台探射燈碉堡 Cape Collinson Battery Searchlight (South)",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.253272,
+    "lon": 114.2554401,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "歌連臣角舊英軍發電碉堡 Cape Collinson Battery Defence Electric Light Engine Room",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2536921,
+    "lon": 114.2535604,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "歡迎蒞臨北區 Welcome To North District",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5023357,
+    "lon": 114.2374369,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "歷史觀景台 Historical Viewing Platform",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3556057,
+    "lon": 114.2140629,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "毛主席石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3862473,
+    "lon": 113.9971075,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "水上樂園 Water World",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2359494,
+    "lon": 114.1681924,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "水浪窩觀星台 Shui Long Wo Star Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4046674,
+    "lon": 114.2770932,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "水畔千層 Waterside Paperbarks",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3919841,
+    "lon": 114.1491178,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "水知園 H2OPE Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4562217,
+    "lon": 114.0080437,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "水閘控制裝置 Weir Controller",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.281745,
+    "lon": 114.2126767,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "永和號 Wing Woo Grocery",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.283452,
+    "lon": 114.1540654,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "沖天搖擺船 Crazy Galleon",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2316589,
+    "lon": 114.171761,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "沖溝",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4001818,
+    "lon": 113.9377398,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "沖溝 Gully",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4013553,
+    "lon": 113.9224451,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "沙螺灣大樟樹 Sha Lo Wan Camphor Tree",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.283792,
+    "lon": 113.9030734,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "沙頭角之角 Cape of Sha Tau Kok",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5436699,
+    "lon": 114.2263493,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "沙頭角海旁 Starling Inlet",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5446027,
+    "lon": 114.2242991,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "油麻地果欄 Yau Ma Tei Wholesale Fruit Market",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3120959,
+    "lon": 114.1682886,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "波鞋街 Sneakers Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3176255,
+    "lon": 114.1714564,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "泰山石敢當",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4489462,
+    "lon": 114.1650973,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "海上巨人之錨 Anchor of Seawise Giant",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3230759,
+    "lon": 114.1408918,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "海南隧道",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1574872,
+    "lon": 113.905126,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "海味街 Dried Seafood Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5445457,
+    "lon": 114.2248707,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "海濱樂園 The Waterfront",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2458745,
+    "lon": 114.1762098,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "海濱白教堂 White Chapel",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3065462,
+    "lon": 114.0167125,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "海濱站 Harbour Station",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2840149,
+    "lon": 114.1806447,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "海豚廣場 Dolphin Square",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3672851,
+    "lon": 113.9890922,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "海豚池平台花園 Dolphin Square",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2992391,
+    "lon": 114.1662137,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "海運觀點 Ocean Terminal Deck",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2946325,
+    "lon": 114.1651597,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "海馬標誌 Seahorse insignia",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2434429,
+    "lon": 114.1750548,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "清新地有機悠閒莊園 Nature's Harvest Organic Farm and Leisure Getaway",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3419507,
+    "lon": 114.2645884,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "清音石塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3545511,
+    "lon": 114.3174611,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "湘子峰觀景台 Spring Breeze Pavilion Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4850974,
+    "lon": 114.2325133,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "溯源壁",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.346418,
+    "lon": 114.1695183,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "滑梯岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5101151,
+    "lon": 114.3357609,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "滙豐總行大廈 HSBC Main Building",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2802668,
+    "lon": 114.1595284,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "漢雅軒 Hanart TZ Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3624165,
+    "lon": 114.1348918,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "火山探知館 Volcano Discovery Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3824,
+    "lon": 114.274086,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "火炬石/魚翅石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1968821,
+    "lon": 114.0241894,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "火紅海岸",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5096045,
+    "lon": 114.3308796,
+    "description": "火紅海岸"
+  },
+  {
+    "name": "火車模型 Railway Models",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.448411,
+    "lon": 114.1637578,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "灰窰 Pottery kiln",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3932387,
+    "lon": 114.321359,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "烏蛟騰抗日英烈紀念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5090038,
+    "lon": 114.2345816,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "烏蛟騰郊遊徑觀景台 Wu Kau Tang Country Trail Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5152621,
+    "lon": 114.2408053,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "無字石碑(北)",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2453896,
+    "lon": 114.2292433,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "無字石碑(南)",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2318128,
+    "lon": 114.2299296,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "無語問蒼天石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2936455,
+    "lon": 113.9851282,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "煆膏塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2265009,
+    "lon": 113.8653149,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "爛尾躉 Botched Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.267283,
+    "lon": 114.2134642,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "爬蟲館 Reptile House",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3905455,
+    "lon": 113.9736533,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "犀牛石 Rhino Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2063001,
+    "lon": 114.2175929,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "狗頭石 Snoopy Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2142018,
+    "lon": 114.1999862,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "獅子會自然教育中心 Lions Nature Education Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3742639,
+    "lon": 114.2642939,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "獅王點將台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.348814,
+    "lon": 114.1882257,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "獅象鬥法",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.207851,
+    "lon": 114.1600241,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "獨孤躉 Isolated Stone Base",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2678783,
+    "lon": 114.2134483,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "獨木舟石 Canoe Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3964178,
+    "lon": 114.2462356,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "玉璽石 Yuk Saai Shek",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2056491,
+    "lon": 114.0407416,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "現形躉 Visible Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2730105,
+    "lon": 114.2131979,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "瓦窰",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5419231,
+    "lon": 114.1371487,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "畢拿山觀景台 Mt. Butler Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2676563,
+    "lon": 114.2111387,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "當代唐人藝術中心 - 中環空間",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2830647,
+    "lon": 114.155157,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "疊石 Balanced Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4671848,
+    "lon": 114.3634293,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "白樓 Homi Villa",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3640961,
+    "lon": 114.0703764,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "白沙洲",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3762118,
+    "lon": 114.2873399,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "白虎沖溝 White Tiger Gully",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4027494,
+    "lon": 114.0444065,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "白角天書壁 Pak Kok Heavenly Book Wall",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2108983,
+    "lon": 113.8784327,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "白銀鄉",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2716377,
+    "lon": 113.991624,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "皇后像廣場 Statue Square",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2813564,
+    "lon": 114.1599369,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "皇者仁風校史館 Queen's College History Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2807603,
+    "lon": 114.1919625,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "盧吉道觀景台 Lugard Road Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2781681,
+    "lon": 114.1468101,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "盧峰畫廊 Lo Fung Art Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3457986,
+    "lon": 114.1977295,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "真肥豬石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4008983,
+    "lon": 114.2378839,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "眺望台 Lookout Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2965605,
+    "lon": 114.0087739,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "石壁石刻 Rock Carving at Shek Pik",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2244072,
+    "lon": 113.8965744,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "石室巖 Stone Chamber",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2578186,
+    "lon": 114.3480435,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "石澳道瞭望處 Shek O Road Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2284567,
+    "lon": 114.2392524,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "石碑\"DL11\"",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4180156,
+    "lon": 114.1159726,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "石窗塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2495752,
+    "lon": 113.9185998,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "石龍拱觀景台 Shek Lung Kung Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3785586,
+    "lon": 114.0833108,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "砲台 fort",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5187541,
+    "lon": 114.2173841,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "破邊洲觀景台 Po Pin Chau Viewing Platform",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.358285,
+    "lon": 114.3773846,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "砵甸乍山觀景台 Pottinger Peak View Compass",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2543231,
+    "lon": 114.2512831,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "碉堡",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.287827,
+    "lon": 114.2446946,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "碗窰展覽 Wun Yiu Exhibition",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4368086,
+    "lon": 114.1639817,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "磚梯躉 Brick-Stairs Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2684059,
+    "lon": 114.2134491,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "磚窰 The Kilns",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.349883,
+    "lon": 114.05759,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "磨菇石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4651031,
+    "lon": 114.0826461,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "神像山 A Sky Full of Gods and Buddhas",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2489584,
+    "lon": 114.1365881,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "神香衣紙處 Incenses & Offerings Centre",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.490468,
+    "lon": 114.1383094,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "稻鄉飲食文化博物館 Tao Heung Museum of Food Culture",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.395973,
+    "lon": 114.1962262,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "空心樹 Hollow Tree",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3485167,
+    "lon": 114.2133398,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "空難紀念碑 Air Crash Monument",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3188208,
+    "lon": 114.3660512,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "窄軌火車頭 Narrow Gauge Steam Locomotive",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4480444,
+    "lon": 114.1639922,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "筆架山觀景台 Beacon Hill Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3502142,
+    "lon": 114.1729562,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "粉碎躉 Shattered Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2729139,
+    "lon": 114.2132007,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "糧船灣觀景台 High Island (Leung Shuen Wan) Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.361714,
+    "lon": 114.3504669,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "紅崖石城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5113425,
+    "lon": 114.3338336,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "紅花嶺觀景台(北) Robin's Nest Viewing Point (North)",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5418428,
+    "lon": 114.1947712,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "紅花嶺觀景台(東) Robin's Nest Viewing Point (East)",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5418071,
+    "lon": 114.1948071,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "終站躉 Terminal Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2669779,
+    "lon": 114.2134903,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "綠匯學苑 Green Hub",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4465954,
+    "lon": 114.1697019,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "維多利亞城界碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2815803,
+    "lon": 114.1206975,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "維多利亞城界碑 Boundary Stone, City of Victoria",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2791529,
+    "lon": 114.1312711,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "維多利亞女皇銅像 Queen Victoria Statue",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2811047,
+    "lon": 114.189378,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "綿羊頭石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3463747,
+    "lon": 114.2222737,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "緣緣堂 Dream by the Sea",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3203896,
+    "lon": 114.1975293,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "練靶場遺址 British Shooting Range",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2752862,
+    "lon": 114.2139548,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "羅屋民俗館 Law Uk Folk Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2641554,
+    "lon": 114.2355474,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "羅桂祥茶藝館 The K.S. Lo Gallery",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2778949,
+    "lon": 114.1626569,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "老虎頭觀景台（東南） Lo Fu Tau Viewing Point (SE)",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2995384,
+    "lon": 114.0002062,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "老虎頭觀景台（西北） Lo Fu Tau Viewing Point (NW)",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2996083,
+    "lon": 114.0000665,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "老鼠石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4684636,
+    "lon": 114.0773817,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "聖域同登",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2420218,
+    "lon": 113.8824796,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "聖約翰救傷隊烈士紀念碑 St. John War Memorial",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2576061,
+    "lon": 114.1930156,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "聚星樓 Tsui Sing Lau Pagoda",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4487745,
+    "lon": 114.0061259,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "肥豬石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3424414,
+    "lon": 114.2228152,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "腳趾天崖",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4167278,
+    "lon": 114.4040307,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "自殺崖 Suicide Wall",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3383424,
+    "lon": 114.2230743,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "舊九龍關石碑 Old Kowloon Pass Custom's Tablet",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.34942,
+    "lon": 114.056422,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "舊紅色/綠色車廂山頂纜車 Old Peak Tram carriages",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2760702,
+    "lon": 114.1576593,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "舊總督山頂別墅界石 Boundary stone of the former Mountain Lodge",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2781485,
+    "lon": 114.1570505,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "舊英軍碉堡",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3504167,
+    "lon": 114.1742175,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "良田坳大峽谷 Grand Canyon",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4128842,
+    "lon": 113.9478958,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "良田坳大沖溝 Grand Gully",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4129841,
+    "lon": 113.9477686,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "花園道 Garden Road",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2771695,
+    "lon": 114.158577,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "花心石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3825219,
+    "lon": 114.2221449,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "花瓶石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3320294,
+    "lon": 114.0535291,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "花瓶石 Fa Peng",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.207948,
+    "lon": 114.0391121,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "芳名碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4819343,
+    "lon": 114.1598096,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "芳園書室 Fong Yuen Study Hall",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3504225,
+    "lon": 114.0576874,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "英皇佐治六世銅像 Statue of George VI",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2774231,
+    "lon": 114.1558881,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "茶具文物館 Flagstaff House Museum of Tea Ware",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2782863,
+    "lon": 114.162498,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "荃錦公路觀景台 Viewing Point (Route Twisk)",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4134272,
+    "lon": 114.1099525,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "荔枝嶺路觀景台 Lai Chi Ling Road Lookout Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3451178,
+    "lon": 114.1320429,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "荔枝窩文化館 Lai Chi Wo Cultural Hub",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5268779,
+    "lon": 114.2597492,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "荔枝窩觀景台 Lai Chi Wo Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5253565,
+    "lon": 114.2638905,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "荔枝角大橋碑 Lai Chi Kok Bridge Monument",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3380479,
+    "lon": 114.1353371,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "菠蘿壩 Pineapple Dam",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3844972,
+    "lon": 114.1440962,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "華人紀念碑 Chinese War Memorial",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2775849,
+    "lon": 114.1571529,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "華懋荔枝窩故事館",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5267362,
+    "lon": 114.2597105,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "落馬洲暸望台 Lok Ma Chau Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5105553,
+    "lon": 114.0791478,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "葉定仕故居 Residence of Ip Ting-sz",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5490128,
+    "lon": 114.1803714,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "葛量洪爵士號 Sir Alexander",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4477585,
+    "lon": 114.1641597,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "葛量洪號滅火輪展覽館 Fireboat Alexander Grantham Exhibition Gallery",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2892676,
+    "lon": 114.2192371,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "蒲台島石刻 Rock Carvings on Po Toi Island",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1609358,
+    "lon": 114.2561908,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "蓬瀛仙館 Fung Ying Sin Koon",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4902098,
+    "lon": 114.1381249,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "蓮花山公立學校 Lin Fa Shan Public School",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3835515,
+    "lon": 114.0854112,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "薄鳧林牧場 The Pokfulam Farm",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2607064,
+    "lon": 114.1352323,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "蘭桂坊 Lan Kwai Fong",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2808199,
+    "lon": 114.1554181,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "蛇石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4460974,
+    "lon": 114.2989546,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "蛇頭石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4684827,
+    "lon": 114.0771284,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "蝴蝶園 Butterfly Garden",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3075211,
+    "lon": 114.0373991,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "蝶豆花園 Butterfly Valley Organic Farm",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4622625,
+    "lon": 114.1813615,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "蝸牛下海",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4372854,
+    "lon": 114.3779177,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "蝸牛墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5192663,
+    "lon": 114.0871005,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "衙前山 Nga Tsin Shan",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4542667,
+    "lon": 114.0156022,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "衝浪板 Surfboards",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.306897,
+    "lon": 114.037434,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "衞生教育展覽及資料中心 Health Education Exhibition and Resource Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2984043,
+    "lon": 114.1714627,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "西區公眾貨物裝卸區 Western District Public Cargo Working Area",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2875937,
+    "lon": 114.1319254,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "西環鐘聲泳棚 Sai Wan Swimming Shed",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2798456,
+    "lon": 114.1175181,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "西貢清水灣牛尾海觀景圖 View of Clear Water Bay-Port Shelter",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3235326,
+    "lon": 114.2637897,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "西高山西崖入口",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2717923,
+    "lon": 114.1333848,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "西高山觀景台 Mt. High West Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2721642,
+    "lon": 114.1362574,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "西高崖底",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2721786,
+    "lon": 114.1340496,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "觀景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3618382,
+    "lon": 114.2941144,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "觀景台 Viewing Platforms",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2832931,
+    "lon": 114.1655976,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "觀景臺 Viewing Terrace",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4524915,
+    "lon": 114.1874739,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "觀貓台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3622222,
+    "lon": 114.1953941,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "許士芬地質博物館 Stephen Hui Geological Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2828324,
+    "lon": 114.1378579,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "許願瞭望台 The Viewing Deck",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5458435,
+    "lon": 114.2251475,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "試劍石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3965693,
+    "lon": 114.2462851,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "諾士佛臺 Knutsford Terrace",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3006981,
+    "lon": 114.1731226,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "警隊博物館 Police Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2676626,
+    "lon": 114.169297,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "護龍氹",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3565401,
+    "lon": 114.3747313,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "象鼻岩 Elephant Trunk Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2188062,
+    "lon": 113.8400612,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "豬仔石 Piggy Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4029976,
+    "lon": 113.9231174,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "豬八戒石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3571524,
+    "lon": 114.0303012,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "賽馬會氣候變化博物館 Jockey Club Museum of Climate Change",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4160767,
+    "lon": 114.2111272,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "賽馬會鯉魚門創意館 Jockey Club Lei Yue Mun Plus",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2891103,
+    "lon": 114.2374849,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "赤柱市集 Stanley Market",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2181952,
+    "lon": 114.2125152,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "超速旋風 Whirly Bird",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2345738,
+    "lon": 114.1711728,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "路邊躉 Road-side Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2778046,
+    "lon": 114.2129527,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "車坪",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4494996,
+    "lon": 114.1644394,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "軍廁躉 Latrine Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2772313,
+    "lon": 114.2129704,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "軍灶躉 Military-Stove Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2752359,
+    "lon": 114.2131288,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "軒轅問道圖 Mural of Emperor Huang and Guangcheng Zi",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4902612,
+    "lon": 114.1382462,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "述卿書室前廳 Entrance Hall of Shut Hing Study Hall",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4433713,
+    "lon": 114.0072614,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "遊隼石 Falcon Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3988513,
+    "lon": 114.0124948,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "避雨亭碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4735858,
+    "lon": 114.2080516,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "都爹利街石階 Duddell Street granite steps",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2796863,
+    "lon": 114.1568101,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "金字塔石 Pyramid Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3928491,
+    "lon": 114.2444965,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "金紫荊廣場 Golden Bauhinia Square",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2841801,
+    "lon": 114.1737873,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "金魚擺尾",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3267369,
+    "lon": 114.3233897,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "金魚街 Goldfish Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3230516,
+    "lon": 114.1698315,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "銀鑛灣觀景台 Silver Mine Bay Viewing Deck",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2669808,
+    "lon": 113.9982786,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "錦田二帝書院 Yi Tai Study Hall",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4449159,
+    "lon": 114.0611803,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "錦田樹屋 Kam Tin Tree House",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4477035,
+    "lon": 114.060734,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "錦田鄉村俱樂部 Kam Tin Country Club",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4474092,
+    "lon": 114.0634281,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "錦綉花園 Fairview Park",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4717587,
+    "lon": 114.053442,
+    "description": "pailau"
+  },
+  {
+    "name": "鑽石山石礦場",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3424164,
+    "lon": 114.2035999,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "長人窿",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.510405,
+    "lon": 114.33465,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "長沙灣道時裝街 Cheung Sha Wan Road Fashion Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3300901,
+    "lon": 114.1631599,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "長洲畫廊 Cheung Chau Gallery",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2082805,
+    "lon": 114.0291503,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "長洲石刻 Rock Carvings at Cheung Chau",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2078342,
+    "lon": 114.0326804,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "陳榮俊先生紀念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4160585,
+    "lon": 114.4034845,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "陽元石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3895339,
+    "lon": 114.2275598,
+    "description": "penis shape"
+  },
+  {
+    "name": "雄獅拉矢石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3489008,
+    "lon": 114.1871579,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "雙L躉 Double-L Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2697255,
+    "lon": 114.2133806,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "雙三角石室",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3995074,
+    "lon": 114.1277644,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "雙英磚廠",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5336621,
+    "lon": 114.1384396,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "雞乸石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2549713,
+    "lon": 114.2919751,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "雲泉仙館 Wun Chuen San Koon",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5304115,
+    "lon": 114.1563507,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "雷生春 Lui Seng Chun",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3247477,
+    "lon": 114.1651103,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "雷霆節拍 Rev Booster",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2349004,
+    "lon": 114.1712477,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "靈虛谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4380319,
+    "lon": 113.9684065,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "靈龜上山石 Turtle Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1580645,
+    "lon": 114.2587804,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "青山道六至六咪半村",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3530005,
+    "lon": 114.1334315,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "青嶼幹線觀景台 Lantau Link Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3579629,
+    "lon": 114.080959,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "青嶼幹線訪客中心 Lantau Link Visitors Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3580721,
+    "lon": 114.0815813,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "青松紅壑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3982212,
+    "lon": 113.9369119,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "青蛙石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4103325,
+    "lon": 114.232538,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "青衣公園瞭望臺 Tsing Yi Park Lookup Pavillion",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3568973,
+    "lon": 114.1051667,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "青衣大橋 Tsing Yi Bridge",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3480699,
+    "lon": 114.1109532,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "響螺石 Conch Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.1646736,
+    "lon": 114.2505963,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "風之塔 Wind Tower",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2454678,
+    "lon": 114.1505931,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "飛天鞦韆 Flying Swing",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2318627,
+    "lon": 114.1725412,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "飛鵝山觀景台 Kowloon Peak Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3530761,
+    "lon": 114.2210038,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "飛龍 Flying Dragon",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2265184,
+    "lon": 113.8677768,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "饒宗頤文化館 Jao Tsung-I Academy",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3385612,
+    "lon": 114.142307,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港動植物公園 Hong Kong Zoological & Botanical Garden",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2777366,
+    "lon": 114.1554052,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "香港回歸祖國紀念碑 Monument in Commemoration of the Return of Hong Kong to China",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2844747,
+    "lon": 114.1724281,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "香港回歸紀念塔 Tai Po Waterfront Park Lookout Tower",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4501943,
+    "lon": 114.1800884,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "香港大學美術博物館 University Museum & Art Gallery",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2837454,
+    "lon": 114.1390933,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港太空館 Hong Kong Space Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2942149,
+    "lon": 114.17187,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港子午線南標柱 South Meridian Mark",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2708281,
+    "lon": 114.1742774,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "香港屏山鄧族文物館 Ping Shan Tang Clan Gallery",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4456283,
+    "lon": 114.0102799,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港懲教博物館 Hong Kong Correctional Services Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2162395,
+    "lon": 114.2179981,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港抗戰及海防博物館 Hong Kong Museum of the War of Resistance and Coastal Defence",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2826709,
+    "lon": 114.2351711,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港摩天輪 The Hong Kong Observation Wheel",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2853319,
+    "lon": 114.1617715,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "香港故宮文化博物館 Hong Kong Palace Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3016322,
+    "lon": 114.155509,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港教育博物館",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4689568,
+    "lon": 114.1949105,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港文化博物館 Hong Kong Heritage Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3771595,
+    "lon": 114.1853969,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港文化古蹟資源中心 Hong Kong Resource Centre for Heritage",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.285979,
+    "lon": 114.1410235,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港文物探知館 Hong Kong Heritage Discovery Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2993227,
+    "lon": 114.1698435,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港新聞博覽館 Hong Kong News-Expo",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.283365,
+    "lon": 114.1510359,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港杜莎夫人蠟像館 Madame Tussauds Hong Kong",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.271199,
+    "lon": 114.1497895,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港樂高探索中心 LEGOLAND Discovery Centre",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2943196,
+    "lon": 114.1729602,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "香港歷史博物館 Hong Kong Museum of History",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3019301,
+    "lon": 114.1774401,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港海事博物館 Hong Kong Maritime Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2868591,
+    "lon": 114.1621421,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港禮賓府 Government House",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2786246,
+    "lon": 114.1573324,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "香港科學館 Hong Kong Science Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3009939,
+    "lon": 114.1775972,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港科技大學北閘 HKUST North Gate",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3386941,
+    "lon": 114.2622007,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "香港藝術館 Hong Kong Art Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2935695,
+    "lon": 114.1720002,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港藝術館 Hong Kong Museum of Art",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2935305,
+    "lon": 114.1720306,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港視覺藝術中心 Hong Kong Visual Arts Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2766899,
+    "lon": 114.1593723,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港賽馬博物館 The Hong Kong Racing Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2741908,
+    "lon": 114.1799407,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港賽馬會四川奇珍館 HKJC Sichuan Treasures",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2453463,
+    "lon": 114.1755045,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "香港迪士尼樂園 Hong Kong Disneyland",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3130807,
+    "lon": 114.0413687,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "香港醫學博物館 Hong Kong Museum of Medical Sciences",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2834164,
+    "lon": 114.1485625,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港鐵路博物館 Hong Kong Railway Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4482737,
+    "lon": 114.1639023,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港電影資料館 Hong Kong Film Archive",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2850798,
+    "lon": 114.2221243,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "香港電車文化館 Hong Kong Trams Station",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2704712,
+    "lon": 114.1500114,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "馬場先難友紀念碑 Race Course Fire Memorial",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2726911,
+    "lon": 114.1898369,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "馬灣1868 Ma Wan 1868",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3493701,
+    "lon": 114.0558898,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "馬灣1868展覽廳 Ma Wan 1868 Exhibition Hall",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3486529,
+    "lon": 114.0558233,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "馬鞍山探索館",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4011672,
+    "lon": 114.2426821,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "馬鞍山礦場 Ma On Shan Iron Mines 240M入口",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4031629,
+    "lon": 114.2449752,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "馬鞍山觀景台 Ma On Shan View Compass",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4102536,
+    "lon": 114.2376456,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "馬鞍躉 Saddle Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.273629,
+    "lon": 114.2131255,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "馬騮崖",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4843445,
+    "lon": 114.2343897,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "骷髏石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2147935,
+    "lon": 114.2005545,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "高峰樂園 The Summit",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.234424,
+    "lon": 114.1708977,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "高矮躉 Tall-and-short Stone Bases",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.278148,
+    "lon": 114.2129138,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "鬧鐘石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3904673,
+    "lon": 113.9874328,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鬼手岩 Devil's Fist",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5087775,
+    "lon": 114.3363679,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鬼手推山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5105488,
+    "lon": 114.334583,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "魔爪石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.215718,
+    "lon": 114.2015582,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "魔鬼山稜堡",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.29389,
+    "lon": 114.2440099,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "魚尾石 Fishtail Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3147797,
+    "lon": 114.192112,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鯉魚門渡口砲台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2817793,
+    "lon": 114.235646,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鯊魚石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3808848,
+    "lon": 113.9978653,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鯊魚石 Shark Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3486549,
+    "lon": 114.213907,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鯨魚骨 Whale Bone",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2077855,
+    "lon": 114.2603356,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鱷魚張口",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3963851,
+    "lon": 114.246163,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鳥望台 Hilltop Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3489348,
+    "lon": 114.0590721,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "鳥瞰角 Vantage Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2769388,
+    "lon": 114.1608854,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "鳥石 Bird Rock",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4024725,
+    "lon": 113.9202023,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鳳坑家樂徑觀景台 Fung Hang Family Walk Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5243974,
+    "lon": 114.2235495,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "鴨寮街電器街 Ap Liu Street Electronics Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3302523,
+    "lon": 114.1619371,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "鴨洲觀景台 Ap Chau Viewing Platform",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5506912,
+    "lon": 114.2707138,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "鴨脷洲風之塔公園展覽廊 Wind Tower Park Exhibition Gallery",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2452596,
+    "lon": 114.1518588,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "鵝頸橋打小人 Bowrington Bridge villain hitting",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2790858,
+    "lon": 114.1811876,
+    "description": "Traditional hitting villians spot"
+  },
+  {
+    "name": "鶴咀村更樓瞭望台",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2089945,
+    "lon": 114.2464089,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "鶴咀炮台 Cape D'Aguilar Battery",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2109797,
+    "lon": 114.2503621,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "鶴藪觀景台 Hok Tau View Compass",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5067765,
+    "lon": 114.1723168,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "黃石觀景台 Wong Shek Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4348447,
+    "lon": 114.3364888,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "黃竹坑石刻 Rock Carvings at Wong Chuk Hang",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2525533,
+    "lon": 114.1746421,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "黃竹角墩台 Wong Chuk Kok Watch Base",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5084004,
+    "lon": 114.33317,
+    "description": "康熙七年（1668年）"
+  },
+  {
+    "name": "黃金灘",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5111814,
+    "lon": 114.3340856,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "黄大仙信俗文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3424791,
+    "lon": 114.1935622,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "黑暗中對話 Dialogue in the Dark",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3360549,
+    "lon": 114.1487451,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "黑牌石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2080934,
+    "lon": 114.0336252,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "黑角頭石刻",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2623884,
+    "lon": 114.2566203,
+    "description": "measuring about 160cm high , 260cm wide"
+  },
+  {
+    "name": "龍泉谷 Dragon Valley",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4006014,
+    "lon": 114.1437247,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "龍翔道觀景台 Lung Cheung Road Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3427647,
+    "lon": 114.1714696,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "龍脊 Dragon's Back",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2393513,
+    "lon": 114.2423445,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "龍脊岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3560855,
+    "lon": 114.3752147,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "龍脊觀景台 Dragon's Back Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2364931,
+    "lon": 114.2433703,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "龍虎山環境教育中心 Lung Fu Shan Environmental Education Centre",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2808472,
+    "lon": 114.1382204,
+    "description": "A popular museum spot in Hong Kong."
+  },
+  {
+    "name": "龍虎山觀景台 Lung Fu Shan Viewing Point",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.2735963,
+    "lon": 114.1329599,
+    "description": "A popular outdoor spot in Hong Kong."
+  },
+  {
+    "name": "龍蝦灣石刻 Rock Carving at Lung Ha Wan",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3101938,
+    "lon": 114.299096,
+    "description": "A popular history spot in Hong Kong."
+  },
+  {
+    "name": "龍頸筋 Lung Keng Kan",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.477228,
+    "lon": 114.3662403,
+    "description": "A popular sightseeing spot in Hong Kong."
+  },
+  {
+    "name": "龍鼓灘中華白海豚瞭望台 Lung Kwu Tan Chinese White Dolphin Lookout",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.3929276,
+    "lon": 113.9179275,
+    "description": "A popular outdoor spot in Hong Kong."
+  }
+]

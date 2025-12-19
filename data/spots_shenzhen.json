@@ -1,0 +1,3602 @@
+[
+  {
+    "name": "\"同志仍需努力\"纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6310768,
+    "lon": 114.269983,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "15号跑道飞友神秘打野点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6530219,
+    "lon": 113.7996741,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "2 Elephant Bench",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4976096,
+    "lon": 113.903902,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "3楼观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5740621,
+    "lon": 113.7659878,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "Amity Woods",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5849037,
+    "lon": 114.1727255,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Aquatic Plants Collection",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5857478,
+    "lon": 114.1726861,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Bamboo Patio",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5110039,
+    "lon": 114.0357458,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "Butterfly Exhibition",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5777343,
+    "lon": 114.1705672,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "EPC艺术中心",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5354181,
+    "lon": 113.9812319,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Fence",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4928597,
+    "lon": 113.9026776,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "Free Sky云际观光",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5368764,
+    "lon": 114.0499959,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "Jade Bamboo Cultural Plaza",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5712978,
+    "lon": 114.1298045,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Just Life restaurant",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6497865,
+    "lon": 114.0608051,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Longgang Hakka Culture Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7304738,
+    "lon": 114.2612183,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "Magnolia Collection",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5791104,
+    "lon": 114.1713187,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Mission Hills Sports & Eco Park",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7247917,
+    "lon": 114.0735809,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "OCAT",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5425872,
+    "lon": 113.98838,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Oasis Tattoo",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4876091,
+    "lon": 113.916249,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Orchid Exhibition",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5776619,
+    "lon": 114.1707395,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "Shenzhen International Wine Hub",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.729096,
+    "lon": 114.2285242,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Shenzhen Museum of Paleontology",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5872832,
+    "lon": 114.1725556,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "Simon's Place",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4865184,
+    "lon": 113.9245413,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Sunset viewpoint",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5138887,
+    "lon": 114.6231942,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "The Eye of AI",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6687299,
+    "lon": 114.1926583,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "Tree planted by Deng Xiaoping",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5827429,
+    "lon": 114.1714528,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "Tree planted by Yang Shangkun",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5828082,
+    "lon": 114.1719533,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "XD暴风追击",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5455895,
+    "lon": 113.9753723,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "bridge",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4979292,
+    "lon": 113.9079108,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "“时间就是金钱，效率就是生命”标语牌",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4817326,
+    "lon": 113.9075158,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "“空谈误国 实干兴邦”标语牌",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4963434,
+    "lon": 113.9136627,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "一号山顶平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5242265,
+    "lon": 114.5433978,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "一号观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5291083,
+    "lon": 114.5296332,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "一号观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5355424,
+    "lon": 114.5990379,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "七娘山主峰观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5250389,
+    "lon": 114.5437078,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "三丰艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5054636,
+    "lon": 114.0549463,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "三号山顶平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5224686,
+    "lon": 114.5414885,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "三号观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5250308,
+    "lon": 114.5406285,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "三实教育石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5735615,
+    "lon": 113.9335335,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "上围电影博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.683564,
+    "lon": 114.0786565,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "下沙博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5295673,
+    "lon": 114.0199959,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "下沙纪念园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5491797,
+    "lon": 114.0179287,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "世界之窗",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5375386,
+    "lon": 113.9680001,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "世界地图喷泉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5379769,
+    "lon": 113.9698535,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "丛林穿梭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6405744,
+    "lon": 114.2679589,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "东坑祠堂",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7312246,
+    "lon": 114.3646779,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "东山寺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5993136,
+    "lon": 114.5149896,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "东江纵队北撤遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6106456,
+    "lon": 114.4102577,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "东江纵队纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.689484,
+    "lon": 114.3481261,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "东江纵队革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6598945,
+    "lon": 114.0104203,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "东深供水纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.569871,
+    "lon": 114.1494645,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "东部华侨城 - 大侠谷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6143332,
+    "lon": 114.2954539,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "东部华侨城 - 茶溪谷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6382187,
+    "lon": 114.270566,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "东门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5498413,
+    "lon": 114.1160415,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "两弹一星",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5151765,
+    "lon": 113.9466873,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "中信城金沙湾水世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.574944,
+    "lon": 114.4508496,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "中信金沙湾冰雪世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5777383,
+    "lon": 114.4528616,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "中国版画博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7389208,
+    "lon": 114.0805357,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "中国钢结构博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5120939,
+    "lon": 113.9349694,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "中英街 Chung Ying Street",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5478723,
+    "lon": 114.2269714,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "中英街历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5444629,
+    "lon": 114.2263825,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "中英街警世钟",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5444516,
+    "lon": 114.2260968,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "丰田世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6881079,
+    "lon": 114.3215757,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "临水花阶",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6712025,
+    "lon": 113.9894193,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "乐水入澜",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6622093,
+    "lon": 114.0372148,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "二十四史书院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6639932,
+    "lon": 114.0952965,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "二号山顶平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5238169,
+    "lon": 114.5430638,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "二号观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5262913,
+    "lon": 114.537584,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "云中漫步",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6199482,
+    "lon": 114.2903375,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "云溪谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6435901,
+    "lon": 113.9766793,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "五号山顶平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5288469,
+    "lon": 114.5474627,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "五号观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5227792,
+    "lon": 114.5884852,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "井水龙大围",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.737449,
+    "lon": 114.3685244,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "京基100",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5456919,
+    "lon": 114.1015811,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "亲水平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6144655,
+    "lon": 113.9662403,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "人才星光桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5132924,
+    "lon": 113.946443,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "人鱼洞",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.543668,
+    "lon": 114.6052671,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "仙湖植物园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5806903,
+    "lon": 114.1747999,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "仪花谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5687508,
+    "lon": 114.2286223,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "何香凝美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5359828,
+    "lon": 113.9767425,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "儿童乐园楼兰古城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5460207,
+    "lon": 114.0028739,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "光明农场大观园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7630423,
+    "lon": 113.9568419,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "光明收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7544355,
+    "lon": 113.9247961,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "光明智梦探索城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7850579,
+    "lon": 113.9537836,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "光明滑草游乐场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7572562,
+    "lon": 113.9575407,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "光明科学城展示中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.790764,
+    "lon": 113.9567115,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "公仔岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6787591,
+    "lon": 113.9001979,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "公明收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7857426,
+    "lon": 113.9153584,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "兰花溪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5684501,
+    "lon": 114.2277235,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "关山月美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5521004,
+    "lon": 114.0590792,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "凤凰山农趣谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6775653,
+    "lon": 113.863135,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "凤凰山石碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6839683,
+    "lon": 113.8473326,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "凤凰谷生态景观园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6119407,
+    "lon": 114.1822187,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "凤岩古庙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6783035,
+    "lon": 113.848844,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "凯撒宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5378337,
+    "lon": 113.9685147,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "前海展示厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5189031,
+    "lon": 113.8991384,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "半月廊",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6647485,
+    "lon": 113.9784249,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "华·美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.535924,
+    "lon": 113.9780516,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "华侨城湿地生态展厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5330222,
+    "lon": 113.9684371,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "华南物流收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6209161,
+    "lon": 114.0457525,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "华夏典藏美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5363061,
+    "lon": 113.9757533,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "华强北",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5492689,
+    "lon": 114.0841432,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "南头古城",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5462554,
+    "lon": 113.9160083,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "南头古城博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5439096,
+    "lon": 113.9150583,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "南山博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5380438,
+    "lon": 113.9189803,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "卧龙遗蛋",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6626175,
+    "lon": 113.9788966,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "双曲桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.516357,
+    "lon": 113.9449269,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "双道廊桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.594946,
+    "lon": 114.0018917,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "吉垅世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7265516,
+    "lon": 114.357519,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "吟风沐云台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6570394,
+    "lon": 113.8461144,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "听风台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7535264,
+    "lon": 114.2615837,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "周星驰美人鱼拍摄地",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5427209,
+    "lon": 114.6054794,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "和畅园博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7340784,
+    "lon": 114.3695699,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "哈尼寨",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5322221,
+    "lon": 113.9789588,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "四号山顶平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5286428,
+    "lon": 114.545587,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "四号观景平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5249681,
+    "lon": 114.5412514,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "四大洲喷泉微缩模型",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5357266,
+    "lon": 113.968864,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "四水清澜",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6620293,
+    "lon": 114.0023768,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "回龙世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7467698,
+    "lon": 114.3858757,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "国旗教育基地",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7856248,
+    "lon": 113.9538844,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "土洋收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6158369,
+    "lon": 114.3935219,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "地王大厦",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5453412,
+    "lon": 114.1055229,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "地王观光·深港之窗",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5451406,
+    "lon": 114.105598,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "地质观察",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6510038,
+    "lon": 114.5119105,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "坂田收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6289285,
+    "lon": 114.0456255,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "坑梓革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.737794,
+    "lon": 114.3717742,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "坝光国际生物谷展示厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6566315,
+    "lon": 114.4968604,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "坝光收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6573743,
+    "lon": 114.4915048,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "坪山区美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7096522,
+    "lon": 114.3414566,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "埃菲尔铁塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5370393,
+    "lon": 113.9694344,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "城墙东门炮楼",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7427557,
+    "lon": 114.3704461,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "城市规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7496826,
+    "lon": 113.9313769,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "城市视角",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5552705,
+    "lon": 113.8758332,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "城肚内围",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7432284,
+    "lon": 114.3712049,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "基撒金字塔群微缩模型",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.536433,
+    "lon": 113.9673678,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "夕阳平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6034311,
+    "lon": 113.9614703,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "大万世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6839206,
+    "lon": 114.3378408,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "大亚湾观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5991264,
+    "lon": 114.5450508,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "大梅沙收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.601635,
+    "lon": 114.2956501,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "大浪麒麟博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6964669,
+    "lon": 113.9942935,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "大芬油画村",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6126407,
+    "lon": 114.1316543,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "大芬美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6126171,
+    "lon": 114.1334791,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "大鹏半岛国家地质公园博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5319668,
+    "lon": 114.5264562,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "大鹏所城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5980099,
+    "lon": 114.5075769,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "大鹏革命烈士陵园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5927009,
+    "lon": 114.4787156,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "大鼎",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6623892,
+    "lon": 114.0466534,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "天作石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6625083,
+    "lon": 113.9512009,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "天空之盾",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6588465,
+    "lon": 114.1990361,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "天鹅",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5338588,
+    "lon": 113.9291625,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "孔子",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.515304,
+    "lon": 113.9465422,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "孙中山庚子首义纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6311452,
+    "lon": 114.2702519,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "孙中山纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.551198,
+    "lon": 113.9161692,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "宇新奇机器人体验馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6491533,
+    "lon": 114.0236409,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "宋少帝陵",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4833892,
+    "lon": 113.8818167,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "宝安区卫星科普教育基地",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8242118,
+    "lon": 113.8896213,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "宝安区美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5631113,
+    "lon": 113.9059309,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "宝安机场观景点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6556816,
+    "lon": 113.8458455,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "宝安科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5616376,
+    "lon": 113.906485,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "密林历险",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5430666,
+    "lon": 113.976513,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "寿田世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.76023,
+    "lon": 114.4063971,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "尊重",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5732439,
+    "lon": 113.9335479,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "小梅沙收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6061464,
+    "lon": 114.3223946,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "小梅沙海洋世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6063642,
+    "lon": 114.3265073,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "尼亚加拉大瀑布微缩模型",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5370377,
+    "lon": 113.966105,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "山中人家",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5880013,
+    "lon": 114.0035674,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "山厦革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.700125,
+    "lon": 114.1155279,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "山水连城",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6464091,
+    "lon": 113.985929,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "山海亭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5821362,
+    "lon": 114.2316824,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "山海大观 · 观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6135359,
+    "lon": 114.2831416,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "山谷清音",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7217367,
+    "lon": 113.9868086,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "山间石梗",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6625648,
+    "lon": 113.9550072,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "山顶回廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6884714,
+    "lon": 114.0572004,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "山顶月季迷宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5513813,
+    "lon": 114.0150779,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "岭澳观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6010376,
+    "lon": 114.547355,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "巴黎凯旋门微缩模型",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5361249,
+    "lon": 113.9690409,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "广东岭南工艺美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5060911,
+    "lon": 114.0464771,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "广深铁路草埔观景点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5860454,
+    "lon": 114.1105475,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "广深铁路观景点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5491378,
+    "lon": 114.1099804,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "庄玉君艺术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5051585,
+    "lon": 114.0487869,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "引山入碧",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6735175,
+    "lon": 113.9798694,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "御花园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5351414,
+    "lon": 113.9873965,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "微波山博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4807937,
+    "lon": 113.9089413,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "微风峡谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5338882,
+    "lon": 113.894064,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "思月书院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5490166,
+    "lon": 114.1145929,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "总书记语录石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5173336,
+    "lon": 113.9463638,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "恐怖塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5448927,
+    "lon": 113.977264,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "悬桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7453049,
+    "lon": 113.9622275,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "抚云台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.649231,
+    "lon": 113.9818829,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "拼搏岩岭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6017007,
+    "lon": 114.0196549,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "探水平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6130242,
+    "lon": 113.9337923,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "揽峰台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8258474,
+    "lon": 113.8837742,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8237727,
+    "lon": 113.8755105,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "敦煌莫高窟模型",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5343869,
+    "lon": 113.9846595,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "文化名人取水处",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6611825,
+    "lon": 113.9565091,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "文化潮汕博览园",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5785636,
+    "lon": 113.8607134,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "文化竹林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6631805,
+    "lon": 113.954347,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "文博宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6073336,
+    "lon": 114.0987683,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "文珍世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7317191,
+    "lon": 114.3585182,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "文谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6044289,
+    "lon": 114.0957567,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "文谷庄園",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6049307,
+    "lon": 114.0918727,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "新乔世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7493657,
+    "lon": 114.3710126,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "新湖街道国防教育主题公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7663262,
+    "lon": 113.9236786,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "日落剧场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6999745,
+    "lon": 114.2108046,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "日落画框",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.702391,
+    "lon": 114.2106003,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "旺集兴澜",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.662103,
+    "lon": 114.0195903,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "昆虫谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6394547,
+    "lon": 114.1043897,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "明华轮",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4863425,
+    "lon": 113.9119295,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "月亮湖",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8279776,
+    "lon": 113.8811195,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "望烟楼",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6707806,
+    "lon": 113.8478234,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "望龙坡",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6440315,
+    "lon": 113.9883426,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "木星美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5049896,
+    "lon": 114.051554,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "松子坑大屋",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7227721,
+    "lon": 114.3529913,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "林中休憩处",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6631859,
+    "lon": 113.9538581,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "桂离宫微缩模型",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5378728,
+    "lon": 113.9717948,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "桐花坡",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6558252,
+    "lon": 113.9890931,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "梅林水库绿道涂鸦墙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5828585,
+    "lon": 114.0110031,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "梅语亭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5708099,
+    "lon": 114.000457,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "梧桐山森林会客厅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5704461,
+    "lon": 114.2371083,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "森·书房",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7455125,
+    "lon": 113.9543563,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "樱花列车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4857572,
+    "lon": 113.8814225,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "欢乐港湾",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5463222,
+    "lon": 113.8786085,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "欢乐谷",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5445645,
+    "lon": 113.9758216,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "毕昇·活字印刷术",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5156075,
+    "lon": 113.9465189,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "民治主线收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6079492,
+    "lon": 114.0444169,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "民治村史馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6231385,
+    "lon": 114.0383147,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "水分子模型",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5590319,
+    "lon": 114.137986,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "水头烟墩",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5573551,
+    "lon": 114.4710067,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "水寨",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5340188,
+    "lon": 113.9791047,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "水田收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6843197,
+    "lon": 113.9654435,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "水舞之眼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.663412,
+    "lon": 114.0165164,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "沁音阁",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6396486,
+    "lon": 114.2017946,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "沃尔玛 Walmart",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5613298,
+    "lon": 114.1149676,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "沙梨园南炮楼院",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7399762,
+    "lon": 114.3658608,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "沙梨园老屋炮楼",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7414139,
+    "lon": 114.3643854,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "沙頭角之角 Cape of Sha Tau Kok",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5436699,
+    "lon": 114.2263493,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "泰姬玛哈尔陵微缩模型",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.536547,
+    "lon": 113.9718716,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "浮桥",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7595011,
+    "lon": 113.9652917,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "海滨生态公园石雕",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5272558,
+    "lon": 113.9955769,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "深圳中心公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5482161,
+    "lon": 114.0703108,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "深圳前海华发冰雪世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7158159,
+    "lon": 113.7644555,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "深圳博物馆历史民俗馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5462992,
+    "lon": 114.0566279,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳博物馆古代艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5448955,
+    "lon": 114.09614,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳大鹏新区古城博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5982835,
+    "lon": 114.5083879,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳市儿童乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5456679,
+    "lon": 114.0064714,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "深圳市宝安区公明镇农业保护区",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8240358,
+    "lon": 113.9060487,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳市工业展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5460296,
+    "lon": 114.0539504,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳市当代艺术与城市规划馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5485169,
+    "lon": 114.0567266,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳市文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5499741,
+    "lon": 114.0874131,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳改革开放展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5480802,
+    "lon": 114.0568537,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳文和友",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5477851,
+    "lon": 114.1096719,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "深圳望野博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6568391,
+    "lon": 114.0355869,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳档案中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5733266,
+    "lon": 114.0575858,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳湾超级总部基地规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5294739,
+    "lon": 113.9626786,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳画院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5774537,
+    "lon": 114.0800537,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳科学技术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7750916,
+    "lon": 113.938558,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳科学馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5449279,
+    "lon": 114.0905914,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳第一花遗址陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5095533,
+    "lon": 114.5215382,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区南光检查站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.610574,
+    "lon": 113.926404,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区南坪检查站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5991367,
+    "lon": 114.0574498,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区南头检查站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5547573,
+    "lon": 113.9058904,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区安乐工作口",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.554466,
+    "lon": 113.9029452,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区建立三十周年纪念园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5537954,
+    "lon": 114.0588935,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区新区大道检查站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5960033,
+    "lon": 114.0434574,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区新城检查站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5509316,
+    "lon": 113.8963575,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区梅林检查站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5978646,
+    "lon": 114.0453239,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区牛成工作口",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6100893,
+    "lon": 113.9328981,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区玉龙路检查站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6054818,
+    "lon": 114.0229328,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区留仙洞工作口",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5886893,
+    "lon": 113.9247191,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区白芒检查站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6287473,
+    "lon": 113.9337068,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳经济特区荔山工作口",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5600103,
+    "lon": 113.9109242,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "深圳美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5739148,
+    "lon": 114.1422759,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "深圳美术馆（新馆）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6276978,
+    "lon": 114.0187698,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "深圳野生动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.599871,
+    "lon": 113.9660175,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "深圳革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5696747,
+    "lon": 114.0635926,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "清平古墟影视文化园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7410353,
+    "lon": 113.823426,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "湾区民俗馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5497397,
+    "lon": 113.8792418,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "溪涌收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6120129,
+    "lon": 114.3526219,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "漫水阶",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5505069,
+    "lon": 114.0173283,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "焦耳",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5163862,
+    "lon": 113.9470716,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "爱因斯坦",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5161135,
+    "lon": 113.9466353,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "爱迪生，瓦特和达芬奇",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5164253,
+    "lon": 113.9466631,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "牛憨笨",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5171172,
+    "lon": 113.9436599,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "牛背村黄氏宗祠",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7542696,
+    "lon": 114.3596894,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "牛顿",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5163047,
+    "lon": 113.9467735,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "独龙族",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5356816,
+    "lon": 113.9774303,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "猴园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5326205,
+    "lon": 113.980372,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "玉田世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7591116,
+    "lon": 114.4062291,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "环翼飞车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5452906,
+    "lon": 113.9764182,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "玻璃景观平台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4857111,
+    "lon": 113.8781206,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "玻璃栈道",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6609278,
+    "lon": 113.9816469,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "甘坑博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6595331,
+    "lon": 114.0991379,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "甘坑客家小镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6590086,
+    "lon": 114.098288,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "甘坑碉楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6591674,
+    "lon": 114.0994829,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "生风台",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5599159,
+    "lon": 113.9581442,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "留仙大道铁路观景点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6133792,
+    "lon": 114.0209051,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "白塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5350896,
+    "lon": 113.9779797,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "白族民居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5326506,
+    "lon": 113.9791278,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "白芒收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6072851,
+    "lon": 113.9296382,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "白花收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7329203,
+    "lon": 113.9803318,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "白鸽陂水库水功能区标志碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8242658,
+    "lon": 113.9282892,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "盘龙世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7312974,
+    "lon": 114.3596871,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "石头山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6825529,
+    "lon": 113.9075473,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "石林奇欢",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.535705,
+    "lon": 113.9769739,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "石猴探海",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6544482,
+    "lon": 113.9568515,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "矿山车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.545601,
+    "lon": 113.9764927,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "碧岸听圩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6612363,
+    "lon": 114.0112933,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "碧岸观山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6738124,
+    "lon": 113.9850229,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "碧湖叠水",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5471237,
+    "lon": 114.0178547,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "碧谷游龙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6605925,
+    "lon": 114.0314064,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "礼贤台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5994033,
+    "lon": 114.02109,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "禾场下村世居",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7444983,
+    "lon": 114.3697752,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "秀岭世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7446565,
+    "lon": 114.3710253,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "秀新黄氏炮楼",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.741471,
+    "lon": 114.3710605,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "科普展馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5138299,
+    "lon": 114.0368986,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "竹乐谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6384793,
+    "lon": 114.2676577,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "第26届世界大学生夏季运动会主火炬塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.520655,
+    "lon": 113.949122,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "箐箐",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5742108,
+    "lon": 113.9316095,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "粤港澳大湾区跨海通道科普基地",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5741833,
+    "lon": 113.7661341,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "繁花谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8350565,
+    "lon": 113.8964577,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "红花岭观景点",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5794566,
+    "lon": 113.959782,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "绽放花谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6666394,
+    "lon": 114.0956082,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "罗湖美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.546229,
+    "lon": 114.1226395,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "罗马斗兽场微缩模型",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5358727,
+    "lon": 113.9682775,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "羌下收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8067932,
+    "lon": 113.9620398,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7495811,
+    "lon": 113.9327073,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "自然博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6955378,
+    "lon": 114.3587802,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "自然展览厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5493261,
+    "lon": 114.0155366,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "花園",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6529754,
+    "lon": 114.0442776,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "芳名亭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5692377,
+    "lon": 114.0627216,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "茵特拉根小镇",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6347852,
+    "lon": 114.2693465,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "茶翁古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6381643,
+    "lon": 114.2680616,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "荣田世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7501334,
+    "lon": 114.4035281,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "落霞畔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6601811,
+    "lon": 113.8456407,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "葵涌收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6249245,
+    "lon": 114.4193829,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "蕉窝村旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.661152,
+    "lon": 113.9567881,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "虹桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7485734,
+    "lon": 113.958971,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "虹桥公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7482053,
+    "lon": 113.9555691,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "袁庚",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5170445,
+    "lon": 113.9442115,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "西坑黄氏宗祠",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7353799,
+    "lon": 114.3624219,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "观桥台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6401359,
+    "lon": 114.2009503,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "观湖上围当代艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6821365,
+    "lon": 114.0770864,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "观湖美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7010367,
+    "lon": 114.0427557,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "观澜山水田园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7171229,
+    "lon": 114.102099,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "观澜收费站",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7285748,
+    "lon": 114.0395915,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "观澜版画村",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7439124,
+    "lon": 114.0862419,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "观谷台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7541274,
+    "lon": 114.2623655,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "观鸟屋",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6385068,
+    "lon": 114.1987303,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "解放内伶仃纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5476345,
+    "lon": 113.9139371,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "谷仓世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6849013,
+    "lon": 114.3609059,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "贵湖塘老围",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7252126,
+    "lon": 114.0522262,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "赛狗场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6009791,
+    "lon": 113.9652479,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "赤湾右炮台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4834947,
+    "lon": 113.8775179,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "赤湾左炮台",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4713302,
+    "lon": 113.8864572,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "赤湾烟墩",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4881601,
+    "lon": 113.8796481,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "趣味动物苑",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.570978,
+    "lon": 114.1403607,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "较场尾民宿小镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5918705,
+    "lon": 114.5068438,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "邓小平塑像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.555948,
+    "lon": 114.054325,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "邓小平画像",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5442464,
+    "lon": 114.0988191,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "邓小平画像广场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.544066,
+    "lon": 114.0989918,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "金字塔探秘",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5363332,
+    "lon": 113.9666187,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "金涛骇浪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5437267,
+    "lon": 113.9757337,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "金石艺术博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6002425,
+    "lon": 114.1765861,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "金矿攀爬",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5433798,
+    "lon": 113.9760846,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "铃儿花海",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5785155,
+    "lon": 114.2254543,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "锦堂围",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7256804,
+    "lon": 114.3553445,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "锦绣中华民俗村",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5333472,
+    "lon": 113.9835887,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "锦绣园石碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5288089,
+    "lon": 114.0540712,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "锦鲤园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5455092,
+    "lon": 114.0054622,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "镜水面广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6274721,
+    "lon": 114.0184593,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "长城模型",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.535586,
+    "lon": 113.9873149,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "长田世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7515407,
+    "lon": 114.3694858,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "长隆世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7477227,
+    "lon": 114.3882864,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "门",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.4976029,
+    "lon": 113.904331,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "阳台叠翠",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6549502,
+    "lon": 113.9763926,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "陂头下围",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7538895,
+    "lon": 114.3670952,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "雨林迎宾",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6797314,
+    "lon": 113.8111514,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "雪域雄鹰",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5468877,
+    "lon": 113.9778878,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "零碳生活馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.781166,
+    "lon": 114.2811028,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "青排世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7502762,
+    "lon": 114.3885305,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "青青世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5043911,
+    "lon": 113.8954585,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "静思林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5516496,
+    "lon": 114.0172821,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6658558,
+    "lon": 114.0681299,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "颐田世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7586071,
+    "lon": 114.4104444,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "风门坳",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6536569,
+    "lon": 113.9514315,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "飓风要塞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5455888,
+    "lon": 113.9751478,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "飞瀑公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5683114,
+    "lon": 114.2257762,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "飞龙乘云台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6554061,
+    "lon": 113.9552835,
+    "description": "A popular outdoor spot in Shenzhen."
+  },
+  {
+    "name": "马料河",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5125521,
+    "lon": 114.6079587,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "鸿锡世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7489305,
+    "lon": 114.3893331,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "齐凤阁版画史学馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7449049,
+    "lon": 114.0867402,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "龙围世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.740826,
+    "lon": 114.3643695,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "龙围世居炮楼院",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7411429,
+    "lon": 114.3658636,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "龙岗人民革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7578999,
+    "lon": 114.2456457,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "龙岗奇石馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7373292,
+    "lon": 114.2606798,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "龙峰塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6601413,
+    "lon": 114.0129225,
+    "description": "A popular sightseeing spot in Shenzhen."
+  },
+  {
+    "name": "龙敦世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7531485,
+    "lon": 114.3562378,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "龙津石塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7446321,
+    "lon": 113.8037567,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "龙湾世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7572324,
+    "lon": 114.3613086,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "龙田世居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7503614,
+    "lon": 114.3662848,
+    "description": "A popular museum spot in Shenzhen."
+  },
+  {
+    "name": "龙过水收费站旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6027567,
+    "lon": 114.1908496,
+    "description": "A popular history spot in Shenzhen."
+  },
+  {
+    "name": "龟仙石",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6309504,
+    "lon": 114.5420239,
+    "description": "A popular outdoor spot in Shenzhen."
+  }
+]

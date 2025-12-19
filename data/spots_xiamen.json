@@ -1,0 +1,1604 @@
+[
+  {
+    "name": "Kulangsu Organ Arts Center",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4512278,
+    "lon": 118.0639648,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "Lu zhuangzhang",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4446803,
+    "lon": 118.0571008,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "Sanquitian Jetty relics",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4521833,
+    "lon": 118.064413,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "Shell Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4438947,
+    "lon": 118.05902,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "Site of former warehouse of Boyd&Co",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4510801,
+    "lon": 118.0640048,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "The Fanpo Mansion",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4480932,
+    "lon": 118.0628268,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "former Asiatic Petroleum Company",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4457306,
+    "lon": 118.064826,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "former German Embassy",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4445922,
+    "lon": 118.0673949,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "万石沧海",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4414869,
+    "lon": 118.1285152,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "世界名人蜡像3D艺术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4471434,
+    "lon": 118.0701633,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "世界遗产标识牌",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4431612,
+    "lon": 118.065219,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "中共厦门市委(城工部)旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4473622,
+    "lon": 118.0597156,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "中共福建省第二次代表大会会址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4511311,
+    "lon": 118.0589608,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "中国唱片博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4460056,
+    "lon": 118.0682233,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "中山公园史迹馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4613805,
+    "lon": 118.0844579,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "中山纪念堂",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5846285,
+    "lon": 118.0893339,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "丹麦大北电报公司旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4408804,
+    "lon": 118.0658147,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "五缘湾",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5205261,
+    "lon": 118.1722218,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "信息学院 院友林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6067343,
+    "lon": 118.2957214,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "八·二三炮战纪念址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4843922,
+    "lon": 118.1861683,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "八角楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4464666,
+    "lon": 118.0689911,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "兴贤宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4464666,
+    "lon": 118.0694972,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "前博爱医院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.447496,
+    "lon": 118.069417,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "前德国领事馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4476503,
+    "lon": 118.0683728,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "前日本警察厅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4468293,
+    "lon": 118.0681526,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "前日本驻厦门领事馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4470107,
+    "lon": 118.0678519,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "前美国驻厦门领事馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4523782,
+    "lon": 118.0632751,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "前英国领事馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4478973,
+    "lon": 118.0682598,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "前荷兰领事馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4436865,
+    "lon": 118.0655718,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "前西班牙领事馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4463603,
+    "lon": 118.0680308,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "加州小游园（消防主题公园）",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5136573,
+    "lon": 118.1227328,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "十二洞天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4424251,
+    "lon": 118.0646272,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "千波渡月",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4411547,
+    "lon": 118.064134,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "华侨博物院",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4445583,
+    "lon": 118.0853058,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "南普陀亭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4477825,
+    "lon": 118.0941359,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "南普陀寺万寿塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4431232,
+    "lon": 118.0911612,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "南洋杉疏林草坪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4553584,
+    "lon": 118.090319,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "南碑廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4438702,
+    "lon": 118.0711677,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "印心听涛",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4408563,
+    "lon": 118.0643533,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "印斗石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4411321,
+    "lon": 118.0690755,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "厦门中华儿女美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4393896,
+    "lon": 118.0821882,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "厦门博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4936437,
+    "lon": 118.1041874,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "厦门城市规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4941708,
+    "lon": 118.1056557,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "厦门大学人类历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4377438,
+    "lon": 118.0933765,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "厦门奥林匹克博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4805946,
+    "lon": 118.1888135,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "厦门市鼓浪屿风景名胜区-鼓浪洞照",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4425797,
+    "lon": 118.0597132,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "厦门文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4918102,
+    "lon": 118.1037745,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "厦门星空失恋博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4380086,
+    "lon": 118.084004,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "厦门桥梁博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4971235,
+    "lon": 118.0629392,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "厦门海关通讯塔旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4533873,
+    "lon": 118.0622811,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "厦门海底世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4487639,
+    "lon": 118.0663149,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "厦门爱在天使大屋",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4436522,
+    "lon": 118.0686272,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "厦门科技博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4933902,
+    "lon": 118.103254,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "双龙潭景区大门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6136949,
+    "lon": 117.9518731,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "台湾公会住址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4592775,
+    "lon": 118.0796969,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "君汝海滩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4433257,
+    "lon": 118.0586275,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "听涛崖",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4430149,
+    "lon": 118.0590508,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "四十四号别墅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4461746,
+    "lon": 118.0677114,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "四端文物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6066655,
+    "lon": 118.0800997,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "国姓井",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4436086,
+    "lon": 118.0626126,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "国网鼓浪屿供电营业厅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4456724,
+    "lon": 118.0685652,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "坂美民俗文化园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5242819,
+    "lon": 118.178346,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "壬秋诗阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4421062,
+    "lon": 118.0642343,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "多肉植物区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4522649,
+    "lon": 118.0961126,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "夜市",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5265931,
+    "lon": 118.0995999,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "大宫后验货楼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.443614,
+    "lon": 118.0660713,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "大德记浴场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4422212,
+    "lon": 118.0699195,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "大清厦门一等邮局遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4581268,
+    "lon": 118.0687111,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "天在山中",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4416979,
+    "lon": 118.0645101,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "天竺山公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5853935,
+    "lon": 117.9303665,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "天竺湖",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5947215,
+    "lon": 117.9442654,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "奇趣植物区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4547285,
+    "lon": 118.0919123,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "如愿狮三百",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4492912,
+    "lon": 118.0649525,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "姜目植物园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4544404,
+    "lon": 118.1022012,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "守望的岛屿艺术书展",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4479766,
+    "lon": 118.0549772,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "容谷别墅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4460486,
+    "lon": 118.0699942,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "寻根溪岸文史馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4622983,
+    "lon": 118.0834251,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "岐黄山房",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4516434,
+    "lon": 118.0628007,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "帷幕开啦红地毯蜡像艺术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4481164,
+    "lon": 118.0678714,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "廖家别墅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4450255,
+    "lon": 118.0661503,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "廬山堂",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7363677,
+    "lon": 118.1459491,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "开心亭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4687998,
+    "lon": 118.1538999,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "抹香鲸标本馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4484391,
+    "lon": 118.0661566,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "招凉亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.440783,
+    "lon": 118.0646094,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "故宫鼓浪屿外国文物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.454139,
+    "lon": 118.062396,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "救世医院及护士学校旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4542592,
+    "lon": 118.0624619,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "方特梦幻王国",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6823259,
+    "lon": 118.1707834,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "日光岩",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4447896,
+    "lon": 118.0621497,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "李清泉别墅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4458303,
+    "lon": 118.0698976,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "杏林万达游乐场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5918975,
+    "lon": 118.0113477,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "松杉园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4572531,
+    "lon": 118.090893,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "板桥莲影",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.44243,
+    "lon": 118.0643671,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "枕流漱石",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4416626,
+    "lon": 118.0643369,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "林尔嘉铜像",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4422688,
+    "lon": 118.0645762,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "林语堂故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.444853,
+    "lon": 118.0664948,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "梦幻水母展",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4488551,
+    "lon": 118.0661477,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "棕榈植物区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4558004,
+    "lon": 118.0916038,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "殷承宗宅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4463707,
+    "lon": 118.0592427,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "毓园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4433343,
+    "lon": 118.0679837,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "水仙宮",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4546989,
+    "lon": 118.0713491,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "海关宿舍(田尾路)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4419363,
+    "lon": 118.0655239,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "海堤",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5639223,
+    "lon": 118.0901445,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "海堤纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.552142,
+    "lon": 118.1026809,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "港仔后海滨浴场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4419152,
+    "lon": 118.0620217,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "源古历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5255733,
+    "lon": 118.1681358,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "潮音亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4441713,
+    "lon": 118.0712436,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "潯尾寨遺址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5675139,
+    "lon": 118.0992836,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "燕尾山午炮遗址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4548526,
+    "lon": 118.0609757,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "白海豚保护区界碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5395889,
+    "lon": 118.0656561,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "白石炮台遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4243765,
+    "lon": 118.1318651,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "皇帝殿",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.444202,
+    "lon": 118.0720408,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "皓月园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4439132,
+    "lon": 118.0711241,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "眉寿堂(眉寿古趣)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4421678,
+    "lon": 118.0638491,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "真率亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4419846,
+    "lon": 118.0644765,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "石头广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4363031,
+    "lon": 118.1451022,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "石屏招凉",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4409113,
+    "lon": 118.0646405,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "磨心亭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4685371,
+    "lon": 118.1520658,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "祥福儿童公园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6237719,
+    "lon": 118.2355805,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "竹类植物区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4567696,
+    "lon": 118.0919284,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "翔鹭园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4482922,
+    "lon": 118.0685087,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "老院子景区",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6264428,
+    "lon": 118.0700184,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "聆海庄园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4437288,
+    "lon": 118.06297,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "艺术画廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4451621,
+    "lon": 118.0680383,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "花卉园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4554317,
+    "lon": 118.1048351,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "苏铁园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4575705,
+    "lon": 118.0921885,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "英国领事公馆旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4420872,
+    "lon": 118.0688143,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "英雄岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4434199,
+    "lon": 118.0589726,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "菽庄旅游驿站",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4431445,
+    "lon": 118.0641261,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "菽庄花园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4413889,
+    "lon": 118.0645316,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "蔷薇园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4559151,
+    "lon": 118.0929825,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "藤本植物区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4497232,
+    "lon": 118.0948251,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "西山园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4500357,
+    "lon": 118.1028664,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "覆鼎古井",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4444511,
+    "lon": 118.0707227,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "覆鼎海滨浴场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4446284,
+    "lon": 118.0710719,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4351486,
+    "lon": 118.084217,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "观海园沙滩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4405604,
+    "lon": 118.0671255,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "观海曲桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4441815,
+    "lon": 118.0717044,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "观海长廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4436016,
+    "lon": 118.0712572,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "贝壳梦幻世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4440803,
+    "lon": 118.0590062,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "软件园三期",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6117646,
+    "lon": 118.0475527,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "郑成功塑像 Koxinga statue",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4439166,
+    "lon": 118.0717778,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "郑成功诗屏",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4438577,
+    "lon": 118.07094,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "郡馬府",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.7307376,
+    "lon": 118.1546809,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "金钥匙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.552337,
+    "lon": 118.1049926,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "钢琴博物馆一馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4409805,
+    "lon": 118.064825,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "钢琴博物馆二馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4414772,
+    "lon": 118.064849,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "铁路文化公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4566631,
+    "lon": 118.0889442,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "长桥藏海",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4414719,
+    "lon": 118.0642139,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "闽南圣教书局旧址",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.446203,
+    "lon": 118.0666097,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "闽台植物区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.446588,
+    "lon": 118.1107682,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "陈嘉庚墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.5680174,
+    "lon": 118.1024195,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "陈嘉庚雕像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4390655,
+    "lon": 118.0902704,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "雨林世界",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4522217,
+    "lon": 118.0928471,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "顽石山房",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4426789,
+    "lon": 118.0646767,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "风涛亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4437238,
+    "lon": 118.0715212,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "风琴博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.450107,
+    "lon": 118.063244,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "香港回归祖国纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4785497,
+    "lon": 118.071985,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "马约翰纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4436186,
+    "lon": 118.0655673,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "马约翰雕像",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4448948,
+    "lon": 118.0655455,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "魁星亭",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4607733,
+    "lon": 118.0830972,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "魁星山摩崖石刻群",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4607055,
+    "lon": 118.0832111,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "鹿礁李氏宅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4472576,
+    "lon": 118.0697271,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "黄荣远堂别墅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4461164,
+    "lon": 118.0683829,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "黄萱故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4463111,
+    "lon": 118.0702839,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "鼓声洞",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4427745,
+    "lon": 118.0588232,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿-观赏植物区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4456509,
+    "lon": 118.0582242,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿5A级景区标识牌",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4424496,
+    "lon": 118.0638833,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿·百年美园故事馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4466995,
+    "lon": 118.0685273,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿中德记度假别墅",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4436999,
+    "lon": 118.0648184,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿众利成当代美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4525541,
+    "lon": 118.0612005,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿侨胞之家",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4472784,
+    "lon": 118.0674626,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿历史文化陈列馆 展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4481301,
+    "lon": 118.0681081,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿工部局遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4504481,
+    "lon": 118.0639441,
+    "description": "A popular history spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿百鸟园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4443224,
+    "lon": 118.0595758,
+    "description": "A popular outdoor spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿风景名胜区-标识牌(钢琴码头)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4487419,
+    "lon": 118.0682866,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "鼓浪屿风琴博物馆(临时展馆)",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4441533,
+    "lon": 118.0687919,
+    "description": "A popular museum spot in Xiamen."
+  },
+  {
+    "name": "鼓浪留声(莫兰蒂台风倒伏古树名木保护点)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.4432896,
+    "lon": 118.0653032,
+    "description": "A popular sightseeing spot in Xiamen."
+  },
+  {
+    "name": "（笃行5-405）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 24.6128225,
+    "lon": 118.2999535,
+    "description": "A popular sightseeing spot in Xiamen."
+  }
+]
