@@ -1,0 +1,2954 @@
+[
+  {
+    "name": "\"Airport\" Sign (rest point)",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.3728011,
+    "lon": 113.2880103,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "3号炮池",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7680309,
+    "lon": 113.6117455,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "Baishuizhai mountain main entrance",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.5826186,
+    "lon": 113.7616955,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "Chinese Coin House somewhere here",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0634463,
+    "lon": 113.2737934,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "Chinese Opera Museum",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1186608,
+    "lon": 113.2328579,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "Deers",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.372777,
+    "lon": 113.2877337,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "Spring Garden",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1233021,
+    "lon": 113.2852476,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "一号炮池",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.767875,
+    "lon": 113.6108716,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "七十二家房客拍摄基地",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0978414,
+    "lon": 113.3124068,
+    "description": "暂停开放自2025年4月1日至2025年7月中旬。\nSuspended from 1 April 2025 until mid-July 2025."
+  },
+  {
+    "name": "万木草堂",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1280559,
+    "lon": 113.2665258,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "万里波澄",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0842981,
+    "lon": 113.4929579,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "三元里平英团遗址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1634113,
+    "lon": 113.2547282,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "三元里抗英斗争纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1572384,
+    "lon": 113.2553587,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "上下九商业步行街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1175043,
+    "lon": 113.242931,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "丛林发现",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0020935,
+    "lon": 113.3141533,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "东坡像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1815483,
+    "lon": 113.4672575,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "东大门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1471223,
+    "lon": 113.3054909,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "东平大押",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.12929,
+    "lon": 113.2731676,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "东征阵亡烈士纪念坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0865507,
+    "lon": 113.4113895,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "东征阵亡烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0840173,
+    "lon": 113.4116816,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "东林梁公祠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0547201,
+    "lon": 113.3696021,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "东涌镇标",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8902894,
+    "lon": 113.4510714,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "东濠涌博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1312879,
+    "lon": 113.2733394,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "两广地质调查所纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1040783,
+    "lon": 113.2943443,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "中共三大会址纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1216915,
+    "lon": 113.2906285,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "中共三大会议办公楼",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.120994,
+    "lon": 113.2899274,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "中华全国总工会旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1218902,
+    "lon": 113.272421,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "中国国家版本馆广州分馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.6946121,
+    "lon": 113.6949065,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "中国国民党一大旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1267222,
+    "lon": 113.2717244,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "中山像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1545233,
+    "lon": 113.3422791,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "中铁隧道博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7620771,
+    "lon": 113.54717,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "二号炮池",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7679016,
+    "lon": 113.6114163,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "云山茶苑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1959105,
+    "lon": 113.2973673,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "云潺",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1752316,
+    "lon": 113.2950826,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "五羊邨",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1224316,
+    "lon": 113.3080654,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "亚细亚花地仓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0958888,
+    "lon": 113.2395307,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "从化区博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.5512566,
+    "lon": 113.5875712,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "从化市国家档案馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.5580458,
+    "lon": 113.6014711,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "余荫山房",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.013987,
+    "lon": 113.3898071,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "侏罗纪森林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0078337,
+    "lon": 113.3090733,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "儿童天地",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0017627,
+    "lon": 113.3106983,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "元始梁公祠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0535251,
+    "lon": 113.3685383,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "先烈纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1469629,
+    "lon": 113.3055128,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "八和会馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1167036,
+    "lon": 113.2340483,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "八旗博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.120021,
+    "lon": 113.2702271,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "农民运动讲习所纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1302367,
+    "lon": 113.2711239,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "冯如坠机处纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1510086,
+    "lon": 113.3094383,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "凤凰古站",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1274444,
+    "lon": 113.5688089,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "利来发廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1032783,
+    "lon": 113.2457655,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "利济桥",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0973286,
+    "lon": 113.2683655,
+    "description": "粤语维基百科:https://zh-yue.wikipedia.org/wiki/%E5%BE%85%E6%9C%88%E6%A9%8B"
+  },
+  {
+    "name": "前山凌公祠",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0762506,
+    "lon": 113.4035488,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "化隆馮公祠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0928107,
+    "lon": 113.3893925,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "化龙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0448566,
+    "lon": 113.4369859,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "北京路",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1177762,
+    "lon": 113.2656033,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "北京路商业步行街",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1247636,
+    "lon": 113.2640005,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "北亭村“路接青云”街门",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0546503,
+    "lon": 113.3694571,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "北亭村民居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0568263,
+    "lon": 113.3786035,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "北亭梁氏宗祠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0529218,
+    "lon": 113.3679828,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "医学博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1300301,
+    "lon": 113.2847093,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "十九军阵亡将士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1483144,
+    "lon": 113.3040831,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "十九路军淞泸抗日残疾军人教养院纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.100233,
+    "lon": 113.3007662,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "十八罗汉塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7908263,
+    "lon": 113.4054437,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "十香园",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0948273,
+    "lon": 113.2685949,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "华南农业博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1596318,
+    "lon": 113.346376,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "协同和机器厂博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0921364,
+    "lon": 113.2406216,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "协同和机器厂旧址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0918443,
+    "lon": 113.2407927,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "南华珠宝艺术博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8841179,
+    "lon": 113.4840663,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "南华西街爱国主义教育基地",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1044346,
+    "lon": 113.2503077,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "南华西街牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1056576,
+    "lon": 113.2497689,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "南山瀑布",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.7401571,
+    "lon": 113.793896,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "南汉二陵博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0496696,
+    "lon": 113.3775759,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "南汉二陵（康陵）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0483568,
+    "lon": 113.3763118,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "南汉二陵（德陵）",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0561559,
+    "lon": 113.3723519,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "南沙十九涌渔人码头",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6032584,
+    "lon": 113.6411841,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "南沙天后宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7600079,
+    "lon": 113.6156981,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "南沙永乐生态园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.667735,
+    "lon": 113.6039727,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "南湖游乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2226234,
+    "lon": 113.3281442,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "南美探秘",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0039348,
+    "lon": 113.3119881,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "南越王博物院王墓展区",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1407175,
+    "lon": 113.255608,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "南越王宫博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1296624,
+    "lon": 113.2647787,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "去嚣亭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1813482,
+    "lon": 113.2757965,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "古采石场",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9866751,
+    "lon": 113.5023459,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "史坚如先生祠",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1419545,
+    "lon": 113.2892179,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "叶剑英同志纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1316497,
+    "lon": 113.2796672,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "吴尚时",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0845796,
+    "lon": 113.3424288,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "喻培伦衣冠冢",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1405634,
+    "lon": 113.2897477,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "四方炮台遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1431817,
+    "lon": 113.2626759,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "回归林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1982735,
+    "lon": 113.2950546,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "团一大纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1212122,
+    "lon": 113.2717389,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "圆炮台遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.145573,
+    "lon": 113.2614049,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "培正校史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1215689,
+    "lon": 113.2929462,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "培道校史馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1247444,
+    "lon": 113.2919164,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "塔菲森林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1626854,
+    "lon": 113.2048972,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "增城区博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.288526,
+    "lon": 113.8082924,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "大吉火车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0854799,
+    "lon": 113.4515922,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "大埔围美丽乡村景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2201971,
+    "lon": 113.8860153,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "大小马站书院群",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.127345,
+    "lon": 113.2612147,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "天下第一碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1761734,
+    "lon": 113.2951436,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "天下第一龙",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1776757,
+    "lon": 113.2955423,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "天南第一峰",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1743169,
+    "lon": 113.2971063,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "天池花海",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.6221079,
+    "lon": 113.8068159,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "太古仓码头",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0919016,
+    "lon": 113.2475706,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "孙中山大元帅府纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1123319,
+    "lon": 113.2736856,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "孙中山读书纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1375463,
+    "lon": 113.2594771,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "孙中山铜像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0995802,
+    "lon": 113.2930231,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "孙总理纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0884583,
+    "lon": 113.4188273,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "安来市牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0776193,
+    "lon": 113.4061401,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "宝鸭岗黑旗军碉堡遗迹",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1668489,
+    "lon": 113.3352131,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "富裕围",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0399817,
+    "lon": 113.4529476,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "山魈",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0015282,
+    "lon": 113.3129782,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "岭南金融博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1265619,
+    "lon": 113.2612272,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "左垣家塾",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0926034,
+    "lon": 113.3893642,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "帽峰古庙景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.3057902,
+    "lon": 113.4618372,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "平和大押",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2578334,
+    "lon": 113.2571184,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "广东中医药博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0611372,
+    "lon": 113.4000221,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东华侨博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1111966,
+    "lon": 113.3004394,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东外事博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1089807,
+    "lon": 113.2426254,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东文学馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1038225,
+    "lon": 113.2343566,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东时代美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2249879,
+    "lon": 113.2809906,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东电视塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1437611,
+    "lon": 113.2641664,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "广东省农民协会旧址（越秀区廉洁文化教育馆）",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1311224,
+    "lon": 113.2752817,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东省凉茶养生博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1819158,
+    "lon": 113.4453282,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东省博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1174149,
+    "lon": 113.3214228,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东科学中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0419948,
+    "lon": 113.3566901,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东美术馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1030314,
+    "lon": 113.2355596,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东航空纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1464678,
+    "lon": 113.3041907,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "广东非遗馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.104015,
+    "lon": 113.2345095,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广东革命历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1311597,
+    "lon": 113.2780654,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广地花园南门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0196965,
+    "lon": 113.3312247,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "广地花园西北门",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0244687,
+    "lon": 113.3310184,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "广州七星岗古海岸遗址科学公园",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0845771,
+    "lon": 113.3424722,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "广州东方博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9529726,
+    "lon": 113.4915184,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州人民艺术中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.145524,
+    "lon": 113.2752946,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州从化北回归线标志塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.4419351,
+    "lon": 113.4823299,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "广州动物园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1433998,
+    "lon": 113.2997481,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "广州十三行博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1116347,
+    "lon": 113.2455829,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州华侨博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1156732,
+    "lon": 113.2593796,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1404187,
+    "lon": 113.2604199,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州原点",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1288451,
+    "lon": 113.2590073,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "广州园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2110156,
+    "lon": 113.2864963,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "广州地铁博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0981068,
+    "lon": 113.3774061,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州城市公园展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1408954,
+    "lon": 113.2636519,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州增城地质公园博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.5837214,
+    "lon": 113.757543,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州大学校史展览厅",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0425724,
+    "lon": 113.3653266,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州市儿童公园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1872398,
+    "lon": 113.2664774,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "广州市历史文化街区",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1060251,
+    "lon": 113.2546177,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "广州市城市规划展览中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1938121,
+    "lon": 113.2722705,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州市文化馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0776709,
+    "lon": 113.3230651,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州市禁毒教育馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1246806,
+    "lon": 113.2325091,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州市革命历史博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1271846,
+    "lon": 113.2593339,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州曼古园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.4042431,
+    "lon": 113.1529965,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "广州殡葬博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1665154,
+    "lon": 113.3328961,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州海事博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0819288,
+    "lon": 113.4963499,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州海洋馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1463754,
+    "lon": 113.2992822,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "广州碑林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1774691,
+    "lon": 113.2953861,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "广州空港博览中心",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.3614193,
+    "lon": 113.2968125,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州艺术博物院",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1037233,
+    "lon": 113.3207438,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "广州融创乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.4313958,
+    "lon": 113.2349082,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "广州融创体育世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.4284102,
+    "lon": 113.22684,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "广州贡院历史陈列馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1276358,
+    "lon": 113.272072,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州起义纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1269931,
+    "lon": 113.2591399,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州邮政博览馆（广东邮务管理局旧址）",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1104191,
+    "lon": 113.246854,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州钧明欢乐世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1930167,
+    "lon": 113.5885586,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "广州铁路博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1144661,
+    "lon": 113.2256725,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州铁路博物馆（旧黄沙车站）",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1141842,
+    "lon": 113.2265192,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "广州青少年科技馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1452004,
+    "lon": 113.266491,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "廖仲恺何香凝纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1112632,
+    "lon": 113.2748136,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "廖仲恺先生像",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1085487,
+    "lon": 113.2764145,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "廖仲恺先生纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1115709,
+    "lon": 113.2750545,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "得和园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0728046,
+    "lon": 113.3176366,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "快乐森林（动物表演）",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.00629,
+    "lon": 113.309134,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "恒业船厂",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8964887,
+    "lon": 113.5173802,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "惺亭",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1003158,
+    "lon": 113.2931647,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "抗击非典纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.154766,
+    "lon": 113.2656902,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "抗日亭",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1461973,
+    "lon": 113.3046078,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "抗日阵亡将士题名碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1472633,
+    "lon": 113.3043556,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "摘星奇缘",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1162827,
+    "lon": 113.2589549,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "摩崖石刻",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1776831,
+    "lon": 113.2953411,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "敬师亭",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0770831,
+    "lon": 113.2219702,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "文化广场记",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2026494,
+    "lon": 113.2847708,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "斗姥宫",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1307288,
+    "lon": 113.2446622,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "新一军墓地四柱纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1591279,
+    "lon": 113.304635,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "新南村",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.3826864,
+    "lon": 113.4903712,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "新校训石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.158092,
+    "lon": 113.3419718,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "新渔人码头",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7742474,
+    "lon": 113.5113594,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "新造美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0418144,
+    "lon": 113.4108585,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "方圆美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8062969,
+    "lon": 113.4020122,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "日军侵华碉堡遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2312119,
+    "lon": 113.3709942,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "日晷",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1547807,
+    "lon": 113.3400817,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "旺村革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.3203245,
+    "lon": 113.5590235,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "星海纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.152169,
+    "lon": 113.2991122,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "晃亭梁公祠",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0927078,
+    "lon": 113.3894118,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "曾豫斋墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0427901,
+    "lon": 113.3819328,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "李小龙祖居",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1179365,
+    "lon": 113.2317548,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "松嶠",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1032185,
+    "lon": 113.2676173,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "枕涛屋",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0739894,
+    "lon": 113.3226248,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "枫林红叶",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.6301523,
+    "lon": 113.7645928,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "校史展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1597785,
+    "lon": 113.3440954,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "校训石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.338798,
+    "lon": 113.3765453,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "校门石",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1524331,
+    "lon": 113.3424215,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "桃花涧",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1937115,
+    "lon": 113.3012876,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "桃花源",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.6468596,
+    "lon": 113.7798912,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "梁明诚雕塑园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0372426,
+    "lon": 113.3782576,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "梅花谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2017114,
+    "lon": 113.3027339,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "欢乐湾水上乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2466048,
+    "lon": 113.8273824,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "欢乐老爷车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9990518,
+    "lon": 113.3216788,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "水生植物园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.6231042,
+    "lon": 113.8116019,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "汇津桥",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0950975,
+    "lon": 113.2584522,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "沙基惨案纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1093717,
+    "lon": 113.2453002,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "沙湾",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1928946,
+    "lon": 113.4235248,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "沙湾古镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9046863,
+    "lon": 113.3316998,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "沙路码头",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0754393,
+    "lon": 113.441094,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "沙面",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1094809,
+    "lon": 113.2392742,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "沥滘牌坊",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0653832,
+    "lon": 113.3105817,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "河马水寨",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0020993,
+    "lon": 113.3116365,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "洪恩桥",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1231272,
+    "lon": 113.2778225,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "洪秀全故居",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.4193713,
+    "lon": 113.1672062,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "洲头咀反租地抗英斗争纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1067223,
+    "lon": 113.2445445,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "流溪河源头",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.8005862,
+    "lon": 114.0164026,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "流花西苑",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1388219,
+    "lon": 113.2387135,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "浔峰阁",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1688162,
+    "lon": 113.1917116,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "浮雕墙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1472588,
+    "lon": 113.3036493,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "海不扬波",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.212774,
+    "lon": 113.285684,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "海东京畿园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1431663,
+    "lon": 113.2586061,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "海珠桥",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1153222,
+    "lon": 113.2616824,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "涂鸦墙",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1814191,
+    "lon": 113.4644746,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "深中通道观景台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.5753345,
+    "lon": 113.6484279,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "清平市场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1125134,
+    "lon": 113.2395272,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "湖山瞰台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.4814783,
+    "lon": 113.4161018,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "潮州凤凰单茶博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1091701,
+    "lon": 113.237171,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "火炉山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1836958,
+    "lon": 113.384614,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "火箭过山车",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.001985,
+    "lon": 113.3260972,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "烈士碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.3273333,
+    "lon": 113.5661089,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "熊森林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0017578,
+    "lon": 113.3149523,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "熊猫4D剧场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0053747,
+    "lon": 113.313355,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "熊猫村",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0030591,
+    "lon": 113.3104973,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "爬山廊",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1783612,
+    "lon": 113.2956469,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "牌坊",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2574597,
+    "lon": 113.257915,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "狮岭金狮水上乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.4843564,
+    "lon": 113.1431534,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "猴山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1441122,
+    "lon": 113.3007141,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "珠江啤酒博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.108751,
+    "lon": 113.3375512,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "琶洲塔",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1017511,
+    "lon": 113.3702788,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "番禺博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9535655,
+    "lon": 113.3398764,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "番禺汽车城",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0271182,
+    "lon": 113.4616307,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "瘗发塔",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1323513,
+    "lon": 113.2511127,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "白云晚望",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1737041,
+    "lon": 113.2959168,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "白云松涛",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1893552,
+    "lon": 113.3045046,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "白兔港炮台",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0866757,
+    "lon": 113.4263675,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "白水寨景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.5975367,
+    "lon": 113.7529716,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "白虎跳水",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0056467,
+    "lon": 113.3098998,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "百万葵园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.6312366,
+    "lon": 113.6149903,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "百鸟归巢",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.6218428,
+    "lon": 113.7722669,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "盘古山泉水世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.4876036,
+    "lon": 113.1472474,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "省港罢工纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1205719,
+    "lon": 113.2720295,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "瞭望塔",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.3687792,
+    "lon": 113.3136882,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "石门香雪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.6402659,
+    "lon": 113.7828024,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "社稷之神碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0510337,
+    "lon": 113.3652308,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "禾下戏鱼",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0831457,
+    "lon": 113.4512775,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "穗华园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2147155,
+    "lon": 113.2881281,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "竹溪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1952051,
+    "lon": 113.2996652,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "粤剧艺术博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1181587,
+    "lon": 113.2327667,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "粤晖园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1315081,
+    "lon": 113.362431,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "粤海关旧址（中国海关博物馆广州分馆）",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1099962,
+    "lon": 113.2457379,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "粤海第一关纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.08883,
+    "lon": 113.3859553,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "粤秀园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.213266,
+    "lon": 113.2874517,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "羊城艺术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1742228,
+    "lon": 113.2946324,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "翠竹园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1997146,
+    "lon": 113.2955478,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "翰林斋美术馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1547283,
+    "lon": 113.2644757,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "考拉广场",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0027158,
+    "lon": 113.3095878,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "聚芳园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1539072,
+    "lon": 113.2754589,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "自由落体",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0008418,
+    "lon": 113.3251444,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "自贸区牌坊",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.802988,
+    "lon": 113.4765357,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "芙蓉洲",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1407368,
+    "lon": 113.2478638,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "花城丝路园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2127945,
+    "lon": 113.2858621,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "花畔塔影",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0732468,
+    "lon": 113.3183083,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "茶山",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.196747,
+    "lon": 113.2963545,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "荔枝湾景区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1237347,
+    "lon": 113.2312728,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "荔湾博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1224018,
+    "lon": 113.2305374,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "莲花古城",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9946437,
+    "lon": 113.498702,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "莲花山旅游区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.9905365,
+    "lon": 113.4970392,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "莲麻小镇",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.8937795,
+    "lon": 113.9983535,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "菩提树",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1323398,
+    "lon": 113.2512859,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "落羽松林",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1375641,
+    "lon": 113.2459097,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "蒋光鼐故居博物馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.122112,
+    "lon": 113.2301519,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "蒲洲花园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.7652492,
+    "lon": 113.6116391,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "蜜蜂世界",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1991291,
+    "lon": 113.2882782,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "西门瓮城遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1277236,
+    "lon": 113.2489296,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "规划展览馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.8005344,
+    "lon": 113.519071,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "认植芳木名单",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.202661,
+    "lon": 113.2850132,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "超级大摆锤",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0005588,
+    "lon": 113.3238604,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "越南范鸿泰墓",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1439928,
+    "lon": 113.2886423,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "越南青年政治训练班旧址、越南青年革命同志会旧址",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1252321,
+    "lon": 113.271575,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "越王井",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1368217,
+    "lon": 113.2578723,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "车歪炮台遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.072977,
+    "lon": 113.25248,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "辛亥革命纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0747126,
+    "lon": 113.4151112,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "逗趣园",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1429803,
+    "lon": 113.3015494,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "邓世昌纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1038433,
+    "lon": 113.2551371,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "邓氏宗祠",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1037326,
+    "lon": 113.2550994,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "郑仙岩",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1736198,
+    "lon": 113.2970218,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "金印游乐场",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1415101,
+    "lon": 113.2621873,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "锦纶会馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1193094,
+    "lon": 113.2418756,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "锦绣南天",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1796542,
+    "lon": 113.2948592,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "长隆旅游度假区",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0030686,
+    "lon": 113.3212177,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "长隆欢乐世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.002645,
+    "lon": 113.324142,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "长隆水上乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0041472,
+    "lon": 113.3194995,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "长隆野生动物世界",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.005461,
+    "lon": 113.3102228,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "长隆飞鸟乐园",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0289059,
+    "lon": 113.2716189,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "陈子壮纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.155695,
+    "lon": 113.2009943,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "陈家祠",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1298279,
+    "lon": 113.2401325,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "隐湖半岛",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.4810997,
+    "lon": 113.4118632,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "雨林仙踪",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0060666,
+    "lon": 113.3082093,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "静心台",
+    "category": "outdoor",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1811603,
+    "lon": 113.2746779,
+    "description": "A popular outdoor spot in Guangzhou."
+  },
+  {
+    "name": "非洲发现",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0023459,
+    "lon": 113.3119355,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "非洲森林",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0018664,
+    "lon": 113.3131042,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "革命烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2199403,
+    "lon": 113.8830057,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "飞鹅岭新石器时期遗址",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1814502,
+    "lon": 113.3600101,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "马涌禁占官涌碑记",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0950259,
+    "lon": 113.2588203,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "高剑父纪念馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1392805,
+    "lon": 113.2558553,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "鲁迅纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1267325,
+    "lon": 113.2715576,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "鸣春谷",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1744431,
+    "lon": 113.2965949,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "黄埔军校旧址纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0887681,
+    "lon": 113.4194969,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "黄埔古港",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0877418,
+    "lon": 113.3856321,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "黄埔国际会议中心",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.2235234,
+    "lon": 113.5235203,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "黄花岗七十二烈士纪念碑",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1432907,
+    "lon": 113.2892138,
+    "description": "A popular history spot in Guangzhou."
+  },
+  {
+    "name": "黄花岗起义指挥部旧址纪念馆",
+    "category": "museum",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1321492,
+    "lon": 113.2647209,
+    "description": "A popular museum spot in Guangzhou."
+  },
+  {
+    "name": "黎巨川墓",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 22.947519,
+    "lon": 113.297683,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "黑猩猩馆",
+    "category": "sightseeing",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.0015726,
+    "lon": 113.3138794,
+    "description": "A popular sightseeing spot in Guangzhou."
+  },
+  {
+    "name": "龙虎墙",
+    "category": "history",
+    "duration_minutes": 60,
+    "rating": 4.0,
+    "lat": 23.1263035,
+    "lon": 113.2706414,
+    "description": "A popular history spot in Guangzhou."
+  }
+]

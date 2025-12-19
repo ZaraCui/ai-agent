@@ -702,6 +702,142 @@ def directions_proxy():
         app.logger.error(f"Directions proxy failed: {traceback.format_exc()}")
         return error_response(f"Directions proxy failed: {str(e)}", 500, 'Directions error')
 
+# ===== OSM Spot Fetching API =====
+@app.route('/api/fetch_spots', methods=['POST'])
+def fetch_spots_api():
+    """
+    API endpoint to fetch spots from OpenStreetMap for a given city.
+    This replaces the need to run scripts/fetch_osm_spots.py from terminal.
+    
+    Request body:
+    {
+        "city": "Beijing",
+        "session_id": "optional-session-id-for-progress-updates"
+    }
+    
+    Returns:
+    {
+        "status": "success",
+        "data": {
+            "city": "Beijing",
+            "spots_count": 150,
+            "file_path": "data/spots_beijing.json",
+            "top_spots": [...] // First 10 spots as preview
+        }
+    }
+    """
+    try:
+        data = request.json
+        if not data:
+            return error_response("Request body must be JSON", 400, "Invalid request")
+        
+        city = data.get('city')
+        if not city:
+            return error_response("Missing required parameter: 'city'", 400, "Validation error")
+        
+        session_id = data.get('session_id')
+        
+        # Import fetch logic from scripts
+        import sys
+        import importlib.util
+        
+        # Send initial progress
+        if session_id:
+            socketio.emit('fetch_progress', {
+                'progress': 10,
+                'stage': f'正在查找 {city} 的地理信息...',
+                'city': city
+            }, room=session_id)
+        
+        # Load the fetch_osm_spots module
+        spec = importlib.util.spec_from_file_location("fetch_osm_spots", "scripts/fetch_osm_spots.py")
+        fetch_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(fetch_module)
+        
+        # Get city area ID
+        if session_id:
+            socketio.emit('fetch_progress', {
+                'progress': 30,
+                'stage': f'正在从 OpenStreetMap 获取 {city} 的景点数据...',
+                'city': city
+            }, room=session_id)
+        
+        spots = fetch_module.fetch_spots(city)
+        
+        if not spots:
+            if session_id:
+                socketio.emit('fetch_progress', {
+                    'progress': 100,
+                    'stage': '未找到景点',
+                    'city': city,
+                    'error': True
+                }, room=session_id)
+            return error_response(
+                f"No spots found for city: {city}. Please check the city name.",
+                404,
+                "No data found"
+            )
+        
+        # Send processing progress
+        if session_id:
+            socketio.emit('fetch_progress', {
+                'progress': 70,
+                'stage': f'正在保存 {len(spots)} 个景点到文件...',
+                'city': city,
+                'spots_count': len(spots)
+            }, room=session_id)
+        
+        # Save to file
+        os.makedirs('data', exist_ok=True)
+        filename = f"data/spots_{city.lower().replace(' ', '')}.json"
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(spots, f, indent=2, ensure_ascii=False)
+        
+        # Send completion
+        if session_id:
+            socketio.emit('fetch_progress', {
+                'progress': 100,
+                'stage': '完成！',
+                'city': city,
+                'spots_count': len(spots),
+                'file_path': filename
+            }, room=session_id)
+        
+        # Return summary with preview
+        response_data = {
+            'city': city,
+            'spots_count': len(spots),
+            'file_path': filename,
+            'top_spots': spots[:10],  # Preview first 10 spots
+            'categories': {}
+        }
+        
+        # Calculate category distribution
+        for spot in spots:
+            cat = spot.get('category', 'unknown')
+            response_data['categories'][cat] = response_data['categories'].get(cat, 0) + 1
+        
+        return success_response(
+            response_data,
+            f"Successfully fetched and saved {len(spots)} spots for {city}"
+        )
+    
+    except Exception as e:
+        app.logger.error(f"Fetch spots API error: {traceback.format_exc()}")
+        if session_id:
+            socketio.emit('fetch_progress', {
+                'progress': 100,
+                'stage': '错误',
+                'error': True,
+                'message': str(e)
+            }, room=session_id)
+        return error_response(
+            f"Failed to fetch spots: {str(e)}",
+            500,
+            "Fetch error"
+        )
+
+
 # ===== WebSocket event handlers =====
 @socketio.on('connect')
 def handle_connect():
