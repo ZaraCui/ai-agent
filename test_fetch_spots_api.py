@@ -63,14 +63,14 @@ def fetch_spots_via_api(city_name):
             return None
             
     except requests.exceptions.ConnectionError:
-        print(f"❌ 连接错误: 无法连接到 {BASE_URL}")
-        print("请确保 Flask 服务器正在运行 (python app.py)")
+        print(f"❌ Connection error: Unable to connect to {BASE_URL}")
+        print("Please ensure the Flask server is running (python app.py)")
         return None
     except requests.exceptions.Timeout:
-        print("❌ 请求超时")
+        print("❌ Request timed out")
         return None
     except requests.exceptions.RequestException as e:
-        print(f"❌ 请求失败: {str(e)}")
+        print(f"❌ Request failed: {str(e)}")
         return None
     except Exception as e:
         print(f"❌ 未知错误: {str(e)}")
