@@ -56,6 +56,9 @@ class Spot(BaseModel):
             "city": self.city,
             "nearby_foods": self.nearby_foods,
             "nearby_shops": self.nearby_shops,
+        }
+
+
 class DayPlan(BaseModel):
     day: int
     spots: List[Spot]
