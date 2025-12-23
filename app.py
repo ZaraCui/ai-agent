@@ -298,8 +298,11 @@ def get_cities():
     API endpoint to get a list of available cities based on data files.
     """
     try:
-        data_dir = 'data'
+        # 使用绝对路径以兼容 Vercel 部署
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        data_dir = os.path.join(base_dir, 'data')
         cities = []
+        
         if os.path.exists(data_dir):
             for filename in os.listdir(data_dir):
                 if filename.startswith('spots_') and filename.endswith('.json'):
@@ -309,12 +312,19 @@ def get_cities():
                     display_name = city_key.title()
                     # Improve specific cases if needed, but title case is a good start
                     cities.append({"value": city_key, "label": display_name})
+        else:
+            return error_response(f"Data directory not found: {data_dir}", 500, "Configuration error")
+        
+        if not cities:
+            return error_response(f"No cities available in {data_dir}", 500, "No data found")
         
         # Sort cities alphabetically
         cities.sort(key=lambda x: x['label'])
         
         return success_response(cities, f"Found {len(cities)} cities")
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return error_response(str(e), 500, "Failed to list cities")
 
 @app.route('/api/spots/<city>', methods=['GET'])
@@ -324,7 +334,10 @@ def get_spots(city):
     Used for populating the spot selection UI.
     """
     try:
-        path = f"data/spots_{city}.json"
+        # 使用绝对路径以兼容 Vercel 部署
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        path = os.path.join(base_dir, f"data/spots_{city}.json")
+        
         if not os.path.exists(path):
             return error_response(f"No spot data found for city: {city}", 404, "City not found")
         
