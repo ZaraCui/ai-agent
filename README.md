@@ -5,13 +5,15 @@ A planning-based AI agent that automatically generates and optimizes multi-day t
 This project focuses on **agent-style decision making** rather than simple route generation:
 the agent explores multiple candidate itineraries, evaluates them under different policies, and selects the best plan with interpretable reasons.
 
+**📖 Quick Links**: [Quick Reference](QUICK_REFERENCE.md) | [Project Structure](PROJECT_STRUCTURE.md) | [Deployment Guide](docs/deployment/VERCEL_SETUP.md)
+
 ---
 
 ## 🚀 快速开始
 
 - **本地运行**: 见下方 [Installation](#-installation) 部分
-- **部署到 Vercel**: 📖 [快速设置指南](VERCEL_SETUP.md) ← **从这里开始！**
-- **完整部署文档**: [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md)
+- **部署到 Vercel**: 📖 [快速设置指南](docs/deployment/VERCEL_SETUP.md) ← **从这里开始！**
+- **完整部署文档**: [DEPLOY_VERCEL.md](docs/deployment/DEPLOY_VERCEL.md)
 
 ---
 
@@ -25,7 +27,7 @@ the agent explores multiple candidate itineraries, evaluates them under differen
   - Optional Redis caching for improved API performance
   - Automatic cache management and invalidation
   - Easy configuration via environment variables
-  - 📖 [Local Redis Setup](REDIS_CACHE_GUIDE.md) | [Vercel Deployment](VERCEL_REDIS_GUIDE.md)
+  - 📖 [Local Redis Setup](docs/guides/REDIS_CACHE_GUIDE.md) | [Vercel Deployment](docs/deployment/VERCEL_REDIS_GUIDE.md)
 - **World Modeling**
   - Structured representation of cities, spots, daily plans, and itineraries
 - **Planning & Search**

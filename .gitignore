@@ -45,6 +45,13 @@ Thumbs.db
 
 # Logs
 *.log
+logs/
 
-# Output files (optional - uncomment if you don't want to track generated maps)
-# output/*.html
+# Output files (generated maps and reports)
+output/*.html
+output/*.json
+
+# Temporary files
+*.tmp
+*.bak
+organize.ps1
