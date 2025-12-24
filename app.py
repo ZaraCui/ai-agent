@@ -10,6 +10,7 @@ from agent.cache import cache, cache_key_for_spots, cache_key_for_cities, cache_
 from agent.rate_limiter import rate_limit
 from agent.logging_config import setup_logging, log_request, log_error, log_performance
 from agent.itinerary_storage import ItineraryStorage
+from agent.auth import AuthService
 from datetime import date
 import json
 import os
@@ -31,6 +32,7 @@ logger = setup_logging(
 
 # Initialize itinerary storage
 storage = ItineraryStorage()
+auth_service = AuthService()
 
 app = Flask(__name__)
 app.logger = logger  # Replace Flask's default logger
@@ -1137,6 +1139,53 @@ def load_db_itinerary_route(itinerary_id):
     except Exception as e:
         logger.error(f"Failed to load itinerary {itinerary_id} from DB: {str(e)}", exc_info=True)
         return error_response(str(e), 500, "Failed to load itinerary from DB")
+
+
+# ===== User Authentication =====
+
+@app.route('/api/auth/signup', methods=['POST'])
+def signup():
+    """User sign-up endpoint."""
+    data = request.json
+    email = data.get('email')
+    password = data.get('password')
+
+    if not email or not password:
+        return error_response("Email and password are required.", 400)
+
+    result = auth_service.sign_up(email, password)
+
+    if "error" in result:
+        return error_response(result["error"], 400)
+    
+    # Supabase handles email confirmation, so we just return success here
+    return success_response(
+        {"user_id": result.user.id, "email": result.user.email},
+        "Sign-up successful. Please check your email to confirm your account."
+    )
+
+@app.route('/api/auth/signin', methods=['POST'])
+def signin():
+    """User sign-in endpoint."""
+    data = request.json
+    email = data.get('email')
+    password = data.get('password')
+
+    if not email or not password:
+        return error_response("Email and password are required.", 400)
+
+    result = auth_service.sign_in(email, password)
+
+    if "error" in result:
+        return error_response(result["error"], 401, "Authentication Failed")
+
+    return success_response({
+        "access_token": result.session.access_token,
+        "user": {
+            "id": result.user.id,
+            "email": result.user.email
+        }
+    }, "Sign-in successful.")
 
 
 @app.route('/share/<share_id>')
