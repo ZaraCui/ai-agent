@@ -305,7 +305,8 @@
     <!-- Auth Header -->
     <div id="auth-header" class="absolute top-0 right-0 p-4 sm:p-6 z-30 no-print">
         <div id="user-info" class="hidden items-center">
-            <span id="user-email" class="text-white text-sm font-medium mr-4"></span>
+            <span id="user-email" class="text-white text-sm font-medium mr-3"></span>
+            <button id="my-itineraries-btn" class="px-3 py-2 text-sm font-medium bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors mr-2">My Trips</button>
             <button id="logout-btn" class="px-4 py-2 text-sm font-semibold bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors">Logout</button>
         </div>
         <button id="login-signup-btn" class="px-4 py-2 text-sm font-semibold bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors backdrop-blur-sm">Login / Sign Up</button>
@@ -573,6 +574,29 @@
         </div>
     </div>
 
+    <!-- My Itineraries Modal -->
+    <div id="itineraries-modal-overlay" class="auth-modal-overlay no-print">
+        <div id="itineraries-modal" class="auth-modal" style="max-width: 600px;">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold text-slate-800">My Saved Trips</h2>
+                <button id="itineraries-modal-close" class="text-slate-400 hover:text-slate-600">&times;</button>
+            </div>
+            <div id="itineraries-loading" class="text-center py-8" style="display: none;">
+                <div class="inline-block w-8 h-8 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin"></div>
+                <p class="mt-4 text-slate-600">Loading your trips...</p>
+            </div>
+            <div id="itineraries-content" class="max-h-96 overflow-y-auto">
+                <div id="itineraries-list" class="space-y-3">
+                    <!-- Itineraries will be loaded here -->
+                </div>
+                <div id="no-itineraries" class="text-center py-8 text-slate-500" style="display: none;">
+                    <p>You haven't saved any trips yet.</p>
+                    <p class="text-sm mt-2">Generate an itinerary and click "Save" to get started!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Socket.IO Client Library -->
     <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
 
@@ -667,9 +691,32 @@
             e.preventDefault();
             const email = document.getElementById('auth-email').value;
             const password = document.getElementById('auth-password').value;
-            const endpoint = isLoginMode ? '/api/auth/signin' : '/api/auth/signup';
-
+            
+            // Basic client-side validation
+            if (!email || !password) {
+                const authError = document.getElementById('auth-error');
+                authError.textContent = 'Please fill in all fields.';
+                authError.style.display = 'block';
+                return;
+            }
+            
+            if (password.length < 6) {
+                const authError = document.getElementById('auth-error');
+                authError.textContent = 'Password must be at least 6 characters long.';
+                authError.style.display = 'block';
+                return;
+            }
+            
+            const submitBtn = document.getElementById('auth-submit-btn');
+            const originalText = submitBtn.textContent;
+            
             try {
+                // Show loading state
+                submitBtn.textContent = isLoginMode ? 'Signing in...' : 'Creating account...';
+                submitBtn.disabled = true;
+                document.getElementById('auth-error').style.display = 'none';
+                
+                const endpoint = isLoginMode ? '/api/auth/signin' : '/api/auth/signup';
                 const response = await fetch(`${_API_BASE}${endpoint}`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -680,10 +727,19 @@
                 if (result.status === 'success') {
                     if (isLoginMode) {
                         handleLoginSuccess(result.data);
+                        showSuccessMessage('Successfully signed in!');
                     } else {
-                        alert('Sign up successful! Please check your email to verify your account before logging in.');
+                        showSuccessMessage('Account created successfully! You can now sign in.');
+                        // Switch to login mode after successful signup
+                        isLoginMode = true;
+                        updateAuthModalUI();
+                        // Clear the form
+                        document.getElementById('auth-email').value = '';
+                        document.getElementById('auth-password').value = '';
                     }
-                    hideAuthModal();
+                    if (isLoginMode) {
+                        hideAuthModal();
+                    }
                 } else {
                     const authError = document.getElementById('auth-error');
                     authError.textContent = result.reason || 'An unknown error occurred.';
@@ -693,8 +749,25 @@
                 const authError = document.getElementById('auth-error');
                 authError.textContent = `Network error: ${error.message}`;
                 authError.style.display = 'block';
+            } finally {
+                // Reset button state
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
             }
         });
+
+        function showSuccessMessage(message) {
+            // Create a temporary success message
+            const successDiv = document.createElement('div');
+            successDiv.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50';
+            successDiv.textContent = message;
+            document.body.appendChild(successDiv);
+            
+            // Auto-remove after 3 seconds
+            setTimeout(() => {
+                successDiv.remove();
+            }, 3000);
+        }
 
         function handleLoginSuccess(data) {
             localStorage.setItem('travel_token', data.access_token);
@@ -720,6 +793,100 @@
             localStorage.removeItem('travel_user');
             updateUserUI(null);
         });
+
+        // My Itineraries functionality
+        document.getElementById('my-itineraries-btn').addEventListener('click', showMyItineraries);
+        document.getElementById('itineraries-modal-close').addEventListener('click', hideItinerariesModal);
+        document.getElementById('itineraries-modal-overlay').addEventListener('click', (e) => {
+            if (e.target === document.getElementById('itineraries-modal-overlay')) hideItinerariesModal();
+        });
+
+        function showMyItineraries() {
+            if (!currentUser) {
+                alert('Please sign in to view your saved trips.');
+                return;
+            }
+            
+            const modal = document.getElementById('itineraries-modal-overlay');
+            modal.classList.add('visible');
+            loadUserItineraries();
+        }
+
+        function hideItinerariesModal() {
+            document.getElementById('itineraries-modal-overlay').classList.remove('visible');
+        }
+
+        async function loadUserItineraries() {
+            const loading = document.getElementById('itineraries-loading');
+            const content = document.getElementById('itineraries-content');
+            const list = document.getElementById('itineraries-list');
+            const noItineraries = document.getElementById('no-itineraries');
+
+            loading.style.display = 'block';
+            content.style.display = 'none';
+
+            try {
+                const response = await fetch(`${_API_BASE}/api/itineraries?user_id=${currentUser.id}`);
+                const result = await response.json();
+
+                loading.style.display = 'none';
+                content.style.display = 'block';
+
+                if (result.status === 'success' && result.data.length > 0) {
+                    list.innerHTML = result.data.map(itinerary => `
+                        <div class="bg-white border border-slate-200 rounded-lg p-4 hover:border-indigo-300 transition-colors cursor-pointer" 
+                             onclick="loadItinerary('${itinerary.id}')">
+                            <h3 class="font-semibold text-slate-800">${escapeHtml(itinerary.name)}</h3>
+                            <p class="text-sm text-slate-500 mt-1">Saved on ${formatDate(itinerary.created_at)}</p>
+                        </div>
+                    `).join('');
+                    noItineraries.style.display = 'none';
+                } else {
+                    list.innerHTML = '';
+                    noItineraries.style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Failed to load itineraries:', error);
+                loading.style.display = 'none';
+                content.style.display = 'block';
+                list.innerHTML = '<p class="text-center text-red-500">Failed to load trips. Please try again.</p>';
+                noItineraries.style.display = 'none';
+            }
+        }
+
+        async function loadItinerary(itineraryId) {
+            try {
+                const response = await fetch(`${_API_BASE}/api/itinerary/${itineraryId}`);
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    currentItineraryData = result.data;
+                    renderItinerary(result.data);
+                    hideItinerariesModal();
+                    showSuccessMessage('Trip loaded successfully!');
+                } else {
+                    alert(`Failed to load trip: ${result.reason}`);
+                }
+            } catch (error) {
+                console.error('Failed to load itinerary:', error);
+                alert('Failed to load trip. Please try again.');
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', { 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric' 
+            });
+        }
 
         function checkInitialAuth() {
             const token = localStorage.getItem('travel_token');

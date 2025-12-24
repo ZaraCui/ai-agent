@@ -1160,6 +1160,40 @@ def load_db_itinerary_route(itinerary_id):
         return error_response(str(e), 500, "Failed to load itinerary from DB")
 
 
+@app.route('/api/itineraries', methods=['GET'])
+@rate_limit(limit=30, window=60)
+def get_user_itineraries():
+    """Get list of itineraries for the authenticated user."""
+    try:
+        # Get user_id from query parameter or from auth token
+        user_id = request.args.get('user_id')
+        if not user_id:
+            return error_response("User ID is required", 400)
+            
+        # Query user's itineraries from database
+        try:
+            response = storage.db.from_('itineraries').select('id, name, created_at').eq('user_id', user_id).order('created_at', desc=True).execute()
+            
+            itineraries = []
+            if response.data:
+                for item in response.data:
+                    itineraries.append({
+                        'id': item['id'],
+                        'name': item['name'],
+                        'created_at': item['created_at']
+                    })
+            
+            return success_response(itineraries, f"Found {len(itineraries)} saved itineraries")
+            
+        except Exception as db_error:
+            logger.error(f"Database error getting user itineraries: {str(db_error)}")
+            return error_response("Failed to retrieve itineraries", 500)
+            
+    except Exception as e:
+        logger.error(f"Failed to get user itineraries: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to get itineraries")
+
+
 # ===== User Authentication =====
 
 @app.route('/api/auth/signup', methods=['POST'])

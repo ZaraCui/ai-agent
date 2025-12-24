@@ -82,11 +82,27 @@ class AuthService:
                 "email": email,
                 "password": password
             })
+            
+            # Log successful sign in
+            print(f"User signed in successfully: {email}")
             return {"status": "success", "data": response}
+            
         except AuthApiError as e:
-            return {"status": "error", "reason": e.message}
+            error_msg = str(e.message) if hasattr(e, 'message') else str(e)
+            print(f"Auth API Error during signin: {error_msg}")
+            
+            # Handle common login errors with user-friendly messages
+            if "Invalid login credentials" in error_msg:
+                return {"status": "error", "reason": "Invalid email or password. Please check your credentials and try again."}
+            elif "Email not confirmed" in error_msg:
+                return {"status": "error", "reason": "Please check your email and confirm your account before signing in."}
+            elif "Too many requests" in error_msg:
+                return {"status": "error", "reason": "Too many login attempts. Please wait a moment before trying again."}
+            else:
+                return {"status": "error", "reason": f"Sign in failed: {error_msg}"}
         except Exception as e:
-            return {"status": "error", "reason": str(e)}
+            print(f"Unexpected error during signin: {str(e)}")
+            return {"status": "error", "reason": f"An unexpected error occurred: {str(e)}"}
 
     def get_user_from_token(self, jwt: str):
         """
