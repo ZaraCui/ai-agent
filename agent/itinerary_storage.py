@@ -79,7 +79,8 @@ class ItineraryStorage:
 
     def share_itinerary_to_cache(self, itinerary_data: dict, ttl_seconds: int = 86400) -> str:
         """
-        Save itinerary to Redis cache for temporary sharing.
+        Save itinerary to database for temporary sharing.
+        Falls back to database if Redis cache is not available.
 
         Args:
             itinerary_data: Itinerary data to save.
@@ -88,22 +89,43 @@ class ItineraryStorage:
         Returns:
             A unique share ID.
         """
-        share_id = str(uuid.uuid4())
+        import uuid
+        from datetime import datetime, timedelta
         
+        share_id = str(uuid.uuid4())
+        expires_at = datetime.utcnow() + timedelta(seconds=ttl_seconds)
+        
+        # Try Redis first if available
         if self.cache:
             try:
                 self.cache.set(f"share:{share_id}", json.dumps(itinerary_data), ex=ttl_seconds)
+                print(f"Shared itinerary cached in Redis: {share_id}")
+                return share_id
             except Exception as e:
-                print(f"Warning: Failed to cache shared itinerary: {e}")
-                # Continue without caching - we'll still return a share_id for consistency
-        else:
-            print("Warning: Redis cache not available for sharing. Share feature may not work properly.")
+                print(f"Redis cache failed, falling back to database: {e}")
+        
+        # Fallback to database storage
+        try:
+            # Generate a shorter, more user-friendly share_id
+            short_share_id = str(uuid.uuid4())[:8]
             
-        return share_id
+            self.db.from_('shared_itineraries').insert({
+                'share_id': short_share_id,
+                'data': json.dumps(itinerary_data),
+                'expires_at': expires_at.isoformat()
+            }).execute()
+            
+            print(f"Shared itinerary stored in database: {short_share_id}")
+            return short_share_id
+            
+        except Exception as e:
+            print(f"Database storage for sharing also failed: {e}")
+            # Return share_id anyway, but sharing won't work
+            return share_id
 
     def load_itinerary_from_cache(self, share_id: str) -> Optional[Dict]:
         """
-        Load a shared itinerary from the Redis cache.
+        Load a shared itinerary from Redis cache or database.
 
         Args:
             share_id: The unique ID for the shared itinerary.
@@ -111,15 +133,28 @@ class ItineraryStorage:
         Returns:
             The itinerary data as a dictionary, or None if not found.
         """
-        if not self.cache:
-            print("Warning: Redis cache not available, cannot load shared itinerary.")
-            return None
-            
+        # Try Redis first if available
+        if self.cache:
+            try:
+                data = self.cache.get(f"share:{share_id}")
+                if data:
+                    return json.loads(data)
+            except Exception as e:
+                print(f"Redis cache read failed: {e}")
+        
+        # Try database
         try:
-            data = self.cache.get(f"share:{share_id}")
-            if data:
-                return json.loads(data)
+            from datetime import datetime
+            
+            response = self.db.from_('shared_itineraries').select('data').eq('share_id', share_id).single().execute()
+            
+            if response.data and 'data' in response.data:
+                db_data = response.data['data']
+                if isinstance(db_data, str):
+                    return json.loads(db_data)
+                return db_data
+                
         except Exception as e:
-            print(f"Error loading shared itinerary: {e}")
+            print(f"Database read for shared itinerary failed: {e}")
             
         return None

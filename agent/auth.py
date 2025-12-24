@@ -24,7 +24,7 @@ class AuthService:
             A dictionary containing the user data and session, or an error.
         """
         try:
-            # For development, we can disable email confirmation
+            # Sign up with email confirmation disabled for development
             response = self.db.auth.sign_up({
                 "email": email,
                 "password": password,
@@ -32,24 +32,37 @@ class AuthService:
                     "email_confirm": False  # Disable email confirmation for development
                 }
             })
-            # The user is created in the 'auth.users' table by Supabase.
-            # We also need to create a corresponding entry in our public 'users' table.
+            
+            # Create a corresponding entry in our public 'users' table
             if response.user:
                 try:
-                    self.db.from_('users').insert({'id': response.user.id, 'email': email}).execute()
+                    # Check if user already exists in our users table
+                    existing = self.db.from_('users').select('id').eq('id', response.user.id).execute()
+                    if not existing.data:
+                        self.db.from_('users').insert({
+                            'id': response.user.id, 
+                            'email': email
+                        }).execute()
+                        print(f"Created user record for {email}")
+                    else:
+                        print(f"User record already exists for {email}")
                 except Exception as insert_error:
-                    # User table insertion failed, but signup was successful
                     print(f"Warning: Failed to insert user into users table: {insert_error}")
             
             return {"status": "success", "data": response}
         except AuthApiError as e:
-            # Handle specific Supabase auth errors
-            error_msg = e.message
-            if "Error sending confirmation email" in error_msg:
-                # For development, we can suggest that email confirmation is disabled
-                return {"status": "success", "data": response if 'response' in locals() else None, 
-                        "warning": "Account created but email confirmation failed. You can still sign in."}
-            return {"status": "error", "reason": error_msg}
+            error_msg = str(e.message) if hasattr(e, 'message') else str(e)
+            print(f"Auth API Error during signup: {error_msg}")
+            
+            # Handle common signup errors
+            if "User already registered" in error_msg or "already registered" in error_msg:
+                return {"status": "error", "reason": "An account with this email already exists. Please try signing in instead."}
+            elif "Password should be at least" in error_msg:
+                return {"status": "error", "reason": "Password must be at least 6 characters long."}
+            elif "Invalid email" in error_msg:
+                return {"status": "error", "reason": "Please enter a valid email address."}
+            else:
+                return {"status": "error", "reason": f"Sign up failed: {error_msg}"}
         except Exception as e:
             return {"status": "error", "reason": str(e)}
 

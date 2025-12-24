@@ -29,3 +29,18 @@ CREATE TRIGGER set_timestamp
 BEFORE UPDATE ON itineraries
 FOR EACH ROW
 EXECUTE PROCEDURE trigger_set_timestamp();
+
+-- Create the shared_itineraries table for temporary sharing
+CREATE TABLE shared_itineraries (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    share_id VARCHAR(50) UNIQUE NOT NULL,
+    data JSONB NOT NULL,
+    expires_at TIMESTAMP WITH TIME ZONE NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Create an index on share_id for fast lookups
+CREATE INDEX idx_shared_itineraries_share_id ON shared_itineraries(share_id);
+
+-- Create an index on expires_at for cleanup
+CREATE INDEX idx_shared_itineraries_expires_at ON shared_itineraries(expires_at);
