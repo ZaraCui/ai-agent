@@ -484,6 +484,16 @@
                         class="no-print inline-flex items-center justify-center px-4 py-2 border border-slate-300 shadow-sm text-sm font-medium rounded-lg text-slate-700 bg-white hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors">
                         🖨️ Print Plan
                     </button>
+                    <div class="flex space-x-2 mt-4 sm:mt-0 sm:ml-4">
+                        <button id="share-itinerary-btn"
+                            class="no-print inline-flex items-center justify-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors">
+                            🔗 Share
+                        </button>
+                        <button id="save-itinerary-btn"
+                            class="no-print inline-flex items-center justify-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-lg text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-colors">
+                            💾 Save
+                        </button>
+                    </div>
                 </div>
                 <div id="timeline-container" class="timeline"></div>
             </div>
@@ -517,6 +527,7 @@
         });
 
         let currentSessionId = null;
+        let currentItineraryData = null; // Store the full itinerary data
 
         // Socket connection handlers
         socket.on('connect', () => {
@@ -541,10 +552,85 @@
             updateProgress(data.progress, data.stage, data.message || '');
         });
 
+        // === Itinerary Actions (Save/Share/Load) ===
+        document.getElementById('share-itinerary-btn').addEventListener('click', shareItinerary);
+        document.getElementById('save-itinerary-btn').addEventListener('click', saveItinerary);
+
+        async function shareItinerary() {
+            if (!currentItineraryData) {
+                alert('No itinerary to share. Please generate one first.');
+                return;
+            }
+            try {
+                const response = await fetch(`${_API_BASE}/api/itinerary/share`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ itinerary: currentItineraryData })
+                });
+                const result = await response.json();
+                if (result.status === 'success') {
+                    const shareUrl = `${window.location.origin}/share/${result.data.share_id}`;
+                    prompt('Share this URL:', shareUrl);
+                } else {
+                    alert(`Error sharing: ${result.reason}`);
+                }
+            } catch (error) {
+                alert(`An error occurred: ${error.message}`);
+            }
+        }
+
+        async function saveItinerary() {
+            if (!currentItineraryData) {
+                alert('No itinerary to save. Please generate one first.');
+                return;
+            }
+            const name = prompt('Enter a name for your itinerary:');
+            if (!name) return;
+
+            try {
+                const response = await fetch(`${_API_BASE}/api/itinerary/save`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ itinerary: currentItineraryData, name: name })
+                });
+                const result = await response.json();
+                if (result.status === 'success') {
+                    alert(`Itinerary saved successfully! ID: ${result.data.itinerary_id}`);
+                    // Optionally, you could store this ID locally or redirect to a "my itineraries" page
+                } else {
+                    alert(`Error saving: ${result.reason}`);
+                }
+            } catch (error) {
+                alert(`An error occurred: ${error.message}`);
+            }
+        }
+
+        async function loadSharedItinerary() {
+            const params = new URLSearchParams(window.location.search);
+            const shareId = '{{ share_id }}'; // From Flask template
+            if (shareId && shareId !== 'None') {
+                try {
+                    const response = await fetch(`${_API_BASE}/api/itinerary/shared/${shareId}`);
+                    const result = await response.json();
+                    if (result.status === 'success') {
+                        // The loaded data is the full comparison object
+                        currentItineraryData = result.data;
+                        displayItineraryResults(currentItineraryData);
+                    } else {
+                        alert(`Could not load shared itinerary: ${result.reason}`);
+                    }
+                } catch (error) {
+                    alert(`Error loading shared itinerary: ${error.message}`);
+                }
+            }
+        }
+
+
         // === Persistence & Initialization ===
         document.addEventListener('DOMContentLoaded', async () => {
             await loadCities();
             loadPreferences();
+            await loadSharedItinerary(); // Attempt to load shared data
             // Trigger spot loading for initial or restored city
             const city = document.getElementById('city').value;
             if (city) loadSpotsForCity(city);
@@ -941,33 +1027,8 @@
 
                 document.getElementById('results-container').style.display = 'none';
                 if (responseData.status === 'success') {
-                    const statusAlert = document.getElementById('status-alert');
-                    statusAlert.innerHTML = createSuccessAlert(responseData.message);
-                    const data = responseData.data;
-                    const comparison = data.comparison;
-                    const comparisonContainer = document.getElementById('comparison-container');
-                    const modeCards = Object.keys(comparison.modes).map(mode => renderModeCard(mode, comparison.modes[mode], mode === comparison.recommended_mode));
-                    comparisonContainer.innerHTML = modeCards.join('');
-                    const weatherCard = document.getElementById('weather-card');
-                    const weatherTextEl = document.getElementById('weather-text');
-                    if (data.weather_advice) { const w = data.weather_advice.split('\n').map(l => l.trim()).filter(Boolean).map(l => `<div class="mb-1">${l}</div>`).join(''); weatherTextEl.innerHTML = w; } else { weatherTextEl.innerHTML = '<div class="mb-1">⚠️ Weather forecast unavailable for the selected start date. Try selecting a later date.</div>'; }
-                    weatherCard.style.display = 'block';
-                    const recommendedSection = document.getElementById('recommended-section');
-                    if (comparison.recommended_mode && comparison.recommended_data) {
-                        const modeNames = { 'walk': '🚶 Walking', 'transit': '🚌 Transit', 'taxi': '🚕 Taxi' };
-                        document.getElementById('recommended-mode-name').textContent = modeNames[comparison.recommended_mode] || comparison.recommended_mode;
-                        const timelineContainer = document.getElementById('timeline-container');
-                        const itinerary = comparison.recommended_data.itinerary;
-                        if (itinerary && Array.isArray(itinerary) && itinerary.length > 0) {
-                            timelineContainer.innerHTML = itinerary.map(day => renderDayTimeline(day, start_date)).join('');
-                            // Render spots overview
-                            renderSpotsOverview(itinerary, selectedSpots);
-                            // Render map
-                            renderItineraryOnMap(itinerary);
-                        } else { timelineContainer.innerHTML = '<p class="text-gray-500">No itinerary data available</p>'; }
-                        recommendedSection.style.display = 'block';
-                    } else { recommendedSection.style.display = 'none'; }
-                    document.getElementById('results-container').style.display = 'block';
+                    currentItineraryData = responseData.data; // Store the full data object
+                    displayItineraryResults(currentItineraryData);
                 } else if (responseData.status === 'error') {
                     const statusAlert = document.getElementById('status-alert');
                     statusAlert.innerHTML = createErrorAlert(responseData.message, responseData.reason);
@@ -983,6 +1044,50 @@
                 spinner.style.display = 'none';
             }
         });
+
+        function displayItineraryResults(data) {
+            const statusAlert = document.getElementById('status-alert');
+            statusAlert.innerHTML = createSuccessAlert("Itinerary processed successfully.");
+
+            const comparison = data.comparison;
+            const comparisonContainer = document.getElementById('comparison-container');
+            const modeCards = Object.keys(comparison.modes).map(mode => renderModeCard(mode, comparison.modes[mode], mode === comparison.recommended_mode));
+            comparisonContainer.innerHTML = modeCards.join('');
+
+            const weatherCard = document.getElementById('weather-card');
+            const weatherTextEl = document.getElementById('weather-text');
+            if (data.weather_advice) {
+                const w = data.weather_advice.split('\n').map(l => l.trim()).filter(Boolean).map(l => `<div class="mb-1">${l}</div>`).join('');
+                weatherTextEl.innerHTML = w;
+            } else {
+                weatherTextEl.innerHTML = '<div class="mb-1">⚠️ Weather forecast unavailable for the selected start date. Try selecting a later date.</div>';
+            }
+            weatherCard.style.display = 'block';
+
+            const recommendedSection = document.getElementById('recommended-section');
+            if (comparison.recommended_mode && comparison.recommended_data) {
+                const modeNames = { 'walk': '🚶 Walking', 'transit': '🚌 Transit', 'taxi': '🚕 Taxi' };
+                document.getElementById('recommended-mode-name').textContent = modeNames[comparison.recommended_mode] || comparison.recommended_mode;
+                const timelineContainer = document.getElementById('timeline-container');
+                const itinerary = comparison.recommended_data.itinerary;
+                const start_date = document.getElementById('start_date').value; // Need start date for rendering
+
+                if (itinerary && Array.isArray(itinerary) && itinerary.length > 0) {
+                    timelineContainer.innerHTML = itinerary.map(day => renderDayTimeline(day, start_date)).join('');
+                    // Render spots overview
+                    const selectedSpots = getSelectedSpots(); // This might not be accurate on load, but it's for display
+                    renderSpotsOverview(itinerary, selectedSpots);
+                    // Render map
+                    renderItineraryOnMap(itinerary);
+                } else {
+                    timelineContainer.innerHTML = '<p class="text-gray-500">No itinerary data available</p>';
+                }
+                recommendedSection.style.display = 'block';
+            } else {
+                recommendedSection.style.display = 'none';
+            }
+            document.getElementById('results-container').style.display = 'block';
+        }
 
         // (Default date setting moved to loadPreferences)
 
