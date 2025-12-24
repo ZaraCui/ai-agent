@@ -8,6 +8,7 @@ from agent.models import Spot
 from agent.explainer import weather_advice
 from agent.cache import cache, cache_key_for_spots, cache_key_for_cities, cache_key_for_plan
 from agent.rate_limiter import rate_limit
+from agent.logging_config import setup_logging, log_request, log_error, log_performance
 from datetime import date
 import json
 import os
@@ -20,7 +21,15 @@ from flask_cors import CORS
 # Load environment variables
 load_dotenv()
 
+# Setup logging
+logger = setup_logging(
+    "travel-agent",
+    log_level=os.environ.get('LOG_LEVEL', 'INFO'),
+    log_file=os.environ.get('LOG_FILE', 'logs/app.log') if os.environ.get('LOG_FILE') != 'None' else None
+)
+
 app = Flask(__name__)
+app.logger = logger  # Replace Flask's default logger
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production')
 
 # Enable CORS for cross-origin requests from the static frontend.
@@ -38,6 +47,30 @@ socketio = SocketIO(
     engineio_logger=True
 )
 
+# Request logging middleware
+@app.before_request
+def before_request():
+    """Log incoming requests"""
+    request.start_time = __import__('time').time()
+
+@app.after_request
+def after_request(response):
+    """Log request completion with duration"""
+    if hasattr(request, 'start_time'):
+        duration = __import__('time').time() - request.start_time
+        log_request(logger, request, response, duration)
+    return response
+
+@app.teardown_request
+def teardown_request(error=None):
+    """Log request errors"""
+    if error:
+        log_error(logger, error, {
+            'path': request.path,
+            'method': request.method,
+            'ip': request.remote_addr
+        })
+
 # ===== Unified response helper =====
 def success_response(data, message="Success"):
     """Return a successful response with status and data."""
@@ -50,6 +83,7 @@ def success_response(data, message="Success"):
 
 def error_response(reason, status_code=400, message="Error"):
     """Return an error response with status and reason."""
+    logger.warning(f"Error response: {message} - {reason}", extra={'status_code': status_code})
     return jsonify({
         "status": "error",
         "code": status_code,
@@ -57,6 +91,7 @@ def error_response(reason, status_code=400, message="Error"):
         "reason": reason
     }), status_code
 
+@log_performance(logger, threshold_ms=5000)
 def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days: int = 3, weights: dict = None, session_id: str = None) -> Dict:
     """
     Calculate itineraries for all transport modes and return comparison data.
@@ -308,7 +343,7 @@ def get_cities():
         cached_cities = cache.get(cache_key)
         
         if cached_cities is not None:
-            app.logger.debug(f"Cities loaded from cache")
+            logger.debug(f"Cities loaded from cache, count={len(cached_cities)}")
             return success_response(cached_cities, f"Found {len(cached_cities)} cities (cached)")
         
         # 使用绝对路径以兼容 Vercel 部署
@@ -357,7 +392,7 @@ def get_spots(city):
         cached_spots = cache.get(cache_key)
         
         if cached_spots is not None:
-            app.logger.debug(f"Spots for {city} loaded from cache")
+            logger.debug(f"Spots for {city} loaded from cache, count={cached_spots.get('total', 0)}")
             return success_response(cached_spots, f"Loaded {cached_spots['total']} spots for {city} (cached)")
         
         # 使用绝对路径以兼容 Vercel 部署
@@ -369,6 +404,23 @@ def get_spots(city):
         
         with open(path, encoding="utf-8") as f:
             spots_data = json.load(f)
+        
+        # Add popularity score to each spot for frontend display
+        def calculate_popularity_score(spot_dict):
+            """计算景点受欢迎程度分数"""
+            base_rating = float(spot_dict.get('rating', 3.0)) if spot_dict.get('rating') is not None else 3.0
+            category_weights = {
+                'sightseeing': 1.2, 'museum': 1.15, 'temple': 1.1,
+                'outdoor': 1.05, 'shopping': 1.0, 'food': 0.95, 'indoor': 0.9
+            }
+            category_weight = category_weights.get(spot_dict.get('category', 'indoor'), 1.0)
+            return round(base_rating * category_weight, 2)
+        
+        for spot in spots_data:
+            spot['popularity_score'] = calculate_popularity_score(spot)
+        
+        # Sort by popularity for frontend display
+        spots_data.sort(key=lambda s: s.get('popularity_score', 0), reverse=True)
         
         result = {
             "city": city,
@@ -396,6 +448,8 @@ def plan_itinerary():
         city = data.get('city')
         start_date = data.get('start_date')
         session_id = data.get('session_id')  # Get session ID from request
+        
+        logger.info(f"Planning itinerary for {city}, start_date={start_date}, days={data.get('days', 3)}")
 
         # 验证必需参数
         if not city:
@@ -494,13 +548,30 @@ def plan_itinerary():
         if is_all_or_none_selected and total_available_spots > 20:
             # No spots or all spots selected - intelligent filtering for large datasets
             # If there are too many spots, the itinerary planner might timeout or struggle.
-            # We select top 20 spots based on rating (and maybe variety later)
+            # We select top 20 most popular spots based on rating and category weights
             
-            # Sort by rating descending
-            # Ensure rating is a float
-            spots.sort(key=lambda s: float(s.rating) if s.rating is not None else 0.0, reverse=True)
+            def calculate_popularity_score(spot):
+                """计算景点受欢迎程度分数：评分 + 类别权重"""
+                base_rating = float(spot.rating) if spot.rating is not None else 3.0
+                
+                # 类别权重：某些类别天然更受欢迎
+                category_weights = {
+                    'sightseeing': 1.2,  # 观光景点权重高
+                    'museum': 1.15,      # 博物馆
+                    'temple': 1.1,       # 寺庙/文化景点
+                    'outdoor': 1.05,     # 户外景点
+                    'shopping': 1.0,     # 购物
+                    'food': 0.95,        # 美食（单独景点权重略低）
+                    'indoor': 0.9        # 室内娱乐
+                }
+                category_weight = category_weights.get(spot.category, 1.0)
+                
+                return base_rating * category_weight
+            
+            # 按受欢迎程度排序
+            spots.sort(key=calculate_popularity_score, reverse=True)
             spots = spots[:20]
-            app.logger.info(f"Auto-selected top 20 spots from {total_available_spots} available for {city}")
+            logger.info(f"Auto-selected top 20 most popular spots from {total_available_spots} available for {city}")
         
         # 配置评分标准
         cfg = ScoreConfig(
@@ -645,14 +716,19 @@ def clear_cache():
         clear_all = data.get('clear_all', False)
         
         if clear_all:
+            logger.warning("Clearing all cache", extra={'ip': request.remote_addr})
             success = cache.clear_all()
             if success:
+                logger.info("All cache cleared successfully")
                 return success_response({'cleared': 'all'}, "All cache cleared")
             else:
+                logger.error("Failed to clear all cache")
                 return error_response("Failed to clear cache", 500, "Cache error")
         
         elif pattern:
+            logger.info(f"Clearing cache with pattern: {pattern}")
             count = cache.clear_pattern(pattern)
+            logger.info(f"Cleared {count} cache entries with pattern: {pattern}")
             return success_response({
                 'pattern': pattern,
                 'cleared_count': count
@@ -726,7 +802,10 @@ def method_not_allowed(e):
 
 @app.errorhandler(500)
 def internal_error(e):
-    app.logger.error(f"Internal server error: {traceback.format_exc()}")
+    logger.error(f"Internal server error: {str(e)}", exc_info=True, extra={
+        'path': request.path if request else 'unknown',
+        'method': request.method if request else 'unknown'
+    })
     return error_response("Internal server error occurred", 500, "Internal server error")
 
 
@@ -877,6 +956,8 @@ def fetch_spots_api():
         
         session_id = data.get('session_id')
         
+        logger.info(f"Fetching spots from OSM for city: {city}")
+        
         # Import fetch logic from scripts
         import sys
         import importlib.util
@@ -982,12 +1063,12 @@ def fetch_spots_api():
 @socketio.on('connect')
 def handle_connect():
     """Handle client connection"""
-    print(f'Client connected: {request.sid}')
+    logger.info(f'Client connected: {request.sid}')
 
 @socketio.on('disconnect')
 def handle_disconnect():
     """Handle client disconnection"""
-    print(f'Client disconnected: {request.sid}')
+    logger.info(f'Client disconnected: {request.sid}')
 
 @socketio.on('join_session')
 def handle_join_session(data):
@@ -997,7 +1078,7 @@ def handle_join_session(data):
         from flask_socketio import join_room
         join_room(session_id)
         emit('session_joined', {'session_id': session_id})
-        print(f'Client {request.sid} joined session {session_id}')
+        logger.info(f'Client {request.sid} joined session {session_id}')
 
 # ===== Application entry point =====
 if __name__ == '__main__':

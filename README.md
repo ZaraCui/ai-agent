@@ -9,21 +9,21 @@ the agent explores multiple candidate itineraries, evaluates them under differen
 
 ---
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-- **本地运行**: 见下方 [Installation](#-installation) 部分
-- **部署到 Vercel**: 📖 [快速设置指南](docs/deployment/VERCEL_SETUP.md) ← **从这里开始！**
-- **完整部署文档**: [DEPLOY_VERCEL.md](docs/deployment/DEPLOY_VERCEL.md)
+- **Run locally**: See [Installation](#-installation) part
+- **Vercel Deployment**: 📖 [Quick Setup Steps](docs/deployment/VERCEL_SETUP.md) ← **Start here!**
+- **Complete Deployment Document**: [DEPLOY_VERCEL.md](docs/deployment/DEPLOY_VERCEL.md)
 
 ---
 
 ## ✨ Key Features
 
-- **Bilingual Support (中英双语)**
+- **Bilingual Support**
   - All spots include both Chinese and English names
   - Perfect for both local and international travelers
   - Automatic bilingual display in UI
-- **Redis Cache Support (缓存支持)**
+- **Redis Cache Support**
   - Optional Redis caching for improved API performance
   - Automatic cache management and invalidation
   - Easy configuration via environment variables
