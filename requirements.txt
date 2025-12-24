@@ -21,5 +21,8 @@ redis>=5.0.0
 hiredis>=2.2.0
 
 # Database support
-supabase
+# We install components separately to avoid the `storage3` dependency which requires a C++ compiler.
+gotrue>=2.0.0
+postgrest>=0.12.0
+realtime>=0.10.0
 sqlalchemy

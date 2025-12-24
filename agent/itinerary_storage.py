@@ -34,7 +34,7 @@ class ItineraryStorage:
         try:
             # The 'data' key in the insert dictionary must match the column name in your 'itineraries' table.
             # The itinerary_data should be a dictionary that can be serialized to JSON.
-            response = self.db.table('itineraries').insert({
+            response = self.db.from_('itineraries').insert({
                 'user_id': user_id,
                 'name': name,
                 'data': json.dumps(itinerary_data) # Ensure data is a JSON string for the JSONB column
@@ -89,7 +89,16 @@ class ItineraryStorage:
             A unique share ID.
         """
         share_id = str(uuid.uuid4())
-        self.cache.set(f"share:{share_id}", json.dumps(itinerary_data), ex=ttl_seconds)
+        
+        if self.cache:
+            try:
+                self.cache.set(f"share:{share_id}", json.dumps(itinerary_data), ex=ttl_seconds)
+            except Exception as e:
+                print(f"Warning: Failed to cache shared itinerary: {e}")
+                # Continue without caching - we'll still return a share_id for consistency
+        else:
+            print("Warning: Redis cache not available for sharing. Share feature may not work properly.")
+            
         return share_id
 
     def load_itinerary_from_cache(self, share_id: str) -> Optional[Dict]:
@@ -102,7 +111,15 @@ class ItineraryStorage:
         Returns:
             The itinerary data as a dictionary, or None if not found.
         """
-        data = self.cache.get(f"share:{share_id}")
-        if data:
-            return json.loads(data)
+        if not self.cache:
+            print("Warning: Redis cache not available, cannot load shared itinerary.")
+            return None
+            
+        try:
+            data = self.cache.get(f"share:{share_id}")
+            if data:
+                return json.loads(data)
+        except Exception as e:
+            print(f"Error loading shared itinerary: {e}")
+            
         return None

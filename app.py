@@ -346,7 +346,8 @@ def get_cities():
     try:
         # Try to get from cache first
         cache_key = cache_key_for_cities()
-        cached_cities = cache.get(cache_key)
+        from agent.cache import get
+        cached_cities = get(cache_key)
         
         if cached_cities is not None:
             logger.debug(f"Cities loaded from cache, count={len(cached_cities)}")
@@ -374,7 +375,8 @@ def get_cities():
         cities.sort(key=lambda x: x['label'])
         
         # Cache the result for 24 hours (cities list doesn't change often)
-        cache.set(cache_key, cities, ttl=86400)
+        from agent.cache import set
+        set(cache_key, cities, ttl=86400)
         
         return success_response(cities, f"Found {len(cities)} cities")
     except Exception as e:
@@ -393,7 +395,8 @@ def get_spots(city):
     try:
         # Try to get from cache first
         cache_key = cache_key_for_spots(city)
-        cached_spots = cache.get(cache_key)
+        from agent.cache import get
+        cached_spots = get(cache_key)
         
         if cached_spots is not None:
             logger.debug(f"Spots for {city} loaded from cache, count={cached_spots.get('total', 0)}")
@@ -433,7 +436,8 @@ def get_spots(city):
         }
         
         # Cache the result for 12 hours
-        cache.set(cache_key, result, ttl=43200)
+        from agent.cache import set
+        set(cache_key, result, ttl=43200)
         
         return success_response(result, f"Loaded {len(spots_data)} spots for {city}")
     
@@ -697,7 +701,22 @@ def plan_itinerary():
 def cache_stats():
     """Get cache statistics and health status"""
     try:
-        stats = cache.get_stats()
+        from agent.cache import get_cache_client
+        redis_client = get_cache_client()
+        if redis_client:
+            try:
+                info = redis_client.info()
+                stats = {
+                    'connected_clients': info.get('connected_clients', 0),
+                    'used_memory_human': info.get('used_memory_human', 'N/A'),
+                    'keyspace_hits': info.get('keyspace_hits', 0),
+                    'keyspace_misses': info.get('keyspace_misses', 0)
+                }
+            except Exception as e:
+                logger.error(f"Error getting Redis stats: {e}")
+                stats = {'error': str(e)}
+        else:
+            stats = {'status': 'disabled'}
         return success_response(stats, "Cache statistics retrieved")
     except Exception as e:
         return error_response(str(e), 500, "Failed to get cache stats")
@@ -1155,12 +1174,12 @@ def signup():
 
     result = auth_service.sign_up(email, password)
 
-    if "error" in result:
-        return error_response(result["error"], 400)
+    if result["status"] == "error":
+        return error_response(result["reason"], 400)
     
     # Supabase handles email confirmation, so we just return success here
     return success_response(
-        {"user_id": result.user.id, "email": result.user.email},
+        {"user_id": result["data"].user.id if result["data"].user else None, "email": email},
         "Sign-up successful. Please check your email to confirm your account."
     )
 
@@ -1176,14 +1195,14 @@ def signin():
 
     result = auth_service.sign_in(email, password)
 
-    if "error" in result:
-        return error_response(result["error"], 401, "Authentication Failed")
+    if result["status"] == "error":
+        return error_response(result["reason"], 401, "Authentication Failed")
 
     return success_response({
-        "access_token": result.session.access_token,
+        "access_token": result["data"].session.access_token,
         "user": {
-            "id": result.user.id,
-            "email": result.user.email
+            "id": result["data"].user.id,
+            "email": result["data"].user.email
         }
     }, "Sign-in successful.")
 
@@ -1232,8 +1251,3 @@ if __name__ == '__main__':
     )
 
 
-if __name__ == "__main__":
-    # For production deployment
-    port = int(os.environ.get('PORT', 5000))
-    debug = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
-    app.run(host='0.0.0.0', port=port, debug=debug)
