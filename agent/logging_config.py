@@ -77,18 +77,27 @@ def setup_logging(app_name="travel-agent", log_level=None, log_file=None):
     console_handler.setFormatter(console_formatter)
     logger.addHandler(console_handler)
     
-    # File handler (if specified)
-    if log_file:
-        os.makedirs(os.path.dirname(log_file) if os.path.dirname(log_file) else 'logs', exist_ok=True)
-        
-        file_handler = RotatingFileHandler(
-            log_file,
-            maxBytes=10 * 1024 * 1024,  # 10MB
-            backupCount=5
-        )
-        file_handler.setLevel(level)
-        file_handler.setFormatter(JSONFormatter())
-        logger.addHandler(file_handler)
+    # File handler (if specified and not in serverless environment)
+    # Vercel and similar platforms have read-only filesystems
+    is_serverless = os.getenv('VERCEL') == '1' or os.getenv('AWS_LAMBDA_FUNCTION_NAME') is not None
+    
+    if log_file and not is_serverless:
+        try:
+            os.makedirs(os.path.dirname(log_file) if os.path.dirname(log_file) else 'logs', exist_ok=True)
+            
+            file_handler = RotatingFileHandler(
+                log_file,
+                maxBytes=10 * 1024 * 1024,  # 10MB
+                backupCount=5
+            )
+            file_handler.setLevel(level)
+            file_handler.setFormatter(JSONFormatter())
+            logger.addHandler(file_handler)
+        except (OSError, PermissionError) as e:
+            # If we can't create log file (e.g., read-only filesystem), just use console
+            logger.warning(f"Failed to create log file {log_file}: {e}. Using console logging only.")
+    elif is_serverless:
+        logger.info("Running in serverless environment - file logging disabled")
     
     return logger
 
