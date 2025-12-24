@@ -350,53 +350,28 @@ def get_cities():
             logger.debug(f"Cities loaded from cache, count={len(cached_cities)}")
             return success_response(cached_cities, f"Found {len(cached_cities)} cities (cached)")
         
-        # This is a hardcoded list to avoid filesystem issues on Vercel.
-        # If you add a new city file (e.g., data/spots_newcity.json), add it here.
-        cities_data = [
-            {"value": "barcelona", "label": "Barcelona"},
-            {"value": "beijing", "label": "Beijing"},
-            {"value": "berlin", "label": "Berlin"},
-            {"value": "changchun", "label": "Changchun"},
-            {"value": "chengdu", "label": "Chengdu"},
-            {"value": "foshan", "label": "Foshan"},
-            {"value": "fuzhou", "label": "Fuzhou"},
-            {"value": "guangzhou", "label": "Guangzhou"},
-            {"value": "guiyang", "label": "Guiyang"},
-            {"value": "hangzhou", "label": "Hangzhou"},
-            {"value": "harbin", "label": "Harbin"},
-            {"value": "hefei", "label": "Hefei"},
-            {"value": "hongkong", "label": "Hong Kong"},
-            {"value": "jinan", "label": "Jinan"},
-            {"value": "kunming", "label": "Kunming"},
-            {"value": "kyoto", "label": "Kyoto"},
-            {"value": "lanzhou", "label": "Lanzhou"},
-            {"value": "london", "label": "London"},
-            {"value": "nanjing", "label": "Nanjing"},
-            {"value": "nanning", "label": "Nanning"},
-            {"value": "newyork", "label": "New York"},
-            {"value": "ningbo", "label": "Ningbo"},
-            {"value": "paris", "label": "Paris"},
-            {"value": "qingdao", "label": "Qingdao"},
-            {"value": "shanghai", "label": "Shanghai"},
-            {"value": "shenyang", "label": "Shenyang"},
-            {"value": "shenzhen", "label": "Shenzhen"},
-            {"value": "shijiazhuang", "label": "Shijiazhuang"},
-            {"value": "suzhou", "label": "Suzhou"},
-            {"value": "sydney", "label": "Sydney"},
-            {"value": "taiyuan", "label": "Taiyuan"},
-            {"value": "tokyo", "label": "Tokyo"},
-            {"value": "urumqi", "label": "Urumqi"},
-            {"value": "wuhan", "label": "Wuhan"},
-            {"value": "xiamen", "label": "Xiamen"},
-            {"value": "xian", "label": "Xian"},
-            {"value": "xining", "label": "Xining"},
-            {"value": "zhengzhou", "label": "Zhengzhou"},
-        ]
+        # Use absolute path compatible with Vercel deployment
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        data_dir = os.path.join(base_dir, 'data')
+        cities = []
         
-        # Sort cities alphabetically by label
-        cities = sorted(cities_data, key=lambda x: x['label'])
+        if os.path.exists(data_dir):
+            for filename in os.listdir(data_dir):
+                if filename.startswith('spots_') and filename.endswith('.json'):
+                    city_key = filename[6:-5]
+                    display_name = city_key.replace('_', ' ').title()
+                    cities.append({"value": city_key, "label": display_name})
+        else:
+            # This path should now be found on Vercel
+            return error_response(f"Data directory not found: {data_dir}", 500, "Configuration error")
         
-        # Cache the result for 24 hours
+        if not cities:
+            return error_response(f"No cities available in {data_dir}", 500, "No data found")
+        
+        # Sort cities alphabetically
+        cities.sort(key=lambda x: x['label'])
+        
+        # Cache the result for 24 hours (cities list doesn't change often)
         cache.set(cache_key, cities, ttl=86400)
         
         return success_response(cities, f"Found {len(cities)} cities")

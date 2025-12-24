@@ -20,5 +20,6 @@ eventlet>=0.33.0
 redis>=5.0.0
 hiredis>=2.2.0
 
+# Database support
 supabase
 sqlalchemy
