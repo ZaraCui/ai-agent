@@ -12,6 +12,7 @@ from agent.logging_config import setup_logging, log_request, log_error, log_perf
 from agent.itinerary_storage import ItineraryStorage
 from agent.auth import AuthService
 from agent.user_profile import UserProfileService
+from agent.places_api import PlacesApiService
 import jwt
 from functools import wraps
 from datetime import date
@@ -37,6 +38,7 @@ logger = setup_logging(
 storage = ItineraryStorage()
 auth_service = AuthService()
 user_profile_service = UserProfileService()
+places_api_service = PlacesApiService()
 
 app = Flask(__name__)
 app.logger = logger  # Replace Flask's default logger
@@ -388,6 +390,283 @@ def get_cities():
         traceback.print_exc()
         return error_response(str(e), 500, "Failed to list cities")
 
+# Helper to map Google Places types to our internal categories
+PLACE_TYPE_TO_CATEGORY = {
+    "museum": "museum", "art_gallery": "museum",
+    "church": "temple", "mosque": "temple", "synagogue": "temple", "hindu_temple": "temple",
+    "park": "outdoor", "zoo": "outdoor", "amusement_park": "outdoor",
+    "shopping_mall": "shopping", "store": "shopping",
+    "restaurant": "food", "cafe": "food", "bakery": "food",
+    "tourist_attraction": "sightseeing", "point_of_interest": "sightseeing",
+    "aquarium": "indoor", "library": "indoor",
+}
+
+def _convert_place_to_spot(place_details: Dict[str, Any], city: str) -> Optional[Spot]:
+    """Converts Google Place details into a Spot object."""
+    if not place_details or not place_details.get('name'):
+        return None
+
+    name = place_details.get('name', '')
+    lat = place_details['geometry']['location']['lat']
+    lon = place_details['geometry']['location']['lng']
+
+    # Determine category
+    category = "sightseeing"  # Default category
+    if 'types' in place_details:
+        for place_type in place_details['types']:
+            if place_type in PLACE_TYPE_TO_CATEGORY:
+                category = PLACE_TYPE_TO_CATEGORY[place_type]
+                break
+
+    # Extract rating and photo
+    rating = place_details.get('rating')
+    user_ratings_total = place_details.get('user_ratings_total', 0)
+    photo_url = None
+    if place_details.get('photos'):
+        # Take the first photo reference and get its URL
+        photo_reference = place_details['photos'][0]['photo_reference']
+        photo_url = places_api_service.get_place_photo_url(photo_reference)
+
+    # Default values for duration and description (can be improved with more sophisticated logic)
+    default_durations = {
+        'outdoor': 60, 'indoor': 90, 'temple': 45,
+        'shopping': 60, 'museum': 90, 'food': 60,
+        'sightseeing': 90
+    }
+    duration_minutes = default_durations.get(category, 60)
+    
+    # Generate a simple description if not available, incorporating rating
+    description = place_details.get('formatted_address', '')
+    if rating:
+        description = f"{description}. Rating: {rating} ({user_ratings_total} reviews)."
+
+    return Spot(
+        name=name,
+        name_en=name, # Using name as English name for simplicity
+        city_id=city, # Assuming city name can act as city_id
+        lat=lat,
+        lon=lon,
+        category=category,
+        rating=rating,
+        description=description,
+        duration_minutes=duration_minutes,
+        image_url=photo_url,
+        # Add other fields as needed
+    )
+
+def _fetch_spots_from_places_api(city: str, query: str = "points of interest") -> List[Spot]:
+    """Fetches spots for a city from Google Places API and converts them to Spot objects."""
+    logger.info(f"Fetching spots for {city} from Google Places API...")
+    spots_list = []
+    
+    # Find initial place_id for the city itself, to get its coordinates
+    city_place_id = places_api_service.search_place_id(city)
+    if not city_place_id:
+        logger.warning(f"Could not find place ID for city: {city}")
+        return []
+
+    city_details = places_api_service.get_place_details(city_place_id)
+    if not city_details or 'geometry' not in city_details:
+        logger.warning(f"Could not get details or geometry for city: {city}")
+        return []
+
+    city_lat = city_details['geometry']['location']['lat']
+    city_lon = city_details['geometry']['location']['lng']
+
+
+    # Use Text Search to find points of interest within the city. 
+    # The Text Search API is suitable for broad searches like "points of interest in London".
+    # It returns a list of places. For each place, we then call Place Details.
+    params = {
+        "query": f"{query} in {city}",
+        "location": f"{city_lat},{city_lon}",
+        "radius": 50000, # Search within 50km radius
+        "type": "tourist_attraction|museum|park|restaurant|shopping_mall" # Broad types
+    }
+    text_search_response = places_api_service._make_request("textsearch", params)
+    
+    if text_search_response and text_search_response.get('status') == 'OK':
+        for place_summary in text_search_response.get('results', [])[:30]: # Limit to top 30 places
+            place_id = place_summary.get('place_id')
+            if place_id:
+                place_details = places_api_service.get_place_details(place_id)
+                if place_details:
+                    spot = _convert_place_to_spot(place_details, city)
+                    if spot:
+                        spots_list.append(spot)
+    else:
+        logger.warning(f"Google Places Text Search failed for '{city}' with status: {text_search_response.get('status') if text_search_response else 'No response'}")
+
+    return spots_list
+
+def _fetch_spots_from_places_api(city: str, query: str = "points of interest") -> List[Spot]:
+    """Fetches spots for a city from Google Places API and converts them to Spot objects."""
+    logger.info(f"Fetching spots for {city} from Google Places API...")
+    spots_list = []
+    
+    # Find initial place_id for the city itself, to get its coordinates
+    city_place_id = places_api_service.search_place_id(city)
+    if not city_place_id:
+        logger.warning(f"Could not find place ID for city: {city}")
+        return []
+
+    city_details = places_api_service.get_place_details(city_place_id)
+    if not city_details or 'geometry' not in city_details:
+        logger.warning(f"Could not get details or geometry for city: {city}")
+        return []
+
+    city_lat = city_details['geometry']['location']['lat']
+    city_lon = city_details['geometry']['location']['lng']
+
+
+    # Use Text Search to find points of interest within the city. 
+    # The Text Search API is suitable for broad searches like "points of interest in London".
+    # It returns a list of places. For each place, we then call Place Details.
+    params = {
+        "query": f"{query} in {city}",
+        "location": f"{city_lat},{city_lon}",
+        "radius": 50000, # Search within 50km radius
+        "type": "tourist_attraction|museum|park|restaurant|shopping_mall" # Broad types
+    }
+    text_search_response = places_api_service._make_request("textsearch", params)
+    
+    if text_search_response and text_search_response.get('status') == 'OK':
+        for place_summary in text_search_response.get('results', [])[:30]: # Limit to top 30 places
+            place_id = place_summary.get('place_id')
+            if place_id:
+                place_details = places_api_service.get_place_details(place_id)
+                if place_details:
+                    spot = _convert_place_to_spot(place_details, city)
+                    if spot:
+                        spots_list.append(spot)
+    else:
+        logger.warning(f"Google Places Text Search failed for '{city}' with status: {text_search_response.get('status') if text_search_response else 'No response'}")
+
+    return spots_list
+
+
+# Helper to map Google Places types to our internal categories
+PLACE_TYPE_TO_CATEGORY = {
+    "museum": "museum", "art_gallery": "museum",
+    "church": "temple", "mosque": "temple", "synagogue": "temple", "hindu_temple": "temple",
+    "park": "outdoor", "zoo": "outdoor", "amusement_park": "outdoor",
+    "shopping_mall": "shopping", "store": "shopping",
+    "restaurant": "food", "cafe": "food", "bakery": "food",
+    "tourist_attraction": "sightseeing", "point_of_interest": "sightseeing",
+    "aquarium": "indoor", "library": "indoor",
+}
+
+
+# Helper to map Google Places types to our internal categories
+PLACE_TYPE_TO_CATEGORY = {
+    "museum": "museum", "art_gallery": "museum",
+    "church": "temple", "mosque": "temple", "synagogue": "temple", "hindu_temple": "temple",
+    "park": "outdoor", "zoo": "outdoor", "amusement_park": "outdoor",
+    "shopping_mall": "shopping", "store": "shopping",
+    "restaurant": "food", "cafe": "food", "bakery": "food",
+    "tourist_attraction": "sightseeing", "point_of_interest": "sightseeing",
+    "aquarium": "indoor", "library": "indoor",
+}
+
+def _convert_place_to_spot(place_details: Dict[str, Any], city: str) -> Optional[Spot]:
+    """Converts Google Place details into a Spot object."""
+    if not place_details or not place_details.get('name'):
+        return None
+
+    name = place_details.get('name', '')
+    lat = place_details['geometry']['location']['lat']
+    lon = place_details['geometry']['location']['lng']
+
+    # Determine category
+    category = "sightseeing"  # Default category
+    if 'types' in place_details:
+        for place_type in place_details['types']:
+            if place_type in PLACE_TYPE_TO_CATEGORY:
+                category = PLACE_TYPE_TO_CATEGORY[place_type]
+                break
+
+    # Extract rating and photo
+    rating = place_details.get('rating')
+    user_ratings_total = place_details.get('user_ratings_total', 0)
+    photo_url = None
+    if place_details.get('photos'):
+        # Take the first photo reference and get its URL
+        photo_reference = place_details['photos'][0]['photo_reference']
+        photo_url = places_api_service.get_place_photo_url(photo_reference)
+
+    # Default values for duration and description (can be improved with more sophisticated logic)
+    default_durations = {
+        'outdoor': 60, 'indoor': 90, 'temple': 45,
+        'shopping': 60, 'museum': 90, 'food': 60,
+        'sightseeing': 90
+    }
+    duration_minutes = default_durations.get(category, 60)
+    
+    # Generate a simple description if not available, incorporating rating
+    description = place_details.get('formatted_address', '')
+    if rating:
+        description = f"{description}. Rating: {rating} ({user_ratings_total} reviews)."
+
+    return Spot(
+        name=name,
+        name_en=name, # Using name as English name for simplicity
+        city_id=city, # Assuming city name can act as city_id
+        lat=lat,
+        lon=lon,
+        category=category,
+        rating=rating,
+        description=description,
+        duration_minutes=duration_minutes,
+        image_url=photo_url,
+        # Add other fields as needed
+    )
+
+def _fetch_spots_from_places_api(city: str, query: str = "points of interest") -> List[Spot]:
+    """Fetches spots for a city from Google Places API and converts them to Spot objects."""
+    logger.info(f"Fetching spots for {city} from Google Places API...")
+    spots_list = []
+    
+    # Find initial place_id for the city itself, to get its coordinates
+    city_place_id = places_api_service.search_place_id(city)
+    if not city_place_id:
+        logger.warning(f"Could not find place ID for city: {city}")
+        return []
+
+    city_details = places_api_service.get_place_details(city_place_id)
+    if not city_details or 'geometry' not in city_details:
+        logger.warning(f"Could not get details or geometry for city: {city}")
+        return []
+
+    city_lat = city_details['geometry']['location']['lat']
+    city_lon = city_details['geometry']['location']['lng']
+
+
+    # Use Text Search to find points of interest within the city. 
+    # The Text Search API is suitable for broad searches like "points of interest in London".
+    # It returns a list of places. For each place, we then call Place Details.
+    params = {
+        "query": f"{query} in {city}",
+        "location": f"{city_lat},{city_lon}",
+        "radius": 50000, # Search within 50km radius
+        "type": "tourist_attraction|museum|park|restaurant|shopping_mall" # Broad types
+    }
+    text_search_response = places_api_service._make_request("textsearch", params)
+    
+    if text_search_response and text_search_response.get('status') == 'OK':
+        for place_summary in text_search_response.get('results', [])[:30]: # Limit to top 30 places
+            place_id = place_summary.get('place_id')
+            if place_id:
+                place_details = places_api_service.get_place_details(place_id)
+                if place_details:
+                    spot = _convert_place_to_spot(place_details, city)
+                    if spot:
+                        spots_list.append(spot)
+    else:
+        logger.warning(f"Google Places Text Search failed for '{city}' with status: {text_search_response.get('status') if text_search_response else 'No response'}")
+
+    return spots_list
+
+
 @app.route('/api/spots/<city>', methods=['GET'])
 @rate_limit(limit=30, window=60)  # 30 requests per minute
 def get_spots(city):
@@ -399,60 +678,59 @@ def get_spots(city):
     try:
         # Try to get from cache first
         cache_key = cache_key_for_spots(city)
-        from agent.cache import get
+        from agent.cache import get, set
         cached_spots = get(cache_key)
         
         if cached_spots is not None:
             logger.debug(f"Spots for {city} loaded from cache, count={cached_spots.get('total', 0)}")
-            return success_response(cached_spots, f"Loaded {cached_spots['total']} spots for {city} (cached)")
+            
+            # Convert cached dicts back to Spot objects
+            rehydrated_spots = [Spot(**s) for s in cached_spots['spots']]
+            return success_response({"city": city, "spots": [s.to_dict() for s in rehydrated_spots], "total": len(rehydrated_spots)}, f"Loaded {len(rehydrated_spots)} spots for {city} (cached)")
         
-        # 使用绝对路径以兼容 Vercel 部署
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        path = os.path.join(base_dir, f"data/spots_{city}.json")
+        # Fetch from Google Places API
+        spots = _fetch_spots_from_places_api(city)
+
+        if not spots:
+            return error_response(f"No live spot data found for city: {city}", 404, "City not found")
         
-        if not os.path.exists(path):
-            return error_response(f"No spot data found for city: {city}", 404, "City not found")
-        
-        with open(path, encoding="utf-8") as f:
-            spots_data = json.load(f)
-        
-        # Add popularity score to each spot for frontend display
-        def calculate_popularity_score(spot_dict):
-            """计算景点受欢迎程度分数"""
-            base_rating = float(spot_dict.get('rating', 3.0)) if spot_dict.get('rating') is not None else 3.0
+        # Calculate popularity score and sort (similar to old logic for consistent frontend display)
+        def calculate_popularity_score(spot: Spot):
+            base_rating = float(spot.rating) if spot.rating is not None else 3.0
+            # Weights might need adjustment based on Places API data if categories are different
+            # Keeping existing weights for now
             category_weights = {
                 'sightseeing': 1.2, 'museum': 1.15, 'temple': 1.1,
                 'outdoor': 1.05, 'shopping': 1.0, 'food': 0.95, 'indoor': 0.9
             }
-            category_weight = category_weights.get(spot_dict.get('category', 'indoor'), 1.0)
+            category_weight = category_weights.get(spot.category, 1.0)
             return round(base_rating * category_weight, 2)
         
-        for spot in spots_data:
-            spot['popularity_score'] = calculate_popularity_score(spot)
+        for spot in spots:
+            spot.popularity_score = calculate_popularity_score(spot) # Add popularity as attribute
         
-        # Sort by popularity for frontend display
-        spots_data.sort(key=lambda s: s.get('popularity_score', 0), reverse=True)
+        spots.sort(key=lambda s: s.popularity_score, reverse=True)
         
         result = {
             "city": city,
-            "spots": spots_data,
-            "total": len(spots_data)
+            "spots": [s.to_dict() for s in spots], # Convert to dicts for JSON serialization
+            "total": len(spots)
         }
         
         # Cache the result for 12 hours
-        from agent.cache import set
         set(cache_key, result, ttl=43200)
         
-        return success_response(result, f"Loaded {len(spots_data)} spots for {city}")
+        return success_response(result, f"Loaded {len(spots)} spots for {city}")
     
     except Exception as e:
-        return error_response(str(e), 500, "Failed to load spots")
+        logger.error(f"Error in get_spots for city {city}: {traceback.format_exc()}")
+        return error_response(str(e), 500, "Failed to load spots from Google Places API")
 
 @app.route('/plan_itinerary', methods=['POST'])
 @rate_limit(limit=5, window=60)  # 5 requests per minute (expensive operation)
 def plan_itinerary():
     try:
-        # G
+        # Get request data
         data = request.json
         if not data:
             return error_response("Request body must be JSON", 400, "Invalid request")
@@ -463,71 +741,51 @@ def plan_itinerary():
         
         logger.info(f"Planning itinerary for {city}, start_date={start_date}, days={data.get('days', 3)}")
 
-        # 验证必需参数
+        # Test required parameters; return errors if missing
         if not city:
             return error_response("Missing required parameter: 'city'", 400, "Validation error")
         if not start_date:
             return error_response("Missing required parameter: 'start_date'", 400, "Validation error")
 
-        # 加载 spots 数据
-        def load_spots(city: str):
-            path = f"data/spots_{city}.json"
-            if not os.path.exists(path):
-                raise FileNotFoundError(f"No spot data found for city: {city}")
-            with open(path, encoding="utf-8") as f:
-                raw = json.load(f)
-
-            # default durations by category (minutes)
-            default_durations = {
-                'outdoor': 60,
-                'indoor': 90,
-                'temple': 45,
-                'shopping': 60,
-                'museum': 90,
-                'food': 60,
-            }
-
-            # default ratings by category (0-5)
-            default_ratings = {
-                'outdoor': 4.2,
-                'indoor': 4.3,
-                'temple': 4.1,
-                'shopping': 3.9,
-                'museum': 4.5,
-                'food': 4.0,
-            }
-
-            # short explanation templates by category
-            explanation_templates = {
-                'outdoor': 'Popular outdoor attraction with scenic views and good photo opportunities.',
-                'indoor': 'Well-curated indoor spot; expect exhibits or sheltered activities.',
-                'temple': 'Historic or religious site, usually quiet and culturally significant.',
-                'shopping': 'Shopping area with stores and local vendors; good for browsing.',
-                'museum': 'High-quality museum with notable collections; allow more time.',
-                'food': 'Recommended local food spot; good for meals and tasting local cuisine.',
-            }
-
-            spots = []
-            for s in raw:
-                spot = Spot(**s)
-                if getattr(spot, 'duration_minutes', None) is None:
-                    spot.duration_minutes = default_durations.get(spot.category, 60)
-                if getattr(spot, 'rating', None) is None:
-                    spot.rating = default_ratings.get(spot.category, 4.0)
-                # provide a concise description that also explains the rating
-                if not getattr(spot, 'description', None):
-                    base_expl = explanation_templates.get(spot.category, 'Popular attraction')
-                    spot.description = f"{base_expl} Typical visit ~{spot.duration_minutes} minutes. Rating based on typical visitor feedback." 
-                spots.append(spot)
-
-            return spots
+        # Load spots for the city, now from Places API
+        def load_spots(city: str) -> List[Spot]:
+            # This internal load_spots will now call the Places API helper
+            return _fetch_spots_from_places_api(city)
 
         try:
             spots = load_spots(city)
+
+            if not spots:
+                raise FileNotFoundError(f"No spot data found for city: {city}")
+
         except FileNotFoundError as e:
-            return error_response(str(e), 404, "City not found")
-        except json.JSONDecodeError as e:
-            return error_response(f"Corrupted city data: {str(e)}", 500, "Data loading error")
+            # Optionally, fallback to static JSON if Places API fails for some spots 
+            # For now, just raise the error.
+            app.logger.warning(f"Places API did not return spots for {city}. Attempting fallback to static JSON...")
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            path = os.path.join(base_dir, f"data/spots_{city}.json")
+            if os.path.exists(path):
+                with open(path, encoding="utf-8") as f:
+                    raw_static_spots = json.load(f)
+                logging.warning(f"Loaded {len(raw_static_spots)} spots from static JSON for {city}")
+
+                spots = []
+                # Re-apply defaults as in the original load_spots
+                default_durations = {
+                    'outdoor': 60, 'indoor': 90, 'temple': 45,
+                    'shopping': 60, 'museum': 90, 'food': 60, 'sightseeing': 90
+                }
+                for s_data in raw_static_spots:
+                    spot = Spot(**s_data)
+                    if getattr(spot, 'duration_minutes', None) is None:
+                        spot.duration_minutes = default_durations.get(spot.category, 60)
+                    spots.append(spot)
+
+            else:
+                return error_response(str(e), 404, "City not found (from Places API and static files)")
+
+        except Exception as e:
+            return error_response(f"Corrupted city data or Places API error: {str(e)}", 500, "Data loading error")
         
         # Store total available spots before filtering
         total_available_spots = len(spots)
@@ -566,9 +824,9 @@ def plan_itinerary():
                 """计算景点受欢迎程度分数：评分 + 类别权重"""
                 base_rating = float(spot.rating) if spot.rating is not None else 3.0
                 
-                # 类别权重：某些类别天然更受欢迎
+                # Category weights: some categories are naturally more popular
                 category_weights = {
-                    'sightseeing': 1.2,  # 观光景点权重高
+                    'sightseeing': 1.2,  # 观光
                     'museum': 1.15,      # 博物馆
                     'temple': 1.1,       # 寺庙/文化景点
                     'outdoor': 1.05,     # 户外景点

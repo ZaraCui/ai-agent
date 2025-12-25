@@ -260,3 +260,9 @@ def cache_key_for_plan(city: str, days: int, spots: list) -> str:
     """Generate a specific cache key for an itinerary plan."""
     spots_hash = hashlib.md5(json.dumps(sorted(spots)).encode()).hexdigest()[:8]
     return f"plan:{city}:{days}:{spots_hash}"
+
+def cache_key_for_places(identifier: str) -> str:
+    """Generate cache key for Google Places API responses."""
+    # Use MD5 hash for longer identifiers to keep key length reasonable
+    id_hash = hashlib.md5(identifier.encode()).hexdigest()
+    return f"places:{id_hash}"
