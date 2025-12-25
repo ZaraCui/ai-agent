@@ -1,5 +1,5 @@
 from agent.db import get_db_client, CustomSupabaseClient
-from supabase import PostgrestAPIResponse
+from postgrest import APIResponse as PostgrestAPIResponse
 
 class UserProfileService:
     """Manages user profiles and preferences."""
