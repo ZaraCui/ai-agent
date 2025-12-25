@@ -402,12 +402,45 @@
 <body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-indigo-100 selection:text-indigo-700">
     <!-- Auth Header -->
     <div id="auth-header" class="absolute top-0 right-0 p-4 sm:p-6 z-30 no-print">
-        <div id="user-info" class="hidden items-center">
-            <span id="user-email" class="text-white text-sm font-medium mr-3"></span>
-            <button id="my-itineraries-btn" class="px-3 py-2 text-sm font-medium bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors mr-2">My Trips</button>
-            <button id="my-profile-btn" class="px-3 py-2 text-sm font-medium bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors mr-2">My Profile</button>
-            <button id="logout-btn" class="px-4 py-2 text-sm font-semibold bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors">Logout</button>
+        <!-- User Dropdown Menu -->
+        <div id="user-info" class="hidden relative">
+            <button id="user-menu-btn" class="flex items-center space-x-2 p-1 rounded-full hover:bg-white/10 transition-colors">
+                <img id="user-avatar" src="" alt="User Avatar" class="w-10 h-10 rounded-full border-2 border-white/30" style="display: none;">
+                <div id="user-avatar-placeholder" class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-white font-bold border-2 border-white/30">
+                    U
+                </div>
+            </button>
+            
+            <!-- Dropdown Menu -->
+            <div id="user-dropdown" class="absolute right-0 mt-2 w-64 bg-white rounded-lg shadow-xl border border-slate-200 py-2 hidden">
+                <div class="px-4 py-3 border-b border-slate-200">
+                    <div class="flex items-center space-x-3">
+                        <img id="dropdown-avatar" src="" alt="Avatar" class="w-12 h-12 rounded-full" style="display: none;">
+                        <div id="dropdown-avatar-placeholder" class="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 font-bold text-lg">
+                            U
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <p id="dropdown-user-name" class="text-sm font-semibold text-slate-900 truncate">User</p>
+                            <p id="dropdown-user-email" class="text-xs text-slate-500 truncate"></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="dropdown-profile-btn" class="w-full px-4 py-2 text-left text-sm text-slate-700 hover:bg-slate-50 flex items-center">
+                    <span class="mr-3">👤</span> My Profile
+                </button>
+                <button id="dropdown-trips-btn" class="w-full px-4 py-2 text-left text-sm text-slate-700 hover:bg-slate-50 flex items-center">
+                    <span class="mr-3">✈️</span> My Trips
+                </button>
+                
+                <div class="border-t border-slate-200 my-2"></div>
+                
+                <button id="dropdown-logout-btn" class="w-full px-4 py-2 text-left text-sm text-red-600 hover:bg-red-50 flex items-center">
+                    <span class="mr-3">🚪</span> Logout
+                </button>
+            </div>
         </div>
+        
         <button id="login-signup-btn" class="px-4 py-2 text-sm font-semibold bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors backdrop-blur-sm">Login / Sign Up</button>
     </div>
 
@@ -718,6 +751,27 @@
                     <label class="block text-sm font-medium text-slate-700 mb-1">Email:</label>
                     <p id="profile-email" class="w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg"></p>
                 </div>
+                
+                <!-- Profile Picture Upload -->
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Profile Picture:</label>
+                    <div class="flex items-center space-x-4">
+                        <div id="profile-avatar-preview" class="w-20 h-20 rounded-full bg-slate-200 flex items-center justify-center overflow-hidden">
+                            <span class="text-3xl text-slate-500">👤</span>
+                        </div>
+                        <div class="flex-1">
+                            <input type="file" id="profile-avatar-input" accept="image/*" class="hidden">
+                            <button type="button" onclick="document.getElementById('profile-avatar-input').click()" 
+                                    class="px-4 py-2 bg-indigo-100 hover:bg-indigo-200 text-indigo-700 rounded-lg text-sm font-medium transition-colors">
+                                Choose Photo
+                            </button>
+                            <p class="text-xs text-slate-500 mt-2">JPG, PNG or GIF (max 5MB)</p>
+                        </div>
+                    </div>
+                    <input type="text" id="profile-avatar-url" placeholder="Or paste image URL" 
+                           class="w-full px-4 py-2 bg-slate-100 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm">
+                </div>
+                
                 <div class="space-y-2">
                     <span class="block text-sm font-medium text-slate-700 mb-1">Travel Interests:</span>
                     <div class="flex flex-wrap gap-2">
@@ -961,29 +1015,76 @@
         function updateUserUI(user) {
             if (user && user.email) {
                 document.getElementById('user-info').classList.remove('hidden');
-                document.getElementById('user-email').textContent = user.email;
                 document.getElementById('login-signup-btn').classList.add('hidden');
-                document.getElementById('my-profile-btn').classList.remove('hidden'); // Show My Profile button
+                
+                // Update dropdown info
+                const emailParts = user.email.split('@');
+                const initial = emailParts[0].charAt(0).toUpperCase();
+                document.getElementById('user-avatar-placeholder').textContent = initial;
+                document.getElementById('dropdown-avatar-placeholder').textContent = initial;
+                document.getElementById('dropdown-user-name').textContent = emailParts[0];
+                document.getElementById('dropdown-user-email').textContent = user.email;
+                
+                // Load avatar if exists
+                if (user.avatar_url) {
+                    updateAvatarDisplay(user.avatar_url);
+                }
+                
                 currentUser = user;
             } else {
                 document.getElementById('user-info').classList.add('hidden');
                 document.getElementById('login-signup-btn').classList.remove('hidden');
-                document.getElementById('my-profile-btn').classList.add('hidden'); // Hide My Profile button
                 currentUser = null;
             }
         }
         
-        document.getElementById('logout-btn').addEventListener('click', () => {
+        function updateAvatarDisplay(avatarUrl) {
+            if (avatarUrl) {
+                document.getElementById('user-avatar').src = avatarUrl;
+                document.getElementById('user-avatar').style.display = 'block';
+                document.getElementById('user-avatar-placeholder').style.display = 'none';
+                document.getElementById('dropdown-avatar').src = avatarUrl;
+                document.getElementById('dropdown-avatar').style.display = 'block';
+                document.getElementById('dropdown-avatar-placeholder').style.display = 'none';
+            }
+        }
+        
+        // User menu dropdown toggle
+        document.getElementById('user-menu-btn').addEventListener('click', () => {
+            const dropdown = document.getElementById('user-dropdown');
+            dropdown.classList.toggle('hidden');
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+            const userInfo = document.getElementById('user-info');
+            const dropdown = document.getElementById('user-dropdown');
+            if (!userInfo.contains(e.target)) {
+                dropdown.classList.add('hidden');
+            }
+        });
+        
+        // Dropdown menu actions
+        document.getElementById('dropdown-profile-btn').addEventListener('click', () => {
+            document.getElementById('user-dropdown').classList.add('hidden');
+            showProfileModal();
+        });
+        
+        document.getElementById('dropdown-trips-btn').addEventListener('click', () => {
+            document.getElementById('user-dropdown').classList.add('hidden');
+            showMyItineraries();
+        });
+        
+        document.getElementById('dropdown-logout-btn').addEventListener('click', () => {
             localStorage.removeItem('travel_token');
             localStorage.removeItem('travel_user');
             updateUserUI(null);
-            // Also close modals if open
+            document.getElementById('user-dropdown').classList.add('hidden');
             hideItinerariesModal();
             hideProfileModal();
         });
 
-        // My Itineraries functionality
-        document.getElementById('my-itineraries-btn').addEventListener('click', showMyItineraries);
+        // My Itineraries functionality (event listeners are on dropdown buttons now)
         document.getElementById('itineraries-modal-close').addEventListener('click', hideItinerariesModal);
         document.getElementById('itineraries-modal-overlay').addEventListener('click', (e) => {
             if (e.target === document.getElementById('itineraries-modal-overlay')) hideItinerariesModal();
@@ -1174,7 +1275,7 @@
             document.getElementById('profile-error').style.display = 'none';
         }
 
-        document.getElementById('my-profile-btn').addEventListener('click', showProfileModal);
+        // Profile modal is opened from dropdown menu now
         document.getElementById('profile-modal-close').addEventListener('click', hideProfileModal);
         profileModalOverlay.addEventListener('click', (e) => {
             if (e.target === profileModalOverlay) hideProfileModal();
