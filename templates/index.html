@@ -133,6 +133,89 @@
             background: #f1f5f9;
         }
 
+        /* Drag and Drop Styles */
+        .spot-card.draggable {
+            cursor: move;
+            position: relative;
+        }
+
+        .spot-card.draggable::before {
+            content: '⋮⋮';
+            position: absolute;
+            left: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+            font-size: 20px;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .spot-card.draggable:hover::before {
+            opacity: 1;
+        }
+
+        .spot-card.dragging {
+            opacity: 0.5;
+            transform: scale(0.95);
+        }
+
+        .spot-card.drag-over {
+            border-top: 3px dashed #4f46e5;
+            padding-top: 20px;
+            margin-top: 8px;
+        }
+
+        .edit-mode-active .spot-card {
+            padding-left: 40px;
+        }
+
+        .remove-spot-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: #ef4444;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 4px 8px;
+            font-size: 12px;
+            cursor: pointer;
+            opacity: 0;
+            transition: all 0.2s;
+        }
+
+        .edit-mode-active .remove-spot-btn {
+            opacity: 1;
+        }
+
+        .remove-spot-btn:hover {
+            background: #dc2626;
+            transform: scale(1.05);
+        }
+
+        .edit-mode-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: #f1f5f9;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .edit-mode-toggle.active {
+            background: #eef2ff;
+            border-color: #4f46e5;
+            color: #4f46e5;
+        }
+
+        .edit-mode-toggle:hover {
+            background: #e2e8f0;
+        }
+
         /* Alerts */
         .error-alert {
             background: #fef2f2;
@@ -533,7 +616,12 @@
                         class="no-print inline-flex items-center justify-center px-4 py-2 border border-slate-300 shadow-sm text-sm font-medium rounded-lg text-slate-700 bg-white hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors">
                         🖨️ Print Plan
                     </button>
-                    <div class="flex space-x-2 mt-4 sm:mt-0 sm:ml-4">
+                    <div class="flex flex-wrap gap-2 mt-4 sm:mt-0 sm:ml-4">
+                        <button id="edit-mode-toggle-btn"
+                            class="no-print edit-mode-toggle">
+                            <span>✏️</span>
+                            <span id="edit-mode-text">Edit Mode</span>
+                        </button>
                         <button id="share-itinerary-btn"
                             class="no-print inline-flex items-center justify-center px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors">
                             🔗 Share
@@ -1087,7 +1175,8 @@
             errorDiv.style.display = 'none';
 
             try {
-                const response = await authenticatedFetch(`${_API_BASE}/api/user/preferences`);
+                // Pass user_id as query parameter
+                const response = await fetch(`${_API_BASE}/api/user/preferences?user_id=${currentUser.id}`);
                 const result = await response.json();
 
                 if (result.status === 'success') {
@@ -1133,14 +1222,18 @@
                 const selectedInterests = Array.from(document.querySelectorAll('#profile-form input[name="interests"]:checked'))
                                                 .map(cb => cb.value);
                 
-                const newPreferences = {
-                    about_me: aboutMe,
-                    interests: selectedInterests
+                const payload = {
+                    user_id: currentUser.id,
+                    preferences: {
+                        about_me: aboutMe,
+                        interests: selectedInterests
+                    }
                 };
 
-                const response = await authenticatedFetch(`${_API_BASE}/api/user/preferences`, {
+                const response = await fetch(`${_API_BASE}/api/user/preferences`, {
                     method: 'POST',
-                    body: JSON.stringify(newPreferences)
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
                 });
                 const result = await response.json();
 
@@ -1419,9 +1512,12 @@
             `;
         };
 
-        const renderSpotCard = (spot) => {
+        const renderSpotCard = (spot, dayIndex, spotIndex, isEditable = false) => {
             return `
-                <div class="spot-card group hover:shadow-md hover:border-indigo-500/30">
+                <div class="spot-card group hover:shadow-md hover:border-indigo-500/30 ${isEditable ? 'draggable' : ''}" 
+                     data-day="${dayIndex}" 
+                     data-spot-index="${spotIndex}"
+                     ${isEditable ? 'draggable="true"' : ''}>
                     ${spot.image_url ? `<img src="${spot.image_url}" alt="${spot.name}" class="w-full h-32 object-cover rounded-t-lg mb-3">` : ''}
                     <div class="flex justify-between items-start mb-2">
                         <h4 class="font-bold text-slate-800 text-lg flex items-center">
@@ -1907,6 +2003,305 @@
             gmap.fitBounds(bounds);
             document.getElementById('map').style.display = 'block';
         }
+
+        // === Interactive Editing Feature ===
+        let isEditModeActive = false;
+        let editableItineraryData = null;
+
+        // Edit mode toggle handler
+        document.getElementById('edit-mode-toggle-btn').addEventListener('click', toggleEditMode);
+
+        function toggleEditMode() {
+            isEditModeActive = !isEditModeActive;
+            const toggleBtn = document.getElementById('edit-mode-toggle-btn');
+            const timeline = document.getElementById('timeline-container');
+            
+            if (isEditModeActive) {
+                // Enter edit mode
+                toggleBtn.classList.add('active');
+                document.getElementById('edit-mode-text').textContent = 'Save & Exit';
+                timeline.classList.add('edit-mode-active');
+                
+                // Make a copy of the current itinerary for editing
+                editableItineraryData = JSON.parse(JSON.stringify(
+                    currentItineraryData.comparison.recommended_data.itinerary
+                ));
+                
+                // Render editable version
+                renderEditableItinerary();
+                showSuccessMessage('Edit mode activated! You can now drag, drop, and remove spots.');
+            } else {
+                // Exit edit mode and save
+                toggleBtn.classList.remove('active');
+                document.getElementById('edit-mode-text').textContent = 'Edit Mode';
+                timeline.classList.remove('edit-mode-active');
+                
+                // Save the edited itinerary
+                saveEditedItinerary();
+                showSuccessMessage('Itinerary saved successfully!');
+            }
+        }
+
+        function renderEditableItinerary() {
+            const timeline = document.getElementById('timeline-container');
+            const start_date = document.getElementById('start_date').value;
+            
+            timeline.innerHTML = editableItineraryData.map((day, dayIndex) => 
+                renderEditableDayTimeline(day, start_date, dayIndex)
+            ).join('');
+            
+            // Setup drag and drop handlers
+            setupDragAndDrop();
+        }
+
+        function renderEditableDayTimeline(day, startDate, dayIndex) {
+            const dayDate = new Date(startDate);
+            dayDate.setDate(dayDate.getDate() + day.day - 1);
+
+            const spots = day.spots.map((spot, spotIndex) => 
+                renderEditableSpotCard(spot, dayIndex, spotIndex)
+            ).join('');
+
+            return `
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="flex flex-col mb-6 pb-4 border-b border-slate-100">
+                            <h3 class="text-2xl font-bold text-slate-800 mb-1">Day ${day.day}</h3>
+                            <div class="text-sm font-medium text-indigo-600 mb-2">${formatDate(dayDate.toISOString().split('T')[0])}</div>
+                            <div class="flex items-center text-xs text-slate-500 space-x-4 bg-slate-50 px-3 py-2 rounded-lg w-fit">
+                                <span class="flex items-center"><span class="mr-1">🚗</span> ${day.travel_minutes ?? 'N/A'} min travel</span>
+                                <span class="flex items-center"><span class="mr-1">📏</span> ${day.total_distance_km ?? 'N/A'} km</span>
+                            </div>
+                        </div>
+                        <div class="space-y-4" data-day="${dayIndex}">
+                            ${spots}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderEditableSpotCard(spot, dayIndex, spotIndex) {
+            return `
+                <div class="spot-card draggable" 
+                     data-day="${dayIndex}" 
+                     data-spot-index="${spotIndex}"
+                     draggable="true">
+                    <button onclick="removeSpot(${dayIndex}, ${spotIndex})" 
+                            class="remove-spot-btn"
+                            title="Remove this spot">
+                        ✕
+                    </button>
+                    ${spot.image_url ? `<img src="${spot.image_url}" alt="${spot.name}" class="w-full h-32 object-cover rounded-t-lg mb-3">` : ''}
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="font-bold text-slate-800 text-lg flex items-center">
+                            <span class="mr-2 text-indigo-500">📍</span> 
+                            <div class="flex flex-col">
+                                <span>${spot.name}</span>
+                                ${spot.name_en && spot.name_en !== spot.name ? `<span class="text-sm font-normal text-slate-500">${spot.name_en}</span>` : ''}
+                            </div>
+                        </h4>
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-50 text-indigo-700 border border-indigo-100">
+                            ${spot.category || 'Sightseeing'}
+                        </span>
+                    </div>
+                    <div class="flex items-center space-x-4 text-sm text-slate-600 mb-3 bg-slate-50 p-2 rounded-lg">
+                        <div class="flex items-center" title="Duration"><span class="mr-1.5">⏱️</span> ${spot.duration_minutes || 'N/A'} mins</div>
+                        <div class="flex items-center" title="Rating"><span class="mr-1.5 text-amber-400">⭐</span> ${spot.rating ? Number(spot.rating).toFixed(1) : 'N/A'}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Drag and Drop functionality
+        let draggedElement = null;
+        let draggedData = null;
+
+        function setupDragAndDrop() {
+            const spotCards = document.querySelectorAll('.spot-card.draggable');
+            
+            spotCards.forEach(card => {
+                card.addEventListener('dragstart', handleDragStart);
+                card.addEventListener('dragover', handleDragOver);
+                card.addEventListener('drop', handleDrop);
+                card.addEventListener('dragleave', handleDragLeave);
+                card.addEventListener('dragend', handleDragEnd);
+            });
+        }
+
+        function handleDragStart(e) {
+            draggedElement = this;
+            draggedData = {
+                day: parseInt(this.dataset.day),
+                spotIndex: parseInt(this.dataset.spotIndex)
+            };
+            
+            this.classList.add('dragging');
+            e.dataTransfer.effectAllowed = 'move';
+            e.dataTransfer.setData('text/html', this.innerHTML);
+        }
+
+        function handleDragOver(e) {
+            if (e.preventDefault) {
+                e.preventDefault();
+            }
+            
+            e.dataTransfer.dropEffect = 'move';
+            
+            if (this !== draggedElement) {
+                this.classList.add('drag-over');
+            }
+            
+            return false;
+        }
+
+        function handleDragLeave(e) {
+            this.classList.remove('drag-over');
+        }
+
+        function handleDrop(e) {
+            if (e.stopPropagation) {
+                e.stopPropagation();
+            }
+            
+            if (draggedElement !== this) {
+                const targetDay = parseInt(this.dataset.day);
+                const targetSpotIndex = parseInt(this.dataset.spotIndex);
+                
+                // Remove from original position
+                const draggedSpot = editableItineraryData[draggedData.day].spots[draggedData.spotIndex];
+                editableItineraryData[draggedData.day].spots.splice(draggedData.spotIndex, 1);
+                
+                // Insert at new position
+                editableItineraryData[targetDay].spots.splice(targetSpotIndex, 0, draggedSpot);
+                
+                // Re-render
+                renderEditableItinerary();
+                
+                showSuccessMessage('Spot moved successfully!');
+            }
+            
+            return false;
+        }
+
+        function handleDragEnd(e) {
+            this.classList.remove('dragging');
+            
+            document.querySelectorAll('.spot-card').forEach(card => {
+                card.classList.remove('drag-over');
+            });
+        }
+
+        // Remove spot function
+        function removeSpot(dayIndex, spotIndex) {
+            if (!confirm('Are you sure you want to remove this spot from your itinerary?')) {
+                return;
+            }
+            
+            editableItineraryData[dayIndex].spots.splice(spotIndex, 1);
+            
+            // Re-render
+            renderEditableItinerary();
+            
+            showSuccessMessage('Spot removed successfully!');
+        }
+
+        // Save edited itinerary
+        async function saveEditedItinerary() {
+            if (!editableItineraryData) return;
+            
+            // Recalculate distances and travel times
+            await recalculateItineraryMetrics();
+            
+            // Update the current itinerary data
+            currentItineraryData.comparison.recommended_data.itinerary = editableItineraryData;
+            
+            // Re-render normal view
+            const start_date = document.getElementById('start_date').value;
+            const timeline = document.getElementById('timeline-container');
+            timeline.innerHTML = editableItineraryData.map(day => renderDayTimeline(day, start_date)).join('');
+            
+            // Update map
+            renderItineraryOnMap(editableItineraryData);
+            
+            // Clear editable data
+            editableItineraryData = null;
+        }
+
+        // Recalculate travel metrics after editing
+        async function recalculateItineraryMetrics() {
+            const mode = currentItineraryData.comparison.recommended_mode;
+            
+            for (let dayIndex = 0; dayIndex < editableItineraryData.length; dayIndex++) {
+                const day = editableItineraryData[dayIndex];
+                
+                if (!day.spots || day.spots.length === 0) {
+                    day.travel_minutes = 0;
+                    day.total_distance_km = 0;
+                    continue;
+                }
+                
+                let totalTravelMinutes = 0;
+                let totalDistanceKm = 0;
+                
+                // Calculate travel between consecutive spots
+                for (let i = 0; i < day.spots.length - 1; i++) {
+                    const from = day.spots[i];
+                    const to = day.spots[i + 1];
+                    
+                    // Calculate distance using Haversine formula
+                    const distance = calculateDistance(
+                        from.lat, from.lon || from.lng,
+                        to.lat, to.lon || to.lng
+                    );
+                    
+                    // Estimate travel time based on mode and distance
+                    const travelTime = estimateTravelTime(distance, mode);
+                    
+                    totalTravelMinutes += travelTime;
+                    totalDistanceKm += distance;
+                }
+                
+                day.travel_minutes = Math.round(totalTravelMinutes * 10) / 10;
+                day.total_distance_km = Math.round(totalDistanceKm * 100) / 100;
+            }
+        }
+
+        // Haversine formula to calculate distance between two points
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            const R = 6371; // Earth's radius in km
+            const dLat = toRad(lat2 - lat1);
+            const dLon = toRad(lon2 - lon1);
+            
+            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                     Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+                     Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            return R * c;
+        }
+
+        function toRad(degrees) {
+            return degrees * Math.PI / 180;
+        }
+
+        // Estimate travel time based on distance and transport mode
+        function estimateTravelTime(distanceKm, mode) {
+            // Average speeds (km/h) for different transport modes
+            const speeds = {
+                'walk': 5,      // 5 km/h walking
+                'transit': 20,  // 20 km/h average for public transit
+                'taxi': 30      // 30 km/h average for taxi in city traffic
+            };
+            
+            const speed = speeds[mode] || 20;
+            const hours = distanceKm / speed;
+            return hours * 60; // Convert to minutes
+        }
+
+        // Make removeSpot globally accessible
+        window.removeSpot = removeSpot;
     </script>
 </body>
 
