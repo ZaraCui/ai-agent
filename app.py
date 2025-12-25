@@ -1162,6 +1162,96 @@ def get_user_itineraries():
         return error_response(str(e), 500, "Failed to get itineraries")
 
 
+@app.route('/api/itinerary/<itinerary_id>', methods=['DELETE'])
+@rate_limit(limit=20, window=60)
+def delete_itinerary_route(itinerary_id):
+    """Delete a saved itinerary from the database."""
+    try:
+        # Basic validation for UUID format
+        import uuid
+        try:
+            uuid.UUID(itinerary_id)
+        except ValueError:
+            return error_response("Invalid itinerary ID format.", 400)
+
+        # Delete from database
+        try:
+            response = storage.db.from_('itineraries').delete().eq('id', itinerary_id).execute()
+            
+            if response.data:
+                logger.info(f"Deleted itinerary: {itinerary_id}")
+                return success_response({"itinerary_id": itinerary_id}, "Itinerary deleted successfully")
+            else:
+                return error_response("Itinerary not found or already deleted", 404)
+                
+        except Exception as db_error:
+            logger.error(f"Database error deleting itinerary: {str(db_error)}")
+            return error_response("Failed to delete itinerary", 500)
+            
+    except Exception as e:
+        logger.error(f"Failed to delete itinerary {itinerary_id}: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to delete itinerary")
+
+
+# ===== User Preferences API =====
+
+@app.route('/api/user/preferences', methods=['GET'])
+@rate_limit(limit=30, window=60)
+def get_user_preferences():
+    """Get user preferences endpoint."""
+    try:
+        # Get user_id from query parameter or auth header
+        user_id = request.args.get('user_id')
+        if not user_id:
+            # Try to get from Authorization header
+            auth_header = request.headers.get('Authorization')
+            if auth_header and auth_header.startswith('Bearer '):
+                # In production, decode JWT to get user_id
+                # For now, return error
+                return error_response("User ID is required", 400)
+            return error_response("User ID is required", 400)
+
+        result = user_profile_service.get_user_preferences(user_id)
+        
+        if result["status"] == "error":
+            return error_response(result["reason"], 404 if "not found" in result["reason"].lower() else 400)
+        
+        return success_response(result.get("preferences", {}), "User preferences loaded successfully")
+    
+    except Exception as e:
+        logger.error(f"Failed to get user preferences: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to get user preferences")
+
+
+@app.route('/api/user/preferences', methods=['POST'])
+@rate_limit(limit=10, window=60)
+def update_user_preferences():
+    """Update user preferences endpoint."""
+    try:
+        data = request.json
+        if not data:
+            return error_response("Request body must be JSON", 400)
+        
+        user_id = data.get('user_id')
+        preferences = data.get('preferences')
+        
+        if not user_id:
+            return error_response("User ID is required", 400)
+        if not preferences:
+            return error_response("Preferences data is required", 400)
+
+        result = user_profile_service.update_user_preferences(user_id, preferences)
+        
+        if result["status"] == "error":
+            return error_response(result["reason"], 400)
+        
+        return success_response({"message": result.get("message", "Preferences updated")}, "User preferences updated successfully")
+    
+    except Exception as e:
+        logger.error(f"Failed to update user preferences: {str(e)}", exc_info=True)
+        return error_response(str(e), 500, "Failed to update user preferences")
+
+
 # ===== User Authentication =====
 
 @app.route('/api/auth/signup', methods=['POST'])
