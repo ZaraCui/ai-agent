@@ -640,16 +640,6 @@
     "city": "昆明"
   },
   {
-    "name": "网红打卡点",
-    "category": "sightseeing",
-    "duration_minutes": 120,
-    "rating": 4.0,
-    "lat": 24.875283,
-    "lon": 102.775146,
-    "description": "这是昆明的热门景点网红打卡点，是一个著名景点 | 位于：江尾小区4区西侧470米 | 景点类型：风景名胜 | 建议游览时间：2小时",
-    "city": "昆明"
-  },
-  {
     "name": "宝海公园",
     "category": "outdoor",
     "duration_minutes": 120,
