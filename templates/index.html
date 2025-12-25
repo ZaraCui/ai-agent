@@ -307,6 +307,7 @@
         <div id="user-info" class="hidden items-center">
             <span id="user-email" class="text-white text-sm font-medium mr-3"></span>
             <button id="my-itineraries-btn" class="px-3 py-2 text-sm font-medium bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors mr-2">My Trips</button>
+            <button id="my-profile-btn" class="px-3 py-2 text-sm font-medium bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors mr-2">My Profile</button>
             <button id="logout-btn" class="px-4 py-2 text-sm font-semibold bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors">Logout</button>
         </div>
         <button id="login-signup-btn" class="px-4 py-2 text-sm font-semibold bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors backdrop-blur-sm">Login / Sign Up</button>
@@ -597,6 +598,57 @@
         </div>
     </div>
 
+    <!-- My Profile Modal -->
+    <div id="profile-modal-overlay" class="auth-modal-overlay no-print">
+        <div id="profile-modal" class="auth-modal" style="max-width: 500px;">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold text-slate-800">My Profile & Preferences</h2>
+                <button id="profile-modal-close" class="text-slate-400 hover:text-slate-600">&times;</button>
+            </div>
+            <div id="profile-error" class="error-alert" style="display: none;"></div>
+            <div id="profile-loading" class="text-center py-8" style="display: none;">
+                <div class="inline-block w-8 h-8 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin"></div>
+                <p class="mt-4 text-slate-600">Loading profile...</p>
+            </div>
+            <form id="profile-form" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Email:</label>
+                    <p id="profile-email" class="w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-lg"></p>
+                </div>
+                <div class="space-y-2">
+                    <span class="block text-sm font-medium text-slate-700 mb-1">Travel Interests:</span>
+                    <div class="flex flex-wrap gap-2">
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" name="interests" value="Foodie" class="form-checkbox h-4 w-4 text-indigo-600 rounded border-gray-300 focus:ring-indigo-500">
+                            <span class="ml-2 text-slate-700">Foodie 🍜</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" name="interests" value="Art Lover" class="form-checkbox h-4 w-4 text-indigo-600 rounded border-gray-300 focus:ring-indigo-500">
+                            <span class="ml-2 text-slate-700">Art Lover 🎨</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" name="interests" value="Nature Explorer" class="form-checkbox h-4 w-4 text-indigo-600 rounded border-gray-300 focus:ring-indigo-500">
+                            <span class="ml-2 text-slate-700">Nature Explorer 🌳</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" name="interests" value="History Buff" class="form-checkbox h-4 w-4 text-indigo-600 rounded border-gray-300 focus:ring-indigo-500">
+                            <span class="ml-2 text-slate-700">History Buff 📜</span>
+                        </label>
+                        <label class="inline-flex items-center">
+                            <input type="checkbox" name="interests" value="Adventure Seeker" class="form-checkbox h-4 w-4 text-indigo-600 rounded border-gray-300 focus:ring-indigo-500">
+                            <span class="ml-2 text-slate-700">Adventure Seeker ⛰️</span>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label for="profile-about-me" class="block text-sm font-medium text-slate-700 mb-1">About Me (optional):</label>
+                    <textarea id="profile-about-me" rows="3" class="w-full px-4 py-2 bg-slate-100 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                </div>
+                <button type="submit" id="profile-save-btn" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg transition-colors">Save Preferences</button>
+            </form>
+        </div>
+    </div>
+    
     <!-- Socket.IO Client Library -->
     <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
 
@@ -629,6 +681,34 @@
         let currentSessionId = null;
         let currentItineraryData = null; // Store the full itinerary data
         let currentUser = null; // Store user session info
+
+        // Helper for authenticated fetch requests
+        async function authenticatedFetch(url, options = {}) {
+            const token = localStorage.getItem('travel_token');
+            if (!token) {
+                throw new Error('User not authenticated. Please log in.');
+            }
+            
+            const headers = {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}`,
+                ...(options.headers || {}),
+            };
+
+            const response = await fetch(url, { ...options, headers });
+            
+            if (response.status === 401) {
+                // Token expired or invalid, force logout
+                localStorage.removeItem('travel_token');
+                localStorage.removeItem('travel_user');
+                updateUserUI(null);
+                alert('Your session has expired. Please log in again.');
+                showAuthModal();
+                throw new Error('Session expired');
+            }
+
+            return response;
+        }
 
         // Socket connection handlers
         socket.on('connect', () => {
@@ -780,10 +860,12 @@
                 document.getElementById('user-info').classList.remove('hidden');
                 document.getElementById('user-email').textContent = user.email;
                 document.getElementById('login-signup-btn').classList.add('hidden');
+                document.getElementById('my-profile-btn').classList.remove('hidden'); // Show My Profile button
                 currentUser = user;
             } else {
                 document.getElementById('user-info').classList.add('hidden');
                 document.getElementById('login-signup-btn').classList.remove('hidden');
+                document.getElementById('my-profile-btn').classList.add('hidden'); // Hide My Profile button
                 currentUser = null;
             }
         }
@@ -792,6 +874,9 @@
             localStorage.removeItem('travel_token');
             localStorage.removeItem('travel_user');
             updateUserUI(null);
+            // Also close modals if open
+            hideItinerariesModal();
+            hideProfileModal();
         });
 
         // My Itineraries functionality
@@ -931,6 +1016,124 @@
             }
         }
 
+
+        // === Profile Actions ===
+        const profileModalOverlay = document.getElementById('profile-modal-overlay');
+        const profileModal = document.getElementById('profile-modal');
+        const profileForm = document.getElementById('profile-form');
+
+        function showProfileModal() {
+            if (!currentUser) {
+                alert('Please sign in to manage your profile.');
+                showAuthModal();
+                return;
+            }
+            document.getElementById('profile-email').textContent = currentUser.email; // Display user's email
+            profileModalOverlay.classList.add('visible');
+            loadUserProfile();
+        }
+
+        function hideProfileModal() {
+            profileModalOverlay.classList.remove('visible');
+            document.getElementById('profile-error').style.display = 'none';
+        }
+
+        document.getElementById('my-profile-btn').addEventListener('click', showProfileModal);
+        document.getElementById('profile-modal-close').addEventListener('click', hideProfileModal);
+        profileModalOverlay.addEventListener('click', (e) => {
+            if (e.target === profileModalOverlay) hideProfileModal();
+        });
+
+        async function loadUserProfile() {
+            const loading = document.getElementById('profile-loading');
+            const form = document.getElementById('profile-form');
+            const errorDiv = document.getElementById('profile-error');
+
+            loading.style.display = 'block';
+            form.style.display = 'none';
+            errorDiv.style.display = 'none';
+
+            try {
+                const response = await authenticatedFetch(`${_API_BASE}/api/user/preferences`);
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    const preferences = result.preferences || {};
+                    document.getElementById('profile-about-me').value = preferences.about_me || '';
+                    
+                    // Set interests checkboxes
+                    const interestCheckboxes = document.querySelectorAll('#profile-form input[name="interests"]');
+                    interestCheckboxes.forEach(checkbox => {
+                        checkbox.checked = preferences.interests && preferences.interests.includes(checkbox.value);
+                    });
+                    showSuccessMessage('Profile loaded successfully!');
+                } else if (result.status === 'error' && result.reason === 'User preferences not found.') {
+                    // If no preferences exist, just show an empty form
+                    document.getElementById('profile-about-me').value = '';
+                    document.querySelectorAll('#profile-form input[name="interests"]').forEach(checkbox => checkbox.checked = false);
+                } else {
+                    errorDiv.innerHTML = createErrorAlert('Failed to load profile', result.reason || 'Unknown error');
+                    errorDiv.style.display = 'block';
+                }
+            } catch (error) {
+                console.error('Error loading profile:', error);
+                errorDiv.innerHTML = createErrorAlert('Network Error', error.message);
+                errorDiv.style.display = 'block';
+            } finally {
+                loading.style.display = 'none';
+                form.style.display = 'block';
+            }
+        }
+
+        profileForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const saveBtn = document.getElementById('profile-save-btn');
+            const originalText = saveBtn.textContent;
+            const errorDiv = document.getElementById('profile-error');
+            errorDiv.style.display = 'none';
+
+            try {
+                saveBtn.textContent = 'Saving...';
+                saveBtn.disabled = true;
+
+                const aboutMe = document.getElementById('profile-about-me').value;
+                const selectedInterests = Array.from(document.querySelectorAll('#profile-form input[name="interests"]:checked'))
+                                                .map(cb => cb.value);
+                
+                const newPreferences = {
+                    about_me: aboutMe,
+                    interests: selectedInterests
+                };
+
+                const response = await authenticatedFetch(`${_API_BASE}/api/user/preferences`, {
+                    method: 'POST',
+                    body: JSON.stringify(newPreferences)
+                });
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    showSuccessMessage(result.message || 'Profile updated successfully!');
+                    hideProfileModal();
+                } else {
+                    errorDiv.innerHTML = createErrorAlert('Failed to save profile', result.reason || 'Unknown error');
+                    errorDiv.style.display = 'block';
+                }
+
+            } catch (error) {
+                console.error('Error saving profile:', error);
+                errorDiv.innerHTML = createErrorAlert('Network Error', error.message);
+                errorDiv.style.display = 'block';
+            } finally {
+                saveBtn.textContent = originalText;
+                saveBtn.disabled = false;
+            }
+        });
+
+
+
+
+
+
         async function saveItinerary() {
             if (!currentItineraryData) {
                 alert('No itinerary to save. Please generate one first.');
@@ -1048,14 +1251,17 @@
                     if (prefs.weight_time) document.getElementById('weight_time').value = prefs.weight_time;
                     if (prefs.weight_distance) document.getElementById('weight_distance').value = prefs.weight_distance;
                     if (prefs.weight_comfort) document.getElementById('weight_comfort').value = prefs.weight_comfort;
-                } catch (e) {
-                    console.error("Failed to load preferences", e);
-                }
-            } else {
-                // Default date to today if nothing saved
-                document.getElementById('start_date').valueAsDate = new Date();
+            } catch (e) {
+                console.error("Failed to load preferences", e);
             }
+        } else {
+            // Default date to tomorrow if nothing saved
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            document.getElementById('start_date').valueAsDate = tomorrow;
         }
+    }
+
 
         // === Spots Selection Feature ===
         let availableSpots = [];
