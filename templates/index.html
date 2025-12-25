@@ -2083,6 +2083,11 @@
         }
 
         function renderEditableSpotCard(spot, dayIndex, spotIndex) {
+            // Initialize nearby_foods if it doesn't exist
+            if (!spot.nearby_foods) {
+                spot.nearby_foods = [];
+            }
+            
             return `
                 <div class="spot-card draggable" 
                      data-day="${dayIndex}" 
@@ -2110,6 +2115,58 @@
                         <div class="flex items-center" title="Duration"><span class="mr-1.5">⏱️</span> ${spot.duration_minutes || 'N/A'} mins</div>
                         <div class="flex items-center" title="Rating"><span class="mr-1.5 text-amber-400">⭐</span> ${spot.rating ? Number(spot.rating).toFixed(1) : 'N/A'}</div>
                     </div>
+                    ${spot.description ? `<p class="text-sm text-slate-500 leading-relaxed mb-3">${spot.description}</p>` : ''}
+                    
+                    <!-- Editable 附近美食 -->
+                    <div class="mt-4 pt-4 border-t border-slate-200">
+                        <div class="flex items-center justify-between mb-2">
+                            <h5 class="text-sm font-semibold text-slate-700 flex items-center">
+                                <span class="mr-2">🍜</span> 附近美食
+                            </h5>
+                            <button onclick="addRestaurant(${dayIndex}, ${spotIndex})" 
+                                    class="text-xs bg-green-500 hover:bg-green-600 text-white px-2 py-1 rounded transition-colors"
+                                    title="Add restaurant">
+                                + Add
+                            </button>
+                        </div>
+                        <div class="space-y-2" id="restaurants-${dayIndex}-${spotIndex}">
+                            ${spot.nearby_foods && spot.nearby_foods.length > 0 ? 
+                                spot.nearby_foods.map((food, foodIndex) => `
+                                    <div class="text-xs text-slate-600 bg-amber-50 p-2 rounded flex justify-between items-center group hover:bg-amber-100 transition-colors">
+                                        <div class="flex-1">
+                                            <div class="font-medium text-slate-700">${food.name}</div>
+                                            <div class="text-slate-500">${food.distance ? (food.distance/1000).toFixed(1) + 'km' : 'Distance not specified'}</div>
+                                        </div>
+                                        <button onclick="removeRestaurant(${dayIndex}, ${spotIndex}, ${foodIndex})" 
+                                                class="ml-2 bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity"
+                                                title="Remove restaurant">
+                                            ✕
+                                        </button>
+                                    </div>
+                                `).join('')
+                                : '<p class="text-xs text-slate-400 italic">No restaurants added yet</p>'
+                            }
+                        </div>
+                    </div>
+                    
+                    <!-- 附近商铺 (read-only in edit mode) -->
+                    ${spot.nearby_shops && spot.nearby_shops.length > 0 ? `
+                        <div class="mt-4 pt-4 border-t border-slate-200">
+                            <h5 class="text-sm font-semibold text-slate-700 mb-2 flex items-center">
+                                <span class="mr-2">🛒</span> 附近商铺
+                            </h5>
+                            <div class="space-y-2">
+                                ${spot.nearby_shops.slice(0, 3).map(shop => `
+                                    <div class="text-xs text-slate-600 bg-blue-50 p-2 rounded flex justify-between">
+                                        <div>
+                                            <div class="font-medium text-slate-700">${shop.name}</div>
+                                            <div class="text-slate-500">${shop.distance ? (shop.distance/1000).toFixed(1) + 'km' : ''}</div>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
                 </div>
             `;
         }
@@ -2300,8 +2357,50 @@
             return hours * 60; // Convert to minutes
         }
 
-        // Make removeSpot globally accessible
+        // Add restaurant function
+        function addRestaurant(dayIndex, spotIndex) {
+            const restaurantName = prompt('Enter restaurant name:');
+            if (!restaurantName) return;
+            
+            const distanceStr = prompt('Enter distance in km (optional):');
+            const distance = distanceStr ? parseFloat(distanceStr) * 1000 : null; // Convert to meters
+            
+            const newRestaurant = {
+                name: restaurantName,
+                distance: distance
+            };
+            
+            // Initialize nearby_foods if it doesn't exist
+            if (!editableItineraryData[dayIndex].spots[spotIndex].nearby_foods) {
+                editableItineraryData[dayIndex].spots[spotIndex].nearby_foods = [];
+            }
+            
+            editableItineraryData[dayIndex].spots[spotIndex].nearby_foods.push(newRestaurant);
+            
+            // Re-render
+            renderEditableItinerary();
+            
+            showSuccessMessage('Restaurant added successfully!');
+        }
+
+        // Remove restaurant function
+        function removeRestaurant(dayIndex, spotIndex, foodIndex) {
+            if (!confirm('Are you sure you want to remove this restaurant?')) {
+                return;
+            }
+            
+            editableItineraryData[dayIndex].spots[spotIndex].nearby_foods.splice(foodIndex, 1);
+            
+            // Re-render
+            renderEditableItinerary();
+            
+            showSuccessMessage('Restaurant removed successfully!');
+        }
+
+        // Make functions globally accessible
         window.removeSpot = removeSpot;
+        window.addRestaurant = addRestaurant;
+        window.removeRestaurant = removeRestaurant;
     </script>
 </body>
 
