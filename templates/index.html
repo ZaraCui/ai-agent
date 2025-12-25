@@ -814,7 +814,7 @@
 
     <script>
         // Inject Google Maps API Key from Flask if available
-        const flaskMapsKey = "{{ google_maps_api_key|default('') }}";
+        const flaskMapsKey = "{{ google_maps_key|default('') }}";
         if (flaskMapsKey) {
             window.GOOGLE_MAPS_API_KEY = flaskMapsKey;
         }
