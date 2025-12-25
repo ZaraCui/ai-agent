@@ -124,9 +124,8 @@ def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days
     for idx, mode in enumerate(modes):
         # Send progress update
         if session_id:
-            progress = int((idx / total_modes) * 100)
             socketio.emit('planning_progress', {
-                'progress': progress,
+                'progress': int((idx / total_modes) * 100),
                 'stage': f'正在计算 {mode.value.upper()} 模式...',
                 'current_mode': mode.value,
                 'total_modes': total_modes,
@@ -149,10 +148,7 @@ def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days
                 # compute total travel minutes for the day
                 travel_minutes = 0.0
                 for i in range(len(day.spots) - 1):
-                    try:
-                        travel_minutes += travel_cost_minutes(day.spots[i], day.spots[i + 1], mode)
-                    except Exception:
-                        travel_minutes += 0.0
+                    travel_minutes += travel_cost_minutes(day.spots[i], day.spots[i + 1], mode)
 
                 # ensure total distance exists (planner finalizes distances)
                 total_km = getattr(day, 'total_distance_km', None)
@@ -335,7 +331,7 @@ def index():
     # 返回首页，前端页面
     # Inject Google Maps API key from environment into the rendered template
     google_maps_key = os.environ.get('GOOGLE_MAPS_API_KEY', '')
-    return render_template('index.html', google_maps_api_key=google_maps_key)
+    return render_template('index.html', google_maps_key=google_maps_key)
 
 @app.route('/static/<path:filename>')
 def serve_static(filename):
@@ -562,6 +558,7 @@ def get_spots(city):
 @app.route('/plan_itinerary', methods=['POST'])
 @rate_limit(limit=5, window=60)  # 5 requests per minute (expensive operation)
 def plan_itinerary():
+    """This function plans an itinerary"""
     try:
         # Get request data
         data = request.json
@@ -594,9 +591,9 @@ def plan_itinerary():
         except FileNotFoundError as e:
             # Optionally, fallback to static JSON if Places API fails for some spots 
             # For now, just raise the error.
-            app.logger.warning(f"Places API did not return spots for {city}. Attempting fallback to static JSON...")
+            app.logger.warning(f"Places API did not return spots for {city}. Attempting fallback to static JSON.")
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            path = os.path.join(base_dir, f"data/spots_{city}.json")
+            path = os.path.join(base_dir, f"data/spots_{city.lower().replace(' ', '')}.json")
             if os.path.exists(path):
                 with open(path, encoding="utf-8") as f:
                     raw_static_spots = json.load(f)
@@ -609,13 +606,15 @@ def plan_itinerary():
                     'shopping': 60, 'museum': 90, 'food': 60, 'sightseeing': 90
                 }
                 for s_data in raw_static_spots:
-                    spot = Spot(**s_data)
+                    # Ensure the raw_static_spots dictionary can be safely expanded into Spot
+                    spot_data = {k: v for k, v in s_data.items() if k in Spot.__annotations__}
+                    spot = Spot(**spot_data)
                     if getattr(spot, 'duration_minutes', None) is None:
                         spot.duration_minutes = default_durations.get(spot.category, 60)
                     spots.append(spot)
 
-            else:
-                return error_response(str(e), 404, "City not found (from Places API and static files)")
+            if not spots:
+                raise FileNotFoundError(f"No spot data found for city: {city} (from Places API and static files)") from e
 
         except Exception as e:
             return error_response(f"Corrupted city data or Places API error: {str(e)}", 500, "Data loading error")
@@ -749,7 +748,6 @@ def plan_itinerary():
                             spots=[
                                 Spot(**spot)
                                 for spot in comparison_data['recommended_data']['itinerary']
-                            
                             ]
                         ) for day_data in comparison_data['recommended_data']['itinerary']
                     ]
@@ -791,4 +789,4 @@ def plan_itinerary():
             "Internal server error"
         )
 
-+++++++ REPLACE
+# ===== Error handlers =====

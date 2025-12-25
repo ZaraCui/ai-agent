@@ -1389,6 +1389,7 @@
         const renderSpotCard = (spot) => {
             return `
                 <div class="spot-card group hover:shadow-md hover:border-indigo-500/30">
+                    ${spot.image_url ? `<img src="${spot.image_url}" alt="${spot.name}" class="w-full h-32 object-cover rounded-t-lg mb-3">` : ''}
                     <div class="flex justify-between items-start mb-2">
                         <h4 class="font-bold text-slate-800 text-lg flex items-center">
                             <span class="mr-2 text-indigo-500">📍</span> 
