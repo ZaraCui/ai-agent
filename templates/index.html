@@ -216,6 +216,21 @@
             background: #e2e8f0;
         }
 
+        /* Restaurant Drag and Drop Styles */
+        .restaurant-item {
+            cursor: move;
+            user-select: none;
+        }
+
+        .restaurant-item.dragging {
+            opacity: 0.3;
+        }
+
+        .restaurant-item.drag-over-restaurant {
+            border-top: 2px solid #f59e0b;
+            padding-top: 4px;
+        }
+
         /* Alerts */
         .error-alert {
             background: #fef2f2;
@@ -2132,12 +2147,17 @@
                         <div class="space-y-2" id="restaurants-${dayIndex}-${spotIndex}">
                             ${spot.nearby_foods && spot.nearby_foods.length > 0 ? 
                                 spot.nearby_foods.map((food, foodIndex) => `
-                                    <div class="text-xs text-slate-600 bg-amber-50 p-2 rounded flex justify-between items-center group hover:bg-amber-100 transition-colors">
+                                    <div class="restaurant-item text-xs text-slate-600 bg-amber-50 p-2 rounded flex items-center group hover:bg-amber-100 transition-colors"
+                                         draggable="true"
+                                         data-day="${dayIndex}"
+                                         data-spot="${spotIndex}"
+                                         data-food="${foodIndex}">
+                                        <span class="mr-2 text-slate-400 text-base">⋮⋮</span>
                                         <div class="flex-1">
                                             <div class="font-medium text-slate-700">${food.name}</div>
                                             <div class="text-slate-500">${food.distance ? (food.distance/1000).toFixed(1) + 'km' : 'Distance not specified'}</div>
                                         </div>
-                                        <button onclick="removeRestaurant(${dayIndex}, ${spotIndex}, ${foodIndex})" 
+                                        <button onclick="event.stopPropagation(); removeRestaurant(${dayIndex}, ${spotIndex}, ${foodIndex})" 
                                                 class="ml-2 bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity"
                                                 title="Remove restaurant">
                                             ✕
@@ -2184,6 +2204,100 @@
                 card.addEventListener('drop', handleDrop);
                 card.addEventListener('dragleave', handleDragLeave);
                 card.addEventListener('dragend', handleDragEnd);
+            });
+            
+            // Setup restaurant drag and drop
+            setupRestaurantDragAndDrop();
+        }
+        
+        // Restaurant drag and drop functionality
+        let draggedRestaurant = null;
+        let draggedRestaurantData = null;
+
+        function setupRestaurantDragAndDrop() {
+            const restaurantItems = document.querySelectorAll('.restaurant-item');
+            
+            restaurantItems.forEach(item => {
+                item.addEventListener('dragstart', handleRestaurantDragStart);
+                item.addEventListener('dragover', handleRestaurantDragOver);
+                item.addEventListener('drop', handleRestaurantDrop);
+                item.addEventListener('dragleave', handleRestaurantDragLeave);
+                item.addEventListener('dragend', handleRestaurantDragEnd);
+            });
+        }
+
+        function handleRestaurantDragStart(e) {
+            e.stopPropagation(); // Prevent spot card drag
+            
+            draggedRestaurant = this;
+            draggedRestaurantData = {
+                day: parseInt(this.dataset.day),
+                spot: parseInt(this.dataset.spot),
+                food: parseInt(this.dataset.food)
+            };
+            
+            this.classList.add('dragging');
+            e.dataTransfer.effectAllowed = 'move';
+            e.dataTransfer.setData('text/html', this.innerHTML);
+        }
+
+        function handleRestaurantDragOver(e) {
+            e.preventDefault();
+            e.stopPropagation(); // Prevent spot card drag over
+            
+            if (e.target.classList.contains('restaurant-item') && this !== draggedRestaurant) {
+                this.classList.add('drag-over-restaurant');
+            }
+            
+            return false;
+        }
+
+        function handleRestaurantDragLeave(e) {
+            e.stopPropagation();
+            this.classList.remove('drag-over-restaurant');
+        }
+
+        function handleRestaurantDrop(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            
+            if (draggedRestaurant === this) return false;
+            
+            // Get target restaurant data
+            const targetDay = parseInt(this.dataset.day);
+            const targetSpot = parseInt(this.dataset.spot);
+            const targetFood = parseInt(this.dataset.food);
+            
+            // Only allow reordering within the same spot
+            if (draggedRestaurantData.day === targetDay && draggedRestaurantData.spot === targetSpot) {
+                // Get the restaurant array
+                const foods = editableItineraryData[targetDay].spots[targetSpot].nearby_foods;
+                
+                // Remove from original position
+                const draggedFood = foods[draggedRestaurantData.food];
+                foods.splice(draggedRestaurantData.food, 1);
+                
+                // Calculate new index after removal
+                const newTargetIndex = targetFood > draggedRestaurantData.food ? targetFood - 1 : targetFood;
+                
+                // Insert at new position
+                foods.splice(newTargetIndex, 0, draggedFood);
+                
+                // Re-render
+                renderEditableItinerary();
+                
+                showSuccessMessage('Restaurant order updated!');
+            }
+            
+            return false;
+        }
+
+        function handleRestaurantDragEnd(e) {
+            e.stopPropagation();
+            this.classList.remove('dragging');
+            
+            document.querySelectorAll('.restaurant-item').forEach(item => {
+                item.classList.remove('drag-over-restaurant');
             });
         }
 
