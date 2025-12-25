@@ -29,7 +29,7 @@ class AuthService:
                 "email": email,
                 "password": password,
                 "options": {
-                    "email_confirm": False  # Disable email confirmation for development
+                "email_confirm": True
                 }
             })
             
