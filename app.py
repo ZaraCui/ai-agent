@@ -328,10 +328,11 @@ def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days
 
 @app.route('/')
 def index():
-    # 返回首页，前端页面
-    # Inject Google Maps API key from environment into the rendered template
+    # 返回首页,前端页面
+    # Inject Google Maps API key and Google Analytics ID from environment into the rendered template
     google_maps_key = os.environ.get('GOOGLE_MAPS_API_KEY', '')
-    return render_template('index.html', google_maps_key=google_maps_key)
+    google_analytics_id = os.environ.get('GOOGLE_ANALYTICS_ID', '')
+    return render_template('index.html', google_maps_key=google_maps_key, google_analytics_id=google_analytics_id)
 
 @app.route('/static/<path:filename>')
 def serve_static(filename):
