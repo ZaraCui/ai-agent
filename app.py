@@ -104,15 +104,29 @@ def error_response(reason, status_code=400, message="Error"):
     }), status_code
 
 @log_performance(logger, threshold_ms=5000)
-def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days: int = 3, weights: dict = None, session_id: str = None) -> Dict:
+def compare_transport_modes(city: str, spots: List[Spot], cfg: ScoreConfig, days: int = 3, weights: dict = None, session_id: str = None, transport_modes: List[str] = None) -> Dict:
     """
     Calculate itineraries for all transport modes and return comparison data.
     Returns structured data with all modes and recommendation.
     
     Args:
         session_id: Optional session ID for sending progress updates via WebSocket
+        transport_modes: Optional list of transport mode strings (e.g., ['walk', 'transit', 'taxi'])
     """
-    modes = [TransportMode.WALK, TransportMode.TRANSIT, TransportMode.TAXI]
+    # Use user-selected modes if provided, otherwise default to all modes
+    if transport_modes and isinstance(transport_modes, list) and len(transport_modes) > 0:
+        mode_map = {
+            'walk': TransportMode.WALK,
+            'transit': TransportMode.TRANSIT,
+            'taxi': TransportMode.TAXI
+        }
+        modes = [mode_map[mode] for mode in transport_modes if mode in mode_map]
+        if not modes:
+            # Fallback to all modes if invalid modes provided
+            modes = [TransportMode.WALK, TransportMode.TRANSIT, TransportMode.TAXI]
+    else:
+        modes = [TransportMode.WALK, TransportMode.TRANSIT, TransportMode.TAXI]
+    
     results = {}
 
     best_mode = None
@@ -699,14 +713,17 @@ def plan_itinerary():
             'message': f'正在为 {city} 加载景点数据'
         }, room=session_id)
 
-    # read optional utility weights
+    # read optional utility weights and transport modes
     weights = data.get('weights', None)
+    transport_modes = data.get('transport_modes', None)  # Get user-selected transport modes
+    
     try:
         comparison_data = compare_transport_modes(
             city, spots, cfg, 
             days=days_int, 
             weights=weights,
-            session_id=session_id
+            session_id=session_id,
+            transport_modes=transport_modes
         )
     except Exception as e:
         return error_response(
