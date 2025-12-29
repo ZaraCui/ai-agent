@@ -527,6 +527,62 @@ def interactive_cleanup_duplicates(city_name):
 
     print(f"✅ 清理完成，共删除 {len(to_delete)} 个景点")
 
+def auto_cleanup_spots(spots, city_name, threshold_name=0.9, threshold_distance=50):
+    """自动清理景点数据，删除重复或不完整的数据"""
+    to_delete = set()
+    
+    # 1. 删除重复景点
+    duplicates = check_duplicate_spots(spots, city_name, threshold_name, threshold_distance)
+    for dup in duplicates:
+        # 自动删除评分较低或描述较短的景点
+        spot1 = spots[dup['index1']]
+        spot2 = spots[dup['index2']]
+        
+        # 比较两个景点的评分与描述长度，选择删除其中一个
+        if (spot1.get('rating', 0) < spot2.get('rating', 0)) or (len(spot1.get('description', '')) < len(spot2.get('description', ''))):
+            to_delete.add(dup['index1'])
+        else:
+            to_delete.add(dup['index2'])
+    
+    # 2. 删除缺失关键信息的景点
+    missing_info = check_missing_info(spots, city_name)
+    for issue in missing_info:
+        to_delete.add(issue['index'])
+    
+    # 3. 删除标记为删除的景点
+    spots_to_keep = [spot for i, spot in enumerate(spots) if i not in to_delete]
+    
+    return spots_to_keep, len(to_delete)
+
+def cleanup_city_data(city_name):
+    """清理特定城市的数据并保存"""
+    data_dir = Path('data')
+    json_file = data_dir / f'spots_{city_name}.json'
+
+    if not json_file.exists():
+        print(f"❌ 未找到城市数据文件: {json_file}")
+        return
+
+    with open(json_file, 'r', encoding='utf-8') as f:
+        spots = json.load(f)
+
+    cleaned_spots, deleted_count = auto_cleanup_spots(spots, city_name)
+
+    if deleted_count > 0:
+        # 备份原文件
+        backup = json_file.with_suffix('.json.bak')
+        json_file.replace(backup)
+        print(f"\n📦 原文件已备份为: {backup.name}")
+
+        # 保存清理后的数据
+        with open(json_file, 'w', encoding='utf-8') as f:
+            json.dump(cleaned_spots, f, ensure_ascii=False, indent=2)
+
+        print(f"✅ 数据清理完成，共删除 {deleted_count} 个景点")
+    else:
+        print("✅ 未发现需要删除的景点")
+
+
 if __name__ == '__main__':
     import sys
     
