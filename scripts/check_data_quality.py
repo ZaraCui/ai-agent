@@ -451,6 +451,82 @@ def export_duplicates_json(output_file='output/duplicates_report.json'):
     print(f"\n✅ 重复景点报告已导出到: {output_path}")
     return report
 
+def interactive_cleanup_duplicates(city_name):
+    """
+    交互式清理重复景点（不会影响任何已有功能）
+    """
+    data_dir = Path('data')
+    json_file = data_dir / f'spots_{city_name}.json'
+
+    if not json_file.exists():
+        print(f"❌ 未找到城市数据文件: {json_file}")
+        return
+
+    with open(json_file, 'r', encoding='utf-8') as f:
+        spots = json.load(f)
+
+    duplicates = check_duplicate_spots(spots, city_name)
+
+    if not duplicates:
+        print("✅ 未发现重复景点，无需清理")
+        return
+
+    print("=" * 80)
+    print(f"🧹 交互式重复景点清理：{city_name}")
+    print("=" * 80)
+
+    to_delete = set()
+
+    for idx, dup in enumerate(duplicates, 1):
+        i, j = dup['index1'], dup['index2']
+
+        # 如果已被删除，跳过
+        if i in to_delete or j in to_delete:
+            continue
+
+        spot_a = spots[i]
+        spot_b = spots[j]
+
+        print(f"\n[{idx}] 疑似重复景点")
+        print("-" * 80)
+        print(f"A [{i}] {spot_a.get('name')}")
+        print(f"   rating={spot_a.get('rating')}  desc_len={len(spot_a.get('description',''))}")
+        print(f"B [{j}] {spot_b.get('name')}")
+        print(f"   rating={spot_b.get('rating')}  desc_len={len(spot_b.get('description',''))}")
+        print(f"判断依据: {dup['reason']}")
+
+        choice = input("操作 ([1]删A / [2]删B / [s]跳过 / [q]退出): ").strip().lower()
+
+        if choice == '1':
+            to_delete.add(i)
+            print("🗑️ 已标记删除 A")
+        elif choice == '2':
+            to_delete.add(j)
+            print("🗑️ 已标记删除 B")
+        elif choice == 'q':
+            print("⛔ 已退出清理流程")
+            break
+        else:
+            print("⏭️ 跳过该组")
+
+    if not to_delete:
+        print("⚠️ 未选择删除任何景点")
+        return
+
+    # 备份
+    backup = json_file.with_suffix('.json.bak')
+    json_file.replace(backup)
+    print(f"\n📦 原文件已备份为: {backup.name}")
+
+    # 反向删除，保证索引安全
+    for index in sorted(to_delete, reverse=True):
+        del spots[index]
+
+    with open(json_file, 'w', encoding='utf-8') as f:
+        json.dump(spots, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ 清理完成，共删除 {len(to_delete)} 个景点")
+
 if __name__ == '__main__':
     import sys
     
@@ -477,6 +553,14 @@ if __name__ == '__main__':
         elif command == 'export':
             # 导出报告为JSON
             export_duplicates_json()
+        
+        elif command == 'interactive-clean':
+            if len(sys.argv) < 3:
+                print("请指定城市名称，例如: python check_data_quality.py interactive-clean beijing")
+            else:
+                city = sys.argv[2]
+                interactive_cleanup_duplicates(city)
+
         
         else:
             print("未知命令。可用命令:")
